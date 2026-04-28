@@ -1,0 +1,24 @@
+profile_id: default
+profile_name: Default AI4BIZ RAG Benchmark Profile
+top_k: 5
+score_threshold: 80
+chunking:
+  strategy: heading_aware
+  max_chars: 1800
+  overlap_chars: 220
+retrieval:
+  modes:
+    - bm25
+    - vector_placeholder
+    - hybrid_placeholder
+metrics:
+  ingestion_policy_compliance: 0.20
+  bm25_authoring_readiness: 0.15
+  chunking_quality: 0.15
+  retrieval_precision: 0.20
+  retrieval_recall: 0.15
+  answer_faithfulness: 0.10
+  citation_evidence_accuracy: 0.05
+governance:
+  direct_document_modification_allowed: false
+  user_approval_required_for_regeneration: true

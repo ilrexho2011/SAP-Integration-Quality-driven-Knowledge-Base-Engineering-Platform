@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI4BIZ Corrective Feedback Schema",
+  "type": "object",
+  "required": [
+    "package_id",
+    "overall_score",
+    "status",
+    "document_feedback",
+    "governance"
+  ],
+  "properties": {
+    "package_id": {
+      "type": "string"
+    },
+    "overall_score": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string"
+    },
+    "documents_needing_remediation": {
+      "type": "integer"
+    },
+    "disqualified_documents": {
+      "type": "integer"
+    },
+    "document_feedback": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "document_id",
+          "document_type",
+          "overall_score",
+          "issues",
+          "regeneration_hints"
+        ],
+        "properties": {
+          "document_id": {
+            "type": "string"
+          },
+          "document_type": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "overall_score": {
+            "type": "number"
+          },
+          "status": {
+            "type": "string"
+          },
+          "issues": {
+            "type": "array"
+          },
+          "regeneration_hints": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "governance": {
+      "type": "object"
+    }
+  }
+}

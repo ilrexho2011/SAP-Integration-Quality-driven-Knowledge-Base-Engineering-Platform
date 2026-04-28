@@ -1,0 +1,2 @@
+{"test_id":"RB-DEMO-HTTP429-Q01","query":"How to resolve HTTP 429 receiver throttling in SAP CPI?","expected_doc_id":"RB_DEMO_HTTP_429","expected_keywords":["HTTP 429","receiver throttling","retry","backoff"],"priority":"P2"}
+{"test_id":"KEDB-DEMO-HTTP429-Q01","query":"Known error for API rate limit Too Many Requests HTTP 429","expected_doc_id":"KEDB_DEMO_HTTP_429","expected_keywords":["HTTP 429","rate limit","Too Many Requests"],"priority":"P2"}

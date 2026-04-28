@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI4BIZ Benchmark Result Schema",
+  "type": "object",
+  "required": [
+    "run_id",
+    "package_id",
+    "status",
+    "final_score",
+    "metrics"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "package_id": {
+      "type": "string"
+    },
+    "benchmark_profile": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "final_score": {
+      "type": "number"
+    },
+    "document_count": {
+      "type": "integer"
+    },
+    "chunk_count": {
+      "type": "integer"
+    },
+    "query_count": {
+      "type": "integer"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "policy_result": {
+      "type": "object"
+    },
+    "retrieval_result": {
+      "type": "object"
+    },
+    "rag_result": {
+      "type": "object"
+    },
+    "feedback": {
+      "type": "object"
+    }
+  }
+}

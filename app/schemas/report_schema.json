@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI4BIZ Enterprise Report Schema",
+  "type": "object",
+  "properties": {
+    "executive_summary": {
+      "type": "string"
+    },
+    "benchmark_scope": {
+      "type": "string"
+    },
+    "dataset_overview": {
+      "type": "object"
+    },
+    "metric_overview": {
+      "type": "object"
+    },
+    "weak_documents": {
+      "type": "array"
+    },
+    "top_documents": {
+      "type": "array"
+    },
+    "recommendations": {
+      "type": "array"
+    }
+  }
+}
