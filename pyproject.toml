@@ -1,0 +1,9 @@
+[project]
+name = "ai4biz-quality-driven-knowledge-engineering-platform"
+version = "0.1.0"
+description = "Closed-loop RAG knowledge engineering benchmark and feedback platform"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
