@@ -2,6 +2,8 @@
 
 This project is the implementation scaffold for the AI4BIZ closed-loop knowledge engineering ecosystem.
 
+<img width="1154" height="648" alt="image" src="https://github.com/user-attachments/assets/b61a595c-1fd5-45e2-8934-f07fcdefd8ec" />
+
 It contains:
 
 - Knowledge Retrieval Quality Assessment backend
