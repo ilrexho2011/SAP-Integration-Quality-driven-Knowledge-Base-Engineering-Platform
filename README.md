@@ -1,6 +1,6 @@
 # Quality-driven Knowledge Engineering Platform
 
-This project is the initial implementation scaffold for the AI4BIZ closed-loop knowledge engineering ecosystem.
+This project is the implementation scaffold for the AI4BIZ closed-loop knowledge engineering ecosystem.
 
 It contains:
 
@@ -13,6 +13,8 @@ It contains:
 - Policy compliance scoring
 - Enterprise report generation hooks
 - Approved RAG package publication flow
+
+<img width="1154" height="645" alt="image" src="https://github.com/user-attachments/assets/a4b425df-8fa0-4837-bf34-30b660e8d71c" />
 
 ## Architecture
 
