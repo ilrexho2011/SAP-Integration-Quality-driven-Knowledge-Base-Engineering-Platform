@@ -16,7 +16,7 @@ It contains:
 - Enterprise report generation hooks
 - Approved RAG package publication flow
 
-<img width="1154" height="645" alt="image" src="https://github.com/user-attachments/assets/a4b425df-8fa0-4837-bf34-30b660e8d71c" />
+<img width="1661" height="933" alt="image" src="https://github.com/user-attachments/assets/27de7a34-215e-4717-9df5-6672ebe5b55c" />
 
 ## Architecture
 
