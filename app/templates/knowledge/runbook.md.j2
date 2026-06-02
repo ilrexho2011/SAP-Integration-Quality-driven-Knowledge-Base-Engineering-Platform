@@ -1,0 +1,65 @@
+# {{ title }}
+
+environment: "{{ environment }}"
+customer_id: "{{ customer_id }}"
+system_id: "{{ system_id }}"
+sap_sid: "{{ sap_sid }}"
+artifact_type: "runbook"
+object_name: "{{ object_name }}"
+priority: "{{ priority }}"
+interface_id: "{{ interface_id }}"
+integration_flow_id: "{{ integration_flow_id }}"
+integration_flow_name: "{{ integration_flow_name }}"
+package_name: "{{ package_name }}"
+review_cycle: "{{ review_cycle }}"
+version: "{{ version }}"
+source_mode: "{{ source_mode }}"
+runtime_evidence_modes: "{{ runtime_evidence_modes }}"
+
+RUNBOOK ID
+{{ document_id }}
+RUNBOOK TITLE
+{{ title }}
+CUSTOMER
+{{ customer_id }}
+SYSTEM
+{{ sap_sid }}
+PRIORITY
+{{ priority }}
+VERSION
+{{ version }}
+
+1. PURPOSE
+* Triage, diagnose, recover, and validate {{ signature }}.
+* Use this runbook only when MPL evidence matches object_name {{ object_name }}.
+2. BUSINESS CONTEXT
+* Primary reference interface: {{ integration_flow_name }}.
+* Impact: message processing is failed, delayed, or blocked until the operator remediates the runtime cause.
+3. TECHNICAL LANDSCAPE
+* System type: {{ sap_sid }}.
+* Source mode: {{ source_mode }}.
+* Chunk profile: bm25_typed, size=400, overlap=80.
+* Runtime evidence modes: {{ runtime_evidence_modes_joined }}.
+* Existing documents considered: {{ existing_documents_count }}.
+* Processing component: derive from MPL error text and tenant configuration.
+4. MONITORING AND MPL EVIDENCE
+* Query-facing signature: {{ signature }}.
+* Observed matching events: {{ observed_count }}.
+{% for line in evidence_lines %}* {{ line }}
+{% endfor %}5. ERROR SIGNATURE
+* Title: {{ signature }}.
+* Normalized object name: {{ object_name }}.
+6. KNOWN ROOT CAUSES
+{% for bullet in root_causes %}* {{ bullet }}
+{% endfor %}7. PREREQUISITES FOR INVESTIGATION
+* Access SAP monitor, MPL details, trace if available, deployed artifact view, and latest configuration export.
+* Capture the exact MessageGuid, timestamp, sender, receiver, adapter, endpoint, and error text.
+8. DIAGNOSIS STEPS
+{% for bullet in diagnosis %}* {{ bullet }}
+{% endfor %}9. RECOVERY STEPS
+{% for bullet in recovery %}* {{ bullet }}
+{% endfor %}10. ESCALATION CRITERIA
+* Escalate to IntegrationTeam when the signature persists after one safe remediation cycle or requires credential/endpoint ownership outside integration.
+11. VALIDATION
+* Confirm MPL status COMPLETED for replayed message.
+* Confirm business acknowledgement with the receiving system or process owner.

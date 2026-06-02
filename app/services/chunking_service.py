@@ -47,7 +47,14 @@ class ChunkingService:
             f"document_type: {document.document_type}",
             f"title: {document.title}",
         ]
-        for key in ["priority", "error_pattern", "object_name", "integration_flow_id", "integration_flow_name", "package_name"]:
+        for key in [
+            "priority",
+            "error_pattern",
+            "object_name",
+            "integration_flow_id",
+            "integration_flow_name",
+            "package_name",
+        ]:
             if key in document.metadata:
                 metadata_lines.append(f"{key}: {document.metadata[key]}")
         if heading:

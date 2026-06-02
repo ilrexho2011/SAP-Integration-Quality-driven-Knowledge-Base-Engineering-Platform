@@ -1,10 +1,15 @@
 from __future__ import annotations
 
-from statistics import mean
-
 
 class FeedbackGenerator:
-    def generate(self, package_id: str, policy_result: dict, retrieval_result: dict, final_score: float, status: str) -> dict:
+    def generate(
+        self,
+        package_id: str,
+        policy_result: dict,
+        retrieval_result: dict,
+        final_score: float,
+        status: str,
+    ) -> dict:
         document_feedback = []
         for item in policy_result.get("documents", []):
             issues = []
@@ -43,7 +48,9 @@ class FeedbackGenerator:
             "overall_score": final_score,
             "status": status,
             "documents_needing_remediation": len(document_feedback),
-            "disqualified_documents": sum(1 for item in document_feedback if item["overall_score"] < 60),
+            "disqualified_documents": sum(
+                1 for item in document_feedback if item["overall_score"] < 60
+            ),
             "retrieval_summary": retrieval_result.get("summary", {}),
             "document_feedback": document_feedback,
             "governance": {
@@ -75,7 +82,9 @@ class FeedbackGenerator:
             "bm25_keyword_readiness": "Repeat canonical searchable terms in title, diagnosis, resolution and evidence sections.",
             "canonical_term_consistency": "Normalize error_pattern using spaced pipe separators, for example: HTTP | API | RATE_LIMIT.",
         }
-        return recommendations.get(category, "Review and remediate according to the ingestion policy.")
+        return recommendations.get(
+            category, "Review and remediate according to the ingestion policy."
+        )
 
     def _fields_to_enrich(self, issues: list[dict]) -> list[str]:
         mapping = {

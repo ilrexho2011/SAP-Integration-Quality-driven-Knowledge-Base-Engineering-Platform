@@ -6,12 +6,12 @@ from pathlib import Path
 try:
     import pandas as pd
 except Exception:  # pragma: no cover
-    pd = None
+    pd = None  # type: ignore[assignment]
 
 try:
-    from docx import Document
+    from docx import Document as Document
 except Exception:  # pragma: no cover
-    Document = None
+    Document = None  # type: ignore[assignment,misc]
 
 
 class ReportGenerator:
@@ -28,8 +28,12 @@ class ReportGenerator:
         rows = [{"metric": key, "value": value} for key, value in metrics.items()]
         with pd.ExcelWriter(path, engine="openpyxl") as writer:
             pd.DataFrame(rows).to_excel(writer, sheet_name="Metrics", index=False)
-            pd.DataFrame(result.get("policy_result", {}).get("documents", [])).to_excel(writer, sheet_name="Policy Documents", index=False)
-            pd.DataFrame(result.get("retrieval_result", {}).get("queries", [])).drop(columns=["results"], errors="ignore").to_excel(writer, sheet_name="Retrieval Queries", index=False)
+            pd.DataFrame(result.get("policy_result", {}).get("documents", [])).to_excel(
+                writer, sheet_name="Policy Documents", index=False
+            )
+            pd.DataFrame(result.get("retrieval_result", {}).get("queries", [])).drop(
+                columns=["results"], errors="ignore"
+            ).to_excel(writer, sheet_name="Retrieval Queries", index=False)
         return path
 
     def write_docx_report(self, result: dict, path: Path) -> Path | None:
@@ -52,6 +56,8 @@ class ReportGenerator:
             row[0].text = str(key)
             row[1].text = str(value)
         doc.add_heading("Executive Recommendation", level=1)
-        doc.add_paragraph(result.get("recommendation", "Review weak documents and apply controlled remediation."))
-        doc.save(path)
+        doc.add_paragraph(
+            result.get("recommendation", "Review weak documents and apply controlled remediation.")
+        )
+        doc.save(str(path))
         return path

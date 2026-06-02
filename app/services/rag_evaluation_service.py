@@ -22,12 +22,21 @@ class RagEvaluationService:
         query_scores = []
         for item in retrieval_result.get("queries", []):
             query_tokens = _tokens(item.get("query", ""))
-            previews = " ".join(result.get("text_preview", "") for result in item.get("results", []))
+            previews = " ".join(
+                result.get("text_preview", "") for result in item.get("results", [])
+            )
             context_tokens = _tokens(previews)
             overlap = len(query_tokens & context_tokens) / max(1, len(query_tokens))
             query_scores.append(overlap * 100)
         context_quality = round(mean(query_scores), 2) if query_scores else 0.0
-        faithfulness_proxy = min(100.0, round(context_quality * 0.85 + retrieval_result.get("summary", {}).get("hit_at_3", 0) * 0.15, 2))
+        faithfulness_proxy = min(
+            100.0,
+            round(
+                context_quality * 0.85
+                + retrieval_result.get("summary", {}).get("hit_at_3", 0) * 0.15,
+                2,
+            ),
+        )
         return {
             "context_quality": context_quality,
             "faithfulness": faithfulness_proxy,

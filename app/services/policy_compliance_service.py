@@ -69,7 +69,17 @@ class PolicyComplianceService:
             "canonical_term_consistency": self._canonical_term_consistency(document),
         }
         score = round(mean(checks.values()), 2)
-        status = "Enterprise Ready" if score >= 90 else "Ready with minor improvements" if score >= 80 else "Conditional readiness" if score >= 70 else "Needs remediation" if score >= 60 else "Not ready for RAG ingestion"
+        status = (
+            "Enterprise Ready"
+            if score >= 90
+            else "Ready with minor improvements"
+            if score >= 80
+            else "Conditional readiness"
+            if score >= 70
+            else "Needs remediation"
+            if score >= 60
+            else "Not ready for RAG ingestion"
+        )
         return {
             "document_id": document.document_id,
             "document_type": document.document_type,
@@ -86,7 +96,12 @@ class PolicyComplianceService:
             document.metadata.get("error_pattern", ""),
             document.metadata.get("integration_flow_id", ""),
         ]
-        candidate_terms = [term.lower() for val in candidates for term in re.split(r"[\s_|:./-]+", val) if len(term) >= 4]
+        candidate_terms = [
+            term.lower()
+            for val in candidates
+            for term in re.split(r"[\s_|:./-]+", val)
+            if len(term) >= 4
+        ]
         matches = sum(1 for term in set(candidate_terms) if term and term in title)
         if len(title) >= 20 and matches >= 2:
             return 100.0
@@ -104,7 +119,11 @@ class PolicyComplianceService:
         if not document.headings:
             return 40.0
         normalized = [h.strip().lower() for h in document.headings]
-        good = sum(1 for h in normalized if h in ALLOWED_HEADINGS or any(h.startswith(a) for a in ALLOWED_HEADINGS))
+        good = sum(
+            1
+            for h in normalized
+            if h in ALLOWED_HEADINGS or any(h.startswith(a) for a in ALLOWED_HEADINGS)
+        )
         return round(100 * good / len(normalized), 2)
 
     def _evidence_presence(self, document: DocumentRecord) -> float:
@@ -120,7 +139,10 @@ class PolicyComplianceService:
     def _diagnosis_fix_separation(self, document: DocumentRecord) -> float:
         headings = {h.lower() for h in document.headings}
         has_diag = any(h in headings for h in ["diagnosis", "root cause", "known error"])
-        has_fix = any(h in headings for h in ["resolution", "resolution steps", "fix", "operational procedure"])
+        has_fix = any(
+            h in headings
+            for h in ["resolution", "resolution steps", "fix", "operational procedure"]
+        )
         has_validation = any(h in headings for h in ["validation", "rollback"])
         if has_diag and has_fix and has_validation:
             return 100.0
@@ -132,7 +154,10 @@ class PolicyComplianceService:
 
     def _bm25_keyword_readiness(self, document: DocumentRecord) -> float:
         text = document.raw_text.lower()
-        technical_terms = re.findall(r"\b(http|sftp|odata|adapter|mapping|exception|timeout|certificate|json|xml|idoc|mpl|retry|receiver|sender|api|auth|authorization|connection|payload)\b", text)
+        technical_terms = re.findall(
+            r"\b(http|sftp|odata|adapter|mapping|exception|timeout|certificate|json|xml|idoc|mpl|retry|receiver|sender|api|auth|authorization|connection|payload)\b",
+            text,
+        )
         unique_terms = len(set(technical_terms))
         density = len(technical_terms) / max(1, len(text.split())) * 100
         if unique_terms >= 8 and density >= 1.5:

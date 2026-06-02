@@ -41,6 +41,13 @@ class BenchmarkQuery:
     expected_keywords: list[str] = field(default_factory=list)
     expected_answer_type: str | None = None
     priority: str | None = None
+    query_type: str | None = None
+    expected_behavior: str = "match_expected_document"
+    negative: bool = False
+    artifact_id: str | None = None
+    artifact_type: str | None = None
+    interface_id: str | None = None
+    object_name: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

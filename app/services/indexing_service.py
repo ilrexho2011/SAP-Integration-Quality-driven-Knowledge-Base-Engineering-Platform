@@ -26,7 +26,7 @@ class BM25Index:
         self.doc_lengths: list[int] = []
         self.avgdl: float = 0.0
 
-    def fit(self, chunks: list[ChunkRecord]) -> "BM25Index":
+    def fit(self, chunks: list[ChunkRecord]) -> BM25Index:
         self.chunks = chunks
         self.term_freqs = []
         self.doc_freq = defaultdict(int)

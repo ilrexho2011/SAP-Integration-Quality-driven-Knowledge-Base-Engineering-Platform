@@ -69,6 +69,7 @@ def parse_markdown_file(path: Path) -> DocumentRecord:
         or metadata.get("known_error_id")
         or path.stem
         or metadata.get("object_name")
+        or "UNKNOWN_DOC"
     )
     document_type = detect_document_type(path, metadata)
 

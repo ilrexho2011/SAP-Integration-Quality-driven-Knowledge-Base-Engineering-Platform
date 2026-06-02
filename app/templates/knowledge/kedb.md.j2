@@ -1,0 +1,57 @@
+# {{ title }}
+
+environment: "{{ environment }}"
+customer_id: "{{ customer_id }}"
+system_id: "{{ system_id }}"
+sap_sid: "{{ sap_sid }}"
+artifact_type: "kedb"
+object_name: "{{ object_name }}"
+priority: "{{ priority }}"
+interface_id: "{{ interface_id }}"
+integration_flow_id: "{{ integration_flow_id }}"
+integration_flow_name: "{{ integration_flow_name }}"
+package_name: "{{ package_name }}"
+review_cycle: "{{ review_cycle }}"
+version: "{{ version }}"
+source_mode: "{{ source_mode }}"
+runtime_evidence_modes: "{{ runtime_evidence_modes }}"
+
+KEDB ID
+{{ document_id }}
+KEDB TITLE
+{{ title }}
+CUSTOMER
+{{ customer_id }}
+SYSTEM
+{{ sap_sid }}
+PRIORITY
+{{ priority }}
+VERSION
+{{ version }}
+
+1. SYMPTOM
+* {{ symptom }}
+* Canonical retrieval phrase: {{ signature }}.
+* Normalized object_name: {{ object_name }}.
+2. ERROR PATTERN
+* {{ signature }}
+3. ROOT CAUSE
+{% for bullet in root_cause %}* {{ bullet }}
+{% endfor %}4. DIAGNOSIS SIGNALS
+* Observed events with same signature: {{ observed_count }}.
+{% for line in evidence_lines %}* {{ line }}
+{% endfor %}* Capture MessageGuid, CorrelationId, adapter, sender, receiver, HTTP status, and exact error text.
+5. RESOLUTION
+{% for bullet in resolution %}* {{ bullet }}
+{% endfor %}6. VALIDATION
+* Verify that {{ signature }} does not reappear in the next monitoring window.
+* Confirm business processing with interface {{ integration_flow_name }}.
+7. WORKAROUND
+* Quarantine affected messages and request corrected input or endpoint recovery when immediate correction is not safe.
+8. RELATED ARTIFACTS
+* Primary runbook: {{ related_runbook }}
+* Source mode: {{ source_mode }}
+* Runtime evidence modes: {{ runtime_evidence_modes_joined }}
+* Existing documents considered: {{ existing_documents_count }}
+* ID governance action: {{ id_governance_action }}
+* Policy source: resources/policies/AI4BIZ_Knowledge_Ingestion_Guide.txt
