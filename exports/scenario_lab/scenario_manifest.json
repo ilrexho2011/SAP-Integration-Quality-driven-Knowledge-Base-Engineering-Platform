@@ -1,0 +1,27 @@
+{
+  "scenario_lab_run_id": "20260601_000335",
+  "generation_mode": "scenario_lab_enriched",
+  "runtime_evidence_sources": [
+    "live_mpl",
+    "archived_mpl"
+  ],
+  "design_evidence_sources": [
+    "iflow_zip_analysis",
+    "resources/cpi",
+    "cpiview_rich_inventory"
+  ],
+  "policy_sources": [
+    "resources/policies/AI4BIZ_Knowledge_Ingestion_Guide.txt",
+    "resources/policies/BM25_Runbook_Authoring_Guideline.txt"
+  ],
+  "iflow_count": 241,
+  "outputs": [
+    "iflow_upload_manifest.json",
+    "iflow_analysis_report.json",
+    "iflow_analysis_summary.md",
+    "payload_examples",
+    "execution_plan",
+    "expected_mpl_patterns",
+    "mpl_evidence"
+  ]
+}
