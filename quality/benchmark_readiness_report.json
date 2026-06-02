@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "status": "static_package_readiness_evaluated_retrieval_and_answer_pending",
+  "benchmark_profile": "sprint7_benchmark_retrieval_readiness",
+  "document_count": 237,
+  "rb_count": 93,
+  "kb_count": 93,
+  "doc_count": 51,
+  "golden_questions_path": "resources/golden_datasets/golden_questions.jsonl",
+  "query_count": 1116,
+  "positive_query_count": 930,
+  "negative_query_count": 186,
+  "static_package_readiness": {
+    "status": "evaluated",
+    "score_policy": "Static package readiness is evaluated from package structure, artifact metadata, BM25-friendly authoring coverage and chunkable Markdown content. It is separate from retrieval and answer readiness."
+  },
+  "retrieval_readiness": {
+    "status": "not_evaluated",
+    "score": null,
+    "blocking_reason": "AI4BIZ index retrieval trace is missing; retrieval readiness is not scored.",
+    "required_input": "AI4BIZ RAG Console retrieval results for golden_questions.jsonl, including query_id, expected_doc_id, retrieved_doc_ids, rank and score."
+  },
+  "answer_readiness": {
+    "status": "not_evaluated",
+    "score": null,
+    "blocking_reason": "Answer traces are missing; faithfulness, citation accuracy and answer readiness are not scored.",
+    "required_input": "Answer traces containing question_id, answer, citations, retrieved_context_ids and evaluator/faithfulness evidence."
+  },
+  "final_score": null,
+  "final_score_policy": "No combined benchmark score is produced unless static_package_readiness, retrieval_readiness and answer_readiness are all backed by required evidence.",
+  "local_bm25_smoke_test": {
+    "status": "available_as_diagnostic_only",
+    "score": null,
+    "note": "Local BM25 package checks can support debugging but are not an AI4BIZ index readiness score."
+  }
+}

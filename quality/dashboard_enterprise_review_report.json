@@ -1,0 +1,123 @@
+{
+  "status": "review_ready",
+  "package_path": ".",
+  "package_root": ".",
+  "promotion_decision": "unknown",
+  "metrics": {
+    "artifact_count": null,
+    "document_count": 186,
+    "metadata_file_count": 0,
+    "golden_question_count": 1116,
+    "traceability_status": "unknown",
+    "traceability_counts": {},
+    "static_package_readiness": "evaluated",
+    "retrieval_readiness": "not_evaluated",
+    "answer_readiness": "not_evaluated"
+  },
+  "workflow": {
+    "contract_validation": {
+      "status": "missing",
+      "summary": "Report not found",
+      "source": "quality/contract_validation_report.json"
+    },
+    "package_quality_gate": {
+      "status": "missing",
+      "summary": "Report not found",
+      "source": "quality/package_quality_gate_report.json"
+    },
+    "ai4biz_export_readiness": {
+      "status": "missing",
+      "summary": "Report not found",
+      "source": "quality/ai4biz_ingestion_readiness_report.json"
+    },
+    "traceability": {
+      "status": "missing",
+      "summary": "Report not found",
+      "source": "quality/traceability_report.json"
+    },
+    "benchmark_readiness": {
+      "status": "static_package_readiness_evaluated_retrieval_and_answer_pending",
+      "summary": "status=static_package_readiness_evaluated_retrieval_and_answer_pending",
+      "source": "quality/benchmark_readiness_report.json"
+    },
+    "golden_questions_generation": {
+      "status": "generated",
+      "summary": "status=generated",
+      "source": "quality/golden_questions_generation_report.json"
+    }
+  },
+  "issues": [],
+  "warnings": [
+    "contract_validation: report is missing",
+    "package_quality_gate: report is missing",
+    "ai4biz_export_readiness: report is missing",
+    "traceability: report is missing",
+    "retrieval_readiness is not scored because required traces are missing",
+    "answer_readiness is not scored because required traces are missing"
+  ],
+  "downloads": [
+    {
+      "key": "zip",
+      "label": "Package ZIP",
+      "relative_path": ".",
+      "exists": false,
+      "size_bytes": null
+    },
+    {
+      "key": "manifest",
+      "label": "manifest.json",
+      "relative_path": "manifest.json",
+      "exists": false,
+      "size_bytes": null
+    },
+    {
+      "key": "package_metadata",
+      "label": "package_metadata.json",
+      "relative_path": "package_metadata.json",
+      "exists": false,
+      "size_bytes": null
+    },
+    {
+      "key": "contract_validation_report",
+      "label": "contract_validation_report.json",
+      "relative_path": "quality/contract_validation_report.json",
+      "exists": false,
+      "size_bytes": null
+    },
+    {
+      "key": "package_quality_gate_report",
+      "label": "package_quality_gate_report.json",
+      "relative_path": "quality/package_quality_gate_report.json",
+      "exists": false,
+      "size_bytes": null
+    },
+    {
+      "key": "ai4biz_ingestion_readiness_report",
+      "label": "ai4biz_ingestion_readiness_report.json",
+      "relative_path": "quality/ai4biz_ingestion_readiness_report.json",
+      "exists": false,
+      "size_bytes": null
+    },
+    {
+      "key": "traceability_report",
+      "label": "traceability_report.json",
+      "relative_path": "quality/traceability_report.json",
+      "exists": false,
+      "size_bytes": null
+    },
+    {
+      "key": "benchmark_readiness_report",
+      "label": "benchmark_readiness_report.json",
+      "relative_path": "quality/benchmark_readiness_report.json",
+      "exists": true,
+      "size_bytes": 1794
+    },
+    {
+      "key": "golden_questions",
+      "label": "golden_questions.jsonl",
+      "relative_path": "resources/golden_datasets/golden_questions.jsonl",
+      "exists": true,
+      "size_bytes": 811418
+    }
+  ]
+}

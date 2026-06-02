@@ -1,0 +1,19 @@
+{
+  "version": "1.9.7-scenario-lab-generation",
+  "status": "implemented",
+  "source_backed_changes": [
+    "navigation reorder",
+    "Monitoring Events split",
+    "Scenario Lab & Generation page",
+    "IflowScenarioService",
+    "Scenario Lab API endpoints",
+    "scenario_lab enrichment fields in generation_manifest"
+  ],
+  "tests_passed": [
+    "python -m compileall app dashboard",
+    "pytest -q tests/test_monitor_time_range_hotfix.py",
+    "pytest -q tests/test_dashboard_blueprint_v1.py",
+    "pytest -q tests/test_v197_scenario_lab_generation.py"
+  ],
+  "known_environment_note": "Full pytest command timed out in this container on monitor endpoint regression; targeted tests passed."
+}

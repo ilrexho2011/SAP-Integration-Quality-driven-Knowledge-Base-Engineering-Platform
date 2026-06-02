@@ -1,0 +1,47 @@
+{
+  "status": "implemented",
+  "blueprint": "UI/UX Dashboard Blueprint v1",
+  "base_version": "v1.9_dashboard_enterprise_review",
+  "output_name": "quality-driven-knowledge-engineering-platform-v1.9_UI/UX-Dashboard-Blueprint.zip",
+  "ui_type": "Enterprise Quality Console",
+  "service_backed": true,
+  "business_logic_duplicated_in_ui": false,
+  "language_switch": ["en", "de"],
+  "technical_constants_not_translated": [
+    "interface_id",
+    "promotion_decision",
+    "metadata",
+    "artifact_type",
+    "document_type",
+    "chunk_mode",
+    "manifest.json",
+    "package_metadata.json",
+    "quality/traceability_report.json",
+    "golden_questions.jsonl"
+  ],
+  "pages": [
+    "Overview",
+    "Contract Validation",
+    "Package Builder",
+    "Quality Gates",
+    "AI4BIZ Export",
+    "Evidence & Traceability",
+    "Generators",
+    "Benchmark",
+    "Reports & Downloads",
+    "Settings"
+  ],
+  "displays": [
+    "promotion_decision",
+    "blocking issues",
+    "warnings",
+    "download links",
+    "status badges",
+    "KPI overview"
+  ],
+  "entrypoints": {
+    "cli": "qdkep serve-dashboard",
+    "streamlit": "streamlit run dashboard/qdkep_enterprise_quality_console.py",
+    "api": "POST /api/dashboard/enterprise-quality-console"
+  }
+}

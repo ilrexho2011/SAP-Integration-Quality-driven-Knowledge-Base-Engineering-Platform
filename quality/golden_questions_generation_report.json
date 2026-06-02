@@ -1,0 +1,17 @@
+{
+  "kb_count": 186,
+  "output_jsonl": "resources/golden_datasets/golden_questions.jsonl",
+  "question_count": 1116,
+  "question_type_counts": {
+    "diagnosis": 186,
+    "dirty_mpl_log": 186,
+    "negative_distractor": 186,
+    "recovery": 186,
+    "root_cause": 186,
+    "synonym_heavy": 186
+  },
+  "rb_count": 186,
+  "runtime_values_policy": "No MessageGuid, MPL id, endpoint URL, credential, or payload value is fabricated.",
+  "schema_version": "1.0",
+  "status": "generated"
+}

@@ -1,0 +1,82 @@
+{
+  "report_type": "package_quality_gate_report",
+  "contract_version": "QDKEP_AI4BIZ_OUTPUT_CONTRACT_v1.1",
+  "generated_at": "2026-05-12T18:32:25Z",
+  "package_path": ".",
+  "status": "blocked",
+  "promotion_decision": "blocked",
+  "quality_gates": {
+    "contract_validation": {
+      "package_path": ".",
+      "contract_version": "QDKEP_AI4BIZ_OUTPUT_CONTRACT_v1.1",
+      "generated_at": "2026-05-12T18:32:25Z",
+      "status": "needs_remediation",
+      "promotion_decision": "blocked",
+      "artifact_count": 0,
+      "checked_files": [],
+      "issues": [
+        {
+          "artifact": "manifest.json",
+          "category": "structural_contract",
+          "severity": "high",
+          "message": "manifest.json is mandatory",
+          "recommendation": "Generate manifest.json in the ZIP root"
+        },
+        {
+          "artifact": "package_metadata.json",
+          "category": "structural_contract",
+          "severity": "high",
+          "message": "package_metadata.json is mandatory",
+          "recommendation": "Generate package_metadata.json in the ZIP root"
+        },
+        {
+          "artifact": "knowledge/",
+          "category": "structural_contract",
+          "severity": "high",
+          "message": "No Markdown artifacts found under knowledge/RB, knowledge/KB or knowledge/DOC",
+          "recommendation": "Generate one atomic Markdown file per knowledge artifact"
+        }
+      ],
+      "contract_sources": {
+        "en": "docs/contracts/QDKEP_AI4BIZ_Output_Ingestion_Contract_v1_EN.md",
+        "sq": "docs/contracts/QDKEP_AI4BIZ_Output_Ingestion_Contract_v1_SQ.md"
+      }
+    },
+    "customer_context_validation": {
+      "status": "blocked",
+      "required_customers": [],
+      "checked_customers": [],
+      "issues": [
+        {
+          "customer_id": "*",
+          "category": "customer_context_contract",
+          "severity": "high",
+          "message": "No customer_id values were found in artifact metadata",
+          "recommendation": "Ensure each artifact has customer_id metadata before package promotion"
+        }
+      ]
+    },
+    "interface_inventory_validation": {
+      "status": "blocked",
+      "inventory_path": null,
+      "required_interface_ids": [],
+      "checked_interface_ids": [],
+      "issues": [
+        {
+          "interface_id": "*",
+          "category": "interface_inventory_contract",
+          "severity": "high",
+          "message": "No interface_id values were found in artifact metadata",
+          "recommendation": "Add interface_id metadata to interface-bound artifacts before package promotion"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "artifact_count": 0,
+    "issues_count": 5,
+    "high_or_critical_issues_count": 5,
+    "required_customers": [],
+    "required_interface_ids": []
+  }
+}

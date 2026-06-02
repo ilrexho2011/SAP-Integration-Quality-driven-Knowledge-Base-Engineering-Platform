@@ -1,0 +1,16 @@
+{
+  "version": "1.6",
+  "sprint": "Functional RB/KB/DOC Generators",
+  "status": "implemented",
+  "services": [
+    "RunbookGenerator (via FunctionalKnowledgeGenerationService._render_runbook)",
+    "KEDBGenerator (via FunctionalKnowledgeGenerationService._render_kedb)",
+    "DocumentationGenerator/CatalogDocGenerator (via FunctionalKnowledgeGenerationService._render_doc)"
+  ],
+  "artifact_count": 237,
+  "runbook_count": 93,
+  "kedb_count": 93,
+  "documentation_count": 51,
+  "output_zip": "quality-driven-knowledge-engineering-platform-v1.6_functional_knowledge_generation.zip",
+  "non_fabrication_rule": "runtime/MPL values are marked missing unless present in real logs or evidence files"
+}

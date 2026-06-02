@@ -1,0 +1,21 @@
+{
+  "version": "1.9.8-scenario-lab-generation",
+  "base_version": "1.9.7-scenario-lab-generation",
+  "status": "implemented",
+  "implemented_changes": [
+    "Send Feedback guidance now points to Scenario Lab & Generation -> New-knowledge generation and Update existing docs.",
+    "Scenario Lab evidence folders are selected dynamically by source system.",
+    "SAP CI defaults: iFlow ZIP folder -> ./resources/cpi/input/odata/iflows and ICO folder -> ./resources/cpi/input/analysis/iflows-bpmn.",
+    "SAP PIPO defaults: ESR & ID folder -> ./resources/pipo/esr_id and ICO folder -> ./resources/pipo/ico.",
+    "regenerate/update existing documents checkbox replaced by Generation mode radio buttons: Generate and Update existing docs.",
+    "generation_manifest.json records generation_mode and generation_engine_mode separately."
+  ],
+  "quality_gates": [
+    "python -m py_compile on changed Python modules",
+    "pytest tests/test_v197_scenario_lab_generation.py tests/test_v198_scenario_lab_generation_ui.py"
+  ],
+  "risks_and_open_points": [
+    "SAP PIPO Scenario Lab static analysis currently uses the existing CPI-oriented analyzer; the UI paths are prepared for ESR/ID and ICO evidence, while deeper PI/PO object parsing can be expanded in a later package.",
+    "Existing .env APP_VERSION values can override config defaults; the packaged .env and .env.example were updated to v1.9.8."
+  ]
+}

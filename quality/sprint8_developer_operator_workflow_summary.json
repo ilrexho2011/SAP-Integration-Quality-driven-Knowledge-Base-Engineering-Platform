@@ -1,0 +1,44 @@
+{
+  "sprint": "Sprint 8 - CLI/API Workflow Hardening",
+  "version": "1.8",
+  "status": "completed",
+  "generated_at": "2026-04-30T21:38:57Z",
+  "cli_commands": [
+    "validate-contract",
+    "build-package",
+    "quality-gate",
+    "export-ai4biz",
+    "generate-runbooks",
+    "generate-kedb",
+    "generate-docs",
+    "benchmark-package"
+  ],
+  "api_endpoints": [
+    "/api/contracts/validate-package",
+    "/api/packages/build-package",
+    "/api/packages/package-quality-gate",
+    "/api/packages/export-ai4biz-ingestion",
+    "/api/packages/generate-runbooks",
+    "/api/packages/generate-kedb",
+    "/api/packages/generate-docs",
+    "/api/benchmark/run"
+  ],
+  "unified_response_model": [
+    "status",
+    "output_path",
+    "issues",
+    "warnings",
+    "command",
+    "data"
+  ],
+  "tests": {
+    "passed": 11,
+    "failed": 0,
+    "command": "pytest -q tests"
+  },
+  "policy": [
+    "CLI and API share OperatorWorkflowService",
+    "No fabricated runtime/MPL values",
+    "No combined benchmark final score without retrieval and answer traces"
+  ]
+}
