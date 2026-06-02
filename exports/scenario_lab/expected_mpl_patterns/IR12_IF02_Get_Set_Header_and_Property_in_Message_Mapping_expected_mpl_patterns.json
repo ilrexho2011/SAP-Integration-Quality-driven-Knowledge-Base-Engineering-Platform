@@ -1,0 +1,21 @@
+{
+  "iflow_name": "IR12_IF02_Get_Set_Header_and_Property_in_Message_Mapping",
+  "expected_statuses": [
+    "FAILED",
+    "COMPLETED_WITH_WARNING"
+  ],
+  "expected_error_signatures": [
+    "missing|required|identifier|validation",
+    "date|format|mapping|validation",
+    "xml|parser|well-formed|SAX",
+    "empty|payload|body|required"
+  ],
+  "evidence_fields": [
+    "MessageGuid",
+    "IntegrationFlowName",
+    "Status",
+    "LogStart",
+    "LogEnd",
+    "ErrorText"
+  ]
+}
