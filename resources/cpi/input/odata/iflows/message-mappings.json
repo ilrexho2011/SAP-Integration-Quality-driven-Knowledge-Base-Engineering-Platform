@@ -1,0 +1,134 @@
+{
+    "d": {
+        "results": [
+            {
+                "Id": "Create_Jira_Project_Message_Mapping",
+                "Version": "1.0.0",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira",
+                "Name": "Create Jira Project Message Mapping",
+                "Description": "This Message Mapping is used for creating a Jira Project",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM__Complex_Nested_If_Else_with_FixValues",
+                "Version": "1.0.1",
+                "PackageId": "12MessageMappingAdvancedConcepts",
+                "Name": "Exercise01_MM_ Complex_Nested_If_Else_with_FixValues",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "Exercise02_MM__Duplicate_Subtree_for_Different_Mapping_Logic",
+                "Version": "1.0.1",
+                "PackageId": "12MessageMappingAdvancedConcepts",
+                "Name": "Exercise02_MM_ Duplicate_Subtree_for_Different_Mapping_Logic",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "Exercise03_MM__Access_Header_and_Properties_plus_Context_Handling",
+                "Version": "1.0.1",
+                "PackageId": "12MessageMappingAdvancedConcepts",
+                "Name": "Exercise03_MM_ Access_Header_and_Properties_plus_Context_Handling",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_CategoryFlat_to_CategoryFlat",
+                "Version": "1.0.4",
+                "PackageId": "BasicMessageMappingFundamentalsStepbyStep",
+                "Name": "MM_CategoryFlat_to_CategoryFlat",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_CategoryFlat_to_CategoryFlatEnriched",
+                "Version": "1.0.4",
+                "PackageId": "BasicMessageMappingFundamentalsStepbyStep",
+                "Name": "MM_CategoryFlat_to_CategoryFlatEnriched",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_CategoryFlat_to_CategoryFlat_FilterByStatusCode_fixValues",
+                "Version": "1.0.4",
+                "PackageId": "12MessageMappingAdvancedConcepts",
+                "Name": "MM_CategoryFlat_to_CategoryFlat_FilterByStatusCode_fixValues",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_CategoryFlat_to_CategoryFlat_FilterByStatusCode_If_Else",
+                "Version": "1.0.4",
+                "PackageId": "12MessageMappingAdvancedConcepts",
+                "Name": "MM_CategoryFlat_to_CategoryFlat_FilterByStatusCode_If_Else",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_CategoryFlat_to_CategoryFlat_Nested_Conditional_FilterByStatusCode",
+                "Version": "1.0.4",
+                "PackageId": "12MessageMappingAdvancedConcepts",
+                "Name": "MM_CategoryFlat_to_CategoryFlat_Nested_Conditional_FilterByStatusCode",
+                "Description": "Conditional nested if-else + filtering with comparison (\"true\")",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_CategoryFlat_to_CategoryFlat_FilterByStatusCode",
+                "Version": "1.0.4",
+                "PackageId": "BasicMessageMappingFundamentalsStepbyStep",
+                "Name": "MM_Conditional_CategoryFlat_to_CategoryFlat_Conditional_FilterByStatusCode",
+                "Description": "Mapping me degezimet if-else + multi-conditions filtering me ane te (\"and\" \"or\" \"not\")",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_Dummy_FullName_A",
+                "Version": "1.0.3",
+                "PackageId": "BasicMessageMappingFundamentalsStepbyStep",
+                "Name": "MM_Dummy_FullName_A",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_Dummy_FullName_B",
+                "Version": "1.0.3",
+                "PackageId": "BasicMessageMappingFundamentalsStepbyStep",
+                "Name": "MM_Dummy_FullName_B",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "MM_Get_Set_Header_Property",
+                "Version": "1.0.2",
+                "PackageId": "12MessageMappingAdvancedConcepts",
+                "Name": "MM_Get_Set_Header_and_Property",
+                "Description": "",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "myMessageMap",
+                "Version": "1.0.4",
+                "PackageId": "BasicMessageMappingFundamentalsStepbyStep",
+                "Name": "myMessageMap",
+                "Description": "Example of a message mapping",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "QuickTest",
+                "Version": "1.0.3",
+                "PackageId": "BasicMessageMappingFundamentalsStepbyStep",
+                "Name": "QuickTest",
+                "Description": "Example of Message Mapping creation based on internal CPI created Data Type and Message Type",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "ZMM_CategoryFlat_to_CategoryFlatEnriched_v2",
+                "Version": "1.0.4",
+                "PackageId": "12MessageMappingAdvancedConcepts",
+                "Name": "ZMM_CategoryFlat_to_CategoryFlatEnriched_v2",
+                "Description": "",
+                "ArtifactContent": null
+            }
+        ]
+    }
+}
