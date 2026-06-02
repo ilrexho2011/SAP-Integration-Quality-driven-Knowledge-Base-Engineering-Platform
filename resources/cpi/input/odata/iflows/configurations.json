@@ -1,0 +1,3086 @@
+{
+    "d": {
+        "results": [
+            {
+                "ParameterKey": "top",
+                "ParameterValue": "3",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Do_GET_call_with_dynamic_query_string",
+                "PackageId": "HTTP"
+            },
+            {
+                "ParameterKey": "query",
+                "ParameterValue": "$format=atom&$top=${property.top}&$filter=Country eq '${property.country}'",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Do_GET_call_with_dynamic_query_string",
+                "PackageId": "HTTP"
+            },
+            {
+                "ParameterKey": "northwind-id",
+                "ParameterValue": "ditzdqcgi1imaz4ckh0x0dhl",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "OData_V2_-_Do_DELETE_To_Delete_A_Product",
+                "PackageId": "OData"
+            },
+            {
+                "ParameterKey": "northwind-id",
+                "ParameterValue": "ditzdqcgi1imaz4ckh0x0dhl",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "OData_V2_batch_processing",
+                "PackageId": "OData"
+            },
+            {
+                "ParameterKey": "northwind-id",
+                "ParameterValue": "ditzdqcgi1imaz4ckh0x0dhl",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "OData_V2_-_Do_PUT_To_Update_Only_One_Field_of_A_Product",
+                "PackageId": "OData"
+            },
+            {
+                "ParameterKey": "northwind-id",
+                "ParameterValue": "ditzdqcgi1imaz4ckh0x0dhl",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "OData_V2_POST_PUT_PATCH_and_DELETE_single_Product",
+                "PackageId": "OData"
+            },
+            {
+                "ParameterKey": "northwind-id",
+                "ParameterValue": "ditzdqcgi1imaz4ckh0x0dhl",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "OData_V2_-_Do_MERGE_try_update_A_Field_of_A_Product",
+                "PackageId": "OData"
+            },
+            {
+                "ParameterKey": "northwind-id",
+                "ParameterValue": "ditzdqcgi1imaz4ckh0x0dhl",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "OData_V2_-_Do_PUT_To_Update_All_Fields_of_A_Product",
+                "PackageId": "OData"
+            },
+            {
+                "ParameterKey": "${property.pgp_public_key_user_id",
+                "ParameterValue": "partner_pgp_B",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR17_IF02_PGP_SAPCI_Encrypt_for_Partner_B_Dynamic",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "${property.pgp_public_key_user_id",
+                "ParameterValue": "partner_pgp_B",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR17_IF04_PGP_SAPCI_Encrypt_and_Sign_for_Partner_B",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "${property.pgp_secret_key_user_id",
+                "ParameterValue": "sapci_pgp_10y",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR17_IF04_PGP_SAPCI_Encrypt_and_Sign_for_Partner_B",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Log File as Attachment",
+                "ParameterValue": "true",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Tenant URL",
+                "ParameterValue": "8eccaf2dtrial.it-cpitrial06.cfapps.us10-001.hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Mail Recipient",
+                "ParameterValue": "premsai.daggolu@gmail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Mail Credential",
+                "ParameterValue": "GmailSenderCredentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Mail Auth",
+                "ParameterValue": "loginPlain",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Mail Protection",
+                "ParameterValue": "smtps",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Mail Proxy Type",
+                "ParameterValue": "none",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Mail Address",
+                "ParameterValue": "smtp.gmail.com:465",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "From Mail",
+                "ParameterValue": "ilreincpi@gmail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "To Mail",
+                "ParameterValue": "ilrexho@gmail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Mail CC",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Mail Subject",
+                "ParameterValue": "Confidential - SAP CPI Security Material",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "HTTP Authentication",
+                "ParameterValue": "OAuth2 Client Credentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "HTTP Credential Name",
+                "ParameterValue": "Mess_Proc_Log",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Seheduler",
+                "ParameterValue": "simple.repeat --tz=Etc/GMT",
+                "DataType": "custom:schedule",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "PGP Public Key",
+                "ParameterValue": "Credentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Signatures",
+                "ParameterValue": "NoSignature",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Encryption Algorithm",
+                "ParameterValue": "AES",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Secret Key Length",
+                "ParameterValue": "256",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Compression Algorithm",
+                "ParameterValue": "ZLIB",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "PR202_IF12_Security_Material_Export_with_PGP_Encryption",
+                "PackageId": "SecurityEncryptionandDigitalSignature"
+            },
+            {
+                "ParameterKey": "Scheduler",
+                "ParameterValue": "simple.repeat --tz=Etc/GMT",
+                "DataType": "custom:schedule",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "TenantURL",
+                "ParameterValue": "e116c6fatrial.it-cpitrial03.cfapps.ap21.hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "LastRunDateTime Default",
+                "ParameterValue": "yyyy-MM-ddTHH:mm:ss.SSSZ",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Auth",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Cred",
+                "ParameterValue": "Mess_Proc_Log",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_CSRF",
+                "ParameterValue": "false",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Reuse",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_AttachError",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_TimeOut",
+                "ParameterValue": "1",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_ReqHeaders",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_ResHeaders",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "Records Per Email",
+                "ParameterValue": "50",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "Splitter_StopOnEx",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "defaultToMail",
+                "ParameterValue": "ilrexho@gmail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "MailAddress",
+                "ParameterValue": "smtp.gmail.com:465",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "MailProxy",
+                "ParameterValue": "none",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "MailProtection",
+                "ParameterValue": "smtps",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "MailAuth",
+                "ParameterValue": "oauth",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "MailCred",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "MailFrom",
+                "ParameterValue": "FromMail@gmail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "Mail_CC",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "HTTP_Auth",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "HTTP_Cred",
+                "ParameterValue": "Mess_Proc_Log",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "property.last_OrderDate_processed",
+                "ParameterValue": "1900-01-01T00:00:00Z",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_OrderID_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "manualRun",
+                "ParameterValue": "Yes",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_OrderID_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "manual_last_OrderDate_processed",
+                "ParameterValue": "1998-01-01T00:00:00Z",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_OrderID_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "logging",
+                "ParameterValue": "Yes",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_OrderID_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "manual_last_OrderID_processed",
+                "ParameterValue": "10500",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_OrderID_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "last_OrderID_processed",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_OrderID_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "default_last_OrderID_processed",
+                "ParameterValue": "0",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_OrderID_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "Scheduler",
+                "ParameterValue": "simple.repeat --tz=CET --startAt=2025-03-25T23:12:00 --endAt=9999-12-31T23:59:00",
+                "DataType": "custom:schedule",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "TenantURL",
+                "ParameterValue": "e116c6fatrial.it-cpitrial03.cfapps.ap21.hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "LastRunDateTime Default",
+                "ParameterValue": "2025-01-01T01:00:00.000",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Auth",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Cred",
+                "ParameterValue": "Mess_Proc_Log",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_CSRF",
+                "ParameterValue": "false",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Reuse",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_AttachError",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_TimeOut",
+                "ParameterValue": "1",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_ReqHeaders",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_ResHeaders",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "HTTP_Auth",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "HTTP_Cred",
+                "ParameterValue": "Mess_Proc_Log",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "TableName",
+                "ParameterValue": "SAPCPI_MessageProcessingLogs",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_Alias",
+                "ParameterValue": "SAP_HANA_CLOUD_DB",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_TimeOut",
+                "ParameterValue": "5",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_QueryTimeOut",
+                "ParameterValue": "5",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_MaxRecords",
+                "ParameterValue": "100000",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_BatchMode",
+                "ParameterValue": "false",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "property.last_OrderDate_processed",
+                "ParameterValue": "1900-01-01T00:00:00Z",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_Timestamp_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "manualRun",
+                "ParameterValue": "No",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_Timestamp_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "manual_last_OrderDate_processed",
+                "ParameterValue": "1998-01-01T00:00:00Z",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_Timestamp_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "logging",
+                "ParameterValue": "Yes",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF01_Northwind_Orders_via_Timestamp_in_Payload_using_Variable",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "Scheduler",
+                "ParameterValue": "simple.repeat --tz=Etc/GMT --startAt=2025-03-02T00:00:00 --endAt=9999-12-31T23:59:00",
+                "DataType": "custom:schedule",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "TenantURL",
+                "ParameterValue": "e116c6fatrial.it-cpitrial03-rt.cfapps.ap21.hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "LastRunDateTime Default",
+                "ParameterValue": "2025-01-01T01:00:00.000",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Auth",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Cred",
+                "ParameterValue": "Mess_Proc_Log",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_CSRF",
+                "ParameterValue": "false",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_Reuse",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_AttachError",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_TimeOut",
+                "ParameterValue": "1",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_ReqHeaders",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "OData_ResHeaders",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "HTTP_Auth",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "HTTP_Cred",
+                "ParameterValue": "Mess_Proc_Log",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "TableName",
+                "ParameterValue": "SAPCPI_MessageProcessingLogs",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_Alias",
+                "ParameterValue": "SAP_HANA_CLOUD_DB",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_TimeOut",
+                "ParameterValue": "5",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_QueryTimeOut",
+                "ParameterValue": "5",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_MaxRecords",
+                "ParameterValue": "100000",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "JDBC_BatchMode",
+                "ParameterValue": "false",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+                "PackageId": "VariablesandExceptionHandlinginSAPCPI"
+            },
+            {
+                "ParameterKey": "Scheduler",
+                "ParameterValue": "simple.repeat --tz=Etc/GMT",
+                "DataType": "custom:schedule",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "TenantURL",
+                "ParameterValue": "8eccaf2dtrial.it-cpitrial06.cfapps.us10-001.hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "LastRunDateTime Default",
+                "ParameterValue": "yyyy-MM-ddTHH:mm:ss.SSS",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "OData_Auth",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "OData_Cred",
+                "ParameterValue": "Mess_Proc_Log",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "OData_CSRF",
+                "ParameterValue": "false",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "OData_Reuse",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "OData_AttachError",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "OData_TimeOut",
+                "ParameterValue": "1",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "OData_ReqHeaders",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "OData_ResHeaders",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "Records Per Email",
+                "ParameterValue": "50",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "Splitter_StopOnEx",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "defaultToMail",
+                "ParameterValue": "toMail@gmail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "MailAddress",
+                "ParameterValue": "smtp.gmail.com:465",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "MailProxy",
+                "ParameterValue": "none",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "MailProtection",
+                "ParameterValue": "smtps",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "MailAuth",
+                "ParameterValue": "loginPlain",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "MailCred",
+                "ParameterValue": "Gmail_Cred",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "MailFrom",
+                "ParameterValue": "FromMail@gmail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "Mail_CC",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "HTTP_Auth",
+                "ParameterValue": "OAuth2 Client Credentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "HTTP_Cred",
+                "ParameterValue": "CPI_OAuth",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+                "PackageId": "20ComplexProjects"
+            },
+            {
+                "ParameterKey": "outbound Directory",
+                "ParameterValue": "/2026",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF06_SimpleScenario_RequestReply_ExceptionHandling",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Address",
+                "ParameterValue": "AMS_Workshop",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF06_SimpleScenario_RequestReply_ExceptionHandling",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Credential Name",
+                "ParameterValue": "My_SFTP_Admin",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF06_SimpleScenario_RequestReply_ExceptionHandling",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Directory",
+                "ParameterValue": "/2026",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF03_SimpleScenario_MultipleReceiver",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Address",
+                "ParameterValue": "AMS_Workshop",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF03_SimpleScenario_MultipleReceiver",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Credential Name",
+                "ParameterValue": "My_SFTP_Admin",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF03_SimpleScenario_MultipleReceiver",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "LocationID",
+                "ParameterValue": "Learning",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF03_SimpleScenario_MultipleReceiver",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Directory",
+                "ParameterValue": "/2026",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF04_SimpleScenario_MultipleReceiver_Router",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Address",
+                "ParameterValue": "AMS_Workshop",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF04_SimpleScenario_MultipleReceiver_Router",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Credential Name",
+                "ParameterValue": "My_SFTP_Admin",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF04_SimpleScenario_MultipleReceiver_Router",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Directory",
+                "ParameterValue": "/2026",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF05_SimpleScenario_Mapping",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Address",
+                "ParameterValue": "AMS_Workshop",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF05_SimpleScenario_Mapping",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "outbound Credential Name",
+                "ParameterValue": "My_SFTP_Admin",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR25_IF05_SimpleScenario_Mapping",
+                "PackageId": "25BigMarketS4Implementation"
+            },
+            {
+                "ParameterKey": "Email_Address",
+                "ParameterValue": "smtp.gmail.com:587",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "Email_Credentials",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_serviceURL",
+                "ParameterValue": "${header.serviceURL}",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_proxyType",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_authType",
+                "ParameterValue": "OAuth2ClientCredentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_serviceSecurity",
+                "ParameterValue": "${header.serviceSecurity}",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_timeout",
+                "ParameterValue": "2",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "header.serviceURL",
+                "ParameterValue": "https://daba1d19trial-dev-football-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/football-scores",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "header.serviceSecurity",
+                "ParameterValue": "Football",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Football_Service",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_serviceURL",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_serviceSecurity",
+                "ParameterValue": "${header.serviceSecurity}",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_authType",
+                "ParameterValue": "OAuth2ClientCredentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_proxyType",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "p_timeout",
+                "ParameterValue": "1",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "header.serviceURL",
+                "ParameterValue": "https://daba1d19trial-dev-football-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/football-scores",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "header.serviceSecurity",
+                "ParameterValue": "Football",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "email.address",
+                "ParameterValue": "smtp.gmail.com:587",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "email.credentias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Load_Football_OData_Scores2",
+                "PackageId": "FootballOData"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_QueueTopicName",
+                "ParameterValue": "DKV/PoC-Kafka-Customer/01/Customer-Transfer",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Queue_or_Topic",
+                "ParameterValue": "queue",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Kafka_Topic",
+                "ParameterValue": "SAP-KafkaConnector-POC",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Path",
+                "ParameterValue": "/protocols/amqp10ws",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Port",
+                "ParameterValue": "443",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Credentials",
+                "ParameterValue": "SAP_EventMesh_AMQP",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_QueueName",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Hostname",
+                "ParameterValue": "enterprise-messaging-messaging-gateway.cfapps.eu20.hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Kafka_Hostname",
+                "ParameterValue": "pkc-w7d6j.germanywestcentral.azure.confluent.cloud:9092",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Kafka_Credentials",
+                "ParameterValue": "KafkaPKC_PoC",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF001_EventMesh_ConsumeQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Path",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF003_EventMesh_PublishToQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Expiration_Period_S",
+                "ParameterValue": "",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR30_IF003_EventMesh_PublishToQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Port",
+                "ParameterValue": "",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR30_IF003_EventMesh_PublishToQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Credentials",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF003_EventMesh_PublishToQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_QueueName",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF003_EventMesh_PublishToQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Hostname",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF003_EventMesh_PublishToQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "QueueProperty",
+                "ParameterValue": "queue",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF003_EventMesh_PublishToQueue",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_TopicName",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF004_EventMesh_PublishToTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Path",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF004_EventMesh_PublishToTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "TopicProperty",
+                "ParameterValue": "topic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF004_EventMesh_PublishToTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Expiration_Period_S",
+                "ParameterValue": "",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR30_IF004_EventMesh_PublishToTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Port",
+                "ParameterValue": "",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR30_IF004_EventMesh_PublishToTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Credentials",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF004_EventMesh_PublishToTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Hostname",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF004_EventMesh_PublishToTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Customer Post-Exit Flow Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Customer Post-Exit Flow is enabled. If this is enabled, the \u201cCustomerPostExitFlow\u201d Receiver must be configured.\u202f\n\nValid values\u202f\ntrue\u202f\nfalse",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Pre-Exit Flow Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Customer Pre-Exit Flow is enabled. If this is enabled the \u201cCustomerPreExitFlow\u201d Receiver must be configured.\u202f\n\nValid values\u202f\ntrue\u202f\nfalse",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Pre-Exit Flow",
+                "ParameterValue": "/generic_pre_exit_process_direct",
+                "DataType": "xsd:string",
+                "Description": "Link to the Customer Pre-Exit Integration Flow.\u202f\n\nMandatory in case \u201cCustomer Pre-Exit Flow Enabled\u201d is set to \u201ctrue\u201d\u202f\n\u202f\n\nExample for Valid Values:\u202f\n\n/generic_pre_exit_process_direct",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Post-Exit Flow",
+                "ParameterValue": "/generic_post_exit_process_direct",
+                "DataType": "xsd:string",
+                "Description": "Link to the Customer Post-Exit Integration Flow.\u202f\n\nMandatory in case \u201cCustomer Post-Exit Flow Enabled\u201d is set to \u201ctrue\u201d\u202f\n\n\u202f\n\nExample for Valid Values:\u202f\n\n/generic_post_exit_process_direct",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "HTTP Session Reuse",
+                "ParameterValue": "onExchange",
+                "DataType": "xsd:string",
+                "Description": "Configure the session handling scope for HTTP based endpoints\nOptions:\nNone - Switched off\nOn Exchange - Each exchange corresponds to a single session\nOn Integration Flow - Only one session will be used across the whole integration flow",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Default Schedule",
+                "ParameterValue": "simple.repeat --tz=Etc/GMT",
+                "DataType": "custom:schedule",
+                "Description": "Configure the timer as per business operation needs",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Location ID",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when On-Premise is selected for Proxy type. Used to connect Cloud SAP Connector to your account.",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Authentication Mode",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": "Authentication method that you want to use for connecting to the OData V2 service.",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Proxy Type",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": "The type of proxy you want to use for establishing connection with the OData V2 service.",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Credential Name",
+                "ParameterValue": "s4hana_credentials",
+                "DataType": "xsd:string",
+                "Description": "Specify the name of the deployed User Credentials Security Material that holds the username and password used to authenticate with SAP S/4HANA Cloud",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud CSRF Protected",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "Keep this option selected (default setting). It ensures that your integration flow is protected against Cross-Site-Request-Forgery, a kind of attack where a malicious party can perform harmful actions by masquerading as the logged in user.",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Reuse Connection",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "The option is enabled by default. This option enables the reuse of connection objects from the internal connection pool, which in turn improves the network turnaround time for multiple communications to a same end point.",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Private Key Alias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Secure Material Alias",
+                "ParameterValue": "jiraAccessToken",
+                "DataType": "xsd:string",
+                "Description": "Specify the name/alias of the deployed User Credentials Security Material that holds the username and password used to authenticate with Jira Cloud API",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Custom Project Filter",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "This can be used as an additional filter for narrowing down the Projects that will be processed and replicated.\n\nExample of valid values:\n\u2022 and Project eq 'TEST101'\n\u2022 and substringof(Project, 'TEST')",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Exception Logging",
+                "ParameterValue": "true",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether logging of Exceptions, as attachments, is enabled.\nDefault Value: true\n\nValid values:\n\u2022 true\n\u2022 false",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Base URL",
+                "ParameterValue": "https://xxxxxxx-api.s4hana.cloud.sap/",
+                "DataType": "xsd:string",
+                "Description": "Specify the SAP S/4HANA Cloud API Base URL\n\nExample: https://myxxxxxxx-api.S/4HANA.cloud.sap",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Base URL",
+                "ParameterValue": "https://xxxxxxxx.atlassian.net",
+                "DataType": "xsd:string",
+                "Description": "Your Jira Base Url.",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Last Request Date",
+                "ParameterValue": "1970-01-01T00:00:00",
+                "DataType": "xsd:string",
+                "Description": "Initial start for the replication flow. After the first start the flow will save the latest date automatically and will use it to determine the delta for materials extract.\n\nValid Values format:\n\u2022 YYYY-MM-DDTHH:MM:SS\n\nFor Example:\n\u2022 1970-01-01T00:00:00",
+                "IflowId": "Replicate_WBS_Elements_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_QueueTopicName",
+                "ParameterValue": "DKV/PoC-Kafka-Customer/01/Customer-Transfer",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Queue_or_Topic",
+                "ParameterValue": "queue",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Kafka_Topic",
+                "ParameterValue": "SAP-KafkaConnector-POC",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Path",
+                "ParameterValue": "/protocols/amqp10ws",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Port",
+                "ParameterValue": "443",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Credentials",
+                "ParameterValue": "SAP_EventMesh_AMQP",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_QueueName",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "SAP_EventMesh_Hostname",
+                "ParameterValue": "enterprise-messaging-messaging-gateway.cfapps.eu20.hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Kafka_Hostname",
+                "ParameterValue": "pkc-w7d6j.germanywestcentral.azure.confluent.cloud:9092",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Kafka_Credentials",
+                "ParameterValue": "KafkaPKC_PoC",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "IR30_IF002_EventMesh_ConsumeTopic",
+                "PackageId": "30PractisingEventMesh"
+            },
+            {
+                "ParameterKey": "Entry Address",
+                "ParameterValue": "/findAllWorkersAssignedToWBSElements",
+                "DataType": "xsd:string",
+                "Description": "Link to the \"Find All Workers Assigned to WBS Elements\" Flow",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud  Authentication Mode",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": "Authentication method that you want to use\n for connecting to the OData V2 service.",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Private Key Alias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when Client Certificate is\n selected for Authentication. Enter the private\n key alias that enables the system to fetch the\n private key from the keystore for\n authentication.",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Location ID",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when On-Premise is selected\n for Proxy type. Used to connect Cloud SAP\n Connector with your account.",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Proxy Type",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": "The type of proxy you want to use for\n establishing connection with the OData V2\n service. \nDefault value: Internet",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Credential  Name",
+                "ParameterValue": "s4hana_credentials",
+                "DataType": "xsd:string",
+                "Description": "Specify the name/alias of the deployed User\n Credentials Security Material that holds the\n username and password used to authenticate\n with SAP S/4HANA Cloud",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud CSRF  Protected",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "Keep this option selected (default setting). It\n ensures that your integration flow is protected\n against Cross-Site-Request-Forgery, a kind of\n attack where a malicious party can perform\n harmful actions by masquerading as the\n logged-in user.",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Reuse  Connection",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "The option is enabled by default. This option\n enables the reuse of connection objects from\n the internal connection pool, which in turn\n improves the network turnaround time for\n multiple communications to a same end point.",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Base URL",
+                "ParameterValue": "https://xxxxxxx-api.s4hana.cloud.sap/",
+                "DataType": "xsd:string",
+                "Description": "Specify the SAP S/4HANA Cloud API Base URL\n\n\nExample:\nhttps://xxxxxxx-api.s4hana.cloud.sap/",
+                "IflowId": "Find_All_Workers_Assigned_To_WBS_Elements",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Default Schedule",
+                "ParameterValue": "simple.repeat --tz=Etc/GMT",
+                "DataType": "custom:schedule",
+                "Description": "Configure the timer as per business operation needs",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Post-Exit Flow Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Customer Post-Exit Flow is enabled. If this is enabled, the \u201cCustomerPostExitFlow\u201d Receiver must be configured.\u202f\n\nValid values\u202f\ntrue\u202f\nfalse",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Pre-Exit Flow Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Customer Pre-Exit Flow is enabled. If this is enabled the \u201cCustomerPreExitFlow\u201d Receiver must be configured.\u202f\n\nValid values\u202f\ntrue\u202f\nfalse",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Pre-Exit Flow",
+                "ParameterValue": "/generic_pre_exit_process_direct",
+                "DataType": "xsd:string",
+                "Description": "Link to the Customer Pre-Exit Integration Flow.\u202f\n\nMandatory in case \u201cCustomer Pre-Exit Flow Enabled\u201d is set to \u201ctrue\u201d\u202f\n\u202f\n\nExample for Valid Values:\u202f\n\n/generic_pre_exit_process_direct",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Post-Exit Flow",
+                "ParameterValue": "/generic_post_exit_process_direct",
+                "DataType": "xsd:string",
+                "Description": "Link to the Customer Post-Exit Integration Flow.\u202f\n\nMandatory in case \u201cCustomer Post-Exit Flow Enabled\u201d is set to \u201ctrue\u201d\u202f\n\n\u202f\n\nExample for Valid Values:\u202f\n\n/generic_post_exit_process_direct",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Reuse Connection",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "The option is enabled by default. This option enables the reuse of connection objects from the internal connection pool, which in turn improves the network turnaround time for multiple communications to a same end point.",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud CSRF Protected",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "Keep this option selected (default setting). It ensures that your integration flow is protected against Cross-Site-Request-Forgery, a kind of attack where a malicious party can perform harmful actions by masquerading as the logged in user.",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Location ID",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when On-Premise is selected for Proxy type. Used to connect Cloud SAP Connector to your account.",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Proxy Type",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": "The type of proxy you want to use for establishing connection with the OData V2 service.",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Authentication Mode",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": "Authentication method that you want to use for connecting to the OData V2 service.",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Private Key Alias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when Client Certificate is selected for Authentication. Enter the private key alias that enables the system to fetch the private key from the keystore for authentication.",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Credential Name",
+                "ParameterValue": "s4hana_credentials",
+                "DataType": "xsd:string",
+                "Description": "Specify the name of the deployed User Credentials Security Material that holds the username and password used to authenticate with SAP S/4HANA Cloud",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Secure Material Alias",
+                "ParameterValue": "jiraAccessToken",
+                "DataType": "xsd:string",
+                "Description": "Specify the name/alias of the deployed User Credentials Security Material that holds the username and password used to authenticate with Jira Cloud API",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Custom Project Filter",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "This can be used as an additional filter for narrowing down the Projects that will be processed.\nExample of valid values:\n\u2022 and Project eq 'TEST101'\n\u2022 and substringof(Project, 'TEST')",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Activity Type",
+                "ParameterValue": "T001",
+                "DataType": "xsd:string",
+                "Description": "The activity type classifies the activities performed within a company by one or several cost centers.\n \nDefault: T001\nExample: T003",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Working Week",
+                "ParameterValue": "MON,TUE,WED,THU,FRI",
+                "DataType": "xsd:string",
+                "Description": "Stores the S/4HANA working week setup. The number of listed days should sum up to the number configured for the \"Working days per week\" in Jira. \n\nExample: MON,TUE,WED,THU,FRI if the Jira property is set to 5\n\nDefault: MON,TUE,WED,THU,FRI",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Working Hours Per Day",
+                "ParameterValue": "8",
+                "DataType": "xsd:string",
+                "Description": "Stores the S/4HANA working hours per day setup. Needs to align with the \"Working hours per day\" setup in Jira. \n\nExample: 6\nDefault: 8\n",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Base URL",
+                "ParameterValue": "https://xxxxxxx-api.s4hana.cloud.sap/",
+                "DataType": "xsd:string",
+                "Description": "Specify the SAP S/4HANA Cloud API Base URL\n\n\nExample:\nhttps://xxxxxxx-api.s4hana.cloud.sap/",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Last Request Date",
+                "ParameterValue": "1970-01-01T00:00:00",
+                "DataType": "xsd:string",
+                "Description": "Initial start for the replication flow. After the first start the flow will save the latest date automatically and will use it to determine the delta for materials extract.\n\nValid Values format:\n\u2022 YYYY-MM-DDTHH:MM:SS\n\nFor Example:\n\u2022 1970-01-01T00:00:00",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Base URL",
+                "ParameterValue": "https://xxxxxxx.atlassian.net",
+                "DataType": "xsd:string",
+                "Description": "Your Jira Base Url.\n\nExample of a valid value:\n\nhttps://s4hana-jira-integration.atlassian.net",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "HTTP Session Reuse",
+                "ParameterValue": "onExchange",
+                "DataType": "xsd:string",
+                "Description": "Configure the session handling scope for HTTP based endpoints\nOptions:\nNone - Switched off\nOn Exchange - Each exchange corresponds to a single session\nOn Integration Flow - Only one session will be used across the whole integration flow",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Exception Logging",
+                "ParameterValue": "true",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether logging of Exceptions, as attachments, is enabled.\nDefault Value: true\n\nValid values:\n\u2022 true\n\u2022 false",
+                "IflowId": "Replicate_Time_Records_from_Jira_to_SAP_S4HANA_Cloud_Public_Edition",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "EMail_Timeout",
+                "ParameterValue": "30000",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "Email_Subject",
+                "ParameterValue": "Failed to replicate cost center: ${property.SAP_Reference_Number}",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_CredentialName",
+                "ParameterValue": "ServiceNow_Credential",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "Email_To",
+                "ParameterValue": "mailto@mail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_ClientIDAlias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "Start_Timer",
+                "ParameterValue": "fireNow=true",
+                "DataType": "custom:schedule",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "CostCenters",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "LogMessageProperty",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ExceptionLogging",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_CredentialName",
+                "ParameterValue": "Credentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_Authentication",
+                "ParameterValue": "basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Timeout",
+                "ParameterValue": "1",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_PrivateKey",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EnableMailNotification",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Authentication",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_ClientSecretAlias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "LogMessageHeader",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Authentication",
+                "ParameterValue": "loginPlain",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Proxy",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_CSRF",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "Email_HostPort",
+                "ParameterValue": "mail.com:587",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "Email_Credential",
+                "ParameterValue": "EMail_Credential",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Proxy",
+                "ParameterValue": "none",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_Host",
+                "ParameterValue": "https://xxxxxx.service-now.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Protection",
+                "ParameterValue": "starttls_mandatory",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_ODATA_Host",
+                "ParameterValue": "myxxxxxx.s4hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "Email_From",
+                "ParameterValue": "mailfrom@mail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "InitialQueryDate",
+                "ParameterValue": "2021-01-01T00:00:00",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "LogMessageBody",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_Cost_Center_from_S4HANA_Cloud_to_ServiceNow_",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "Jira Secure Material Alias",
+                "ParameterValue": "jiraAccessToken",
+                "DataType": "xsd:string",
+                "Description": "Specify the name/alias of the deployed User Credentials Security Material that holds the username and password used to authenticate with Jira Cloud API",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Pre-Exit Flow",
+                "ParameterValue": "/generic_pre_exit_process_direct",
+                "DataType": "xsd:string",
+                "Description": "Link to the Customer Pre-Exit Integration Flow.\u202f\n\nMandatory in case \u201cCustomer Pre-Exit Flow Enabled\u201d is set to \u201ctrue\u201d\u202f\n\u202f\n\nExample for Valid Values:\u202f\n\n/generic_pre_exit_process_direct",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Pre-Exit Flow Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Customer Pre-Exit Flow is enabled. If this is enabled the \u201cCustomerPreExitFlow\u201d Receiver must be configured.\u202f\n\nValid values\u202f\ntrue\u202f\nfalse",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Post-Exit Flow Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Customer Post-Exit Flow is enabled. If this is enabled, the \u201cCustomerPostExitFlow\u201d Receiver must be configured.\u202f\n\nValid values\u202f\ntrue\u202f\nfalse",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Post-Exit Flow",
+                "ParameterValue": "/generic_post_exit_flow_process_direct",
+                "DataType": "xsd:string",
+                "Description": "Link to the Customer Post-Exit Integration Flow.\u202f\n\nMandatory in case \u201cCustomer Post-Exit Flow Enabled\u201d is set to \u201ctrue\u201d\u202f\n\n\u202f\n\nExample for Valid Values:\u202f\n\n/generic_post_exit_process_direct\u202f",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "HTTP Session Reuse",
+                "ParameterValue": "onExchange",
+                "DataType": "xsd:string",
+                "Description": "Configure the session handling scope for HTTP based endpoints\nOptions:\nNone - Switched off\nOn Exchange - Each exchange corresponds to a single session\nOn Integration Flow - Only one session will be used across the whole integration flow",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Proxy Type",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": "The type of proxy you want to use for establishing connection with the OData V2 service.\n\nDefault value: Internet",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Location ID",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when On-Premise is selected for Proxy type. Used to connect Cloud SAP Connector to your account.",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Authentication Mode",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": "Authentication method that you want to use for connecting to the OData V2 service.",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud CSRF Protected",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "Keep this option selected (default setting). It ensures that your integration flow is protected against Cross-Site-Request-Forgery, a kind of attack where a malicious party can perform harmful actions by masquerading as the logged in user.",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Reuse Connection",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "The option is enabled by default. This option enables the reuse of connection objects from the internal connection pool, which in turn improves the network turnaround time for multiple communications to a same end point.",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Credential Name",
+                "ParameterValue": "s4hana_credentials",
+                "DataType": "xsd:string",
+                "Description": "Specify the name of the deployed User Credentials Security Material that holds the username and password used to authenticate with SAP S/4HANA Cloud",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Private Key Alias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when Client Certificate is selected for Authentication. Enter the alias of the deployed private key.",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Products For Employee",
+                "ParameterValue": "jira-software",
+                "DataType": "xsd:string",
+                "Description": "An array of product keys (e.g., jira-software) that grants the new user access to the specified Jira applications upon creation. This determines their initial product licenses and roles within the Atlassian suite.",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Exception Logging",
+                "ParameterValue": "true",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether logging of Exceptions, as attachments, is enabled.\n\nDefault Value: true\n\nValid values:\n\u2022 true\n\u2022 false",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Replicate Single Employee Flow",
+                "ParameterValue": "/replicateSingleEmployeeToJira",
+                "DataType": "xsd:string",
+                "Description": "Link to Replicate Employees From S/4HANA\n Cloud Public Edition to Jira Flow.\n\n Example of a valid value:\n /replicateSingleEmployeeToJira",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Default Schedule",
+                "ParameterValue": "simple.repeat --tz=Etc/GMT",
+                "DataType": "custom:schedule",
+                "Description": "Configure the timer as per business operation needs",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Find Team Members Assigned to WBS Element Flow",
+                "ParameterValue": "/findAllWorkersAssignedToWBSElements",
+                "DataType": "xsd:string",
+                "Description": "Link to \"Find All Workers Assigned to WBS Elements\" Flow",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Base URL",
+                "ParameterValue": "https://xxxxxxx-api.s4hana.cloud.sap/",
+                "DataType": "xsd:string",
+                "Description": "Specify the SAP S/4HANA Cloud API Base URL\u202f\n\n\u202f\n\nExample: https://xxxxxxx-api.s4hana.cloud.sap",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Base URL",
+                "ParameterValue": "https://xxxxxxx.atlassian.net",
+                "DataType": "xsd:string",
+                "Description": "Your Jira Base Url.\n\nExample of a valid value:\n\nhttps://s4hana-jira-integration.atlassian.net",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Project ID",
+                "ParameterValue": "XXXX",
+                "DataType": "xsd:string",
+                "Description": "The name of the source project used to identify the team roster.\n\nExample of a valid value:\n\n\u2022 TEST101\n\u2022 DEMO10OCTOBER2025",
+                "IflowId": "Replicate_Single_Project_Employees_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SNOW_OAUTH",
+                "ParameterValue": "SNOW_OAuth",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "SNOW_User_Credentials",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Address",
+                "ParameterValue": "/SNOWtickethandler",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "cmdb_ci",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Guest_Email",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Assignment_Group",
+                "ParameterValue": "{optional value}",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Timeout",
+                "ParameterValue": "60000",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Method",
+                "ParameterValue": "POST",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "User Role",
+                "ParameterValue": "ESBMessaging.send",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "JIRA_cred",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "SNOW_INCIDENT_URL",
+                "ParameterValue": "https://<Service_Now_Host>/api/now/v1/table/incident",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Authorization",
+                "ParameterValue": "RoleBased",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "SNOW_ClientSecret",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Grant_Type",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Proxy_Type",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Username",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Authentication",
+                "ParameterValue": "OAuth2 Client Credentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Guest_Contact",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "ClientID",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "CRPF",
+                "ParameterValue": "0",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "SNOW_Ticket_Handler",
+                "PackageId": "ServiceNow"
+            },
+            {
+                "ParameterKey": "Customer Post-Exit Flow Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Customer Post-Exit Flow is enabled. If this is enabled, the \u201cCustomerPostExitFlow\u201d Receiver must be configured.\u202f\n\nValid values\u202f\ntrue\u202f\nfalse",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Pre-Exit Flow Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Customer Pre-Exit Flow is enabled. If this is enabled the \u201cCustomerPreExitFlow\u201d Receiver must be configured.\u202f\n\nValid values\u202f\ntrue\u202f\nfalse",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Pre-Exit Flow",
+                "ParameterValue": "/generic_pre_exit_process_direct",
+                "DataType": "xsd:string",
+                "Description": "Link to the Customer Pre-Exit Integration Flow.\u202f\n\nMandatory in case \u201cCustomer Pre-Exit Flow Enabled\u201d is set to \u201ctrue\u201d\u202f\n\u202f\n\nExample for Valid Values:\u202f\n\n/generic_pre_exit_process_direct",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Post-Exit Flow",
+                "ParameterValue": "/generic_post_exit_flow_process_direct",
+                "DataType": "xsd:string",
+                "Description": "Link to the Customer Post-Exit Integration Flow.\u202f\n\nMandatory in case \u201cCustomer Post-Exit Flow Enabled\u201d is set to \u201ctrue\u201d\u202f\n\n\u202f\n\nExample for Valid Values:\u202f\n\n/generic_post_exit_process_direct",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Location ID",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when On-Premise is selected for Proxy type. Used to connect Cloud SAP Connector to your account.",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Credential Name",
+                "ParameterValue": "s4hana_credentials",
+                "DataType": "xsd:string",
+                "Description": "Specify the name of the deployed User Credentials Security Material that holds the username and password used to authenticate with SAP S/4HANA Cloud",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud CSRF Protected",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "Keep this option selected (default setting). It ensures that your integration flow is protected against Cross-Site-Request-Forgery, a kind of attack where a malicious party can perform harmful actions by masquerading as the logged in user.",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Reuse Connection",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": "The option is enabled by default. This option enables the reuse of connection objects from the internal connection pool, which in turn improves the network turnaround time for multiple communications to a same end point.",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Private Key Alias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "It is visible only when Client Certificate is selected for Authentication. Enter the alias of the deployed private key.",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Authentication Mode",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": "Authentication method that you want to use for connecting to the OData V2 service.",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Proxy Type",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": "The type of proxy you want to use for establishing connection with the OData V2 service.",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Secure Material Alias",
+                "ParameterValue": "jiraAccessToken",
+                "DataType": "xsd:string",
+                "Description": "Specify the name/alias of the deployed User Credentials Security Material that holds the username and password used to authenticate with Jira Cloud API",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "HTTP Session Reuse",
+                "ParameterValue": "onExchange",
+                "DataType": "xsd:string",
+                "Description": "Configure the session handling scope for HTTP based endpoints\nOptions:\nNone - Switched off\nOn Exchange - Each exchange corresponds to a single session\nOn Integration Flow - Only one session will be used across the whole integration flow",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Custom Project Filter",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": "This can be used as an additional filter for narrowing down the Projects that will be processed and replicated.\n\nExample of a valid value:\n\n\u2022 and Project eq 'TEST101'\n\u2022 and substringof(Project, 'TEST')",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Project Template Key",
+                "ParameterValue": "com.atlassian.jira-core-project-templates:jira-core-simplified-project-management",
+                "DataType": "xsd:string",
+                "Description": "A predefined configuration for a project. The type of the projectTemplateKey must match with the type of the projectTypeKey.",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Project Type Key",
+                "ParameterValue": "business",
+                "DataType": "xsd:string",
+                "Description": "The project type, which defines the application-specific feature set.\n\nValid values:\n\u2022 software\n\u2022 service_desk\n\u2022 business",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Replicate Employee Flow",
+                "ParameterValue": "/replicateSingleEmployeeToJira",
+                "DataType": "xsd:string",
+                "Description": "Link to Replicate Employees From S/4HANA Cloud Public Edition to Jira Flow\n\nExample of a valid value:\n\n/replicateSingleEmployeeToJira",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Preferred Project Role For Users",
+                "ParameterValue": "Member",
+                "DataType": "xsd:string",
+                "Description": "The preferred role to assign all project team members\n\nExamples of valid values:\n\u2022 Member\n\u2022 Viewer",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Default Project Role for User",
+                "ParameterValue": "Administrator",
+                "DataType": "xsd:string",
+                "Description": "The default role to assign all project team members, if the preferred one is not available.\n\nExample of a valid value:\n\u2022 Administrator",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Default Schedule",
+                "ParameterValue": "simple.repeat --tz=Etc/GMT",
+                "DataType": "custom:schedule",
+                "Description": "Configure the timer as per business operation needs",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Create Project Customer Exit Enabled",
+                "ParameterValue": "false",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether a custom Create Project Customer Exit Flow is enabled. If this is enabled, the \u201cCustomerExit_Create_Project\u201d Receiver must be configured.",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Customer Exit for Create Project Address",
+                "ParameterValue": "/createProjectCustomerExit",
+                "DataType": "xsd:string",
+                "Description": "Link to the Create Project Customer Exit Integration Flow. Mandatory in case \"Create Project Customer Exit Enabled\" is set to \"true\"",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Find Team Members Assigned to WBS Elements Flow",
+                "ParameterValue": "/findAllWorkersAssignedToWBSElements",
+                "DataType": "xsd:string",
+                "Description": "Link to the \"Find Team Members Assigned to WBS Elements\" Flow",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Exception Logging",
+                "ParameterValue": "true",
+                "DataType": "xsd:string",
+                "Description": "Indicates whether logging of Exceptions, as attachments, is enabled.\nDefault Value: true\n\nValid values:\n\u2022 true\n\u2022 false",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Jira Base URL",
+                "ParameterValue": "https://xxxxxxx.atlassian.net",
+                "DataType": "xsd:string",
+                "Description": "Your Jira Base Url.\n\nExample of a valid value:\n\nhttps://s4hana-jira-integration.atlassian.net",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Base URL",
+                "ParameterValue": "https://xxxxxxx-api.s4hana.cloud.sap/",
+                "DataType": "xsd:string",
+                "Description": "Specify the SAP S/4HANA Cloud API Base URL\n\n\nExample:\nhttps://xxxxxxx-api.s4hana.cloud.sap/",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "SAP S/4HANA Cloud Last Request Date",
+                "ParameterValue": "1970-01-01T00:00:00",
+                "DataType": "xsd:string",
+                "Description": "Initial start for the replication flow. After the first start the flow will save the latest date automatically and will use it to determine the delta for materials extract.\n\nValid Values format:\n\u2022 YYYY-MM-DDTHH:MM:SS\n\nFor Example:\n\u2022 1970-01-01T00:00:00",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Project Manager Role Type",
+                "ParameterValue": "YP_RL_0001",
+                "DataType": "xsd:string",
+                "Description": "The type for the Project Manager role.\n\nDefault value:\n\u2022 YP_RL_0001",
+                "IflowId": "Replicate_Projects_from_S4HANA_Cloud_Public_Edition_to_Jira",
+                "PackageId": "SAPS4HANACloudPublicEditionIntegrationwithJira"
+            },
+            {
+                "ParameterKey": "Timezone",
+                "ParameterValue": "CET",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_SOAP_Host",
+                "ParameterValue": "mytenant.s4hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Timeout",
+                "ParameterValue": "30000",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "InitialLoad",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "PageSize",
+                "ParameterValue": "20",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "SuccessFactors_Timeout",
+                "ParameterValue": "5",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_From",
+                "ParameterValue": "mailfrom@mail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_CredentialName",
+                "ParameterValue": "ServiceNow_Credential",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "Scheduler",
+                "ParameterValue": "fireNow=true",
+                "DataType": "custom:schedule",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Credential",
+                "ParameterValue": "EMail_Credential",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_ClientIDAlias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Port",
+                "ParameterValue": "443",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "SuccessFactors_CredentialName",
+                "ParameterValue": "SuccessFactors_Rojo_demo",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Host",
+                "ParameterValue": "myxxxx-api",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_SOAP_Authentication",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "SuccessFactors_PageSize",
+                "ParameterValue": "10",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "DeltaRun",
+                "ParameterValue": "TRUE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_CredentialName",
+                "ParameterValue": "Credentials",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_SOAP_PrivateKey",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Timeout",
+                "ParameterValue": "2",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_Authentication",
+                "ParameterValue": "basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Host_Port",
+                "ParameterValue": "mytenant-api.s4hana.ondemand.com:443",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "HeaderLogging",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "SuccessFactors_Host",
+                "ParameterValue": "https://apisalesdemo8.successfactors.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EnableMailNotification",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_ODATA_Port",
+                "ParameterValue": "443",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_PrivateKeyAlias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Authentication",
+                "ParameterValue": "Basic",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_ClientSecretAlias",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "SF_Timeout",
+                "ParameterValue": "2",
+                "DataType": "xsd:integer",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "BodyLogging",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Authentication",
+                "ParameterValue": "loginPlain",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_To",
+                "ParameterValue": "mailto@mail.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_HostPort",
+                "ParameterValue": "mail.com:587",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_ClientID",
+                "ParameterValue": "",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_Proxy",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "PropertyLogging",
+                "ParameterValue": "FALSE",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Subject",
+                "ParameterValue": "Failed to replicate user: ${property.SF_Empl_Email}",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_CSRF",
+                "ParameterValue": "true",
+                "DataType": "xsd:boolean",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Proxy",
+                "ParameterValue": "none",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "ServiceNow_Host",
+                "ParameterValue": "https://xxxx.service-now.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "EMail_Protection",
+                "ParameterValue": "starttls_mandatory",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_ODATA_Host",
+                "ParameterValue": "xxxxxx-api.s4hana.ondemand.com",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "InitialQueryDate",
+                "ParameterValue": "2020-01-01T09:13:28",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_ODATA_Host_Port",
+                "ParameterValue": "https://{{S4HANA_Cloud_Host}}:{{S4HANA_Cloud_Port}}/sap/opu/odata/sap/API_BUSINESS_PARTNER",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            },
+            {
+                "ParameterKey": "S4HANA_Cloud_SOAP_Proxy",
+                "ParameterValue": "default",
+                "DataType": "xsd:string",
+                "Description": null,
+                "IflowId": "Replicate_SAP_S4HANA_Cloud_Users_to_ServiceNow_User",
+                "PackageId": "SAPS4HANACloudIntegrationwithServiceNow"
+            }
+        ]
+    }
+}
