@@ -1,0 +1,3275 @@
+[
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-09-24T15:59:37.861+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/F2F/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "PY_F2F_POCUST_GLOBAL_SXH"
+      },
+      "ComponentID": {
+        "_text": "BS_F2F_POCAST_SYSTEM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "tss_p_f2f"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-09-12T16:24:41.687+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_MAX_Sender"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SEND_1"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-05T13:21:21.664+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/J2J_WORKERS_UPDATE_HOCEVARM/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_ADP_TP_GLOBAL_HOCEVARM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "bs_adp_hoc"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-02-04T14:13:02.322+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SP"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_SP"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "alvarez-acebal"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "alvarez-acebal"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-22T15:00:03.664+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "SHOP_ALVAREZ"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_ALV"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-06-05T12:46:32.196+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_Niermann"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "LS_Nierman"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "licib"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "licib"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-18T14:29:35.466+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/Brunilda_Lici/File2File/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "PY_F2F_CLNT_GLOBAL_BL"
+      },
+      "ComponentID": {
+        "_text": "BS_CLNT_SYSTEM_BR"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_cln_f2f"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "habbablj"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "habbablj"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-02-24T23:17:26.387+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/IlyassHabbal/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "Party_BIT100"
+      },
+      "ComponentID": {
+        "_text": "BS_RCM_PI_COURSE"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-04-15T12:05:39.985+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_XX"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T11:27:41.015+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOP_EAI_ZaidAbou"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_Zaid"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-22T15:10:39.069+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Erguezel"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_ergue"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kubis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kubis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-22T15:06:30.516+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_KUBIS"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_KUBIS"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-02T10:04:12.210+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "Z_BS_CAPACITY_ENT"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-01-25T11:04:59.044+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "INTEGRATION_ENGINE_JAVA_RO1"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-12T18:06:24.088+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_ECC_800_TP_SXH"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_ecc_sxh"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "sarres"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "sarres"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-17T11:25:03.394+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_FF"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_FF"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-21T08:24:52.730+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_BOOKFOUNTAIN_HOCEVARM"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "glebsattel"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "glebsattel"
+      },
+      "LastChangeDateTime": {
+        "_text": "2016-10-21T16:23:26.537+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SYSTEM_A"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "monserrat-flores"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "monserrat-flores"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-22T15:14:33.005+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_jose"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_jose"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-21T08:25:07.002+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_READERSPARADISE_HOCEVARM"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-05T10:50:58.412+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/JDBC_2_JDBC_WORKERS_UPDATE/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "bs_shpflor"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "grobin"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "grobin"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-01T12:53:24.034+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/GROBINL/TECHIEPRESS/(REST) F2F_SUPPLIERS_PAYMENTS_GROBINL/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL_GROBINL"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "tsecc800GL"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-17T11:00:49.940+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_S4HANA_ERP1_DEV"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "S4HANA2"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-23T09:59:53.139+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "Test_Party_AB"
+      },
+      "ComponentID": {
+        "_text": "BS_HOCEVARM_SHOP"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "HOCEVSHOP"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-23T11:10:15.036+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_HOCM_PG1_DEMO"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_hocm"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-09-24T15:58:28.468+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/F2F/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "PY_F2F_CUST_GLOBAL_SXH"
+      },
+      "ComponentID": {
+        "_text": "BS_F2F_CUST_SYSTEM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_c_f2f"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-11-28T09:26:30.519+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_RCV002"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "LSM002"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-30T10:18:05.616+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_EAI_TRAINING_SHOP_Rati2"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "Shop_Rati2"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-01-11T10:48:06.600+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_MAXX"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_MAXX"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "licib"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "licib"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-18T14:30:52.470+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/Brunilda_Lici/File2File/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "PY_F2F_COM_GLOBAL_BL"
+      },
+      "ComponentID": {
+        "_text": "BS_F2F_COM_SYSTEM_BR"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_com_f2f"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "alamim"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "alamim"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-05-23T22:44:18.930+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Manar Alami/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "Party_Manar_A"
+      },
+      "ComponentID": {
+        "_text": "BS_RCM_PI_Manar"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T11:35:32.504+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Madzima"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_Rati"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-09-12T16:24:41.155+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_MAX_Receiver"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "REC_1"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-01-18T14:29:43.857+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAININGERGUZEL_SOAPUI_DOGI"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SOAPU_DOGI"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-05T13:21:20.626+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/J2J_WORKERS_UPDATE_HOCEVARM/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "bs_shop_ho"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-30T10:27:12.930+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_HOCEVARM_TOREST"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-01-31T15:39:01.855+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "INTEGRATION_SERVER_RP1"
+      }
+    },
+    "AdditionalIdentifier": [
+      {
+        "_text": "RP1CLNT001"
+      },
+      {
+        "_text": "RP1#001"
+      }
+    ],
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-14T15:39:26.373+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_BOOKFOUNTAIN"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "bookfount"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-21T14:42:32.035+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_MagentoWebShop_DEV"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "jaeger"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "jaeger"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-17T11:24:49.202+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Jaeger"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_Jager"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-02T21:04:43.713+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/F2F_SUPPLIERS_PAYMENTS/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_ecc_800"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "glebsattel"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "glebsattel"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-04-25T16:14:42.269+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SYSTEM_B"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "TPSYSB"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "AssignedUser": {
+      "_text": "GLEBSATTEL"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "DE"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-01-16T15:24:16.279+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "Test_Party_AA"
+      },
+      "ComponentID": {
+        "_text": "BS_Niermann"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "LS_Nierman"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "margreff"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "margreff"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T11:31:46.481+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "TS_ERP_TRAINING_Margreff"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "TS_ERP_MAR"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T12:19:31.901+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SAP_ERP_EAI_ZaidAbou"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ERPZAID"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-02-15T13:48:52.292+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_BS_GEOERGUEZEL_DOGI"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "GEO_DOGI"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-15T15:12:16.852+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BS_RA1_800"
+      }
+    },
+    "AdditionalIdentifier": [
+      {
+        "_text": "RA1CLNT800"
+      },
+      {
+        "_text": "RA1#800"
+      }
+    ],
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-03-18T10:30:31.550+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BS_RH2_240"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "habbablj"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "habbablj"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-05-08T16:16:01.463+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/YassineSayadi/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "Party_Yassine"
+      },
+      "ComponentID": {
+        "_text": "BS_RCM_PI_COURSE"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T12:23:00.340+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SAP_ERP_Training_Madzima"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "BS_Rati"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wohlmacher"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wohlmacher"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-03-18T13:26:14.301+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_WOHLMACHER"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_WOHLM"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "margreff"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "margreff"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T12:33:40.653+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_MARGREFF"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_Margr"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-01-18T16:09:27.465+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAININGERGUZEL_SFTP_DOGI"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SFTP_DOGI"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "jaeger"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "jaeger"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-17T11:23:38.942+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_ERP_Jaeger"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ERP_Jaeger"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "malensek"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "malensek"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-02T15:00:51.547+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/MALENSEKM/TECHIEMAJ/F2F_SUPPLIER_PAYMENTS_MALENSEK/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL_MALENSEKM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_ecc_80m"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-16T21:30:56.643+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_ljubic_SHOP"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "LJUBICSHOP"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-22T15:03:56.241+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Kinold"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "shopkinold"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-17T12:23:10.592+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_HOCEVARM_SHOP"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "HOCEVSHOP"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kuecuek"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kuecuek"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T11:30:05.434+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SAP_ERP_TRAINING_KUECUEK"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ERP_KUE"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "schultz"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "schultz"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-03-23T14:48:26.222+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "SAP_CRM_PRD_CLNT001"
+      }
+    },
+    "AdditionalIdentifier": [
+      {
+        "_text": "CH1CLNT001"
+      },
+      {
+        "_text": "CH1#001"
+      }
+    ],
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "smiezewski"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "smiezewski"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-05-11T11:29:37.271+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SMIEZEWSKI"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_SMIEZ"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-05T10:50:57.851+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/JDBC_2_JDBC_WORKERS_UPDATE/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_ADP_TP_GLOBAL_LJUBIC"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "bs_adp"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-03-24T11:22:13.622+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_Ripke"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-22T15:11:42.321+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_MM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_MM"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-18T15:04:35.312+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_HOCEVARM_SAP_ERP"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-11-22T15:05:54.546+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "SHOP_Stork"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_Stork"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-02-21T08:53:10.081+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-11-16T14:47:42.110+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BS_Mastertool"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "RLCMASTER"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-11T11:15:15.772+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BS_ABRECHNUNG"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ABRCLNT001"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kuecuek"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kuecuek"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T11:30:07.185+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_EAI_TRAINING_SHOP_KUECUEK"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_KUE"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-08-07T14:39:13.850+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/FILE2FILE/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "PY_F2F_RCA_GLOBAL_IR"
+      },
+      "ComponentID": {
+        "_text": "BS_F2F_RCA_SYSTEM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_rca_f2f"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-18T14:56:10.723+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BS_PI_Azubi_Schulung"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-03-18T11:26:16.287+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Wick"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_Wick"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-26T15:12:51.041+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_RH2_240"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "RH2#240"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "brenke"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-01-15T13:09:41.803+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_EAI_TRAINING_ERP_MAXX"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ERP_MAXX"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-05-31T08:13:51.570+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_GUERKAN"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "SHOP_GUERK"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-11-28T09:26:31.184+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_RCV001"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "LSM001"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-08-07T14:36:36.856+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/FILE2FILE/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "PY_F2F_CUST_GLOBAL_IR"
+      },
+      "ComponentID": {
+        "_text": "BS_F2F_CUST_SYSTEM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ts_c_f2f"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeDateTime": {
+        "_text": "2026-01-16T16:45:16.211+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {
+        "_text": "PY_Khalil"
+      },
+      "ComponentID": {
+        "_text": "BS_RCM_PI_COURSE"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-12-01T10:33:34.360+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/JavaMapping/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_INTERFACEDEMO_HOCEVARM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ifc_hoce"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-04T09:13:43.795+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_STEVO_SHOP"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-18T10:49:50.234+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_ljubic_SAP_ERP"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "sarres"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "sarres"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-17T11:35:32.117+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_EAI_ERP_FF"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ERP_FF"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-31T11:21:13.568+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_EAI_ERP_TRAINING_Rati2"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "ERP_Rati2"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-04T10:15:33.531+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/F2F_SUPPLIERS_PAYMENTS_HOCEVARM/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL_HOCEVARM"
+      }
+    },
+    "AdditionalIdentifier": {
+      "_text": "tsecc800ho"
+    },
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-11-17T01:02:49.597+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessSystemID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SENDER_POTESTING"
+      }
+    },
+    "AdditionalIdentifier": {},
+    "CacheNotification": {
+      "DistributeCacheIndicator": {
+        "_text": "false"
+      },
+      "CacheUser": {},
+      "CacheUserPassword": {}
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    }
+  }
+]

@@ -1,0 +1,167 @@
+<ReadResponses xmlns:ns0="http://sap.com/xi/BASIS">
+  <ns0:ReceiverAgreementReadResponse>
+    <ReceiverAgreement>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>xhaferis</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>xhaferis</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-25T21:06:44.259+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ReceiverAgreementID>
+        <SenderPartyID>PY_TP_GLOBAL_SXH</SenderPartyID>
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_SXH</SenderComponentID>
+        <InterfaceName>SI_IN_ASYNC_EMAIL_F2M_TARGET_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TechiePresss/file2MAIL</InterfaceNamespace>
+        <ReceiverPartyID>PY_TP_GLOBAL_SXH</ReceiverPartyID>
+        <ReceiverComponentID>BS_TP_GLOBAL_SXH</ReceiverComponentID>
+      </ReceiverAgreementID>
+      <CommunicationChannel>
+        <PartyID>PY_TP_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_TP_GLOBAL_SXH</ComponentID>
+        <ChannelID>CC_EMAIL_TP_RECEIVER_SXH</ChannelID>
+      </CommunicationChannel>
+      <SoftwareComponentVersion>0eb26680-7a5b-11ef-809a-c601c0a8fa57</SoftwareComponentVersion>
+      <SchemaValidationIndicator>false</SchemaValidationIndicator>
+      <VirusScan>Use Global</VirusScan>
+      <HeaderMapping>
+        <Sender />
+        <Receiver />
+      </HeaderMapping>
+    </ReceiverAgreement>
+    <ReceiverAgreement>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wick</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wick</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-06-28T09:50:52.455+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ReceiverAgreementID>
+        <SenderPartyID />
+        <SenderComponentID>BC_UEBUNG_WICK</SenderComponentID>
+        <InterfaceName>SI_IA_Reiseanfrage</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/uebung_wick</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID>BC_UEBUNG_WICK</ReceiverComponentID>
+      </ReceiverAgreementID>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_UEBUNG_WICK</ComponentID>
+        <ChannelID>CC_FILE_RCV_Reiseanfrage</ChannelID>
+      </CommunicationChannel>
+      <SoftwareComponentVersion>7bd1d3d0-e625-11ec-aea0-c146c0a8fa26</SoftwareComponentVersion>
+      <SchemaValidationIndicator>false</SchemaValidationIndicator>
+      <VirusScan>Use Global</VirusScan>
+      <HeaderMapping>
+        <Sender>
+          <CommunicationComponent>
+            <TypeID>Constant</TypeID>
+            <Value>BC_UEBUNG_WICK</Value>
+            <Datatype>xsd:string</Datatype>
+            <ContextObjectName />
+            <ContextObjectNamespace />
+          </CommunicationComponent>
+        </Sender>
+        <Receiver>
+          <CommunicationComponent>
+            <TypeID>Constant</TypeID>
+            <Value>BC_UEBUNG_WICK</Value>
+            <Datatype>xsd:string</Datatype>
+            <ContextObjectName />
+            <ContextObjectNamespace />
+          </CommunicationComponent>
+        </Receiver>
+      </HeaderMapping>
+    </ReceiverAgreement>
+    <ReceiverAgreement>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>xhaferis</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>xhaferis</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-25T20:55:48.368+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ReceiverAgreementID>
+        <SenderPartyID>PY_TP_GLOBAL_SXH</SenderPartyID>
+        <SenderComponentID>BS_TP_GLOBAL_SXH</SenderComponentID>
+        <InterfaceName>SI_IN_ASYNC_EMAIL_F2M_TARGET_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TechiePresss/file2MAIL</InterfaceNamespace>
+        <ReceiverPartyID>PY_TP_GLOBAL_SXH</ReceiverPartyID>
+        <ReceiverComponentID>BS_TP_GLOBAL_SXH</ReceiverComponentID>
+      </ReceiverAgreementID>
+      <CommunicationChannel>
+        <PartyID>PY_TP_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_TP_GLOBAL_SXH</ComponentID>
+        <ChannelID>CC_EMAIL_TP_RECEIVER_SXH</ChannelID>
+      </CommunicationChannel>
+      <SoftwareComponentVersion>0eb26680-7a5b-11ef-809a-c601c0a8fa57</SoftwareComponentVersion>
+      <SchemaValidationIndicator>false</SchemaValidationIndicator>
+      <VirusScan>Use Global</VirusScan>
+      <HeaderMapping>
+        <Sender>
+          <CommunicationParty>
+            <TypeID>Constant</TypeID>
+            <Value>PY_TP_GLOBAL_SXH</Value>
+            <Datatype>xsd:string</Datatype>
+            <ContextObjectName />
+            <ContextObjectNamespace />
+          </CommunicationParty>
+          <CommunicationComponent>
+            <TypeID>Constant</TypeID>
+            <Value>BS_TP_GLOBAL_SXH</Value>
+            <Datatype>xsd:string</Datatype>
+            <ContextObjectName />
+            <ContextObjectNamespace />
+          </CommunicationComponent>
+        </Sender>
+        <Receiver>
+          <CommunicationParty>
+            <TypeID>Constant</TypeID>
+            <Value>PY_TP_GLOBAL_SXH</Value>
+            <Datatype>xsd:string</Datatype>
+            <ContextObjectName />
+            <ContextObjectNamespace />
+          </CommunicationParty>
+          <CommunicationComponent>
+            <TypeID>Constant</TypeID>
+            <Value>BS_TP_GLOBAL_SXH</Value>
+            <Datatype>xsd:string</Datatype>
+            <ContextObjectName />
+            <ContextObjectNamespace />
+          </CommunicationComponent>
+        </Receiver>
+      </HeaderMapping>
+    </ReceiverAgreement>
+    <ReceiverAgreement>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>plewka</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>plewka</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-05-07T14:30:52.068+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ReceiverAgreementID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>si_file</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/uebung/file_to_jdbc</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID>EAI_TRAINING_SHOP_SP</ReceiverComponentID>
+      </ReceiverAgreementID>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>cc_jdbc_receiver</ChannelID>
+      </CommunicationChannel>
+      <SoftwareComponentVersion>156b6e40-2534-11e9-c492-c81ac0a8fa26</SoftwareComponentVersion>
+      <SchemaValidationIndicator>false</SchemaValidationIndicator>
+      <VirusScan>Use Global</VirusScan>
+      <HeaderMapping>
+        <Sender />
+        <Receiver />
+      </HeaderMapping>
+    </ReceiverAgreement>
+    <LogMessageCollection />
+  </ns0:ReceiverAgreementReadResponse>
+</ReadResponses>

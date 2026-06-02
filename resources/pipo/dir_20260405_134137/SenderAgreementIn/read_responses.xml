@@ -1,0 +1,298 @@
+<ReadResponses xmlns:ns0="http://sap.com/xi/BASIS">
+  <ns0:SenderAgreementReadResponse>
+    <SenderAgreement>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-02T13:39:39.022+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <SenderAgreementID>
+        <SenderPartyID />
+        <SenderComponentID>BC_F2F_SENDER_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_AO_F2F</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:FILE_TO_FILE:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </SenderAgreementID>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_F2F_SENDER_LJUBIC</ComponentID>
+        <ChannelID>CC_F2F_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannel>
+      <SoftwareComponentVersion>2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26</SoftwareComponentVersion>
+      <ForIntegratedConfiguration>true</ForIntegratedConfiguration>
+      <SchemaValidation>No Validation</SchemaValidation>
+      <VirusScan>Use Global</VirusScan>
+    </SenderAgreement>
+    <SenderAgreement>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wick</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wick</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-06-28T09:49:30.135+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <SenderAgreementID>
+        <SenderPartyID />
+        <SenderComponentID>BC_UEBUNG_WICK</SenderComponentID>
+        <InterfaceName>SI_OA_Reiseanfrage</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/uebung_wick</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </SenderAgreementID>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_UEBUNG_WICK</ComponentID>
+        <ChannelID>CC_SOAP_SND_Reiseanfrage</ChannelID>
+      </CommunicationChannel>
+      <SoftwareComponentVersion>7bd1d3d0-e625-11ec-aea0-c146c0a8fa26</SoftwareComponentVersion>
+      <ForIntegratedConfiguration>true</ForIntegratedConfiguration>
+      <SchemaValidation>No Validation</SchemaValidation>
+      <VirusScan>Use Global</VirusScan>
+      <AdapterSpecificAttribute>
+        <Name>wsse.namespace</Name>
+        <Namespace />
+        <Value>http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>WSSEProfileVerify</Name>
+        <Namespace />
+        <Value>SecurityProfileWSSEVerifySignatureBody</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureIssuerDN</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureSubjectDN</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureKeyStore</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyWsuTimestamp</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyWsuTimestampMessageAge</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionKeyStoreView_SecurityProfileWSSEVerifyEncryptionBody</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionKeyStoreAlias_SecurityProfileWSSEVerifyEncryptionBody</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionKeyStoreView_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionKeyStoreAlias_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureIssuerDN_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureSubjectDN_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureKeyStoreCAView_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyWsuTimestamp_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyWsuTimestampMessageAge_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>WSSEProfileApplyResponse</Name>
+        <Namespace />
+        <Value>SecurityProfileWSSEApplyNoneBodyResponse</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applySignatureKeyStoreView_SecurityProfileWSSEApplySignatureBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applySignatureKeyStoreAlias_SecurityProfileWSSEApplySignatureBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyWsuTimestamp_SecurityProfileWSSEApplySignatureBodyResponse</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyWsuTimestampExpires_SecurityProfileWSSEApplySignatureBodyResponse</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyWsuTimestampExpiresTime_SecurityProfileWSSEApplySignatureBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyEncryptionKeyStoreView_SecurityProfileWSSEApplyEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyEncryptionKeyStoreAlias_SecurityProfileWSSEApplyEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applySignatureKeyStoreView_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applySignatureKeyStoreAlias_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyWsuTimestamp_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyWsuTimestampExpires_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyWsuTimestampExpiresTime_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyEncryptionKeyStoreView_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>applyEncryptionKeyStoreAlias_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>SMIMEProfileVerify</Name>
+        <Namespace />
+        <Value>verifySignedData</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySMIMESignatureKeyStore</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureAlias</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionKeyStore</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionAlias</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureSignatureEncryptionKeyStore</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureSignatureEncryptionAlias</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionSignatureEncryptionKeyStore</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionSignatureEncryptionAlias</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionEncryptionSignatureKeyStore</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifyEncryptionEncryptionSignatureAlias</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureEncryptionSignatureKeyStore</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>verifySignatureEncryptionSignatureAlias</Name>
+        <Namespace />
+        <Value />
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>propagatePrincipal</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>serviceMetering</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>level</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+      <AdapterSpecificAttribute>
+        <Name>headerType</Name>
+        <Namespace />
+        <Value>0</Value>
+      </AdapterSpecificAttribute>
+    </SenderAgreement>
+    <LogMessageCollection />
+  </ns0:SenderAgreementReadResponse>
+</ReadResponses>

@@ -1,0 +1,2359 @@
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://sap.com/xi/BASIS">
+  <ns0:Body>
+    <ns1:IntegratedConfigurationQueryResponse>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_SHOP</SenderComponentID>
+        <InterfaceName>SI_request_from_user_to_flights</InterfaceName>
+        <InterfaceNamespace>urn:http://realcore.de/WORKSHOP/JDBC</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_MTE_Beispiel_Rechnung_FinalTest</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/FinalTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_JavaMapping_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_dritteUebung_Musterloesung</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/JavaMapping/Musterloesungen/DritteUebung</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>SI_OS_SOAP_ProductDelete</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Fruitshop4</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_ljubic_SHOP</SenderComponentID>
+        <InterfaceName>SI_OI_ASYNC_SP_F2M_SOURCE</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:SOAP2MAIL:Email:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_EAI_Fruitshop</SenderComponentID>
+        <InterfaceName>SI_OI_Produkt</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_Khalil</SenderPartyID>
+        <SenderComponentID>BC_Postman</SenderComponentID>
+        <InterfaceName>SI_WeatherAPI_Sync_Out</InterfaceName>
+        <InterfaceNamespace>urn:com:pi:integrationREST:common</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_LJUBIC_SENDER_SOAP2JDBC</SenderComponentID>
+        <InterfaceName>SI_AO_SENDER_SOAP2JDBC_LJUBIC</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:SOAP_TO_JDBC:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Sender_R2R_Ebay_SXH</SenderComponentID>
+        <InterfaceName>SI_Out_R2R_Ebay_SXH</InterfaceName>
+        <InterfaceNamespace>ske.com</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_SERVER_RP1</SenderComponentID>
+        <InterfaceName>SI_O_Test</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/horstmann</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training/shop/new/SP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_CPI_ErnstingsFamily</SenderComponentID>
+        <InterfaceName>ORDERSP</InterfaceName>
+        <InterfaceNamespace>http://ernstings.family/orders/dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>TEST_MigrationHelper</SenderComponentID>
+        <InterfaceName>TESTING</InterfaceName>
+        <InterfaceNamespace>TESTING</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_TOREST</SenderComponentID>
+        <InterfaceName>SI_request_out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/to_restapi/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>SHOP_Stork</SenderComponentID>
+        <InterfaceName>SeqeunzTestDummy</InterfaceName>
+        <InterfaceNamespace>SeqeunzTestDummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_RESTAPI_SENDER_SYSTEM_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_NONEXISTS_RESTAPI_EXAMPLE2_HOCEVARM</InterfaceName>
+        <InterfaceNamespace>http://pocasts.com/restapi/http2rest/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_OA_ECBEXCHANGES_rati</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges_rati</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OUT_BetrieblicheFunktion</InterfaceName>
+        <InterfaceNamespace>urn:evnat:sapcore:personalstammO</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_SXH</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_F2M_SOURCE_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TechiePresss/file2MAIL</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_RH2_240</SenderComponentID>
+        <InterfaceName>MATMAS.MATMAS05./GBE/MM_MATMAS01</InterfaceName>
+        <InterfaceNamespace>urn:sap-com:document:sap:idoc:messages</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModulTest</SenderComponentID>
+        <InterfaceName>Dummy</InterfaceName>
+        <InterfaceNamespace>Dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_ENGINE_JAVA_RO2</SenderComponentID>
+        <InterfaceName>RLC_OI_XML</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/po/xml/json/conversion</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OI_ExelToXML</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/ExelToXML</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_HOCEVAR_SOAP2SFTP_SOURCE</SenderPartyID>
+        <SenderComponentID>BS_HOCEVAR_SOAP2SFTP_SOURCE</SenderComponentID>
+        <InterfaceName>SI_OUT_SalesOrder_Create</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/hocmpg1/SOAP2SFTP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Simple_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/bpm/simple</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModul_Tiryaki</SenderComponentID>
+        <InterfaceName>SI_OA_GenericSedex</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Experimente/FileToFile_AdapterModul_Tiryaki</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_KUBIS</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:shop:kubis</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MeteoAL</SenderComponentID>
+        <InterfaceName>SI_MeteoRestAPI_Sync_OUT</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/ir/course/weather-api</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModulTest</SenderComponentID>
+        <InterfaceName>SI_OA_APIM_Schulung</InterfaceName>
+        <InterfaceNamespace>SI_OA_APIM_Schulung</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_OS_getProductlist_rati</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/Fruitshop_rati</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_TEST_REST</SenderComponentID>
+        <InterfaceName>dummy</InterfaceName>
+        <InterfaceNamespace>dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Madzima</SenderComponentID>
+        <InterfaceName>SI_OA_Salesorders</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Madzima</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_GetProductByID</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/experimental_guerkan</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_GetProductList</InterfaceName>
+        <InterfaceNamespace>um:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OUT_fruitshop3</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/fruitshop/shop/3</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_SFTP_TO_JDBC_SOURCE_TO_TARGET_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SFTP_SOURCE_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/SFTP2JDBC/WorkersUpdate_FILE_to_JDBC</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>SHOP_Stork</SenderComponentID>
+        <InterfaceName>TestRequestCatcher</InterfaceName>
+        <InterfaceNamespace>TestRequestCatcherNS</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_OA_GetProductList</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/FruitShop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SYSTEM_A</SenderComponentID>
+        <InterfaceName>SI_OS_FruitShop_getProducts</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/fruitshop/dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BAHNTICKET_SHOP_RIPKENS</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung_Ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Vendor_SIMONI</SenderComponentID>
+        <InterfaceName>Invoice_OA</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RCA/RS/Course/file2file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_EAI_Fruitshop</SenderComponentID>
+        <InterfaceName>SI_OS_Produkt</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUT_SYNC_SERIAL_S2S_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/S2S/GetSerialNumber/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_ERP</SenderComponentID>
+        <InterfaceName>SIOA_DirectoryAPI_Sender</InterfaceName>
+        <InterfaceNamespace>http://aldi-nord.de/ERP/DirectoryAPI</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</SenderComponentID>
+        <InterfaceName>SI_OA_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_S1vC_PS</SenderComponentID>
+        <InterfaceName>SI_OB_InfoTransport_PS</InterfaceName>
+        <InterfaceNamespace>Urn:realcore.de/xi/Schulung/S1vC/PS</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_WU_J2J_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/J2J/WorkersUpdate/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>ERP_ECC_800_TP_GLOBAL</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/F2F/SupplierPayments</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAININGERGUZEL_SOAPUI_DOGI</SenderComponentID>
+        <InterfaceName>SI_UrlRequestServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_trainingerguzel/soapui/dogi</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_EXT</SenderComponentID>
+        <InterfaceName>SI_OS_QuickExpenses</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/concur_Expenses</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Herrmannsdoerfer</SenderComponentID>
+        <InterfaceName>SI_OA_Dummy</InterfaceName>
+        <InterfaceNamespace>urn:dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_E1_AM_SENDER</SenderComponentID>
+        <InterfaceName>MI_AA_E1_AM</InterfaceName>
+        <InterfaceNamespace>http://castdemy.com/adaptermodule/e1/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SYSTEM_B</SenderComponentID>
+        <InterfaceName>SI_OA_CustomerData</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/sandbox</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_READERSPARADISE</SenderComponentID>
+        <InterfaceName>SI_OA_PurchaseOrder</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/BuchScenario/SupplierOrder</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_Khalil</SenderPartyID>
+        <SenderComponentID>BC_SOAP_COUTRY</SenderComponentID>
+        <InterfaceName>SI_OUTBOUD_CURR</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:RCMO_training2_Khalil</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OUT_fruitshop2</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/fruitshop/shop/2</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Kinold</SenderComponentID>
+        <InterfaceName>SI_availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:shop:Kinold</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_SalesStatistics</SenderComponentID>
+        <InterfaceName>SI_Statistics_OB</InterfaceName>
+        <InterfaceNamespace>http://aldi-nord.de/ERP/SalesStatistics</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OA_Exercise</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/java_mapping</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_WU_J2J_SOURCE_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/J2J/WorkersUpdate</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_Sender_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OB_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/Ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OA_Excel</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/custommodule</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Postman</SenderComponentID>
+        <InterfaceName>SI_EbayRestAPI_Sync_OUT</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/ir/course/ebay-service</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OS_Produkt_Post</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUT_SYNC_SERIAL_H2H_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/H2H/GetSerialNumber/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>*</SenderComponentID>
+        <InterfaceName>SI_OI_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Calculator_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/soap/calc</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/rati2</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_ENGINE_JAVA_RO2</SenderComponentID>
+        <InterfaceName>Dummy</InterfaceName>
+        <InterfaceNamespace>Dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_MAX_Sender</SenderComponentID>
+        <InterfaceName>SI_max_outbound_1</InterfaceName>
+        <InterfaceNamespace>http:NS_max_outbound_1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OS_Produkt_Delete</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_F2M_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_F2M_Source</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/ir/course/file2mail</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_OA_GetProductList</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/JavaModuleTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>ORDERS.ORDERS05</InterfaceName>
+        <InterfaceNamespace>urn:sap-com:document:sap:idoc:messages</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>ARTMAS.ARTMAS09</InterfaceName>
+        <InterfaceNamespace>urn:sap-com:document:sap:idoc:messages</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OS_ProductOne</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_II_ContentConversion</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ContentConversion</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SYSTEM_A</SenderComponentID>
+        <InterfaceName>SI_OA_VS_Scan</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/sandbox</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_Order_Send_PI</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/FinalTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_Khalil</SenderPartyID>
+        <SenderComponentID>BC_REST_SUNRISE</SenderComponentID>
+        <InterfaceName>SI_SUNRISE_SYNC_OUT</InterfaceName>
+        <InterfaceNamespace>urn:com:pi:SUNRISEREST:common</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Mitarbeiterdialog_Sammlung</SenderComponentID>
+        <InterfaceName>SI_OUT_Mitarbeiterdialog_Sammlung</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/ZaidAbou</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>SI_OA_PurchaseOrder</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/BuchScenario/SupplierOrder</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_TOREST</SenderComponentID>
+        <InterfaceName>SI_post_request_in</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/post2rest/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>SHOP_ALVAREZ</SenderComponentID>
+        <InterfaceName>availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:shop:ALVAREZ</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Wohlmacher</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Smiezewski</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/jaeger</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_SYNC_SERIAL_S2S_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/S2S/GetSerialNumber</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_IA_Magento_Customer_OUT</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Magento/Customer</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schultz_Test_Tegut</SenderComponentID>
+        <InterfaceName>Image_Dummy</InterfaceName>
+        <InterfaceNamespace>ns:dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_TEST_REST</SenderComponentID>
+        <InterfaceName>SI_Invoic_out_Sync</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RestAdapter/Kassa24</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_SHOP</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2M_SOURCE</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/F2M/EmailNotification/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_SERVER_RP1</SenderComponentID>
+        <InterfaceName>SI_II_MailPackage</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/LernpaketPICS001/IF02/kinold</InterfaceNamespace>
+        <ReceiverPartyID>*</ReceiverPartyID>
+        <ReceiverComponentID>*</ReceiverComponentID>
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_Order_Send_BPM</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/FinalTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>SHOP_ALVAREZ</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:shop:ALVAREZ</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_ljubic_SHOP</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:shop:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_READERSPARADISE_HOCEVARM</SenderComponentID>
+        <InterfaceName>SIOA_ReadersReqRes</InterfaceName>
+        <InterfaceNamespace>urn:readersparadise.com:currency:portal</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_SERVER_RP1</SenderComponentID>
+        <InterfaceName>SI_OI_GetDataForMail</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/LernpaketPICS001/IF02/Piechota</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BeispielBC</SenderComponentID>
+        <InterfaceName>dummy</InterfaceName>
+        <InterfaceNamespace>dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>SHOP_Stork</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/SHOP/SalesOrder</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>Z_BS_CAPACITY_ENT</SenderComponentID>
+        <InterfaceName>SI_OA_Capacity</InterfaceName>
+        <InterfaceNamespace>http://oge.com/pi/CAPACITY/netpoint</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_MTE_Beispiel_Rechnung</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/BPM</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Employee_Async_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/rest/okr/Employee</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_JDBC2MAIL_TP_GLOBAL_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_JDBC_J2M_SOURCE_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/JDBC2MAIL</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_IO_Envelope</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/Wechselkurs</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Kinold</SenderComponentID>
+        <InterfaceName>SI_OI_KuerzelBetreff</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/JdbcLookUp/Uebung/kinold</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Kuecuek</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Playroom_Burchardt</SenderComponentID>
+        <InterfaceName>Dummy</InterfaceName>
+        <InterfaceNamespace>http://example.com</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_REST_SENDER_SXH</SenderComponentID>
+        <InterfaceName>SI_NOSI_REST_EXAMPLE1_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TP/R2F</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>SI_IA_SOAP_ProductRequest</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Fruitshop2</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_SHOP</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:integration:hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_LJUBIC_REST2SFTP_SOURCE</SenderPartyID>
+        <SenderComponentID>BS_LJUBIC_REST2SFTP_SOURCE</SenderComponentID>
+        <InterfaceName>SI_OUT_ORDER_CREATE</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/soap2sftp</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Bahnticketing_Shop_IR</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/ir/course/bahnticketing</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_JBCD_2_JDBC_SOURCE_TO_TARGET_DELETE_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_JDBC_TO_JDBC_DELETE_SOURCE_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/JDBC2JDBC/WorkersDELETE</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OA_pa</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/praxisarbeit/shop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_Sender_Piechota</SenderComponentID>
+        <InterfaceName>SI_OB_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/Piechota</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_EXT</SenderComponentID>
+        <InterfaceName>GetFactSheets_Out_SI</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RestAdapter/GoogleAPI</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Kinold</SenderComponentID>
+        <InterfaceName>SI_OI_filesender</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/JDBC/Uebung/kinold</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>ERP_ECC_800_TP_GLOBAL_MALENSEKM</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiemaj.com/F2F/SupplierPayment</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Calculator_Test_Altiner</SenderComponentID>
+        <InterfaceName>SI_Calculator_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Calculator</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Rechner</SenderComponentID>
+        <InterfaceName>SI_Calculator_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Calculator</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training_shop/wick</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_OO_EZBexchanges</InterfaceName>
+        <InterfaceNamespace>urn:EZBexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_MM</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:shop:MM</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_S2S_Sender_SXH</SenderComponentID>
+        <InterfaceName>SI_Country_S2S_Out_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/Country/S2S</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OUT_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>*</SenderComponentID>
+        <InterfaceName>SI_II_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_OA_Customer_Magento_rati</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/PO/Magento/Customer_rati</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_Produkte</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_SERVER_RP1</SenderComponentID>
+        <InterfaceName>SI_II_MailPackage</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Lernpaket/PICS001/IF02/kinold</InterfaceNamespace>
+        <ReceiverPartyID>*</ReceiverPartyID>
+        <ReceiverComponentID>*</ReceiverComponentID>
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_FIL_NRW_PRD</SenderComponentID>
+        <InterfaceName>SI_OA_ShippingNotice</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Inventory</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_XX</SenderComponentID>
+        <InterfaceName>SI_II_ContentConversion</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ContentConversion</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_ENGINE_JAVA_RO2</SenderComponentID>
+        <InterfaceName>SI_OS_FileManager</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/po/intern/tools/filemanager</InterfaceNamespace>
+        <ReceiverPartyID>*</ReceiverPartyID>
+        <ReceiverComponentID>*</ReceiverComponentID>
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:shop:SP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RESTAPI_SENDER_TO_RECEIVER_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_NONEXIST_RESTAPI_REST_2_FTP_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://podcast.com/restapi/rest2ftp</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_ljubic_SHOP</SenderComponentID>
+        <InterfaceName>SI_II_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_MARGREFF</SenderComponentID>
+        <InterfaceName>availabilitycheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/margreff</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_TEST_REST</SenderComponentID>
+        <InterfaceName>SI_RequestedBaerer_Sync_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RestAdapter/Kassa24</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_SHOP</SenderComponentID>
+        <InterfaceName>SI_availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training/shop/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</SenderPartyID>
+        <SenderComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_PO_CREATE_DEMO</InterfaceName>
+        <InterfaceNamespace>urn:potesting.com:retake:ljubic/soap2sftp</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Test_LockBeforeReading</SenderComponentID>
+        <InterfaceName>SI_OA_LockBeforeReading</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/LockBeforeRading</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OS_ProductDelete</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_OS_PostProduct</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/FruitShop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OUT_availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training/shop_availabilityRequest/Jaeger</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_F2F_CUST_GLOBAL_SXH</SenderPartyID>
+        <SenderComponentID>BS_F2F_CUST_SYSTEM</SenderComponentID>
+        <InterfaceName>SI_OUT_F2F_CUST_CREATE_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/course/file2file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_JDBC_TO_SFTP_SOURCE_TO_TARGET_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_J2SFTP_SOURCE_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/J2SFTP/WorkersUpdate_to_FILE</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SYSTEM_A</SenderComponentID>
+        <InterfaceName>SI_OA_CustomerData</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/sandbox</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_HOCM_F2F_SOURCE</SenderPartyID>
+        <SenderComponentID>BS_HOCM_F2F_SOURCE</SenderComponentID>
+        <InterfaceName>SI_OUT_PO_CREATE_DEMO</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/hocmpg1/file2fileinterface</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Kinold</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:shop:Kinold</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OA_PDFAttachment</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/PDFAttachment</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_MARGREFF</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/margreff</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_OI_AvailabilityRequest_rati</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training/shop/availability_request/rati2</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_OA_Hamburg_Arrivals_Rest</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/PO/Hamburg_Flugdaten_rati</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_READERSPARADISE_HOCEVARM</SenderComponentID>
+        <InterfaceName>SIOA_PurchaseOrder</InterfaceName>
+        <InterfaceNamespace>urn:readersparadise.com:scm:procurement:erp</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OUT_fruitshop4_2</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/fruitshop/shop/4</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Herrmannsdoerfer</SenderComponentID>
+        <InterfaceName>ValueMappingReplicationOut</InterfaceName>
+        <InterfaceNamespace>http://sap.com/xi/XI/System</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_IFTT</SenderComponentID>
+        <InterfaceName>dummy2</InterfaceName>
+        <InterfaceNamespace>dummy2</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BAHNTICKETING_SHOP_WICK</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/schulung1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_MagentoWebShop_DEV</SenderComponentID>
+        <InterfaceName>SI_OUT_Magento_Customer</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Magento/Customer03</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_BS_GEOERGUEZEL_DOGI</SenderComponentID>
+        <InterfaceName>SI_GeoRequestServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/erguezel/georequest/DOGI</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>ERP_ECC_800_TP_GLOBAL_GROBINL</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/F2F/SupplierPayments/grobinl</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_SHOP</SenderComponentID>
+        <InterfaceName>SI_OI_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RDS</SenderComponentID>
+        <InterfaceName>OA_RDS_Showcase</InterfaceName>
+        <InterfaceNamespace>urn:dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_ERP_MAXX</SenderComponentID>
+        <InterfaceName>SI_IA_mitarbeiterdaten_send</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/mitarbeiterdaten</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_WS</SenderComponentID>
+        <InterfaceName>SIOS_Ord_SOAP</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/Sid/IFTT</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</SenderComponentID>
+        <InterfaceName>SI_OI_availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Smiezewski</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_EXT</SenderComponentID>
+        <InterfaceName>SI_OB_GeoCode</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RestAdapter_Test</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_EDI_ANSI_850_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/edi/ansi</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OA_shop_request_RD</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/fruitshop/shop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_OS_AddProduct_rati</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/Fruitshop_rati</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_RESTAPI_SENDER_SYSTEM</SenderComponentID>
+        <InterfaceName>SI_NE_RESTAPI_SENDER</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:RESTAPI:REST2SFTP:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>SI_OA_TweetMessage</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/BuchScenario/SupplierOrder</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_JavaMapping_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_zweiteUebung_Musterloesung</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/JavaMapping/Musterloesungen/ZweiteUebung</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BAHNTICKET_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_TEST_REST</SenderComponentID>
+        <InterfaceName>SI_GetToken_Async</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/REST/LOOKUP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_SHOP</SenderComponentID>
+        <InterfaceName>SI_OB_SOAP2FILE</InterfaceName>
+        <InterfaceNamespace>urn:http://realcore.de/WORKSHOP/NWDS/SOAP2File</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_TestClient</SenderComponentID>
+        <InterfaceName>SI_OS_Loopback</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/po/intern/tools/loopback</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Erguezel</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:intelligence.de/eai_training/shop/erguezel</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_EXT</SenderComponentID>
+        <InterfaceName>SI_OS_BPMOData_ProcessCollection</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/ODataServices/BPMODATA/ProcessCollection</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BAHNTICKET_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Playroom_Burchardt</SenderComponentID>
+        <InterfaceName>SI_OA_CustomerData</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/sandbox</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_SYNC_SERIAL_H2H_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/H2H/GetSerialNumber</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_MTE_Beispiel_Rechnung_BPM_FinalTest</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/FinalTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModul_Tiryaki</SenderComponentID>
+        <InterfaceName>CC_STEP1_FILESHARE_SFTP_TO_NFS_DUMMY</InterfaceName>
+        <InterfaceNamespace>CC_STEP1_FILESHARE_SFTP_TO_NFS_DUMMY</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_CPI_ErnstingsFamily</SenderComponentID>
+        <InterfaceName>ORDERS05</InterfaceName>
+        <InterfaceNamespace>http://ernstings.family/orders/dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>SI_availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Kuecuek</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_POTRAINING_F2F_CUST_GLOBAL_SOURCE_LJUBIC</SenderPartyID>
+        <SenderComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_PO_CREATE_DEMO</InterfaceName>
+        <InterfaceNamespace>urn:potesting.com:retake:ljubic/soap2sftp</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_WS_S2S_Sender_SIMONI</SenderComponentID>
+        <InterfaceName>SI_Country_WebService_S2S_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RC/RS/Course/SOAP2SOAP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>IFTT_Test_Sender</SenderComponentID>
+        <InterfaceName>ORDERS.ORDERS05</InterfaceName>
+        <InterfaceNamespace>urn:sap-com:document:sap:idoc:messages</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_OS_DeleteProduct</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/FruitShop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OA_shop_request_Mail</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/fruitshop/shop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_MTE_Beispiel_Ausgang_Rechnung_BPM</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/BPM</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_RH2_240</SenderComponentID>
+        <InterfaceName>ARTMAS.ARTMAS09</InterfaceName>
+        <InterfaceNamespace>urn:sap-com:document:sap:idoc:messages</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Bahnticketing_Shop_Altiner</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOP_EAI_ZaidAbou</SenderComponentID>
+        <InterfaceName>SI_salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/ZaidAbou</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>SI_OA_SalesOrder_BRM</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/BuchScenario/SupplierOrder</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_EXT</SenderComponentID>
+        <InterfaceName>GetFactSheets_Out_SI</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RestAdapter_Test</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Employees_Sync_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/rest/northwind/orders</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_EXT</SenderComponentID>
+        <InterfaceName>GetToken_OS</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RestAdapter_Test</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_IFTT</SenderComponentID>
+        <InterfaceName>dummy</InterfaceName>
+        <InterfaceNamespace>dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_OS_deleteProduct_rati</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/Fruitshop_rati</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_RH2_240</SenderComponentID>
+        <InterfaceName>SIOA_Ord_Proxy</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/Sid/IFTT</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>SI_OA_Mail_ProductRequest</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Fruitshop1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_E1_AM_SENDER_LJUBIC</SenderComponentID>
+        <InterfaceName>MI_AA_E1_AM</InterfaceName>
+        <InterfaceNamespace>http://castdemy.com/adaptermodule/e1/ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_IcoReplication_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/aldi/paydesk</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_GetProductByID</InterfaceName>
+        <InterfaceNamespace>um:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_II_EZBexchange</InterfaceName>
+        <InterfaceNamespace>urn:EZBexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_OS_SOAP_rati</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/Fruitshop_rati</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_TOREST</SenderComponentID>
+        <InterfaceName>SI_delete_request_out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/delete2rest/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>RLC_BS_RA1_800</SenderComponentID>
+        <InterfaceName>ZBAPI_COMPANY_GETDETAIL</InterfaceName>
+        <InterfaceNamespace>urn:sap-com:document:sap:rfc:functions</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_SOAP_Sender_Currencys</SenderComponentID>
+        <InterfaceName>SIOS_Currencys_SOAP</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:RESTAPI:SOAP2REST_GET:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Herrmannsdoerfer</SenderComponentID>
+        <InterfaceName>SI_OA_Buchungsdaten</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/herrmannsdoerfer</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OS_PostProduct</InterfaceName>
+        <InterfaceNamespace>um:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Calculator_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/soap/attachment</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_LJUBIC_SENDER_SYSTEM_UPDATE</SenderComponentID>
+        <InterfaceName>SI_REQUEST</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:SOAP2REST_UPDATE:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_EDI_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/edi/ansi</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_LJUBIC_SENDER_SYSTEM_POST</SenderComponentID>
+        <InterfaceName>SI_OUT_PostProduct_LJUBIC</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:SOAP2REST_POST:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_WS</SenderComponentID>
+        <InterfaceName>SIOA_Ord_SOAP</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/Sid/IFTT</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OA_ECBExchange</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/ecbexchange</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>SAP_CRM_PRD_CLNT001</SenderComponentID>
+        <InterfaceName>SI_OS_CustomerDataRequest</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/sandbox</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_F2F_CUST_GLOBAL_IR</SenderPartyID>
+        <SenderComponentID>BS_F2F_CUST_SYSTEM</SenderComponentID>
+        <InterfaceName>SI_OUT_F2F_CUST_IR_CREATE</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/ir/course/file2file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_ERP</SenderComponentID>
+        <InterfaceName>SIOA_Ord</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/Sid</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Orders_Sync_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/rest/northwind/orders</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModul_Tiryaki</SenderComponentID>
+        <InterfaceName>Dummy</InterfaceName>
+        <InterfaceNamespace>Dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OA_Fruitshop</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_WS_S2S_Sender</SenderComponentID>
+        <InterfaceName>SI_Country_WebService_S2S_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/ir/course/country/soap2soap</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_BANK_CITYBANK_SXH</SenderPartyID>
+        <SenderComponentID>CO_BANK_CITYBANK_SXH</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_F2F_SOURCE_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TechiePresss/file2file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schultz_Test_Tegut</SenderComponentID>
+        <InterfaceName>Tegut_articles_Dummy</InterfaceName>
+        <InterfaceNamespace>DummyNamespace</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_EAI_Fruitshop</SenderComponentID>
+        <InterfaceName>SI_Produkte</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_INTERFACEDEMO_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUTBOUND_DUMMY_INTERFACE_HOCEVARM</InterfaceName>
+        <InterfaceNamespace>http://pocasts.com/interfacedemo/jm/firstmap/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>FILE2FILE</SenderComponentID>
+        <InterfaceName>SI_AO_F2F</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:FILE_TO_FILE:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_II_toMail</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/toMail</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_LJUBIC_RESTAPI_SENDER_SYSTEM</SenderComponentID>
+        <InterfaceName>SI_SOAP_TO_REST</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:RESTAPI:SOAP2REST:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>SI_OA_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OI_SYNC_availabilityRequest</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training_shop/wick</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Jaeger</SenderComponentID>
+        <InterfaceName>SI_OA_shop_request</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/fruitshop/shop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_FIL_NRW_PRD</SenderComponentID>
+        <InterfaceName>SI_OA_WarenBew</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Inventory</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID>BS_Central_DE_PRD</ReceiverComponentID>
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>SI_OA_ProductRequest</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Fruitshop1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>RLC_BC_CSharp_Multitool</SenderComponentID>
+        <InterfaceName>SI_OI_SystemStatus</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/LernpaketPICS001/IF02/ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_ENHANCEDMONITORING_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_Data_OUT</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/AP/ENHANCEDMONITORING</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_CSharpMultitoolSender</InterfaceName>
+        <InterfaceNamespace>https://realcore.de/pi/LernpaketPICS001/IF02/CSharpClient_SP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_jose</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:eai_training:shop:jose</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_EAI_Fruitshop</SenderComponentID>
+        <InterfaceName>SI_OS_Produkt_Delete</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Herrmannsdoerfer</SenderComponentID>
+        <InterfaceName>SI_OA_FilenameTest_CH</InterfaceName>
+        <InterfaceNamespace>urn:namespace</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_SFTP</SenderComponentID>
+        <InterfaceName>SIOA_Diskcon</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/Sid/IFTT</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schultz_Test_Tegut</SenderComponentID>
+        <InterfaceName>SI_OA_Artikelliste</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/sandbox/Tegut</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_OS_AvailabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training/shop/Wohlmacher</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_RESTAPI_SENDER_SYSTEM</SenderComponentID>
+        <InterfaceName>SI_NONEXISTS_RESTAPI_HOCEVARM</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/restapi/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>SI_OA_Customer_OUT</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Magento/Customer</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_OS_GetProductId</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/FruitShop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_MANI_sender</SenderComponentID>
+        <InterfaceName>SI_OUT_BetrieblicheFunktion</InterfaceName>
+        <InterfaceNamespace>urn:evnat:sapcore:personalstammO</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_Khalil</SenderPartyID>
+        <SenderComponentID>BC_SOAP_SERVICE</SenderComponentID>
+        <InterfaceName>SI_OUTBOUND_CURRENCY</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:RCMO_training_Khalil</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Rechner</SenderComponentID>
+        <InterfaceName>SI_Taschenrechner_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Taschenrechner</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>si_file</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/uebung/file_to_jdbc</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>P_DE_01_GES</SenderPartyID>
+        <SenderComponentID>BC_VST</SenderComponentID>
+        <InterfaceName>SI_OB_Satzart</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Tanja_Test</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Customer</SenderComponentID>
+        <InterfaceName>SI_OB_customer</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/sandbox/bauch</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OI_Produkt</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/GUERKAN</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RESTAPI_SENDER_TO_RECEIVER_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_NONEXISTS_RESTAPI_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/restapi/http2rest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_XX</SenderComponentID>
+        <InterfaceName>SI_OI_availabilityRequest</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training_shop/XX</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OS_ProductPost</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Kinold</SenderComponentID>
+        <InterfaceName>SI_OI_FlatFile</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/FileContentConversion/kinold</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_SCHULUNG_STORK_A</SenderComponentID>
+        <InterfaceName>dummy</InterfaceName>
+        <InterfaceNamespace>dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_EXT</SenderComponentID>
+        <InterfaceName>SI_OS_IChannelAdmin</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/CommunicationChannels/Admin</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_ORDER_CREATE_SOURCE</SenderPartyID>
+        <SenderComponentID>BS_ORDER_CREATE_SOURCE</SenderComponentID>
+        <InterfaceName>SI_OUT_ORDER_CREATE</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/soap2sftp</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_Files_In</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/Filemapping</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_Sender_Smiezewski</SenderComponentID>
+        <InterfaceName>SI_Outbound_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/Smiezewski</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>RLC_BS_PI_Azubi_Schulung</SenderComponentID>
+        <InterfaceName>RLC_SI_OB_Bestellung_RQ</InterfaceName>
+        <InterfaceNamespace>Urn:realcore.de/xi/Schulung/Bestellung/RQ</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_JDBC_J2M_SOURCE_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/JDBC2MAIL</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_RESTAPI_SENDER_SYSTEM_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_NONEXISTS_RESTAPI_EXAMPLE1_HOCEVARM</InterfaceName>
+        <InterfaceNamespace>https://pocast.com/restapi/rest2ftp/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_SOAP2FILE_SENDER_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_AO_SOAP2FILE_LJUBIC</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:SOAP_TO_FILE:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Kinold</SenderComponentID>
+        <InterfaceName>SI_OI_EcbExchanges</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Pollen/Uebung/kinold</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_FF</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/FF</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_II_FileContentConversion</InterfaceName>
+        <InterfaceNamespace>urn:intelligence.de/FileContentConversion</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_ENGINE_JAVA_RO2</SenderComponentID>
+        <InterfaceName>SI_OA_Files</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/po/dummy/file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_JavaMapping_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_ersteUebung_Musterloesung</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/JavaMapping/MusterloesungenErsteUebung</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>ERP_ECC_800_TP_GLOBAL_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/F2F/SupplierPayments/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_DeleteProduct</InterfaceName>
+        <InterfaceNamespace>um:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>SAP_CRM_PRD_CLNT001</SenderComponentID>
+        <InterfaceName>SI_OA_CustomerData</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/sandbox</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>RLC_BS_ABRECHNUNG</SenderComponentID>
+        <InterfaceName>SI_OA_InvoiceMagento</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Magento/Invoices</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_Rati2</SenderComponentID>
+        <InterfaceName>SI_IO_Produkte_Sender_rati</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/Fruitshop_rati</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_XX</SenderComponentID>
+        <InterfaceName>SI_II_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_HOCEVARM_SHOP</SenderComponentID>
+        <InterfaceName>SI_OB_file1</InterfaceName>
+        <InterfaceNamespace>urn:http://realcore.de/WORKSHOP/NWDS/File2File</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_ljubic_SHOP</SenderComponentID>
+        <InterfaceName>SI_OI_availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:shop:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>Concur</SenderPartyID>
+        <SenderComponentID>BC_Concur</SenderComponentID>
+        <InterfaceName>SI_OA_VendorData</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Tanja_Test</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_BPM_Sender</SenderComponentID>
+        <InterfaceName>SI_ABS_Simple_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/bpm/simple</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID>PY_F2F_CLNT_GLOBAL_BL</SenderPartyID>
+        <SenderComponentID>BS_CLNT_SYSTEM_BR</SenderComponentID>
+        <InterfaceName>SI_OUT_F2F_CLNT_BL</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/BL/course/file2file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_DTKasseInput_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/aldi/javamapping</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_FILE2FILE_SENDER_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_F2F_POCAST_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://pocasts.com/interfacedemo/file2file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BC_LJUBIC_SENDER_SYSTEM_DELETE</SenderComponentID>
+        <InterfaceName>SI_OUTBOUND_deleteProduct_LJUBIC</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:SOAP2REST_DELETE:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <IntegratedConfigurationID>
+        <SenderPartyID />
+        <SenderComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</SenderComponentID>
+        <InterfaceName>SI_OA_SOAP_ProductPost</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Fruitshop3</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfigurationID>
+      <LogMessageCollection />
+    </ns1:IntegratedConfigurationQueryResponse>
+  </ns0:Body>
+</ns0:Envelope>

@@ -1,0 +1,3641 @@
+<ReadResponses xmlns:ns0="http://sap.com/xi/BASIS">
+  <ns0:ConfigurationScenarioReadResponse>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-06-28T10:52:13.936+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_IFM_TEST</ConfigurationScenarioID>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-29T12:56:51.825+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <ConfigurationScenarioID>CS_Schulung_JavaMapping_Musterloesung_dritteUebung</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+        <ChannelID>CC_SND_SFTP_Musterloesung_dritteUebung</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SFTP_Musterloesung_dritteUebung</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_JavaMapping_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_dritteUebung_Musterloesung</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/JavaMapping/Musterloesungen/DritteUebung</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-29T12:55:36.186+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Schulung_JavaMapping_Musterloesung_ersteUebung</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+        <ChannelID>CC_SND_SFTP_Musterloesung_ersteUebung</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SFTP_Musterloesung_ersteUebung</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_JavaMapping_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_ersteUebung_Musterloesung</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/JavaMapping/MusterloesungenErsteUebung</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-10-13T10:05:47.010+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_CheckPIChipherSuites</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+        <ChannelID>CC_SOAP_SND_ChipherSuiteTest</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+        <ChannelID>CC_SOAP_RCV_ChipherSuiteTest</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_SCHULUNG_STORK_A</SenderComponentID>
+        <InterfaceName>dummy</InterfaceName>
+        <InterfaceNamespace>dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-06-21T15:07:57.487+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Wechselkurs_Ripkens</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_RCV_JDBC_Wechselkurs</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SND_REST_Wechselkurs</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_IO_Envelope</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/Wechselkurs</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>tbauch</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>tbauch</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-02-04T14:08:36.338+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Satzarten</ConfigurationScenarioID>
+      <Party>P_DE_01_GES</Party>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Bauch</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>P_DE_01_GES</PartyID>
+        <ComponentID>BC_VST</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>P_DE_01_GES</PartyID>
+        <ComponentID>BC_VST</ComponentID>
+        <ChannelID>CC_SND_SFTP_Satzart</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Bauch</ComponentID>
+        <ChannelID>CC_RCV_FTP_Satzart</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID>P_DE_01_GES</SenderPartyID>
+        <SenderComponentID>BC_VST</SenderComponentID>
+        <InterfaceName>SI_OB_Satzart</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Tanja_Test</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>herrmann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>herrmann</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-02-21T09:13:22.368+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_FileManager</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Loopback</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_SND_SOAP_Loopback</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_ENGINE_JAVA_RO2</SenderComponentID>
+        <InterfaceName>SI_OS_FileManager</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/po/intern/tools/filemanager</InterfaceNamespace>
+        <ReceiverPartyID>*</ReceiverPartyID>
+        <ReceiverComponentID>*</ReceiverComponentID>
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>xhaferis</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>xhaferis</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-25T20:23:04.825+01:00</LastChangeDateTime>
+        <FolderPathID>/SKERDILAJD_XHAFERI/TP_F2F_EMAIL_NOTIFICATION/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_F2M_EMAIL_NOTIFICATION_SXH</ConfigurationScenarioID>
+      <Party>PY_TP_GLOBAL_SXH</Party>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_SXH</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>PY_TP_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_TP_GLOBAL_SXH</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_SXH</ComponentID>
+        <ChannelID>CC_FILE_SHOPFLOOR_SENDER_SXH</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_TP_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_TP_GLOBAL_SXH</ComponentID>
+        <ChannelID>CC_EMAIL_TP_RECEIVER_SXH</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_SXH</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_F2M_SOURCE_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TechiePresss/file2MAIL</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>DE</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>niermann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>niermann</LastChangeUserAccountID>
+        <LastChangeDateTime>2017-01-16T13:46:26.845+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>GeneratedFolder_bdd53f2edbe911e6951e00000026b8b2</ConfigurationScenarioID>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>alamim</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>alamim</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-05-23T22:44:19.548+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Manar</ConfigurationScenarioID>
+      <Party>Party_Manar_A</Party>
+      <BusinessSystem>
+        <PartyID>Party_Manar_A</PartyID>
+        <ComponentID>BS_RCM_PI_Manar</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>CC_Manar_PI</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>CC_Manar_PI</ComponentID>
+        <ChannelID>CC_Sender_Manar_PI</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>CC_Manar_PI</ComponentID>
+        <ChannelID>CC_receiver_Manar_PI</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>CC_Manar_PI</SenderComponentID>
+        <InterfaceName>MT_Get_Customer_Manar</InterfaceName>
+        <InterfaceNamespace>http://Realcore.de/Manar</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>altiner</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>altiner</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-12-15T14:45:30.799+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <ConfigurationScenarioID>CS_Calculator</ConfigurationScenarioID>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-23T14:48:05.212+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/UDEMY/SFTP2MAIL_EMAIL_NOTIFICATION/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_SFTP2MAIL_EMAIL_NOTIFICATION_LJUBIC</ConfigurationScenarioID>
+      <Party>PY_TP_GLOBAL</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_SFTP_SHOPFLOOR_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+        <ChannelID>CC_EMAIL_TP_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannel>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-02-11T12:11:51.293+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Schulung_Ripkens</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Ripkens</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Ripkens</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Ripkens</ComponentID>
+        <ChannelID>CC_SND_SOAP_Ripkens</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Ripkens</ComponentID>
+        <ChannelID>CC_RCV_SOAP_RIPKENS</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_Sender_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OB_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/Ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wick</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wick</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-04-13T09:39:31.834+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_BAHNTICKETING_BOOKING_WICK</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKETING_SHOP_WICK</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_WICK</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_WICK</ComponentID>
+        <ChannelID>CC_FILE_RCV_Booking</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKETING_SHOP_WICK</ComponentID>
+        <ChannelID>CC_SOAP_SND_Bahnticketing</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_BAHNTICKETING_SHOP_WICK</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/schulung1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-17T08:55:38.313+01:00</LastChangeDateTime>
+        <FolderPathID>/HOCEVARM/TECHIEPRESS_HOCEVARM/H2H_GET_SERIAL_NUMBER/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_H2H_GET_SERIAL_NUMBER_HOCEVARM</ConfigurationScenarioID>
+      <Party>PY_CUST_APPLE_GLOBAL_HOCEVARM</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_CUST_APPLE_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>BS_CUST_APPLE_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_SENDER_SYSTEM_HOCEVARM</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_RECEIVER_SYSTEM_HOCEVARM</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_RECEIVER_SYSTEM_HOCEVARM</ComponentID>
+        <ChannelID>CC_FTP_RECEIVER_RESTAPI_EXAMPLE1_HOCEVARM</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_HTTP_GET_SERIAL_SF_TP_SENDER_HOCEVARM</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_SENDER_SYSTEM_HOCEVARM</ComponentID>
+        <ChannelID>CC_REST_SENDER_RESTAPI_EXAMPLE1_HOCEVARM</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_CUST_APPLE_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>BS_CUST_APPLE_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_HTTP_GET_SERIAL_APPLE_RECEIVER_HOCEVARM</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUT_SYNC_SERIAL_H2H_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/H2H/GetSerialNumber/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-04-07T18:23:01.966+02:00</LastChangeDateTime>
+        <FolderPathID>/Muni/Attachment/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Muni_Attachment</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SOAP_Attachment_SND</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_Attachment_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_Passthrough_RCV</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Calculator_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/soap/attachment</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>siddhardha</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>siddhardha</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-05-05T23:39:22.652+02:00</LastChangeDateTime>
+        <FolderPathID>/Sid/PIT/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_PIT</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_ERP</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_ERP</ComponentID>
+        <ChannelID>CC_Order_SOAP_Sender</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+        <ChannelID>CC_Order_SFTP_Receiver</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_ERP</SenderComponentID>
+        <InterfaceName>SIOA_Ord</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/Sid</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-11-18T15:26:27.536+01:00</LastChangeDateTime>
+        <FolderPathID>/Muni/Aldi/From/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_KasseInput_to_Generic</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_RecordType03_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_RecordType02_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SFTP_KassenInput_SND</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_Generic_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_RecordType01_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>Tset</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_DTKasseInput_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/aldi/javamapping</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>habbablj</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>habbablj</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-02-24T23:17:49.842+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_HTTPtoFile</ConfigurationScenarioID>
+      <Party>Party_BIT100</Party>
+      <BusinessSystem>
+        <PartyID>Party_BIT100</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+      </BusinessSystem>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>malensek</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>malensek</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-03-03T08:51:32.564+01:00</LastChangeDateTime>
+        <FolderPathID>/MALENSEKM/TECHIEMAJ/F2F_SUPPLIER_PAYMENTS_MALENSEK/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_F2F_SUPPLIER_PAYMENTS_MALENSEKM</ConfigurationScenarioID>
+      <Party>PY_BANK_CITIBANK_GLOBAL_MALENSEKM</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_MALENSEKM</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_MALENSEKM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_MALENSEKM</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_MALENSEKM</ComponentID>
+        <ChannelID>CC_FILE_TECHIMAJ_SENDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_MALENSEKM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_MALENSEKM</ComponentID>
+        <ChannelID>CC_FILE_CITIBANK_RECEIVER</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>ERP_ECC_800_TP_GLOBAL_MALENSEKM</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiemaj.com/F2F/SupplierPayment</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-11T12:49:14.639+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Tegut_Test</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_FILE_TEGUT_TEST</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_SND_FILE_TEGUT_TEST</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModulTest</SenderComponentID>
+        <InterfaceName>SI_OA_Tegut_Satzarten</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Satzarten/Tegut</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>tbauch</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>tbauch</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-03-19T13:28:05.402+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_VendorData</ConfigurationScenarioID>
+      <Party>Concur</Party>
+      <BusinessComponent>
+        <PartyID>Concur</PartyID>
+        <ComponentID>BC_Concur</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>Concur</PartyID>
+        <ComponentID>BC_Concur</ComponentID>
+        <ChannelID>CC_SND_SOAP_VendorData</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>Concur</PartyID>
+        <ComponentID>BC_Concur</ComponentID>
+        <ChannelID>CC_RCV_SFTP_Concur_VendorData</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID>Concur</SenderPartyID>
+        <SenderComponentID>BC_Concur</SenderComponentID>
+        <InterfaceName>SI_OA_VendorData</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Tanja_Test</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-06-07T13:12:19.891+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_FruitShop_Ripkens</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_REST_SND_Products</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_REST_RCV_Produkt_Delete</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_MAIL_RCV_Produkt</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_REST_RCV_Produkt</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SOAP_SND_POST_Produkt</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_FILE_RCV_Products</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SOAP_SND_Produkt_Delete</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_REST_RCV_POST_Produkt</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SOAP_SND_Produkt</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OS_Produkt_Delete</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_Produkte</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OS_Produkt_Post</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OI_Produkt</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-01-08T08:42:10.534+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_API_MNGT_REST_FruitShop_getProducts</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+      </BusinessSystem>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_A</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+        <ChannelID>CC_REST_RCV_API_MNGT_FruitShop_getProducts</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_A</ComponentID>
+        <ChannelID>CC_REST_SND_API_MNGT_FruitShop_getProducts</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_SYSTEM_A</SenderComponentID>
+        <InterfaceName>SI_OS_FruitShop_getProducts</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/fruitshop/dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>siddhardha</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>siddhardha</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-05-05T23:42:30.075+02:00</LastChangeDateTime>
+        <FolderPathID>/Sid/Directory_API/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_DirectoryAPI</ConfigurationScenarioID>
+      <Party>P_DE_06_044</Party>
+      <Party>P_DE_05_044</Party>
+      <Party>P_DE_06_045</Party>
+      <Party>P_DE_05_045</Party>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_ERP</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_PI</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>P_DE_06_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>P_DE_06_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>P_DE_05_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>P_DE_05_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_PI</ComponentID>
+        <ChannelID>CC_SOAP_LOOKUP_Dir_API_ChangeListInImplBean</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>P_DE_06_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Receiver</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+        <ChannelID>CC_DirectoryAPI_Sender</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>P_DE_05_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Sender</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+        <ChannelID>CC_DirectoryAPI_Receiver</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>P_DE_05_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Receiver</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>P_DE_05_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Sender</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>P_DE_06_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Sender</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>P_DE_06_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Receiver</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_PI</ComponentID>
+        <ChannelID>CC_SOAP_LOOKUP_Dir_API_CommunicationChannelInImplBean</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>P_DE_05_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Receiver</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_PI</ComponentID>
+        <ChannelID>CC_SOAP_LOOKUP_Directory_API</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>P_DE_06_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Sender</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_ERP</ComponentID>
+        <ChannelID>CC_DirectoryAPI_Sender</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_ERP</SenderComponentID>
+        <InterfaceName>SIOA_DirectoryAPI_Sender</InterfaceName>
+        <InterfaceNamespace>http://aldi-nord.de/ERP/DirectoryAPI</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>guerkan</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>guerkan</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-04-06T11:21:06.706+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_ENHANCEDMONITORING_GUERKAN</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_ENHANCEDMONITORING_GUERKAN</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_ENHANCEDMONITORING_MAILSERVER</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_ENHANCEDMONITORING_GUERKAN</ComponentID>
+        <ChannelID>CC_REST_SND_DATA</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_ENHANCEDMONITORING_MAILSERVER</ComponentID>
+        <ChannelID>CC_MAIL_RCV_HtmlData</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_ENHANCEDMONITORING_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_Data_OUT</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/AP/ENHANCEDMONITORING</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-08-25T09:28:30.655+02:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/POTRAINING_LJUBIC/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_POTRAINING_SOAP_2_SFTP_DEMO_LJUBIC</ConfigurationScenarioID>
+      <Party>PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC</Party>
+      <Party>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</Party>
+      <BusinessComponent>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC</ComponentID>
+        <ChannelID>CC_SFTP_POTRAIN_SOAP_2_SFTP_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</ComponentID>
+        <ChannelID>CC_SOAP_POTRAIN_SOAP_2_SFTP_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</SenderPartyID>
+        <SenderComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_PO_CREATE_DEMO</InterfaceName>
+        <InterfaceNamespace>urn:potesting.com:retake:ljubic/soap2sftp</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-09T12:05:03.278+02:00</LastChangeDateTime>
+        <FolderPathID>/Muni/B2B/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Muni_B2B_ANSI_850</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_EDISeperator_ANSI_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_ANSI_850_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SFTP_ANSI_SND</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_EDISeperator_ANSI_850_SND</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_EDI_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/edi/ansi</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_EDI_ANSI_850_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/edi/ansi</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-11-28T09:39:11.366+01:00</LastChangeDateTime>
+        <FolderPathID>/Muni/Aldi/From/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_IcoReplication</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_RCV001</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_RCV001</ComponentID>
+        <ChannelID>CC_SFTP_IcoReplication_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SOAP_IcoReplication_SND</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_RCV001</ComponentID>
+        <ChannelID>CC_Proxy_IcoReplication_SND</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_IcoReplication_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/aldi/paydesk</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-29T12:56:56.178+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <ConfigurationScenarioID>CS_Schulung_JavaMapping_Musterloesung_zweiteUebung</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+        <ChannelID>CC_SND_SFTP_Musterloesung_zweiteUebung</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SFTP_Musterloesung_zweiteUebung</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_JavaMapping_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_zweiteUebung_Musterloesung</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/JavaMapping/Musterloesungen/ZweiteUebung</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-10T09:06:54.707+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/UDEMY/S2S_GET_SERIAL_NUMBER/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>S2S_GET_SERIAL_NUMBER</ConfigurationScenarioID>
+      <Party>PY_CUST_APPLE_GLOBAL</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_CUST_APPLE_GLOBAL</PartyID>
+        <ComponentID>BS_CUST_APPLE_GOBAL</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>PY_CUST_APPLE_GLOBAL</PartyID>
+        <ComponentID>BS_CUST_APPLE_GOBAL</ComponentID>
+        <ChannelID>CC_SOAP_SERIAL_APPLE_RECEIVER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_SERIAL_TP_SENDER</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_SYNC_SERIAL_S2S_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/S2S/GetSerialNumber</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>riesener</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>riesener</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-08-27T07:12:55.424+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_XML_JSON_CONF_Checker</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_SND_SOAP_xml_for_json_conversion</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_RCV_REST_converted_JSON</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_ENGINE_JAVA_RO2</SenderComponentID>
+        <InterfaceName>RLC_OI_XML</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/po/xml/json/conversion</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>guerkan</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>guerkan</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-07-20T12:12:24.845+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_FRUITSHOP_GUERKAN</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_GetProductlist</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_SOAP_GetProductByID</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_GetProductByID</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_SOAP_GetProductlist</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_SOAP_PostProduct</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_SOAP_DeleteProduct</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_DeleteProduct</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_PostProduct</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_GetProductByID</InterfaceName>
+        <InterfaceNamespace>um:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OS_PostProduct</InterfaceName>
+        <InterfaceNamespace>um:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_DeleteProduct</InterfaceName>
+        <InterfaceNamespace>um:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_GetProductList</InterfaceName>
+        <InterfaceNamespace>um:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wohlmacher</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wohlmacher</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-02-18T11:17:16.467+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Bahnticketing_WOHLMACHER</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_WOHLMACHER</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_WOHLMACHER</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_WOHLMACHER</ComponentID>
+        <ChannelID>CC_FILE_RCV_Booking</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SOAP_SND_BahnTicket</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_BAHNTICKET_SHOP_WOHLMACHER</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>niermann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>niermann</LastChangeUserAccountID>
+        <LastChangeDateTime>2017-08-27T16:27:54.694+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_BuchSezenario_ERPBestellung</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>CC_SOAP_Receiver_LiefernatWebService</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>CC_IDOC_SND_Standard</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>ORDERS.ORDERS05</InterfaceName>
+        <InterfaceNamespace>urn:sap-com:document:sap:idoc:messages</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-03-24T12:52:43.241+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Schulung_SHOP_Ripkens</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SND_File_ContentConversion</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_RCV_File_ContentConversion</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>salesOrderServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kuecuek</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kuecuek</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T12:32:46.451+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_TRAINING_KUECUEK</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+      </BusinessSystem>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_FILE_RCV_SALESORDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_snd_file_salesOrder</ChannelID>
+      </CommunicationChannel>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-02T13:23:03.564+02:00</LastChangeDateTime>
+        <FolderPathID>/Muni/Northwind_Orders/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <ConfigurationScenarioID>CS_Muni_Northwind_Orders</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_REST_Northwind_Orders_SND</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_REST_Northwind_Orders_RCV</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Orders_Sync_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/rest/northwind/orders</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-08-30T10:34:56.863+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <ConfigurationScenarioID>CS_POTRAINING_F2F_LJUBIC</ConfigurationScenarioID>
+      <Party>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</Party>
+      <Party>PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC</Party>
+      <BusinessComponent>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC</ComponentID>
+        <ChannelID>CC_SFTP_POTRAIN_SOAP_2_SFTP_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</ComponentID>
+        <ChannelID>CC_SOAP_POTRAIN_SOAP_2_SFTP_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID>PY_POTRAINING_F2F_CUST_GLOBAL_SOURCE_LJUBIC</SenderPartyID>
+        <SenderComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_PO_CREATE_DEMO</InterfaceName>
+        <InterfaceNamespace>urn:potesting.com:retake:ljubic/soap2sftp</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>herrmann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>herrmann</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-12-20T09:26:08.074+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_FilesWithAttachments</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_SND_FILE_TestWithAttachments</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_RCV_FILE_TestWithAttachments</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_ENGINE_JAVA_RO2</SenderComponentID>
+        <InterfaceName>SI_OA_Files</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/po/dummy/file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-06-04T13:57:13.157+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_SCHULUNG_REST_STORK</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_B</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+        <ChannelID>CC_SOAP_SND_ProductRequest</ChannelID>
+      </CommunicationChannel>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>smiezewski</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>smiezewski</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-02-11T12:11:06.092+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Schulung_Smiezewski</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Smiezewski</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Smiezewski</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Smiezewski</ComponentID>
+        <ChannelID>CC_SND_SOAP_Smiezewski</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Smiezewski</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Smiezewski</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_Sender_Smiezewski</SenderComponentID>
+        <InterfaceName>SI_Outbound_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/Smiezewski</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>spiechota</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>spiechota</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-02-11T12:09:44.350+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Schulung_Piechota</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Piechota</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Piechota</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Piechota</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Schulung_Piechota</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Piechota</ComponentID>
+        <ChannelID>CC_SND_SOAP_Schulung_Piechota</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Schulung_Sender_Piechota</SenderComponentID>
+        <InterfaceName>SI_OB_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung/Piechota</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wick</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wick</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-06-08T09:11:29.581+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Reiseanfrage_Wick</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_UEBUNG_WICK</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_UEBUNG_WICK</ComponentID>
+        <ChannelID>CC_SOAP_SND_Reiseanfrage</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_UEBUNG_WICK</ComponentID>
+        <ChannelID>CC_FILE_RCV_Reiseanfrage</ChannelID>
+      </CommunicationChannel>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-11T12:48:09.604+01:00</LastChangeDateTime>
+        <FolderPathID>/HOCEVARM/TECHIEPRESS_HOCEVARM/J2J_WORKERS_UPDATE_HOCEVARM/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_J2J_WORKERS_UPDATE_HOCEVARM</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystem>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_JDBC_WU_TP_RECEIVER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_JDBC_WU_TP_SENDER</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_WU_J2J_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/J2J/WorkersUpdate/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-12T13:03:05.973+01:00</LastChangeDateTime>
+        <FolderPathID>/HOCEVARM/TECHIEPRESS_HOCEVARM/S2S_GET_SERIAL_NUMBER/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_S2S_GET_SERIAL_NUMBER_HOCEVARM</ConfigurationScenarioID>
+      <Party>PY_CUST_APPLE_GLOBAL_HOCEVARM</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_CUST_APPLE_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>BS_CUST_APPLE_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>PY_CUST_APPLE_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>BS_CUST_APPLE_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_SOAP_SERIAL_TP_RECIEVER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_SOAP_SERIAL_TP_SENDER</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUT_SYNC_SERIAL_S2S_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/S2S/GetSerialNumber/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-02-18T10:58:56.493+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_BAHNTICKET_BOOKING_RIPKENS</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_RIPKENS</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_RIPKENS</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_RIPKENS</ComponentID>
+        <ChannelID>CC_SOAP_SND_BahnTicket</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_RIPKENS</ComponentID>
+        <ChannelID>CC_FILE_RCV_Booking</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_BAHNTICKET_SHOP_RIPKENS</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung_Ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>aboukoura</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>aboukoura</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-10-10T12:30:34.444+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_BetrieblicheFunktion</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_MANI_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_MANI_sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MANI_Receiver</ComponentID>
+        <ChannelID>CC_RCV_BetrieblicheFunktion</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MANI_sender</ComponentID>
+        <ChannelID>CC_Sender_BetrieblicheFunktion</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_MANI_sender</SenderComponentID>
+        <InterfaceName>SI_OUT_BetrieblicheFunktion</InterfaceName>
+        <InterfaceNamespace>urn:evnat:sapcore:personalstammO</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>altiner</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>altiner</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-03-09T15:20:54.994+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_FRUITSHOP_ALTINER</ConfigurationScenarioID>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>erguezel</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>tbauch</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-02-19T13:39:39.936+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_GeoErguzel</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_BS_GEOERGUEZEL_DOGI</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Customer</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_BS_GEOERGUEZEL_DOGI</ComponentID>
+        <ChannelID>CC_sender_url_IPAdresse</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_BS_GEOERGUEZEL_DOGI</ComponentID>
+        <ChannelID>CC_receiver_url_Nation</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_BS_GEOERGUEZEL_DOGI</SenderComponentID>
+        <InterfaceName>SI_GeoRequestServiceOut</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/erguezel/georequest/DOGI</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <LogMessageCollection />
+  </ns0:ConfigurationScenarioReadResponse>
+  <ns0:ConfigurationScenarioReadResponse>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-07-01T08:57:44.638+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_PDFAttachment_Ripkens</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SND_File_PDFAttachment</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_RCV_File_PDFAttachment</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OA_PDFAttachment</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/PDFAttachment</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>niermann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>niermann</LastChangeUserAccountID>
+        <LastChangeDateTime>2017-08-27T15:33:19.612+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_BuchSzenarioBPM</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>cc_SOAP_Sender_ProzessStart</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>cc_SOAP_Receiver_ProzessStart</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>cc_SOAP_BRM_Receiver</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>SI_OA_TweetMessage</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/BuchScenario/SupplierOrder</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>SI_OA_SalesOrder_BRM</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/BuchScenario/SupplierOrder</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_BuchSzenario</SenderComponentID>
+        <InterfaceName>SI_OA_PurchaseOrder</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/BuchScenario/SupplierOrder</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-02T10:20:15.593+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Capacity_Loadbalancer</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>Z_BS_CAPACITY_ENT</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_DAISY_TRANS</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_DAISY_TRANS</ComponentID>
+        <ChannelID>CC_RCV_SOAP_DaisyTrans</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>Z_BS_CAPACITY_ENT</ComponentID>
+        <ChannelID>CC_SND_SOAP_Capacity</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>Z_BS_CAPACITY_ENT</SenderComponentID>
+        <InterfaceName>SI_OA_Capacity</InterfaceName>
+        <InterfaceNamespace>http://oge.com/pi/CAPACITY/netpoint</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-02-16T10:05:44.404+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_MeetTheExpert_BPM</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+        <ChannelID>CC_RCV_FILE_Endsystem</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+        <ChannelID>CC_SND_SOAP_RechnungsForward_BPM</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+        <ChannelID>CC_SND_SOAP_RechnungsInput</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Receive_Rechnung</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_Order_Send_PI</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/FinalTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_Order_Send_BPM</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/FinalTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wick</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wick</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-04-13T12:42:44.142+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_FRUITSHOP_FILESYSTEM_WICK</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_FILE_FILESYSTEM</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_REST_POLL_FRUITSHOP</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Wick</SenderComponentID>
+        <InterfaceName>SI_OA_Fruitshop</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/fruitshop</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>altiner</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>altiner</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-01-06T10:40:28.081+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <ConfigurationScenarioID>CS_Rechner</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Rechner_2</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Online_Rechner</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Online_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_RCV_CALC</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_RCV_ADD</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_SND_CALC</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_SND_ADD</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Rechner</SenderComponentID>
+        <InterfaceName>SI_Calculator_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Calculator</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Rechner</SenderComponentID>
+        <InterfaceName>SI_Taschenrechner_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Taschenrechner</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-02T21:43:08.016+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/F2F_SUPPLIERS_PAYMENTS/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN">Scenario for File to file SUPPLIERS PAYMENTS</Description>
+      <ConfigurationScenarioID>CS_F2F_SUPPLIERS_PAYMENTS</ConfigurationScenarioID>
+      <Party>PY_BANK_CITIBANK_GLOBAL</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_SENDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL</ComponentID>
+        <ChannelID>CC_FILE_CITIBANK_RECEIVER</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>ERP_ECC_800_TP_GLOBAL</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/F2F/SupplierPayments</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-12T08:02:18.603+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/UDEMY/JDBC_2_JDBC_WORKERS_UPDATE/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN">Scenario from J2J Connection Workers Update</Description>
+      <ConfigurationScenarioID>CS_J2J_WORKERS_UPDATE</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystem>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_WU_TP_SENDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_WU_TP_RECEIVER</ChannelID>
+      </CommunicationChannel>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>tbauch</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>tbauch</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-08-19T09:24:18.553+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_NielsenSalesStatistics</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_SalesStatistics</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_SalesStatistics</ComponentID>
+        <ChannelID>CC_SND_SOAP_SalesStatistics</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_SalesStatistics</ComponentID>
+        <ChannelID>CC_RCV_FTP_SalesStatistics</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_SalesStatistics</SenderComponentID>
+        <InterfaceName>SI_Statistics_OB</InterfaceName>
+        <InterfaceNamespace>http://aldi-nord.de/ERP/SalesStatistics</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-25T12:35:03.455+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_CustomerTransfer</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+      </BusinessSystem>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+        <ChannelID>CC_SOAP_SND_Customer</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+        <ChannelID>CC_FILE_SND_Customer</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+        <ChannelID>CC_FILE_Receiver_Customer</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_MagentoWebShop_DEV</SenderComponentID>
+        <InterfaceName>SI_OA_Customer01</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Magento/Customer</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-05-06T15:29:16.423+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Verfuegbarkeitspruefung_Ripkens</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_availabilityCheck</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/eai_training:shop/Ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-12T09:26:49.771+01:00</LastChangeDateTime>
+        <FolderPathID>/HOCEVARM/TECHIEPRESS_HOCEVARM/F2F_SUPPLIERS_PAYMENTS_HOCEVARM/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_F2F_SUPPLIERS_PAYMENTS_HOCEVARM</ConfigurationScenarioID>
+      <Party>PY_BANK_CITIBANK_GLOBAL_HOCEVARM</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_JDBC_TO_SFTP_SOURCE_TO_TARGET_LJUBIC</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL</ComponentID>
+        <ChannelID>CC_FILE_CITIBANK_RECEIVER_HOCEVARM</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_SENDER_HOCEVARM</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_FILE_CITIBANK_RECEIVER_HOCEVARM</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>ERP_ECC_800_TP_GLOBAL_HOCEVARM</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/F2F/SupplierPayments/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID>PY_BANK_CITIBANK_GLOBAL_HOCEVARM</SenderPartyID>
+        <SenderComponentID>CO_BANK_CITIBANK_GLOBAL</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/F2F/SupplierPayments/hocevarm</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>tbauch</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>tbauch</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-03-04T09:13:39.790+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Customer_TestFTP</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Customer</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Customer</ComponentID>
+        <ChannelID>CC_RCV_FTP_Customer</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Customer</ComponentID>
+        <ChannelID>CC_SND_SOAP_Customer</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Customer</SenderComponentID>
+        <InterfaceName>SI_OB_customer</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/sandbox/bauch</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-01-28T09:45:01.580+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_FinalTest</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+        <ChannelID>CC_RCV_FILE_Endsystem</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+        <ChannelID>CC_SND_SOAP_RechnungsForward_BPM</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+        <ChannelID>CC_SND_SOAP_RechnungsInput</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Receive_Rechnung</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_Order_Send_BPM</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/FinalTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_MTE_Sender</SenderComponentID>
+        <InterfaceName>SI_OA_Order_Send_PI</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/MeetTheExpert/FinalTest</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>grobin</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>grobin</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-03-01T13:37:38.199+01:00</LastChangeDateTime>
+        <FolderPathID>/GROBINL/TECHIEPRESS/(REST) F2F_SUPPLIERS_PAYMENTS_GROBINL/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_F2F_SUPPLIER_PAYMENTS_GROBINL</ConfigurationScenarioID>
+      <Party>PY_BANK_CITIBANK_GLOBAL_GROBINL</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_GROBINL</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_GROBINL</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_GROBINL</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_GROBINL</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_GROBINL</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_RECEIVER_GROBINL</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_GROBINL</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_SENDER_GROBINL</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>ERP_ECC_800_TP_GLOBAL_GROBINL</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_SP_F2F_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/F2F/SupplierPayments/grobinl</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>breuer</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>breuer</LastChangeUserAccountID>
+        <LastChangeDateTime>2025-02-20T15:33:29.411+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_RDS_Showcase</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_RDS</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_RDS</ComponentID>
+        <ChannelID>KK_HTTP_RDS_Showcase_SND</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_RDS</ComponentID>
+        <ChannelID>KK_SFTP_RDS_Showcase_RCV</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_RDS</SenderComponentID>
+        <InterfaceName>OA_RDS_Showcase</InterfaceName>
+        <InterfaceNamespace>urn:dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>plewka</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>herrmann</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-05-12T11:23:10.893+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_PI001_plewka_SecureFile_to_Base64</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+      </BusinessSystem>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_SFTP_Sender_Filemapping</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_SFTP_Receiver_Filemapping</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Loopback</ChannelID>
+      </CommunicationChannel>
+      <ReceiverAgreement>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>si_file</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/uebung/file_to_jdbc</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID>EAI_TRAINING_SHOP_SP</ReceiverComponentID>
+      </ReceiverAgreement>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_RC_EXT</SenderComponentID>
+        <InterfaceName>GetFactSheets_Out_SI</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RestAdapter_Test</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_OO_EZBexchanges</InterfaceName>
+        <InterfaceNamespace>urn:EZBexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_CSharpMultitoolSender</InterfaceName>
+        <InterfaceNamespace>https://realcore.de/pi/LernpaketPICS001/IF02/CSharpClient_SP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_XX</SenderComponentID>
+        <InterfaceName>SI_II_ECBEXCHANGES</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/exercise/ecbexchanges</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_Files_In</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/Filemapping</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-18T11:20:05.819+02:00</LastChangeDateTime>
+        <FolderPathID>/Muni/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Muni_Calculator</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SOAP_Calculator_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SOAP_Calculator_SND</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Calculator_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/soap/calc</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-10T09:59:58.759+02:00</LastChangeDateTime>
+        <FolderPathID>/Muni/BPM/Simple/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN">This is used to create simple bpm scenari, sending msg to bpm and receiving it back to pi</Description>
+      <ConfigurationScenarioID>CS_Muni_BPM_Simple</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_BPM_Sender</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_BPM_Receiver</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_Simple_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_BPM_Receiver</ComponentID>
+        <ChannelID>CC_SOAP_BPM_Simple_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_BPM_Sender</ComponentID>
+        <ChannelID>CC_SOAP_BPM_Simple_SND</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SOAP_Simple_SND</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_Sender</SenderComponentID>
+        <InterfaceName>SI_Simple_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/bpm/simple</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Muni_BPM_Sender</SenderComponentID>
+        <InterfaceName>SI_ABS_Simple_Out</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/muni/bpm/simple</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-11-02T11:00:16.124+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/REST2SFTP_LJUBIC/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_LJUBIC_REST_2_SFTP</ConfigurationScenarioID>
+      <Party>PY_LJUBIC_REST2SFTP_SOURCE</Party>
+      <Party>PY_LJUBIC_REST2SFTP_TARGET</Party>
+      <BusinessComponent>
+        <PartyID>PY_LJUBIC_REST2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_LJUBIC_REST2SFTP_SOURCE</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>PY_LJUBIC_REST2SFTP_TARGET</PartyID>
+        <ComponentID>BS_LJUBIC_REST2SFTP_TARGET</ComponentID>
+      </BusinessComponent>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>guerkan</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>guerkan</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-11-22T12:36:30.142+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_COFFEE_GUERKAN</ConfigurationScenarioID>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>xhaferis</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>xhaferis</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-13T10:31:57.083+01:00</LastChangeDateTime>
+        <FolderPathID>/SKERDILAJD_XHAFERI/TechiePresss_F2F/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_F2F_SUPPLIER_PAYMENTS_SXH</ConfigurationScenarioID>
+      <Party>PY_BANK_CITYBANK_SXH</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_ECC_800_TP_SXH</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_BANK_CITYBANK_SXH</PartyID>
+        <ComponentID>CO_BANK_CITYBANK_SXH</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>PY_BANK_CITYBANK_SXH</PartyID>
+        <ComponentID>CO_BANK_CITYBANK_SXH</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_SENDER_SXH</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_BANK_CITYBANK_SXH</PartyID>
+        <ComponentID>CO_BANK_CITYBANK_SXH</ComponentID>
+        <ChannelID>CC_FILE_CITYBANK_RECEIVER_SXH</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID>PY_BANK_CITYBANK_SXH</SenderPartyID>
+        <SenderComponentID>CO_BANK_CITYBANK_SXH</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_F2F_SOURCE_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TechiePresss/file2file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>spiechota</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>spiechota</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-12-17T13:12:50.115+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>RLC_CS_PICS001_IF02_Piechota</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_SFTP_PS</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_PS</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+        <ChannelID>CC_REST_SND_PICS001_IR02_PS</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_SFTP_PS</ComponentID>
+        <ChannelID>CC_SFTP_RCV_PICS001_IF02_PS</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_PS</ComponentID>
+        <ChannelID>CC_MAIL_RCV_PICS001_IF02_PS</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>INTEGRATION_SERVER_RP1</SenderComponentID>
+        <InterfaceName>SI_OI_GetDataForMail</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/LernpaketPICS001/IF02/Piechota</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-11-02T08:24:48.407+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN">Hocevar Config Scenario Demo</Description>
+      <ConfigurationScenarioID>CS_HOCMPG1_F2F_DEMO</ConfigurationScenarioID>
+      <Party>PY_HOCEVAR_SOAP2SFTP_SOURCE</Party>
+      <Party>PY_HOCM_F2F_SOURCE</Party>
+      <Party>PY_HOCM_F2F_TARGET</Party>
+      <Party>PY_HOCEVAR_SOAP2SFTP_TARGET</Party>
+      <BusinessComponent>
+        <PartyID>PY_HOCM_F2F_SOURCE</PartyID>
+        <ComponentID>BS_HOCM_F2F_SOURCE</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_SOURCE</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>PY_HOCM_F2F_TARGET</PartyID>
+        <ComponentID>BS_HOCM_F2F_TARGET</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_TARGET</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_TARGET</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>PY_HOCM_F2F_SOURCE</PartyID>
+        <ComponentID>BS_HOCM_F2F_SOURCE</ComponentID>
+        <ChannelID>CC_FTP_HOCM_F2F_SENDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_HOCM_F2F_SOURCE</PartyID>
+        <ComponentID>BS_HOCM_F2F_SOURCE</ComponentID>
+        <ChannelID>CC_SOAP_HOCM_F2F_SENDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_HOCM_F2F_TARGET</PartyID>
+        <ComponentID>BS_HOCM_F2F_TARGET</ComponentID>
+        <ChannelID>CC_FTP_HOCM_F2F_RECEIVER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_SOURCE</ComponentID>
+        <ChannelID>CC_SOAP_HOCEVAR_S2SFTP_SENDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_TARGET</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_TARGET</ComponentID>
+        <ChannelID>CC_SFTP_HOCEVAR_S2SFTP_RECIEVER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_SOURCE</ComponentID>
+        <ChannelID>CC_HTTP_HOCEVAR_S2SFTP_SENDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_TARGET</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_TARGET</ComponentID>
+        <ChannelID>CC_SOAP_HOCEVAR_S2SOAP_RECIEVER</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID>PY_HOCM_F2F_SOURCE</SenderPartyID>
+        <SenderComponentID>BS_HOCM_F2F_SOURCE</SenderComponentID>
+        <InterfaceName>SI_OUT_PO_CREATE_DEMO</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/hocmpg1/file2fileinterface</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID>PY_HOCEVAR_SOAP2SFTP_SOURCE</SenderPartyID>
+        <SenderComponentID>BS_HOCEVAR_SOAP2SFTP_SOURCE</SenderComponentID>
+        <InterfaceName>SI_OUT_SalesOrder_Create</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/hocmpg1/SOAP2SFTP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-13T09:13:13.075+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/UDEMY/HMTL2HTML_GET_SERIAL_NUMBER/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_H2H_GET_SERIAL_NUMBER_LJUBIC</ConfigurationScenarioID>
+      <Party>PY_CUST_APPLE_GLOBAL</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_CUST_APPLE_GLOBAL</PartyID>
+        <ComponentID>BS_CUST_APPLE_GOBAL</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_H2H_GET_SERIAL_NUMBER</ComponentID>
+        <ChannelID>CC_H_GET_SERIAL_APPLE_RECEIVER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_H2H_GET_SERIAL_NUMBER</ComponentID>
+        <ChannelID>CC_H_GET_SERIAL_SF_TP_SENDER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_CUST_APPLE_GLOBAL</PartyID>
+        <ComponentID>BS_CUST_APPLE_GOBAL</ComponentID>
+        <ChannelID>CC_HTTP_GET_SERIAL_APPLE_RECEIVER</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_HTTP_GET_SERIAL_SF_TP_SENDER</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_SYNC_SERIAL_H2H_SOURCE</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/H2H/GetSerialNumber</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>siddhardha</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>siddhardha</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-05-05T23:38:15.494+02:00</LastChangeDateTime>
+        <FolderPathID>/Sid/IFTT/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_INT4_IFTT</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_IFTT</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_IFTT</ComponentID>
+        <ChannelID>CC_SND_SOAP2</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_IFTT</ComponentID>
+        <ChannelID>CC_RCV_SOAP</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_IFTT</ComponentID>
+        <ChannelID>CC_SND_SOAP</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_IFTT</SenderComponentID>
+        <InterfaceName>dummy</InterfaceName>
+        <InterfaceNamespace>dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_IFTT</SenderComponentID>
+        <InterfaceName>dummy2</InterfaceName>
+        <InterfaceNamespace>dummy2</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>burchardt</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>burchardt</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-06-06T15:38:16.714+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Playroom_Burchardt</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Playroom_Burchardt</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Playroom_Burchardt</ComponentID>
+        <ChannelID>CC_REST_RCV</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Playroom_Burchardt</ComponentID>
+        <ChannelID>CC_REST_SND</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Playroom_Burchardt</ComponentID>
+        <ChannelID>CC_SOAP_SND</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Playroom_Burchardt</SenderComponentID>
+        <InterfaceName>SI_OA_CustomerData</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/xi/sandbox</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Playroom_Burchardt</SenderComponentID>
+        <InterfaceName>Dummy</InterfaceName>
+        <InterfaceNamespace>http://example.com</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-09-27T13:06:38.165+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Muni_Scenarios</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponent>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-01-20T15:20:38.413+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Ernstings_Family</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+        <ChannelID>CC_RCV_REST_ConsumingOrderData</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+        <ChannelID>CC_SND_REST_ConsumingOrderData</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+        <ChannelID>CC_RCV_REST_PublishingOrderStatus</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+        <ChannelID>CC_SND_REST_PublishingOrderStatus</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_CPI_ErnstingsFamily</SenderComponentID>
+        <InterfaceName>ORDERSP</InterfaceName>
+        <InterfaceNamespace>http://ernstings.family/orders/dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_CPI_ErnstingsFamily</SenderComponentID>
+        <InterfaceName>ORDERS05</InterfaceName>
+        <InterfaceNamespace>http://ernstings.family/orders/dummy</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>licib</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>licib</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-24T23:10:22.022+01:00</LastChangeDateTime>
+        <FolderPathID>/Brunilda_Lici/FILE2MAIL/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_F2M_EMAIL_NOTIF_BR</ConfigurationScenarioID>
+      <Party>PY_TP_GLOBAL_BR</Party>
+      <BusinessComponent>
+        <PartyID>PY_TP_GLOBAL_BR</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+      </BusinessComponent>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-04-20T12:21:27.672+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>RLC_CS_PICS001_IF02_Ripkens</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharp_Multitool</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharp_Multitool_SFTP</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+        <ChannelID>CC_REST_SND_PICS001_IF02_Ripkens</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharp_Multitool_SFTP</ComponentID>
+        <ChannelID>CC_SFTP_RCV_PICS001_IF02_Ripkens</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+        <ChannelID>CC_MAIL_RCV_PICS001_IF02_Ripkens</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>RLC_BC_CSharp_Multitool</SenderComponentID>
+        <InterfaceName>SI_OI_SystemStatus</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/LernpaketPICS001/IF02/ripkens</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>habbablj</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>habbablj</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-05-08T16:10:20.222+02:00</LastChangeDateTime>
+        <FolderPathID>/YassineSayadi/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Mitarbeitrprod_Yassine</ConfigurationScenarioID>
+      <Party>Party_BIT100</Party>
+      <Party>Party_Yassine</Party>
+      <BusinessSystem>
+        <PartyID>Party_BIT100</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+      </BusinessSystem>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-06-14T09:32:36.100+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_ExcelToXML_Ripkens</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_FILE_RCV_ExcelToXML</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_FILE_SND_ExcelToXML</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_Ripkens</SenderComponentID>
+        <InterfaceName>SI_OI_ExelToXML</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/exercise/ExelToXML</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-17T12:08:21.499+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Magento_Customer_Transfer_2</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_S4HANA_ERP1_DEV</ComponentID>
+      </BusinessSystem>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+        <ChannelID>CC_FILE_SND_Customer</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_S4HANA_ERP1_DEV</ComponentID>
+        <ChannelID>CC_FILE_RCV_Customer</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_MagentoWebShop_DEV</SenderComponentID>
+        <InterfaceName>SI_OUT_Magento_Customer</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Magento/Customer03</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>simonir</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>simonir</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-14T05:01:30.034+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_F2F_SIMONI</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_Vendor_SIMONI</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_ERP_SIMONI</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_ERP_SIMONI</ComponentID>
+        <ChannelID>CC_FileReceiverINVOICIDOC</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_Vendor_SIMONI</ComponentID>
+        <ChannelID>CC_FileSendInvoice</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_Vendor_SIMONI</SenderComponentID>
+        <InterfaceName>Invoice_OA</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/RCA/RS/Course/file2file</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>plewka</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>plewka</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-08-23T08:06:59.905+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_CSharpMultitool_SP</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>RLC_BC_CHarp_Multitool_SP</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_REST_SND_PICS001_IF02_SP</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>RLC_BC_CHarp_Multitool_SP</ComponentID>
+        <ChannelID>CC_MAIL_rcv_PICS001_IF02_SP</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>RLC_BC_CHarp_Multitool_SP</ComponentID>
+        <ChannelID>CC_File_RCV_CSharpMultitool_SP</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>SI_CSharpMultitoolSender</InterfaceName>
+        <InterfaceNamespace>https://realcore.de/pi/LernpaketPICS001/IF02/CSharpClient_SP</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-02-18T10:32:29.783+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_ABRECHNUNG_Invoice</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>RLC_BS_ABRECHNUNG</ComponentID>
+      </BusinessSystem>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>RLC_BS_ABRECHNUNG</ComponentID>
+        <ChannelID>CC_SOAP_SND_Invoice</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>CC_FILE_RCV_Invoice</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>RLC_BS_ABRECHNUNG</SenderComponentID>
+        <InterfaceName>SI_OA_InvoiceMagento</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Magento/Invoices</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>guerkan</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>guerkan</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-05-19T14:31:04.695+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_BAHNTICKETING_GUERKAN</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_GUERKAN</ComponentID>
+      </BusinessComponent>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_GUERKAN</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SOAP_SND_Bahnticket</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_GUERKAN</ComponentID>
+        <ChannelID>CC_FILE_RCV_BOOKING</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_BAHNTICKET_SHOP_GUERKAN</SenderComponentID>
+        <InterfaceName>SI_OA_Bahnticketing</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/Schulung1</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-18T15:07:56.800+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Bestellung_RQ</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>RLC_BS_PI_Azubi_Schulung</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>RLC_BS_PI_Azubi_Schulung</ComponentID>
+        <ChannelID>CC_SND_FILE_Bestellung_RQ</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>RLC_BS_PI_Azubi_Schulung</ComponentID>
+        <ChannelID>CC_RCV_FILE_Bestellung_RQ</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>RLC_BS_PI_Azubi_Schulung</SenderComponentID>
+        <InterfaceName>RLC_SI_OB_Bestellung_RQ</InterfaceName>
+        <InterfaceNamespace>Urn:realcore.de/xi/Schulung/Bestellung/RQ</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-07-15T10:16:36.202+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_Test_Synchron_Stork</ConfigurationScenarioID>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+      </BusinessSystem>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>CC_SOAP_SND_RequestCatcher</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>CC_SOAP_RCV_RequestCatcher</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>SHOP_Stork</SenderComponentID>
+        <InterfaceName>TestRequestCatcher</InterfaceName>
+        <InterfaceNamespace>TestRequestCatcherNS</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>tiryaki</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>steinkamp</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-08-27T14:27:26.465+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <ConfigurationScenarioID>CS_AdapterModul_Tiryaki</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step2_RCV_FILE_SFTP_v2_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step1_RCV_FILE_NFS_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step2_SND_FILE_NFS_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step1_SND_FILE_SFTP_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step2_RCV_FILE_SFTP_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModul_Tiryaki</SenderComponentID>
+        <InterfaceName>CC_STEP1_FILESHARE_SFTP_TO_NFS_DUMMY</InterfaceName>
+        <InterfaceNamespace>CC_STEP1_FILESHARE_SFTP_TO_NFS_DUMMY</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModul_Tiryaki</SenderComponentID>
+        <InterfaceName>SI_OA_GenericSedex</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/pi/Experimente/FileToFile_AdapterModul_Tiryaki</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>niermann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>tbauch</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-08-16T16:02:00.578+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_TestScenario</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+      </BusinessComponent>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-11-17T12:06:27.566+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_APIM_Schulung_Northwind</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_SND_REST_Northwind</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_REST_Northwind</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BC_AdapterModulTest</SenderComponentID>
+        <InterfaceName>SI_OA_APIM_Schulung</InterfaceName>
+        <InterfaceNamespace>SI_OA_APIM_Schulung</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>guerkan</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>guerkan</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-11-03T15:23:46.079+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN">test</Description>
+      <ConfigurationScenarioID>CS_FLINK_GUERKAN</ConfigurationScenarioID>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-02-19T08:58:06.727+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <ConfigurationScenarioID>CS_AdapterModulTest_Kinold</ConfigurationScenarioID>
+      <BusinessComponent>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID>*</PartyID>
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_SOAP_AdapterModulTest</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_SOAP_AdapterModulTest</ChannelID>
+      </CommunicationChannel>
+    </ConfigurationScenario>
+    <ConfigurationScenario>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-24T09:24:08.323+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/UDEMY/JDBC2MAIL_NOTIFICATION/</FolderPathID>
+      </AdministrativeData>
+      <ConfigurationScenarioID>CS_JDBC2MAIL_LJUBIC</ConfigurationScenarioID>
+      <Party>PY_TP_GLOBAL</Party>
+      <BusinessSystem>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystem>
+      <BusinessComponent>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+      </BusinessComponent>
+      <CommunicationChannel>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_SOURCE_LJUBIC</ChannelID>
+      </CommunicationChannel>
+      <CommunicationChannel>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+        <ChannelID>CC_EMAIL_TP_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannel>
+      <IntegratedConfiguration>
+        <SenderPartyID />
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_OUT_ASYNC_JDBC_J2M_SOURCE_LJUBIC</InterfaceName>
+        <InterfaceNamespace>http://techiepress.com/JDBC2MAIL</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </IntegratedConfiguration>
+    </ConfigurationScenario>
+    <LogMessageCollection />
+  </ns0:ConfigurationScenarioReadResponse>
+</ReadResponses>

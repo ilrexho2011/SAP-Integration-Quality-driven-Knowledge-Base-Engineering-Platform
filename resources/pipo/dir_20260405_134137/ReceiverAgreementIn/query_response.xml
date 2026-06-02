@@ -1,0 +1,39 @@
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://sap.com/xi/BASIS">
+  <ns0:Body>
+    <ns1:ReceiverAgreementQueryResponse>
+      <ReceiverAgreementID>
+        <SenderPartyID>PY_TP_GLOBAL_SXH</SenderPartyID>
+        <SenderComponentID>BS_SHOPFLOOR_TP_GLOBAL_SXH</SenderComponentID>
+        <InterfaceName>SI_IN_ASYNC_EMAIL_F2M_TARGET_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TechiePresss/file2MAIL</InterfaceNamespace>
+        <ReceiverPartyID>PY_TP_GLOBAL_SXH</ReceiverPartyID>
+        <ReceiverComponentID>BS_TP_GLOBAL_SXH</ReceiverComponentID>
+      </ReceiverAgreementID>
+      <ReceiverAgreementID>
+        <SenderPartyID />
+        <SenderComponentID>BC_UEBUNG_WICK</SenderComponentID>
+        <InterfaceName>SI_IA_Reiseanfrage</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/uebung_wick</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID>BC_UEBUNG_WICK</ReceiverComponentID>
+      </ReceiverAgreementID>
+      <ReceiverAgreementID>
+        <SenderPartyID>PY_TP_GLOBAL_SXH</SenderPartyID>
+        <SenderComponentID>BS_TP_GLOBAL_SXH</SenderComponentID>
+        <InterfaceName>SI_IN_ASYNC_EMAIL_F2M_TARGET_SXH</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/rca/SXH/TechiePresss/file2MAIL</InterfaceNamespace>
+        <ReceiverPartyID>PY_TP_GLOBAL_SXH</ReceiverPartyID>
+        <ReceiverComponentID>BS_TP_GLOBAL_SXH</ReceiverComponentID>
+      </ReceiverAgreementID>
+      <ReceiverAgreementID>
+        <SenderPartyID />
+        <SenderComponentID>EAI_TRAINING_SHOP_SP</SenderComponentID>
+        <InterfaceName>si_file</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de/uebung/file_to_jdbc</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID>EAI_TRAINING_SHOP_SP</ReceiverComponentID>
+      </ReceiverAgreementID>
+      <LogMessageCollection />
+    </ns1:ReceiverAgreementQueryResponse>
+  </ns0:Body>
+</ns0:Envelope>

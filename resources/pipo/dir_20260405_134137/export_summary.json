@@ -1,0 +1,103 @@
+{
+  "base_url": "http://ro2.realcore.local:50000",
+  "generated_at": "2026-04-05T15:42:26.946554",
+  "services": [
+    {
+      "service": "BusinessSystemIn",
+      "queried": true,
+      "id_count": 86,
+      "read_count": 86,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\BusinessSystemIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\BusinessSystemIn\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "BusinessComponentIn",
+      "queried": true,
+      "id_count": 189,
+      "read_count": 189,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\BusinessComponentIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\BusinessComponentIn\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "CommunicationPartyIn",
+      "queried": true,
+      "id_count": 0,
+      "read_count": 0,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\CommunicationPartyIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\CommunicationPartyIn\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "CommunicationChannelIn",
+      "queried": true,
+      "id_count": 654,
+      "read_count": 654,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\CommunicationChannelIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\CommunicationChannelIn\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "IntegratedConfiguration750In",
+      "queried": true,
+      "id_count": 294,
+      "read_count": 294,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\IntegratedConfiguration750In\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\IntegratedConfiguration750In\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "ConfigurationScenarioIn",
+      "queried": true,
+      "id_count": 96,
+      "read_count": 96,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\ConfigurationScenarioIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\ConfigurationScenarioIn\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "SenderAgreementIn",
+      "queried": true,
+      "id_count": 2,
+      "read_count": 2,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\SenderAgreementIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\SenderAgreementIn\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "ReceiverAgreementIn",
+      "queried": true,
+      "id_count": 4,
+      "read_count": 4,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\ReceiverAgreementIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\ReceiverAgreementIn\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "ReceiverDeterminationIn",
+      "queried": true,
+      "id_count": 0,
+      "read_count": 0,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\ReceiverDeterminationIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\ReceiverDeterminationIn\\read_responses.xml",
+      "error": null
+    },
+    {
+      "service": "InterfaceDeterminationIn",
+      "queried": true,
+      "id_count": 0,
+      "read_count": 0,
+      "query_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\InterfaceDeterminationIn\\query_response.xml",
+      "read_path": "exports\\run_20260405_133838\\pipo\\dir_20260405_134137\\InterfaceDeterminationIn\\read_responses.xml",
+      "error": null
+    }
+  ],
+  "config": {
+    "env_file_used": "C:\\Users\\RexhoIlirjan\\my-sap-integration-catalog\\my-sap-integration-complete-catalog-toolkit\\exports\\run_20260405_133838\\.internal\\pipo.env",
+    "verify_ssl": true,
+    "ca_bundle_used": false,
+    "chunk_size": 50,
+    "timeout": 90
+  }
+}

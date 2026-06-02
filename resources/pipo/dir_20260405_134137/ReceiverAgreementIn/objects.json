@@ -1,0 +1,324 @@
+[
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-25T21:06:44.259+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ReceiverAgreementID": {
+      "SenderPartyID": {
+        "_text": "PY_TP_GLOBAL_SXH"
+      },
+      "SenderComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_SXH"
+      },
+      "InterfaceName": {
+        "_text": "SI_IN_ASYNC_EMAIL_F2M_TARGET_SXH"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2MAIL"
+      },
+      "ReceiverPartyID": {
+        "_text": "PY_TP_GLOBAL_SXH"
+      },
+      "ReceiverComponentID": {
+        "_text": "BS_TP_GLOBAL_SXH"
+      }
+    },
+    "CommunicationChannel": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL_SXH"
+      },
+      "ComponentID": {
+        "_text": "BS_TP_GLOBAL_SXH"
+      },
+      "ChannelID": {
+        "_text": "CC_EMAIL_TP_RECEIVER_SXH"
+      }
+    },
+    "SoftwareComponentVersion": {
+      "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+    },
+    "SchemaValidationIndicator": {
+      "_text": "false"
+    },
+    "VirusScan": {
+      "_text": "Use Global"
+    },
+    "HeaderMapping": {
+      "Sender": {},
+      "Receiver": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-06-28T09:50:52.455+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ReceiverAgreementID": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_UEBUNG_WICK"
+      },
+      "InterfaceName": {
+        "_text": "SI_IA_Reiseanfrage"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/uebung_wick"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {
+        "_text": "BC_UEBUNG_WICK"
+      }
+    },
+    "CommunicationChannel": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_UEBUNG_WICK"
+      },
+      "ChannelID": {
+        "_text": "CC_FILE_RCV_Reiseanfrage"
+      }
+    },
+    "SoftwareComponentVersion": {
+      "_text": "7bd1d3d0-e625-11ec-aea0-c146c0a8fa26"
+    },
+    "SchemaValidationIndicator": {
+      "_text": "false"
+    },
+    "VirusScan": {
+      "_text": "Use Global"
+    },
+    "HeaderMapping": {
+      "Sender": {
+        "CommunicationComponent": {
+          "TypeID": {
+            "_text": "Constant"
+          },
+          "Value": {
+            "_text": "BC_UEBUNG_WICK"
+          },
+          "Datatype": {
+            "_text": "xsd:string"
+          },
+          "ContextObjectName": {},
+          "ContextObjectNamespace": {}
+        }
+      },
+      "Receiver": {
+        "CommunicationComponent": {
+          "TypeID": {
+            "_text": "Constant"
+          },
+          "Value": {
+            "_text": "BC_UEBUNG_WICK"
+          },
+          "Datatype": {
+            "_text": "xsd:string"
+          },
+          "ContextObjectName": {},
+          "ContextObjectNamespace": {}
+        }
+      }
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-25T20:55:48.368+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ReceiverAgreementID": {
+      "SenderPartyID": {
+        "_text": "PY_TP_GLOBAL_SXH"
+      },
+      "SenderComponentID": {
+        "_text": "BS_TP_GLOBAL_SXH"
+      },
+      "InterfaceName": {
+        "_text": "SI_IN_ASYNC_EMAIL_F2M_TARGET_SXH"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2MAIL"
+      },
+      "ReceiverPartyID": {
+        "_text": "PY_TP_GLOBAL_SXH"
+      },
+      "ReceiverComponentID": {
+        "_text": "BS_TP_GLOBAL_SXH"
+      }
+    },
+    "CommunicationChannel": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL_SXH"
+      },
+      "ComponentID": {
+        "_text": "BS_TP_GLOBAL_SXH"
+      },
+      "ChannelID": {
+        "_text": "CC_EMAIL_TP_RECEIVER_SXH"
+      }
+    },
+    "SoftwareComponentVersion": {
+      "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+    },
+    "SchemaValidationIndicator": {
+      "_text": "false"
+    },
+    "VirusScan": {
+      "_text": "Use Global"
+    },
+    "HeaderMapping": {
+      "Sender": {
+        "CommunicationParty": {
+          "TypeID": {
+            "_text": "Constant"
+          },
+          "Value": {
+            "_text": "PY_TP_GLOBAL_SXH"
+          },
+          "Datatype": {
+            "_text": "xsd:string"
+          },
+          "ContextObjectName": {},
+          "ContextObjectNamespace": {}
+        },
+        "CommunicationComponent": {
+          "TypeID": {
+            "_text": "Constant"
+          },
+          "Value": {
+            "_text": "BS_TP_GLOBAL_SXH"
+          },
+          "Datatype": {
+            "_text": "xsd:string"
+          },
+          "ContextObjectName": {},
+          "ContextObjectNamespace": {}
+        }
+      },
+      "Receiver": {
+        "CommunicationParty": {
+          "TypeID": {
+            "_text": "Constant"
+          },
+          "Value": {
+            "_text": "PY_TP_GLOBAL_SXH"
+          },
+          "Datatype": {
+            "_text": "xsd:string"
+          },
+          "ContextObjectName": {},
+          "ContextObjectNamespace": {}
+        },
+        "CommunicationComponent": {
+          "TypeID": {
+            "_text": "Constant"
+          },
+          "Value": {
+            "_text": "BS_TP_GLOBAL_SXH"
+          },
+          "Datatype": {
+            "_text": "xsd:string"
+          },
+          "ContextObjectName": {},
+          "ContextObjectNamespace": {}
+        }
+      }
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-07T14:30:52.068+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ReceiverAgreementID": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SP"
+      },
+      "InterfaceName": {
+        "_text": "si_file"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/uebung/file_to_jdbc"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SP"
+      }
+    },
+    "CommunicationChannel": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SP"
+      },
+      "ChannelID": {
+        "_text": "cc_jdbc_receiver"
+      }
+    },
+    "SoftwareComponentVersion": {
+      "_text": "156b6e40-2534-11e9-c492-c81ac0a8fa26"
+    },
+    "SchemaValidationIndicator": {
+      "_text": "false"
+    },
+    "VirusScan": {
+      "_text": "Use Global"
+    },
+    "HeaderMapping": {
+      "Sender": {},
+      "Receiver": {}
+    }
+  }
+]

@@ -1,0 +1,7181 @@
+[
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-06-28T10:52:13.936+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_IFM_TEST"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-29T12:56:51.825+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "ConfigurationScenarioID": {
+      "_text": "CS_Schulung_JavaMapping_Musterloesung_dritteUebung"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Sender"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Receiver"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SFTP_Musterloesung_dritteUebung"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SFTP_Musterloesung_dritteUebung"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Schulung_JavaMapping_Sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_dritteUebung_Musterloesung"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung/JavaMapping/Musterloesungen/DritteUebung"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-29T12:55:36.186+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Schulung_JavaMapping_Musterloesung_ersteUebung"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Sender"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Receiver"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SFTP_Musterloesung_ersteUebung"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SFTP_Musterloesung_ersteUebung"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Schulung_JavaMapping_Sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_ersteUebung_Musterloesung"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung/JavaMapping/MusterloesungenErsteUebung"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-10-13T10:05:47.010+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_CheckPIChipherSuites"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SCHULUNG_STORK_A"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SCHULUNG_STORK_A"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_ChipherSuiteTest"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SCHULUNG_STORK_A"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_RCV_ChipherSuiteTest"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_SCHULUNG_STORK_A"
+      },
+      "InterfaceName": {
+        "_text": "dummy"
+      },
+      "InterfaceNamespace": {
+        "_text": "dummy"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-06-21T15:07:57.487+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Wechselkurs_Ripkens"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_JDBC_Wechselkurs"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_REST_Wechselkurs"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      },
+      "InterfaceName": {
+        "_text": "SI_IO_Envelope"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/exercise/Wechselkurs"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-04T14:08:36.338+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Satzarten"
+    },
+    "Party": {
+      "_text": "P_DE_01_GES"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Bauch"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_01_GES"
+        },
+        "ComponentID": {
+          "_text": "BC_VST"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "P_DE_01_GES"
+        },
+        "ComponentID": {
+          "_text": "BC_VST"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SFTP_Satzart"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Bauch"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FTP_Satzart"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {
+        "_text": "P_DE_01_GES"
+      },
+      "SenderComponentID": {
+        "_text": "BC_VST"
+      },
+      "InterfaceName": {
+        "_text": "SI_OB_Satzart"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Tanja_Test"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-02-21T09:13:22.368+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_FileManager"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_Loopback"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_Loopback"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+      },
+      "InterfaceName": {
+        "_text": "SI_OS_FileManager"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/po/intern/tools/filemanager"
+      },
+      "ReceiverPartyID": {
+        "_text": "*"
+      },
+      "ReceiverComponentID": {
+        "_text": "*"
+      }
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-25T20:23:04.825+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/TP_F2F_EMAIL_NOTIFICATION/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_F2M_EMAIL_NOTIFICATION_SXH"
+    },
+    "Party": {
+      "_text": "PY_TP_GLOBAL_SXH"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_SXH"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_TP_GLOBAL_SXH"
+        },
+        "ComponentID": {
+          "_text": "BS_TP_GLOBAL_SXH"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_SXH"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_SHOPFLOOR_SENDER_SXH"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_TP_GLOBAL_SXH"
+        },
+        "ComponentID": {
+          "_text": "BS_TP_GLOBAL_SXH"
+        },
+        "ChannelID": {
+          "_text": "CC_EMAIL_TP_RECEIVER_SXH"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_SXH"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_ASYNC_F2M_SOURCE_SXH"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2MAIL"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "DE"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-01-16T13:46:26.845+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "GeneratedFolder_bdd53f2edbe911e6951e00000026b8b2"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "alamim"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "alamim"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-05-23T22:44:19.548+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Manar"
+    },
+    "Party": {
+      "_text": "Party_Manar_A"
+    },
+    "BusinessSystem": {
+      "PartyID": {
+        "_text": "Party_Manar_A"
+      },
+      "ComponentID": {
+        "_text": "BS_RCM_PI_Manar"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "CC_Manar_PI"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "CC_Manar_PI"
+        },
+        "ChannelID": {
+          "_text": "CC_Sender_Manar_PI"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "CC_Manar_PI"
+        },
+        "ChannelID": {
+          "_text": "CC_receiver_Manar_PI"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "CC_Manar_PI"
+      },
+      "InterfaceName": {
+        "_text": "MT_Get_Customer_Manar"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://Realcore.de/Manar"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-12-15T14:45:30.799+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "ConfigurationScenarioID": {
+      "_text": "CS_Calculator"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-23T14:48:05.212+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/SFTP2MAIL_EMAIL_NOTIFICATION/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_SFTP2MAIL_EMAIL_NOTIFICATION_LJUBIC"
+    },
+    "Party": {
+      "_text": "PY_TP_GLOBAL"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "BS_TP_GLOBAL"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_SHOPFLOOR_SENDER_LJUBIC"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_TP_GLOBAL"
+        },
+        "ComponentID": {
+          "_text": "BS_TP_GLOBAL"
+        },
+        "ChannelID": {
+          "_text": "CC_EMAIL_TP_RECEIVER_LJUBIC"
+        }
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T12:11:51.293+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Schulung_Ripkens"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Empfaenger_Ripkens"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Sender_Ripkens"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Sender_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_Ripkens"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Empfaenger_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_RIPKENS"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Schulung_Sender_Ripkens"
+      },
+      "InterfaceName": {
+        "_text": "SI_OB_Bahnticketing"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung/Ripkens"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-04-13T09:39:31.834+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_BAHNTICKETING_BOOKING_WICK"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BAHNTICKETING_SHOP_WICK"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BOOKING_SYSTEM_WICK"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BOOKING_SYSTEM_WICK"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_Booking"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BAHNTICKETING_SHOP_WICK"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_Bahnticketing"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_BAHNTICKETING_SHOP_WICK"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/schulung1"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-17T08:55:38.313+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/H2H_GET_SERIAL_NUMBER/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_H2H_GET_SERIAL_NUMBER_HOCEVARM"
+    },
+    "Party": {
+      "_text": "PY_CUST_APPLE_GLOBAL_HOCEVARM"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+      }
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {
+          "_text": "PY_CUST_APPLE_GLOBAL_HOCEVARM"
+        },
+        "ComponentID": {
+          "_text": "BS_CUST_APPLE_GLOBAL_HOCEVARM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_RESTAPI_SENDER_SYSTEM_HOCEVARM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_RESTAPI_RECEIVER_SYSTEM_HOCEVARM"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_RESTAPI_RECEIVER_SYSTEM_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_FTP_RECEIVER_RESTAPI_EXAMPLE1_HOCEVARM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_HTTP_GET_SERIAL_SF_TP_SENDER_HOCEVARM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_RESTAPI_SENDER_SYSTEM_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_SENDER_RESTAPI_EXAMPLE1_HOCEVARM"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_CUST_APPLE_GLOBAL_HOCEVARM"
+        },
+        "ComponentID": {
+          "_text": "BS_CUST_APPLE_GLOBAL_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_HTTP_GET_SERIAL_APPLE_RECEIVER_HOCEVARM"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_SYNC_SERIAL_H2H_SOURCE"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiepress.com/H2H/GetSerialNumber/hocevarm"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-04-07T18:23:01.966+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Muni/Attachment/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Muni_Attachment"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_Attachment_SND"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_Attachment_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_Passthrough_RCV"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Muni_Sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_Calculator_Out"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/muni/soap/attachment"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:39:22.652+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/PIT/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_PIT"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ERP"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SFTP"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ERP"
+        },
+        "ChannelID": {
+          "_text": "CC_Order_SOAP_Sender"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SFTP"
+        },
+        "ChannelID": {
+          "_text": "CC_Order_SFTP_Receiver"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_ERP"
+      },
+      "InterfaceName": {
+        "_text": "SIOA_Ord"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/xi/Sid"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-11-18T15:26:27.536+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/Muni/Aldi/From/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_KasseInput_to_Generic"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_RecordType03_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_RecordType02_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_KassenInput_SND"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_Generic_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_RecordType01_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "Tset"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Muni_Sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_DTKasseInput_Out"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/aldi/javamapping"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "habbablj"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "habbablj"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-02-24T23:17:49.842+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_HTTPtoFile"
+    },
+    "Party": {
+      "_text": "Party_BIT100"
+    },
+    "BusinessSystem": {
+      "PartyID": {
+        "_text": "Party_BIT100"
+      },
+      "ComponentID": {
+        "_text": "BS_RCM_PI_COURSE"
+      }
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "malensek"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "malensek"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-03T08:51:32.564+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/MALENSEKM/TECHIEMAJ/F2F_SUPPLIER_PAYMENTS_MALENSEK/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_F2F_SUPPLIER_PAYMENTS_MALENSEKM"
+    },
+    "Party": {
+      "_text": "PY_BANK_CITIBANK_GLOBAL_MALENSEKM"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL_MALENSEKM"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_BANK_CITIBANK_GLOBAL_MALENSEKM"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITIBANK_GLOBAL_MALENSEKM"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "ERP_ECC_800_TP_GLOBAL_MALENSEKM"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_TECHIMAJ_SENDER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_BANK_CITIBANK_GLOBAL_MALENSEKM"
+        },
+        "ComponentID": {
+          "_text": "CO_BANK_CITIBANK_GLOBAL_MALENSEKM"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_CITIBANK_RECEIVER"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL_MALENSEKM"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_ASYNC_SP_F2F_SOURCE"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiemaj.com/F2F/SupplierPayment"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-11T12:49:14.639+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Tegut_Test"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Kinold"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_AdapterModulTest"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModulTest"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FILE_TEGUT_TEST"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModulTest"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_FILE_TEGUT_TEST"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_AdapterModulTest"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Tegut_Satzarten"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/pi/Satzarten/Tegut"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-03-19T13:28:05.402+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_VendorData"
+    },
+    "Party": {
+      "_text": "Concur"
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "Concur"
+      },
+      "ComponentID": {
+        "_text": "BC_Concur"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "Concur"
+        },
+        "ComponentID": {
+          "_text": "BC_Concur"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_VendorData"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "Concur"
+        },
+        "ComponentID": {
+          "_text": "BC_Concur"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SFTP_Concur_VendorData"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {
+        "_text": "Concur"
+      },
+      "SenderComponentID": {
+        "_text": "BC_Concur"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_VendorData"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Tanja_Test"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-06-07T13:12:19.891+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_FruitShop_Ripkens"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_SND_Products"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_RCV_Produkt_Delete"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_MAIL_RCV_Produkt"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_RCV_Produkt"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_POST_Produkt"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_Products"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_Produkt_Delete"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_RCV_POST_Produkt"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_Produkt"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "InterfaceName": {
+          "_text": "SI_OS_Produkt_Delete"
+        },
+        "InterfaceNamespace": {
+          "_text": "urn:realcore.de/exercise/fruitshop"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "InterfaceName": {
+          "_text": "SI_Produkte"
+        },
+        "InterfaceNamespace": {
+          "_text": "urn:realcore.de/exercise/fruitshop"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "InterfaceName": {
+          "_text": "SI_OS_Produkt_Post"
+        },
+        "InterfaceNamespace": {
+          "_text": "urn:realcore.de/exercise/fruitshop"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "InterfaceName": {
+          "_text": "SI_OI_Produkt"
+        },
+        "InterfaceNamespace": {
+          "_text": "urn:realcore.de/exercise/fruitshop"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-01-08T08:42:10.534+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_API_MNGT_REST_FruitShop_getProducts"
+    },
+    "BusinessSystem": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SYSTEM_B"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SYSTEM_A"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SYSTEM_B"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_RCV_API_MNGT_FruitShop_getProducts"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SYSTEM_A"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_SND_API_MNGT_FruitShop_getProducts"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_SYSTEM_A"
+      },
+      "InterfaceName": {
+        "_text": "SI_OS_FruitShop_getProducts"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/pi/fruitshop/dummy"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:42:30.075+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/Directory_API/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_DirectoryAPI"
+    },
+    "Party": [
+      {
+        "_text": "P_DE_06_044"
+      },
+      {
+        "_text": "P_DE_05_044"
+      },
+      {
+        "_text": "P_DE_06_045"
+      },
+      {
+        "_text": "P_DE_05_045"
+      }
+    ],
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ERP"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_PI"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SFTP"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_06_044"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_06_045"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_05_045"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_05_044"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_PI"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_LOOKUP_Dir_API_ChangeListInImplBean"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_06_045"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        },
+        "ChannelID": {
+          "_text": "CC_VST_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SFTP"
+        },
+        "ChannelID": {
+          "_text": "CC_DirectoryAPI_Sender"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_05_045"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        },
+        "ChannelID": {
+          "_text": "CC_VST_Sender"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SFTP"
+        },
+        "ChannelID": {
+          "_text": "CC_DirectoryAPI_Receiver"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_05_044"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        },
+        "ChannelID": {
+          "_text": "CC_VST_Receiver"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_05_044"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        },
+        "ChannelID": {
+          "_text": "CC_VST_Sender"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_06_044"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        },
+        "ChannelID": {
+          "_text": "CC_VST_Sender"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_06_044"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        },
+        "ChannelID": {
+          "_text": "CC_VST_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_PI"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_LOOKUP_Dir_API_CommunicationChannelInImplBean"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_05_045"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        },
+        "ChannelID": {
+          "_text": "CC_VST_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_PI"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_LOOKUP_Directory_API"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "P_DE_06_045"
+        },
+        "ComponentID": {
+          "_text": "BC_Transport"
+        },
+        "ChannelID": {
+          "_text": "CC_VST_Sender"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ERP"
+        },
+        "ChannelID": {
+          "_text": "CC_DirectoryAPI_Sender"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_ERP"
+      },
+      "InterfaceName": {
+        "_text": "SIOA_DirectoryAPI_Sender"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://aldi-nord.de/ERP/DirectoryAPI"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-04-06T11:21:06.706+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_ENHANCEDMONITORING_GUERKAN"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ENHANCEDMONITORING_GUERKAN"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ENHANCEDMONITORING_MAILSERVER"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ENHANCEDMONITORING_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_SND_DATA"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ENHANCEDMONITORING_MAILSERVER"
+        },
+        "ChannelID": {
+          "_text": "CC_MAIL_RCV_HtmlData"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_ENHANCEDMONITORING_GUERKAN"
+      },
+      "InterfaceName": {
+        "_text": "SI_Data_OUT"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/AP/ENHANCEDMONITORING"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-25T09:28:30.655+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/POTRAINING_LJUBIC/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_POTRAINING_SOAP_2_SFTP_DEMO_LJUBIC"
+    },
+    "Party": [
+      {
+        "_text": "PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC"
+      },
+      {
+        "_text": "PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC"
+      }
+    ],
+    "BusinessComponent": [
+      {
+        "PartyID": {
+          "_text": "PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC"
+        },
+        "ComponentID": {
+          "_text": "BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC"
+        },
+        "ComponentID": {
+          "_text": "BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC"
+        },
+        "ComponentID": {
+          "_text": "BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_POTRAIN_SOAP_2_SFTP_RECEIVER_LJUBIC"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC"
+        },
+        "ComponentID": {
+          "_text": "BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_POTRAIN_SOAP_2_SFTP_SENDER_LJUBIC"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {
+        "_text": "PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC"
+      },
+      "SenderComponentID": {
+        "_text": "BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_PO_CREATE_DEMO"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:potesting.com:retake:ljubic/soap2sftp"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-09T12:05:03.278+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Muni/B2B/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Muni_B2B_ANSI_850"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_EDISeperator_ANSI_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_ANSI_850_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_ANSI_SND"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_EDISeperator_ANSI_850_SND"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "InterfaceName": {
+          "_text": "SI_EDI_Out"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/muni/edi/ansi"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "InterfaceName": {
+          "_text": "SI_EDI_ANSI_850_Out"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/muni/edi/ansi"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-11-28T09:39:11.366+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/Muni/Aldi/From/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_IcoReplication"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_RCV001"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Muni_Sender"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_RCV001"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_IcoReplication_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_IcoReplication_SND"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_RCV001"
+        },
+        "ChannelID": {
+          "_text": "CC_Proxy_IcoReplication_SND"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Muni_Sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_IcoReplication_Out"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/aldi/paydesk"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-29T12:56:56.178+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "ConfigurationScenarioID": {
+      "_text": "CS_Schulung_JavaMapping_Musterloesung_zweiteUebung"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Sender"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Receiver"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SFTP_Musterloesung_zweiteUebung"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_JavaMapping_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SFTP_Musterloesung_zweiteUebung"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Schulung_JavaMapping_Sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_zweiteUebung_Musterloesung"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung/JavaMapping/Musterloesungen/ZweiteUebung"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-10T09:06:54.707+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/S2S_GET_SERIAL_NUMBER/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "S2S_GET_SERIAL_NUMBER"
+    },
+    "Party": {
+      "_text": "PY_CUST_APPLE_GLOBAL"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_CUST_APPLE_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "BS_CUST_APPLE_GOBAL"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "PY_CUST_APPLE_GLOBAL"
+        },
+        "ComponentID": {
+          "_text": "BS_CUST_APPLE_GOBAL"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SERIAL_APPLE_RECEIVER"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_SERIAL_TP_SENDER"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_SYNC_SERIAL_S2S_SOURCE"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiepress.com/S2S/GetSerialNumber"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-27T07:12:55.424+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_XML_JSON_CONF_Checker"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_xml_for_json_conversion"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_REST_converted_JSON"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+      },
+      "InterfaceName": {
+        "_text": "RLC_OI_XML"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/po/xml/json/conversion"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-07-20T12:12:24.845+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_FRUITSHOP_GUERKAN"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_GUERKAN"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_REST_GetProductlist"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_GetProductByID"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_REST_GetProductByID"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_GetProductlist"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_PostProduct"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_DeleteProduct"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_REST_DeleteProduct"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_REST_PostProduct"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_GetProductByID"
+        },
+        "InterfaceNamespace": {
+          "_text": "um:realcore.de/exercise/fruitshop"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "InterfaceName": {
+          "_text": "SI_OS_PostProduct"
+        },
+        "InterfaceNamespace": {
+          "_text": "um:realcore.de/exercise/fruitshop"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_DeleteProduct"
+        },
+        "InterfaceNamespace": {
+          "_text": "um:realcore.de/exercise/fruitshop"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_GUERKAN"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_GetProductList"
+        },
+        "InterfaceNamespace": {
+          "_text": "um:realcore.de/exercise/fruitshop"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wohlmacher"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wohlmacher"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-18T11:17:16.467+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Bahnticketing_WOHLMACHER"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BAHNTICKET_SHOP_WOHLMACHER"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BOOKING_SYSTEM_WOHLMACHER"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BOOKING_SYSTEM_WOHLMACHER"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_Booking"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BAHNTICKET_SHOP_WOHLMACHER"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_BahnTicket"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_BAHNTICKET_SHOP_WOHLMACHER"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-08-27T16:27:54.694+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_BuchSezenario_ERPBestellung"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BuchSzenario"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BuchSzenario"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_Receiver_LiefernatWebService"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BuchSzenario"
+        },
+        "ChannelID": {
+          "_text": "CC_IDOC_SND_Standard"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_BuchSzenario"
+      },
+      "InterfaceName": {
+        "_text": "ORDERS.ORDERS05"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:sap-com:document:sap:idoc:messages"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-03-24T12:52:43.241+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Schulung_SHOP_Ripkens"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_File_ContentConversion"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_File_ContentConversion"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "snd_file_salesOrder"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      },
+      "InterfaceName": {
+        "_text": "salesOrderServiceOut"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/eai_training:shop/Ripkens"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kuecuek"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kuecuek"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-03T12:32:46.451+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_TRAINING_KUECUEK"
+    },
+    "BusinessSystem": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_EAI_TRAINING_SHOP_KUECUEK"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SAP_ERP_TRAINING_KUECUEK"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SAP_ERP_TRAINING_KUECUEK"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_SALESORDER"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_EAI_TRAINING_SHOP_KUECUEK"
+        },
+        "ChannelID": {
+          "_text": "CC_snd_file_salesOrder"
+        }
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-02T13:23:03.564+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Muni/Northwind_Orders/"
+      }
+    },
+    "Description": {},
+    "ConfigurationScenarioID": {
+      "_text": "CS_Muni_Northwind_Orders"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_Northwind_Orders_SND"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_Northwind_Orders_RCV"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Muni_Sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_Orders_Sync_Out"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/muni/rest/northwind/orders"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-30T10:34:56.863+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "ConfigurationScenarioID": {
+      "_text": "CS_POTRAINING_F2F_LJUBIC"
+    },
+    "Party": [
+      {
+        "_text": "PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC"
+      },
+      {
+        "_text": "PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC"
+      }
+    ],
+    "BusinessComponent": [
+      {
+        "PartyID": {
+          "_text": "PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC"
+        },
+        "ComponentID": {
+          "_text": "BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC"
+        },
+        "ComponentID": {
+          "_text": "BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC"
+        },
+        "ComponentID": {
+          "_text": "BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_POTRAIN_SOAP_2_SFTP_RECEIVER_LJUBIC"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC"
+        },
+        "ComponentID": {
+          "_text": "BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_POTRAIN_SOAP_2_SFTP_SENDER_LJUBIC"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {
+        "_text": "PY_POTRAINING_F2F_CUST_GLOBAL_SOURCE_LJUBIC"
+      },
+      "SenderComponentID": {
+        "_text": "BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_PO_CREATE_DEMO"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:potesting.com:retake:ljubic/soap2sftp"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-12-20T09:26:08.074+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_FilesWithAttachments"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_FILE_TestWithAttachments"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FILE_TestWithAttachments"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Files"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/po/dummy/file"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-06-04T13:57:13.157+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_SCHULUNG_REST_STORK"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SCHULUNG_STORK_B"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SCHULUNG_STORK_A"
+        }
+      }
+    ],
+    "CommunicationChannel": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SCHULUNG_STORK_A"
+      },
+      "ChannelID": {
+        "_text": "CC_SOAP_SND_ProductRequest"
+      }
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "smiezewski"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "smiezewski"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T12:11:06.092+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Schulung_Smiezewski"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Empfaenger_Smiezewski"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Sender_Smiezewski"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Sender_Smiezewski"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_Smiezewski"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Empfaenger_Smiezewski"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_Smiezewski"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Schulung_Sender_Smiezewski"
+      },
+      "InterfaceName": {
+        "_text": "SI_Outbound_Bahnticketing"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung/Smiezewski"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T12:09:44.350+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Schulung_Piechota"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Sender_Piechota"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Empfaenger_Piechota"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Empfaenger_Piechota"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_Schulung_Piechota"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Schulung_Sender_Piechota"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_Schulung_Piechota"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Schulung_Sender_Piechota"
+      },
+      "InterfaceName": {
+        "_text": "SI_OB_Bahnticketing"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung/Piechota"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-06-08T09:11:29.581+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Reiseanfrage_Wick"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_UEBUNG_WICK"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_UEBUNG_WICK"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_Reiseanfrage"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_UEBUNG_WICK"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_Reiseanfrage"
+        }
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-11T12:48:09.604+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/J2J_WORKERS_UPDATE_HOCEVARM/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_J2J_WORKERS_UPDATE_HOCEVARM"
+    },
+    "BusinessSystem": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_ADP_TP_GLOBAL_HOCEVARM"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_ADP_TP_GLOBAL_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_JDBC_WU_TP_RECEIVER"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_JDBC_WU_TP_SENDER"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_ASYNC_WU_J2J_SOURCE"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiepress.com/J2J/WorkersUpdate/hocevarm"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-12T13:03:05.973+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/S2S_GET_SERIAL_NUMBER/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_S2S_GET_SERIAL_NUMBER_HOCEVARM"
+    },
+    "Party": {
+      "_text": "PY_CUST_APPLE_GLOBAL_HOCEVARM"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_CUST_APPLE_GLOBAL_HOCEVARM"
+      },
+      "ComponentID": {
+        "_text": "BS_CUST_APPLE_GLOBAL_HOCEVARM"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "PY_CUST_APPLE_GLOBAL_HOCEVARM"
+        },
+        "ComponentID": {
+          "_text": "BS_CUST_APPLE_GLOBAL_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SERIAL_TP_RECIEVER"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SERIAL_TP_SENDER"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_SYNC_SERIAL_S2S_SOURCE"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiepress.com/S2S/GetSerialNumber/hocevarm"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-18T10:58:56.493+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_BAHNTICKET_BOOKING_RIPKENS"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BOOKING_SYSTEM_RIPKENS"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BAHNTICKET_SHOP_RIPKENS"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BAHNTICKET_SHOP_RIPKENS"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_BahnTicket"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BOOKING_SYSTEM_RIPKENS"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_Booking"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_BAHNTICKET_SHOP_RIPKENS"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung_Ripkens"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-10T12:30:34.444+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_BetrieblicheFunktion"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MANI_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MANI_sender"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MANI_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_BetrieblicheFunktion"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MANI_sender"
+        },
+        "ChannelID": {
+          "_text": "CC_Sender_BetrieblicheFunktion"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_MANI_sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_BetrieblicheFunktion"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:evnat:sapcore:personalstammO"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-09T15:20:54.994+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_FRUITSHOP_ALTINER"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "erguezel"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-02-19T13:39:39.936+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_GeoErguzel"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_BS_GEOERGUEZEL_DOGI"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Customer"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_BS_GEOERGUEZEL_DOGI"
+        },
+        "ChannelID": {
+          "_text": "CC_sender_url_IPAdresse"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_BS_GEOERGUEZEL_DOGI"
+        },
+        "ChannelID": {
+          "_text": "CC_receiver_url_Nation"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_BS_GEOERGUEZEL_DOGI"
+      },
+      "InterfaceName": {
+        "_text": "SI_GeoRequestServiceOut"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/erguezel/georequest/DOGI"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-07-01T08:57:44.638+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_PDFAttachment_Ripkens"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_File_PDFAttachment"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_File_PDFAttachment"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_PDFAttachment"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/exercise/PDFAttachment"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-08-27T15:33:19.612+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_BuchSzenarioBPM"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BuchSzenario"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BuchSzenario"
+        },
+        "ChannelID": {
+          "_text": "cc_SOAP_Sender_ProzessStart"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BuchSzenario"
+        },
+        "ChannelID": {
+          "_text": "cc_SOAP_Receiver_ProzessStart"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BuchSzenario"
+        },
+        "ChannelID": {
+          "_text": "cc_SOAP_BRM_Receiver"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_BuchSzenario"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_TweetMessage"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_BuchSzenario"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_SalesOrder_BRM"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_BuchSzenario"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_PurchaseOrder"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-02T10:20:15.593+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Capacity_Loadbalancer"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "Z_BS_CAPACITY_ENT"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_DAISY_TRANS"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_DAISY_TRANS"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_DaisyTrans"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "Z_BS_CAPACITY_ENT"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_Capacity"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "Z_BS_CAPACITY_ENT"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Capacity"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://oge.com/pi/CAPACITY/netpoint"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-16T10:05:44.404+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_MeetTheExpert_BPM"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Sender"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FILE_Endsystem"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_RechnungsForward_BPM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_RechnungsInput"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_Receive_Rechnung"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_MTE_Sender"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_Order_Send_PI"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/FinalTest"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_MTE_Sender"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_Order_Send_BPM"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/FinalTest"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-04-13T12:42:44.142+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_FRUITSHOP_FILESYSTEM_WICK"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Wick"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Wick"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FILE_FILESYSTEM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Wick"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_REST_POLL_FRUITSHOP"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Wick"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Fruitshop"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/exercise/fruitshop"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-01-06T10:40:28.081+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "ConfigurationScenarioID": {
+      "_text": "CS_Rechner"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Rechner"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Rechner_2"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Online_Rechner"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Online_Rechner"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_RCV_CALC"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Rechner"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_RCV_ADD"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Rechner"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_CALC"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Rechner"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_ADD"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_Rechner"
+        },
+        "InterfaceName": {
+          "_text": "SI_Calculator_Out"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/Calculator"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_Rechner"
+        },
+        "InterfaceName": {
+          "_text": "SI_Taschenrechner_Out"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/Taschenrechner"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-02T21:43:08.016+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/F2F_SUPPLIERS_PAYMENTS/"
+      }
+    },
+    "Description": {
+      "_text": "Scenario for File to file SUPPLIERS PAYMENTS"
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_F2F_SUPPLIERS_PAYMENTS"
+    },
+    "Party": {
+      "_text": "PY_BANK_CITIBANK_GLOBAL"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_BANK_CITIBANK_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITIBANK_GLOBAL"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "ERP_ECC_800_TP_GLOBAL"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_TECHIEPRESS_SENDER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_BANK_CITIBANK_GLOBAL"
+        },
+        "ComponentID": {
+          "_text": "CO_BANK_CITIBANK_GLOBAL"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_CITIBANK_RECEIVER"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_ASYNC_SP_F2F_SOURCE"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiepress.com/F2F/SupplierPayments"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-12T08:02:18.603+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/JDBC_2_JDBC_WORKERS_UPDATE/"
+      }
+    },
+    "Description": {
+      "_text": "Scenario from J2J Connection Workers Update"
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_J2J_WORKERS_UPDATE"
+    },
+    "BusinessSystem": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_ADP_TP_GLOBAL_LJUBIC"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_JDBC_WU_TP_SENDER"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_ADP_TP_GLOBAL_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_JDBC_WU_TP_RECEIVER"
+        }
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-08-19T09:24:18.553+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_NielsenSalesStatistics"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SalesStatistics"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SalesStatistics"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_SalesStatistics"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_SalesStatistics"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FTP_SalesStatistics"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_SalesStatistics"
+      },
+      "InterfaceName": {
+        "_text": "SI_Statistics_OB"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://aldi-nord.de/ERP/SalesStatistics"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-25T12:35:03.455+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_CustomerTransfer"
+    },
+    "BusinessSystem": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SYSTEM_B"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_MagentoWebShop_DEV"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_MagentoWebShop_DEV"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_Customer"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_MagentoWebShop_DEV"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_SND_Customer"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SYSTEM_B"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_Receiver_Customer"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_MagentoWebShop_DEV"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Customer01"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/pi/Magento/Customer"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-05-06T15:29:16.423+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Verfuegbarkeitspruefung_Ripkens"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      }
+    },
+    "CommunicationChannel": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      },
+      "ChannelID": {
+        "_text": "snd_soap_availabilityRequest"
+      }
+    },
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      },
+      "InterfaceName": {
+        "_text": "SI_availabilityCheck"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/eai_training:shop/Ripkens"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-12T09:26:49.771+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/F2F_SUPPLIERS_PAYMENTS_HOCEVARM/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_F2F_SUPPLIERS_PAYMENTS_HOCEVARM"
+    },
+    "Party": {
+      "_text": "PY_BANK_CITIBANK_GLOBAL_HOCEVARM"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL_HOCEVARM"
+      }
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_JDBC_TO_SFTP_SOURCE_TO_TARGET_LJUBIC"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_BANK_CITIBANK_GLOBAL_HOCEVARM"
+        },
+        "ComponentID": {
+          "_text": "CO_BANK_CITIBANK_GLOBAL_HOCEVARM"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "PY_BANK_CITIBANK_GLOBAL_HOCEVARM"
+        },
+        "ComponentID": {
+          "_text": "CO_BANK_CITIBANK_GLOBAL"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_CITIBANK_RECEIVER_HOCEVARM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "ERP_ECC_800_TP_GLOBAL_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_TECHIEPRESS_SENDER_HOCEVARM"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_BANK_CITIBANK_GLOBAL_HOCEVARM"
+        },
+        "ComponentID": {
+          "_text": "CO_BANK_CITIBANK_GLOBAL_HOCEVARM"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_CITIBANK_RECEIVER_HOCEVARM"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "ERP_ECC_800_TP_GLOBAL_HOCEVARM"
+        },
+        "InterfaceName": {
+          "_text": "SI_OUT_ASYNC_SP_F2F_SOURCE"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://techiepress.com/F2F/SupplierPayments/hocevarm"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {
+          "_text": "PY_BANK_CITIBANK_GLOBAL_HOCEVARM"
+        },
+        "SenderComponentID": {
+          "_text": "CO_BANK_CITIBANK_GLOBAL"
+        },
+        "InterfaceName": {
+          "_text": "SI_OUT_ASYNC_SP_F2F_SOURCE"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://techiepress.com/F2F/SupplierPayments/hocevarm"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-03-04T09:13:39.790+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Customer_TestFTP"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Customer"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Customer"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FTP_Customer"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Customer"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_Customer"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Customer"
+      },
+      "InterfaceName": {
+        "_text": "SI_OB_customer"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/pi/sandbox/bauch"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-01-28T09:45:01.580+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_FinalTest"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Sender"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FILE_Endsystem"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_RechnungsForward_BPM"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP_RechnungsInput"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_MTE_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_Receive_Rechnung"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_MTE_Sender"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_Order_Send_BPM"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/FinalTest"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_MTE_Sender"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_Order_Send_PI"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/FinalTest"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "grobin"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "grobin"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-01T13:37:38.199+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/GROBINL/TECHIEPRESS/(REST) F2F_SUPPLIERS_PAYMENTS_GROBINL/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_F2F_SUPPLIER_PAYMENTS_GROBINL"
+    },
+    "Party": {
+      "_text": "PY_BANK_CITIBANK_GLOBAL_GROBINL"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL_GROBINL"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_BANK_CITIBANK_GLOBAL_GROBINL"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITIBANK_GLOBAL_GROBINL"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "PY_BANK_CITIBANK_GLOBAL_GROBINL"
+        },
+        "ComponentID": {
+          "_text": "CO_BANK_CITIBANK_GLOBAL_GROBINL"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_TECHIEPRESS_RECEIVER_GROBINL"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "ERP_ECC_800_TP_GLOBAL_GROBINL"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_TECHIEPRESS_SENDER_GROBINL"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "ERP_ECC_800_TP_GLOBAL_GROBINL"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_ASYNC_SP_F2F_SOURCE"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiepress.com/F2F/SupplierPayments/grobinl"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "breuer"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "breuer"
+      },
+      "LastChangeDateTime": {
+        "_text": "2025-02-20T15:33:29.411+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_RDS_Showcase"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_RDS"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_RDS"
+        },
+        "ChannelID": {
+          "_text": "KK_HTTP_RDS_Showcase_SND"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_RDS"
+        },
+        "ChannelID": {
+          "_text": "KK_SFTP_RDS_Showcase_RCV"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_RDS"
+      },
+      "InterfaceName": {
+        "_text": "OA_RDS_Showcase"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:dummy"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-12T11:23:10.893+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_PI001_plewka_SecureFile_to_Base64"
+    },
+    "BusinessSystem": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_SP"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_SP"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_Sender_Filemapping"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_SP"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_Receiver_Filemapping"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_ENGINE_JAVA_RO2"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_Loopback"
+        }
+      }
+    ],
+    "ReceiverAgreement": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SP"
+      },
+      "InterfaceName": {
+        "_text": "si_file"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/uebung/file_to_jdbc"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SP"
+      }
+    },
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_RC_EXT"
+        },
+        "InterfaceName": {
+          "_text": "GetFactSheets_Out_SI"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/RestAdapter_Test"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_SP"
+        },
+        "InterfaceName": {
+          "_text": "SI_OO_EZBexchanges"
+        },
+        "InterfaceNamespace": {
+          "_text": "urn:EZBexchanges"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_SP"
+        },
+        "InterfaceName": {
+          "_text": "SI_CSharpMultitoolSender"
+        },
+        "InterfaceNamespace": {
+          "_text": "https://realcore.de/pi/LernpaketPICS001/IF02/CSharpClient_SP"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_XX"
+        },
+        "InterfaceName": {
+          "_text": "SI_II_ECBEXCHANGES"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/exercise/ecbexchanges"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "EAI_TRAINING_SHOP_SP"
+        },
+        "InterfaceName": {
+          "_text": "SI_Files_In"
+        },
+        "InterfaceNamespace": {
+          "_text": "urn:realcore.de/Filemapping"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-18T11:20:05.819+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Muni/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Muni_Calculator"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_Calculator_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_Calculator_SND"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Muni_Sender"
+      },
+      "InterfaceName": {
+        "_text": "SI_Calculator_Out"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/muni/soap/calc"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-10T09:59:58.759+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Muni/BPM/Simple/"
+      }
+    },
+    "Description": {
+      "_text": "This is used to create simple bpm scenari, sending msg to bpm and receiving it back to pi"
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Muni_BPM_Simple"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_BPM_Sender"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_BPM_Receiver"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_Simple_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_BPM_Receiver"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_BPM_Simple_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_BPM_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_BPM_Simple_SND"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_Simple_SND"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_Muni_Sender"
+        },
+        "InterfaceName": {
+          "_text": "SI_Simple_Out"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/muni/bpm/simple"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_Muni_BPM_Sender"
+        },
+        "InterfaceName": {
+          "_text": "SI_ABS_Simple_Out"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/muni/bpm/simple"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-11-02T11:00:16.124+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/REST2SFTP_LJUBIC/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_LJUBIC_REST_2_SFTP"
+    },
+    "Party": [
+      {
+        "_text": "PY_LJUBIC_REST2SFTP_SOURCE"
+      },
+      {
+        "_text": "PY_LJUBIC_REST2SFTP_TARGET"
+      }
+    ],
+    "BusinessComponent": [
+      {
+        "PartyID": {
+          "_text": "PY_LJUBIC_REST2SFTP_SOURCE"
+        },
+        "ComponentID": {
+          "_text": "BS_LJUBIC_REST2SFTP_SOURCE"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_LJUBIC_REST2SFTP_TARGET"
+        },
+        "ComponentID": {
+          "_text": "BS_LJUBIC_REST2SFTP_TARGET"
+        }
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-11-22T12:36:30.142+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_COFFEE_GUERKAN"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-13T10:31:57.083+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/TechiePresss_F2F/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_F2F_SUPPLIER_PAYMENTS_SXH"
+    },
+    "Party": {
+      "_text": "PY_BANK_CITYBANK_SXH"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_ECC_800_TP_SXH"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_BANK_CITYBANK_SXH"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITYBANK_SXH"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "PY_BANK_CITYBANK_SXH"
+        },
+        "ComponentID": {
+          "_text": "CO_BANK_CITYBANK_SXH"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_TECHIEPRESS_SENDER_SXH"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_BANK_CITYBANK_SXH"
+        },
+        "ComponentID": {
+          "_text": "CO_BANK_CITYBANK_SXH"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_CITYBANK_RECEIVER_SXH"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {
+        "_text": "PY_BANK_CITYBANK_SXH"
+      },
+      "SenderComponentID": {
+        "_text": "CO_BANK_CITYBANK_SXH"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_ASYNC_F2F_SOURCE_SXH"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2file"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-12-17T13:12:50.115+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "RLC_CS_PICS001_IF02_Piechota"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "INTEGRATION_SERVER_RP1"
+      }
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CSharpMutltitool_SFTP_PS"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CSharpMutltitool_PS"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_SERVER_RP1"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_SND_PICS001_IR02_PS"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CSharpMutltitool_SFTP_PS"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_RCV_PICS001_IF02_PS"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CSharpMutltitool_PS"
+        },
+        "ChannelID": {
+          "_text": "CC_MAIL_RCV_PICS001_IF02_PS"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "INTEGRATION_SERVER_RP1"
+      },
+      "InterfaceName": {
+        "_text": "SI_OI_GetDataForMail"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/Piechota"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-11-02T08:24:48.407+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "Hocevar Config Scenario Demo"
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_HOCMPG1_F2F_DEMO"
+    },
+    "Party": [
+      {
+        "_text": "PY_HOCEVAR_SOAP2SFTP_SOURCE"
+      },
+      {
+        "_text": "PY_HOCM_F2F_SOURCE"
+      },
+      {
+        "_text": "PY_HOCM_F2F_TARGET"
+      },
+      {
+        "_text": "PY_HOCEVAR_SOAP2SFTP_TARGET"
+      }
+    ],
+    "BusinessComponent": [
+      {
+        "PartyID": {
+          "_text": "PY_HOCM_F2F_SOURCE"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCM_F2F_SOURCE"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCEVAR_SOAP2SFTP_SOURCE"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCEVAR_SOAP2SFTP_SOURCE"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCM_F2F_TARGET"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCM_F2F_TARGET"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCEVAR_SOAP2SFTP_TARGET"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCEVAR_SOAP2SFTP_TARGET"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "PY_HOCM_F2F_SOURCE"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCM_F2F_SOURCE"
+        },
+        "ChannelID": {
+          "_text": "CC_FTP_HOCM_F2F_SENDER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCM_F2F_SOURCE"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCM_F2F_SOURCE"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_HOCM_F2F_SENDER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCM_F2F_TARGET"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCM_F2F_TARGET"
+        },
+        "ChannelID": {
+          "_text": "CC_FTP_HOCM_F2F_RECEIVER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCEVAR_SOAP2SFTP_SOURCE"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCEVAR_SOAP2SFTP_SOURCE"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_HOCEVAR_S2SFTP_SENDER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCEVAR_SOAP2SFTP_TARGET"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCEVAR_SOAP2SFTP_TARGET"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_HOCEVAR_S2SFTP_RECIEVER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCEVAR_SOAP2SFTP_SOURCE"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCEVAR_SOAP2SFTP_SOURCE"
+        },
+        "ChannelID": {
+          "_text": "CC_HTTP_HOCEVAR_S2SFTP_SENDER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_HOCEVAR_SOAP2SFTP_TARGET"
+        },
+        "ComponentID": {
+          "_text": "BS_HOCEVAR_SOAP2SFTP_TARGET"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_HOCEVAR_S2SOAP_RECIEVER"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {
+          "_text": "PY_HOCM_F2F_SOURCE"
+        },
+        "SenderComponentID": {
+          "_text": "BS_HOCM_F2F_SOURCE"
+        },
+        "InterfaceName": {
+          "_text": "SI_OUT_PO_CREATE_DEMO"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/hocmpg1/file2fileinterface"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {
+          "_text": "PY_HOCEVAR_SOAP2SFTP_SOURCE"
+        },
+        "SenderComponentID": {
+          "_text": "BS_HOCEVAR_SOAP2SFTP_SOURCE"
+        },
+        "InterfaceName": {
+          "_text": "SI_OUT_SalesOrder_Create"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/hocmpg1/SOAP2SFTP"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-13T09:13:13.075+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/HMTL2HTML_GET_SERIAL_NUMBER/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_H2H_GET_SERIAL_NUMBER_LJUBIC"
+    },
+    "Party": {
+      "_text": "PY_CUST_APPLE_GLOBAL"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_CUST_APPLE_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "BS_CUST_APPLE_GOBAL"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_H2H_GET_SERIAL_NUMBER"
+        },
+        "ChannelID": {
+          "_text": "CC_H_GET_SERIAL_APPLE_RECEIVER"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_H2H_GET_SERIAL_NUMBER"
+        },
+        "ChannelID": {
+          "_text": "CC_H_GET_SERIAL_SF_TP_SENDER"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_CUST_APPLE_GLOBAL"
+        },
+        "ComponentID": {
+          "_text": "BS_CUST_APPLE_GOBAL"
+        },
+        "ChannelID": {
+          "_text": "CC_HTTP_GET_SERIAL_APPLE_RECEIVER"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_HTTP_GET_SERIAL_SF_TP_SENDER"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_SYNC_SERIAL_H2H_SOURCE"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiepress.com/H2H/GetSerialNumber"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:38:15.494+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/IFTT/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_INT4_IFTT"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_IFTT"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_IFTT"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP2"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_IFTT"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_IFTT"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_SOAP"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_IFTT"
+        },
+        "InterfaceName": {
+          "_text": "dummy"
+        },
+        "InterfaceNamespace": {
+          "_text": "dummy"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_IFTT"
+        },
+        "InterfaceName": {
+          "_text": "dummy2"
+        },
+        "InterfaceNamespace": {
+          "_text": "dummy2"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "burchardt"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "burchardt"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-06-06T15:38:16.714+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Playroom_Burchardt"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Playroom_Burchardt"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Playroom_Burchardt"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_RCV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Playroom_Burchardt"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_SND"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Playroom_Burchardt"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_Playroom_Burchardt"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_CustomerData"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/xi/sandbox"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_Playroom_Burchardt"
+        },
+        "InterfaceName": {
+          "_text": "Dummy"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://example.com"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-09-27T13:06:38.165+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Muni_Scenarios"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Receiver"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Muni_Sender"
+        }
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-01-20T15:20:38.413+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Ernstings_Family"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_CPI_ErnstingsFamily"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_CPI_ErnstingsFamily"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_REST_ConsumingOrderData"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_CPI_ErnstingsFamily"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_REST_ConsumingOrderData"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_CPI_ErnstingsFamily"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_REST_PublishingOrderStatus"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_CPI_ErnstingsFamily"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_REST_PublishingOrderStatus"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_CPI_ErnstingsFamily"
+        },
+        "InterfaceName": {
+          "_text": "ORDERSP"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://ernstings.family/orders/dummy"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_CPI_ErnstingsFamily"
+        },
+        "InterfaceName": {
+          "_text": "ORDERS05"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://ernstings.family/orders/dummy"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "licib"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "licib"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-24T23:10:22.022+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/Brunilda_Lici/FILE2MAIL/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_F2M_EMAIL_NOTIF_BR"
+    },
+    "Party": {
+      "_text": "PY_TP_GLOBAL_BR"
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL_BR"
+      },
+      "ComponentID": {
+        "_text": "BS_TP_GLOBAL"
+      }
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-04-20T12:21:27.672+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "RLC_CS_PICS001_IF02_Ripkens"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "INTEGRATION_SERVER_RP1"
+      }
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CSharp_Multitool"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CSharp_Multitool_SFTP"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_SERVER_RP1"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_SND_PICS001_IF02_Ripkens"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CSharp_Multitool_SFTP"
+        },
+        "ChannelID": {
+          "_text": "CC_SFTP_RCV_PICS001_IF02_Ripkens"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "INTEGRATION_SERVER_RP1"
+        },
+        "ChannelID": {
+          "_text": "CC_MAIL_RCV_PICS001_IF02_Ripkens"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "RLC_BC_CSharp_Multitool"
+      },
+      "InterfaceName": {
+        "_text": "SI_OI_SystemStatus"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/ripkens"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "habbablj"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "habbablj"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-05-08T16:10:20.222+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/YassineSayadi/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Mitarbeitrprod_Yassine"
+    },
+    "Party": [
+      {
+        "_text": "Party_BIT100"
+      },
+      {
+        "_text": "Party_Yassine"
+      }
+    ],
+    "BusinessSystem": {
+      "PartyID": {
+        "_text": "Party_BIT100"
+      },
+      "ComponentID": {
+        "_text": "BS_RCM_PI_COURSE"
+      }
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-06-14T09:32:36.100+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_ExcelToXML_Ripkens"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_ExcelToXML"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_Ripkens"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_SND_ExcelToXML"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_Ripkens"
+      },
+      "InterfaceName": {
+        "_text": "SI_OI_ExelToXML"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de/exercise/ExelToXML"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-17T12:08:21.499+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Magento_Customer_Transfer_2"
+    },
+    "BusinessSystem": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_S4HANA_ERP1_DEV"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_MagentoWebShop_DEV"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_MagentoWebShop_DEV"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_SND_Customer"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_S4HANA_ERP1_DEV"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_Customer"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_MagentoWebShop_DEV"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_Magento_Customer"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/pi/Magento/Customer03"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-14T05:01:30.034+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_F2F_SIMONI"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Vendor_SIMONI"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ERP_SIMONI"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_ERP_SIMONI"
+        },
+        "ChannelID": {
+          "_text": "CC_FileReceiverINVOICIDOC"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_Vendor_SIMONI"
+        },
+        "ChannelID": {
+          "_text": "CC_FileSendInvoice"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_Vendor_SIMONI"
+      },
+      "InterfaceName": {
+        "_text": "Invoice_OA"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/RCA/RS/Course/file2file"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-08-23T08:06:59.905+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_CSharpMultitool_SP"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SP"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BC_CHarp_Multitool_SP"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "EAI_TRAINING_SHOP_SP"
+        },
+        "ChannelID": {
+          "_text": "CC_REST_SND_PICS001_IF02_SP"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CHarp_Multitool_SP"
+        },
+        "ChannelID": {
+          "_text": "CC_MAIL_rcv_PICS001_IF02_SP"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BC_CHarp_Multitool_SP"
+        },
+        "ChannelID": {
+          "_text": "CC_File_RCV_CSharpMultitool_SP"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "EAI_TRAINING_SHOP_SP"
+      },
+      "InterfaceName": {
+        "_text": "SI_CSharpMultitoolSender"
+      },
+      "InterfaceNamespace": {
+        "_text": "https://realcore.de/pi/LernpaketPICS001/IF02/CSharpClient_SP"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-18T10:32:29.783+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_ABRECHNUNG_Invoice"
+    },
+    "BusinessSystem": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BS_ABRECHNUNG"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "SHOP_Stork"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BS_ABRECHNUNG"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_Invoice"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "SHOP_Stork"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_Invoice"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "RLC_BS_ABRECHNUNG"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_InvoiceMagento"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/pi/Magento/Invoices"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-05-19T14:31:04.695+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_BAHNTICKETING_GUERKAN"
+    },
+    "BusinessComponent": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BOOKING_SYSTEM_GUERKAN"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BAHNTICKET_SHOP_GUERKAN"
+        }
+      }
+    ],
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BAHNTICKET_SHOP_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_Bahnticket"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_BOOKING_SYSTEM_GUERKAN"
+        },
+        "ChannelID": {
+          "_text": "CC_FILE_RCV_BOOKING"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_BAHNTICKET_SHOP_GUERKAN"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-18T15:07:56.800+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Bestellung_RQ"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BS_PI_Azubi_Schulung"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BS_PI_Azubi_Schulung"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_FILE_Bestellung_RQ"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "RLC_BS_PI_Azubi_Schulung"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_FILE_Bestellung_RQ"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "RLC_BS_PI_Azubi_Schulung"
+      },
+      "InterfaceName": {
+        "_text": "RLC_SI_OB_Bestellung_RQ"
+      },
+      "InterfaceNamespace": {
+        "_text": "Urn:realcore.de/xi/Schulung/Bestellung/RQ"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-07-15T10:16:36.202+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_Test_Synchron_Stork"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "SHOP_Stork"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "SHOP_Stork"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_SND_RequestCatcher"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "SHOP_Stork"
+        },
+        "ChannelID": {
+          "_text": "CC_SOAP_RCV_RequestCatcher"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "SHOP_Stork"
+      },
+      "InterfaceName": {
+        "_text": "TestRequestCatcher"
+      },
+      "InterfaceNamespace": {
+        "_text": "TestRequestCatcherNS"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tiryaki"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "steinkamp"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-27T14:27:26.465+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "ConfigurationScenarioID": {
+      "_text": "CS_AdapterModul_Tiryaki"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_AdapterModul_Tiryaki"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModul_Tiryaki"
+        },
+        "ChannelID": {
+          "_text": "CC_Step2_RCV_FILE_SFTP_v2_Adaptermodul_Tiryaki"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModul_Tiryaki"
+        },
+        "ChannelID": {
+          "_text": "CC_Step1_RCV_FILE_NFS_Adaptermodul_Tiryaki"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModul_Tiryaki"
+        },
+        "ChannelID": {
+          "_text": "CC_Step2_SND_FILE_NFS_Adaptermodul_Tiryaki"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModul_Tiryaki"
+        },
+        "ChannelID": {
+          "_text": "CC_Step1_SND_FILE_SFTP_Adaptermodul_Tiryaki"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModul_Tiryaki"
+        },
+        "ChannelID": {
+          "_text": "CC_Step2_RCV_FILE_SFTP_Adaptermodul_Tiryaki"
+        }
+      }
+    ],
+    "IntegratedConfiguration": [
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_AdapterModul_Tiryaki"
+        },
+        "InterfaceName": {
+          "_text": "CC_STEP1_FILESHARE_SFTP_TO_NFS_DUMMY"
+        },
+        "InterfaceNamespace": {
+          "_text": "CC_STEP1_FILESHARE_SFTP_TO_NFS_DUMMY"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      },
+      {
+        "SenderPartyID": {},
+        "SenderComponentID": {
+          "_text": "BC_AdapterModul_Tiryaki"
+        },
+        "InterfaceName": {
+          "_text": "SI_OA_GenericSedex"
+        },
+        "InterfaceNamespace": {
+          "_text": "http://realcore.de/pi/Experimente/FileToFile_AdapterModul_Tiryaki"
+        },
+        "ReceiverPartyID": {},
+        "ReceiverComponentID": {}
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-08-16T16:02:00.578+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_TestScenario"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_RC_TEST_REST"
+      }
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-11-17T12:06:27.566+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_APIM_Schulung_Northwind"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_AdapterModulTest"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModulTest"
+        },
+        "ChannelID": {
+          "_text": "CC_SND_REST_Northwind"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModulTest"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_REST_Northwind"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_AdapterModulTest"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_APIM_Schulung"
+      },
+      "InterfaceNamespace": {
+        "_text": "SI_OA_APIM_Schulung"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-11-03T15:23:46.079+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "test"
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_FLINK_GUERKAN"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-19T08:58:06.727+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "ConfigurationScenarioID": {
+      "_text": "CS_AdapterModulTest_Kinold"
+    },
+    "BusinessComponent": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_AdapterModulTest"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {
+          "_text": "*"
+        },
+        "ComponentID": {
+          "_text": "BC_AdapterModulTest"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_AdapterModulTest"
+        }
+      },
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BC_AdapterModulTest"
+        },
+        "ChannelID": {
+          "_text": "CC_RCV_SOAP_AdapterModulTest"
+        }
+      }
+    ]
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-24T09:24:08.323+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/JDBC2MAIL_NOTIFICATION/"
+      }
+    },
+    "ConfigurationScenarioID": {
+      "_text": "CS_JDBC2MAIL_LJUBIC"
+    },
+    "Party": {
+      "_text": "PY_TP_GLOBAL"
+    },
+    "BusinessSystem": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+      }
+    },
+    "BusinessComponent": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "BS_TP_GLOBAL"
+      }
+    },
+    "CommunicationChannel": [
+      {
+        "PartyID": {},
+        "ComponentID": {
+          "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+        },
+        "ChannelID": {
+          "_text": "CC_JDBC_SOURCE_LJUBIC"
+        }
+      },
+      {
+        "PartyID": {
+          "_text": "PY_TP_GLOBAL"
+        },
+        "ComponentID": {
+          "_text": "BS_TP_GLOBAL"
+        },
+        "ChannelID": {
+          "_text": "CC_EMAIL_TP_RECEIVER_LJUBIC"
+        }
+      }
+    ],
+    "IntegratedConfiguration": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_LJUBIC"
+      },
+      "InterfaceName": {
+        "_text": "SI_OUT_ASYNC_JDBC_J2M_SOURCE_LJUBIC"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://techiepress.com/JDBC2MAIL"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    }
+  }
+]

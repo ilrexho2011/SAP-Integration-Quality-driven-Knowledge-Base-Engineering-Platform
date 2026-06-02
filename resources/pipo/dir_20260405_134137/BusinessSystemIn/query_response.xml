@@ -1,0 +1,351 @@
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://sap.com/xi/BASIS">
+  <ns0:Body>
+    <ns1:BusinessSystemQueryResponse>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_POCUST_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_F2F_POCAST_SYSTEM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_MAX_Sender</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>SHOP_ALVAREZ</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_Niermann</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_CLNT_GLOBAL_BL</PartyID>
+        <ComponentID>BS_CLNT_SYSTEM_BR</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>Party_BIT100</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_XX</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SHOP_EAI_ZaidAbou</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Erguezel</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_KUBIS</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>Z_BS_CAPACITY_ENT</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO1</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ECC_800_TP_SXH</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_FF</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_BOOKFOUNTAIN_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_A</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_jose</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_READERSPARADISE_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_GROBINL</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_S4HANA_ERP1_DEV</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>Test_Party_AB</PartyID>
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_HOCM_PG1_DEMO</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_CUST_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_F2F_CUST_SYSTEM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_RCV002</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MAXX</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_COM_GLOBAL_BL</PartyID>
+        <ComponentID>BS_F2F_COM_SYSTEM_BR</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>Party_Manar_A</PartyID>
+        <ComponentID>BS_RCM_PI_Manar</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Madzima</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_MAX_Receiver</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAININGERGUZEL_SOAPUI_DOGI</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_TOREST</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_BOOKFOUNTAIN</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>Test_Party_AA</PartyID>
+        <ComponentID>BS_Niermann</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>TS_ERP_TRAINING_Margreff</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_EAI_ZaidAbou</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_BS_GEOERGUEZEL_DOGI</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_RA1_800</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_RH2_240</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>Party_Yassine</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_Training_Madzima</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MARGREFF</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAININGERGUZEL_SFTP_DOGI</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_MALENSEKM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SHOP</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>SAP_CRM_PRD_CLNT001</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SAP_ERP</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_Mastertool</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_ABRECHNUNG</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_RCA_GLOBAL_IR</PartyID>
+        <ComponentID>BS_F2F_RCA_SYSTEM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_PI_Azubi_Schulung</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_ERP_MAXX</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_RCV001</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_CUST_GLOBAL_IR</PartyID>
+        <ComponentID>BS_F2F_CUST_SYSTEM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_INTERFACEDEMO_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_STEVO_SHOP</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SAP_ERP</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_FF</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_TRAINING_Rati2</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SENDER_POTESTING</ComponentID>
+      </BusinessSystemID>
+      <LogMessageCollection />
+    </ns1:BusinessSystemQueryResponse>
+  </ns0:Body>
+</ns0:Envelope>

@@ -1,0 +1,763 @@
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://sap.com/xi/BASIS">
+  <ns0:Body>
+    <ns1:BusinessComponentQueryResponse>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Mitarbeiterdialog_Sammlung</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Smiezewski</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_EbayRestAPI</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Bauch</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_RESTAPI_SENDER_TO_RECEIVER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_ExtPartner</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_B</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>Concur</PartyID>
+        <ComponentID>BC_Concur</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_WS_S2S_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_IR_BPM_Sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_TestClient</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Rechner_2</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_JBCD_2_JDBC_SOURCE_TO_TARGET_DELETE_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_F2F_RECEIVER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_CPI_RCM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Piechota</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_GROBINL</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_GROBINL</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_RIPKENS</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Online_Rechner</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Booking_System_IR</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SOAP2FILE_SENDER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_S1vC_PS</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_SFTP_SP</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RECEIVER_SOAP2JDBC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_E1_AM_SENDER</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_SYSTEM_Rati</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_FIL_NRW_PRD</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKETING_SHOP_WICK</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_RESTAPI_RECEIVER_SYSTEM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RECEIVER_SYSTEM_DELETE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>Party_Manar_A</PartyID>
+        <ComponentID>CC_Test_Manar</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SalesStatistics</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_Booking_System_Altiner</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_MeteoAL</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_LJUBIC_REST2SFTP_TARGET</PartyID>
+        <ComponentID>BS_LJUBIC_REST2SFTP_TARGET</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>IFTT_Test_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_TP_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_TP_GLOBAL_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_DE_01_GES</PartyID>
+        <ComponentID>BC_VST</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SFTP_TO_JDBC_SOURCE_TO_TARGET_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_Zaid_Aboukoura</PartyID>
+        <ComponentID>Receiver_csv</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_TARGET</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_TARGET</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_JDBC_TO_SFTP_SOURCE_TO_TARGET_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SOAP2FILE_RECEIVER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SAP_ERP_TRAINING_KUECUEK_2</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_Postman</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_REST_SUNRISE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_RIPKENS</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_HOCM_F2F_TARGET</PartyID>
+        <ComponentID>BS_HOCM_F2F_TARGET</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_SENDER_SYSTEM_UPDATE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_WOHLMACHER</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>FILE2FILE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_WeatherAPI</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_MANI_sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_ERP_SIMONI</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Customer</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_HOCEVAR_S2SFTP_SOURCE</PartyID>
+        <ComponentID>CC_SOAP_HOCEVAR_S2SFTP_SENDER</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_DE_03</PartyID>
+        <ComponentID>BC_GH_Software</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_HOCEVAR_S2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_HOCEVAR_S2SFTP_SOURCE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_HOCM_F2F_SOURCE</PartyID>
+        <ComponentID>BS_HOCM_F2F_SOURCE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Postman</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_DE_06_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Smiezewski</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_E1_AM_RECEIVER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>RLC_BC_CHarp_Multitool_SP</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_ERP</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_SFTP_PS</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_LJUBIC_REST2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_LJUBIC_REST2SFTP_SOURCE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_WS_S2S_Sender_SIMONI</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_BANK_CITYBANK_SXH</PartyID>
+        <ComponentID>CO_BANK_CITYBANK_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Piechota</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_TP_GLOBAL_BR</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_EAI_TRAINING_ERP_Jaeger_2</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_FILE2FILE_RECEIVER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_WS</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_GH_01</PartyID>
+        <ComponentID>BC_GH_01_101</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Ripkens</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_SENDER_SYSTEM_HOCEVARM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_WS_S2S_Receiver_SIMONI</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_WOHLMACHER</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_JDBC2MAIL_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_IR_Discount_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_RECEIVER_SYSTEM_HOCEVARM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_CUST_APPLE_GLOBAL</PartyID>
+        <ComponentID>BS_CUST_APPLE_GOBAL</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_IFTT</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Muni_BPM_Sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_REST_SENDER_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_SOAP_COUTRY</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Playroom_Burchardt</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_POTRAINING_F2F_CUST_GLOBAL_SOURCE_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Split_conv</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Calculator</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_HetznerSftp</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_DE_05_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_SOAP_SERVICE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_DieBreuerKomponente</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_REST_RECEIVER_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Bahnticketing_Shop_Altiner_2</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_POTRAINING_F2F_POCASTS_GLOBAL_TARGET_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_ENHANCEDMONITORING_GUERKAN</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_S2S_Receiver_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_RDS</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_WICK</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SENDER_F2F_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_PS</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_ENHANCEDMONITORING_MAILSERVER</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_REST_Receiver_Rates</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BOOKFOUNTAIN</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_RESTAPI_SENDER_SYSTEM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_SENDER_SOAP2JDBC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BeispielBC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RESTAPI_RECEIVER_SYSTEM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_E1_AM_SENDER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_SOURCE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RECEIVER_SYSTEM_POST</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_SENDER_SYSTEM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_SENDER_SYSTEM_DELETE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_HOCEVAR_S2SFTP_SOURCE</PartyID>
+        <ComponentID>CC_SFTP_HOCEVAR_S2SFTP_SENDER</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_GUERKAN</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Receiver_R2R_Ebay_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_F2F_SENDER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Test_LockBeforeReading</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RECEIVER_SYSTEM_UPDATE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_DAISY_TRANS</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_ORDER_CREATE_TARGET</PartyID>
+        <ComponentID>BS_ORDER_CREATE_TARGET</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_WS_S2S_Sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_IR__Sender_Fruitshop</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_RECEIVER_SYSTEM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Calculator_Test_Altiner</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Sender_R2R_Ebay_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_SENDER_SYSTEM_POST</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>IFTT_Test_Sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_IC_PRD</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_JDBC_SYSTEM_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>CC_Manar_PI</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_JBDC_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_DE_05_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Bahnticketing_Shop_Altiner</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_MANI_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharp_Multitool_SFTP</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_S2S_Sender_SXH</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_DE_06_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_READERSPARADISE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>CC_MAIL_RECEIVER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_UEBUNG_WICK</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_SOAP_Sender_Currencys</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_ORDER_CREATE_SOURCE</PartyID>
+        <ComponentID>BS_ORDER_CREATE_SOURCE</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RESTAPI_SENDER_SYSTEM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Bahnticketing_Shop_IR</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>TEST_MigrationHelper</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_IR__Receiver_Fruitshop</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Muni_BPM_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Vendor_SIMONI</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_CUST_APPLE_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>BS_CUST_APPLE_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_RECEIVER_F2F_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_F2M_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Ripkens</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>P_Zaid_Aboukoura</PartyID>
+        <ComponentID>Sender_csv</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_IR_BPM_Receiver</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_FILE2FILE_SENDER_LJUBIC</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_PI</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_F2M_Sender</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharp_Multitool</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_GUERKAN</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_MALENSEKM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_MALENSEKM</ComponentID>
+      </BusinessComponentID>
+      <BusinessComponentID>
+        <PartyID />
+        <ComponentID>BS_E1_AM_RECEIVER</ComponentID>
+      </BusinessComponentID>
+      <LogMessageCollection />
+    </ns1:BusinessComponentQueryResponse>
+  </ns0:Body>
+</ns0:Envelope>

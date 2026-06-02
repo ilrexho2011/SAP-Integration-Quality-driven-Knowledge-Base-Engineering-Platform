@@ -1,0 +1,7 @@
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://sap.com/xi/BASIS">
+  <ns0:Body>
+    <ns1:InterfaceDeterminationQueryResponse>
+      <LogMessageCollection />
+    </ns1:InterfaceDeterminationQueryResponse>
+  </ns0:Body>
+</ns0:Envelope>

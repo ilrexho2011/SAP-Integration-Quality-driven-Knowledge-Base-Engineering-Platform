@@ -1,0 +1,23 @@
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://sap.com/xi/BASIS">
+  <ns0:Body>
+    <ns1:SenderAgreementQueryResponse>
+      <SenderAgreementID>
+        <SenderPartyID />
+        <SenderComponentID>BC_F2F_SENDER_LJUBIC</SenderComponentID>
+        <InterfaceName>SI_AO_F2F</InterfaceName>
+        <InterfaceNamespace>urn:realcore.de:FILE_TO_FILE:ljubic</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </SenderAgreementID>
+      <SenderAgreementID>
+        <SenderPartyID />
+        <SenderComponentID>BC_UEBUNG_WICK</SenderComponentID>
+        <InterfaceName>SI_OA_Reiseanfrage</InterfaceName>
+        <InterfaceNamespace>http://realcore.de/uebung_wick</InterfaceNamespace>
+        <ReceiverPartyID />
+        <ReceiverComponentID />
+      </SenderAgreementID>
+      <LogMessageCollection />
+    </ns1:SenderAgreementQueryResponse>
+  </ns0:Body>
+</ns0:Envelope>

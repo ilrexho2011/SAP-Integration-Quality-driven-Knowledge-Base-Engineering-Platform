@@ -1,0 +1,8493 @@
+[
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-12-17T13:05:39.907+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Mitarbeiterdialog_Sammlung"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_in_BetrieblicheFunktion"
+      },
+      "Namespace": {
+        "_text": "urn:evnat:sapcore:personalstamm"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b11ce930-9a17-11ec-cc4b-c20fc0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "smiezewski"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "smiezewski"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T14:11:03.954+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schulung_Sender_Smiezewski"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Outbound_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung/Smiezewski"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-19T17:44:28.960+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/EBAY-SERVICE/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_EbayRestAPI"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_EbayRestAPI_Async_IN"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/ebay-service"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_EbayRestAPI_Sync_OUT"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/ebay-service"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-04T14:07:47.896+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Bauch"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IB_Satzart"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Tanja_Test"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-15T15:24:48.340+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/RESTAPI/REST2FTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_RESTAPI_SENDER_TO_RECEIVER_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_NONEXIST_RESTAPI_REST_2_FTP_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://podcast.com/restapi/rest2ftp"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_NONEXIST_RESTAPI_REST_2_FTP_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://podcast.com/restapi/rest2ftp"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "DE"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "glebsattel"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "labrache"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-07-28T13:11:10.887+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_RC_EXT"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "GetFactSheets_In_SI"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter_Test"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "GetFactSheets_In_SI"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter/GoogleAPI"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "GetToken_IS"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter_Test"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IB_GeoCode"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter_Test"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IS_IChannelAdmin"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/CommunicationChannels/Admin"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      }
+    ],
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "GetFactSheets_Out_SI"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter_Test"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "GetFactSheets_Out_SI"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter/GoogleAPI"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "GetToken_OS"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter_Test"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OB_GeoCode"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter_Test"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OS_QuickExpenses"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/concur_Expenses"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OS_IChannelAdmin"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/CommunicationChannels/Admin"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      }
+    ],
+    "AdditionalIdentifier": [
+      {},
+      {},
+      {}
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "sayadiy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "sayadiy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-09-17T15:58:18.027+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_ExtPartner"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-06-04T13:14:48.626+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SCHULUNG_STORK_B"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-09-27T13:06:25.336+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Muni_Receiver"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-10T11:39:17.327+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_EAI_Fruitshop"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-03-19T10:58:22.476+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "Concur"
+      },
+      "ComponentID": {
+        "_text": "BC_Concur"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_VendorData"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Tanja_Test"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-20T21:25:01.652+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/COUNTRIES-INFO/"
+      }
+    },
+    "Description": {
+      "_text": "Use in Country-Info Soap to Soap Scenario"
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_WS_S2S_Receiver"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-26T19:47:36.615+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/BPM/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_IR_BPM_Sender"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "herrmann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-01-27T15:08:54.134+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_TestClient"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IS_Loopback"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de/po/intern/tools/loopback"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "8ab343d0-3411-11e4-9e14-eeedc0a80281"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OS_Loopback"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de/po/intern/tools/loopback"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "8ab343d0-3411-11e4-9e14-eeedc0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-12-15T09:53:38.260+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Rechner_2"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Calculator_In"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Calculator"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "98950910-5b87-11ed-c0da-c1f7c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-12T13:37:25.563+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/JDBC_TO_JDBC_DELETE/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_JBCD_2_JDBC_SOURCE_TO_TARGET_DELETE_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_JDBC_TO_JDBC_DELETE_TARGET_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/JDBC2JDBC/WorkersDELETE"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_JDBC_TO_JDBC_DELETE_SOURCE_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/JDBC2JDBC/WorkersDELETE"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "stork"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-06-04T13:14:30.635+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SCHULUNG_STORK_A"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-29T07:46:45.049+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_F2F_RECEIVER_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_AI_F2F"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:FILE_TO_FILE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_AO_F2F"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:FILE_TO_FILE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "sayadiy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "sayadiy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-09-17T16:00:18.451+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_CPI_RCM"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T11:32:10.681+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schulung_Sender_Piechota"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OB_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung/Piechota"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "grobin"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "grobin"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-03T14:21:11.170+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/GROBINL/TECHIEPRESS/(REST) F2F_SUPPLIERS_PAYMENTS_GROBINL/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_BANK_CITIBANK_GLOBAL_GROBINL"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITIBANK_GLOBAL_GROBINL"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_SP_F2F_TARGET"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/F2F/SupplierPayments/grobinl"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "72562540-b80c-11ed-8c2c-f178c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_SP_F2F_SOURCE"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/F2F/SupplierPayments/grobinl"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "72562540-b80c-11ed-8c2c-f178c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-18T10:52:48.087+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BOOKING_SYSTEM_RIPKENS"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung_Ripkens"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0e542870-4f4b-11eb-af86-d85ac0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-30T10:26:42.633+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2FTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC"
+      },
+      "ComponentID": {
+        "_text": "BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_PO_CREATE_DEMO"
+      },
+      "Namespace": {
+        "_text": "urn:potesting.com:retake:ljubic/soap2sftp"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f8028f10-01ad-11ec-c49b-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-01-06T10:34:40.881+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Online_Rechner"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-21T19:33:06.768+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/BAHNTICKETING/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Booking_System_IR"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/bahnticketing"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "213b6d90-4d2b-11ef-881e-d227c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-29T15:08:07.226+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SOAP2FILE_SENDER_LJUBIC"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-08-01T14:20:04.162+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_S1vC_PS"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IB_InfoTransport_PS"
+      },
+      "Namespace": {
+        "_text": "Urn:realcore.de/xi/Schulung/S1vC/PS"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "43a8b630-5eb1-11e4-c3ef-fa90c0a80281"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OB_InfoTransport_PS"
+      },
+      "Namespace": {
+        "_text": "Urn:realcore.de/xi/Schulung/S1vC/PS"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "43a8b630-5eb1-11e4-c3ef-fa90c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-08-22T10:33:51.143+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BC_CSharpMutltitool_SFTP_SP"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-29T21:42:03.234+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_RECEIVER_SOAP2JDBC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_AI_RECEIVER_SOAP2JDBC_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP_TO_JDBC:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-24T09:28:47.509+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/E1_TESTMODULE_EAR_HOCEVARM/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_E1_AM_SENDER"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "madzima"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-03-31T10:59:49.474+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_EAI_ERP_SYSTEM_Rati"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "BAPI_MATERIAL_AVAILABILITY"
+      },
+      "Namespace": {
+        "_text": "urn:sap-com:document:sap:rfc:functions"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "560c3480-a6b3-11ec-cae6-de20c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-08-16T07:34:41.172+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "Businesskomponente für das Buchbeispiel"
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_FIL_NRW_PRD"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "MBGMCR.MBGMCR03"
+        },
+        "Namespace": {
+          "_text": "urn:sap-com:document:sap:idoc:messages"
+        },
+        "SoftwareComponentVersionID": {}
+      },
+      {
+        "Name": {
+          "_text": "SI_IA_PurchaseOrder"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      }
+    ],
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "ARTMAS.ARTMAS09"
+        },
+        "Namespace": {
+          "_text": "urn:sap-com:document:sap:idoc:messages"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "ORDERS.ORDERS05"
+        },
+        "Namespace": {
+          "_text": "urn:sap-com:document:sap:idoc:messages"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_PurchaseOrder"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_SalesOrder_BRM"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_TweetMessage"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_WarBew"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Inventory"
+        },
+        "SoftwareComponentVersionID": {}
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-03-08T11:05:55.764+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BAHNTICKETING_SHOP_WICK"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "4d9c53c0-3e18-11eb-bd08-ed13c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-24T14:25:05.782+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/REST2SFTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_HOCEVARM_RESTAPI_RECEIVER_SYSTEM"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-01-28T09:42:19.290+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_MTE_Sender"
+      }
+    },
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_OA_MTE_Beispiel_Ausgang_Rechnung_BPM"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/BPM"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "6e625660-5b03-11eb-90c9-d85ac0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_MTE_Beispiel_Rechnung"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/BPM"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "6e625660-5b03-11eb-90c9-d85ac0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_Order_Send_BPM"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/FinalTest"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "6e625660-5b03-11eb-90c9-d85ac0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_Order_Send_PI"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/FinalTest"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "6e625660-5b03-11eb-90c9-d85ac0a8fa26"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-08T13:15:15.586+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - DELETE/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_RECEIVER_SYSTEM_DELETE"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_INBOUND_deleteProduct_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP2REST_DELETE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "alamim"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "alamim"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-05-24T14:19:57.739+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "Party_Manar_A"
+      },
+      "ComponentID": {
+        "_text": "CC_Test_Manar"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Customer_Manar"
+      },
+      "Namespace": {
+        "_text": "http://Realcore.de/Manar"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "83fd2a40-c965-11ed-b85e-f178c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-08-19T09:08:16.739+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SalesStatistics"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Statistics_IB"
+      },
+      "Namespace": {
+        "_text": "http://aldi-nord.de/EXTBP/SalesStatistics"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "79a419b0-ba6d-11e9-cbd2-c1770ae4e549"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Statistics_OB"
+      },
+      "Namespace": {
+        "_text": "http://aldi-nord.de/ERP/SalesStatistics"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "6b34ab80-c61b-11e7-bb6d-f1a0c6121a81"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-11-06T15:33:23.296+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SFTP"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-12T08:22:33.678+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/F2F_SUPPLIERS_PAYMENTS/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_BANK_CITIBANK_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITIBANK_GLOBAL"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_IN_ASYNC_SP_F2F_TARGET"
+        },
+        "Namespace": {
+          "_text": "http://techiepress.com/F2F/SupplierPayments"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IN_ASYNC_J2SFTP_TARGET_LJUBIC"
+        },
+        "Namespace": {
+          "_text": "http://techiepress.com/J2SFTP/WorkersUpdate_to_FILE"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+        }
+      }
+    ],
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASY_SP_F2M_SOURCE"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP2MAIL:Email:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "18771e40-e8f6-11ea-c54a-d6aac0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-11-18T10:07:34.701+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_Booking_System_Altiner"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "98950910-5b87-11ed-c0da-c1f7c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-19T19:29:13.842+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/WEATHER-API/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_MeteoAL"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_MeteoRestAPI_Async_IN"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/weather-api"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_MeteoRestAPI_Sync_OUT"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/weather-api"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-11-02T10:49:08.876+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/REST2SFTP_LJUBIC/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_LJUBIC_REST2SFTP_TARGET"
+      },
+      "ComponentID": {
+        "_text": "BS_LJUBIC_REST2SFTP_TARGET"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-06-03T09:39:52.494+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "IFTT_Test_Receiver"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "ORDERS.ORDERS05"
+      },
+      "Namespace": {
+        "_text": "urn:sap-com:document:sap:idoc:messages"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "a15c8340-6648-11e3-9eb3-f1f4c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-14T20:03:36.144+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/TP_F2F_EMAIL_NOTIFICATION/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL_SXH"
+      },
+      "ComponentID": {
+        "_text": "BS_TP_GLOBAL_SXH"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_EMAIL_F2M_TARGET_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2MAIL"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_F2M_SOURCE_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2MAIL"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-04T14:07:30.776+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_DE_01_GES"
+      },
+      "ComponentID": {
+        "_text": "BC_VST"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OB_Satzart"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Tanja_Test"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-12T11:19:56.185+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/SFTP_TO_JDBC/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SFTP_TO_JDBC_SOURCE_TO_TARGET_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_JDBC_TARGET_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/SFTP2JDBC/WorkersUpdate_FILE_to_JDBC"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_SFTP_SOURCE_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/SFTP2JDBC/WorkersUpdate_FILE_to_JDBC"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-28T15:36:28.814+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_Zaid_Aboukoura"
+      },
+      "ComponentID": {
+        "_text": "Receiver_csv"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-10-26T10:39:58.734+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_HOCEVAR_SOAP2SFTP_TARGET"
+      },
+      "ComponentID": {
+        "_text": "BS_HOCEVAR_SOAP2SFTP_TARGET"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_SalesOrder_Create"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/hocmpg1/SOAP2SFTP"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "3e672f20-0194-11ec-a4ce-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-12T09:26:48.653+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/JDBC_TO_SFTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_JDBC_TO_SFTP_SOURCE_TO_TARGET_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_J2SFTP_TARGET_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/J2SFTP/WorkersUpdate_to_FILE"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_J2SFTP_SOURCE_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/J2SFTP/WorkersUpdate_to_FILE"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-29T15:09:05.056+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SOAP2FILE_RECEIVER_LJUBIC"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kuecuek"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kuecuek"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-07-21T10:02:58.209+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SAP_ERP_TRAINING_KUECUEK_2"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeDateTime": {
+        "_text": "2026-02-11T10:54:57.442+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_Khalil"
+      },
+      "ComponentID": {
+        "_text": "BC_Postman"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_WeatherAPI_Sync_Out"
+      },
+      "Namespace": {
+        "_text": "urn:com:pi:integrationREST:common"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeDateTime": {
+        "_text": "2026-02-16T11:18:42.356+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_Khalil"
+      },
+      "ComponentID": {
+        "_text": "BC_REST_SUNRISE"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-18T10:52:52.039+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BAHNTICKET_SHOP_RIPKENS"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung_Ripkens"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0e542870-4f4b-11eb-af86-d85ac0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-23T13:18:09.574+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_HOCM_F2F_TARGET"
+      },
+      "ComponentID": {
+        "_text": "BS_HOCM_F2F_TARGET"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_PO_CREATE_DEMO"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/hocmpg1/file2fileinterface"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "3e672f20-0194-11ec-a4ce-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-06T09:49:04.051+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - UPDATE/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_SENDER_SYSTEM_UPDATE"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_REQUEST"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP2REST_UPDATE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wohlmacher"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wohlmacher"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-18T10:56:07.091+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BOOKING_SYSTEM_WOHLMACHER"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "810cd090-3e18-11eb-9c48-ed13c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-12-01T09:47:54.288+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "FILE2FILE"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_AI_F2F"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:FILE_TO_FILE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_AO_F2F"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:FILE_TO_FILE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeDateTime": {
+        "_text": "2026-02-11T10:51:09.403+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_Khalil"
+      },
+      "ComponentID": {
+        "_text": "BC_WeatherAPI"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_WeatherAPI_REST_In"
+      },
+      "Namespace": {
+        "_text": "urn:com:pi:integrationREST:common"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-10T12:15:02.497+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_MANI_sender"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_in_BetrieblicheFunktion"
+      },
+      "Namespace": {
+        "_text": "urn:evnat:sapcore:personalstamm"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b11ce930-9a17-11ec-cc4b-c20fc0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_BetrieblicheFunktion"
+      },
+      "Namespace": {
+        "_text": "urn:evnat:sapcore:personalstammO"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b11ce930-9a17-11ec-cc4b-c20fc0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-14T04:45:12.315+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_ERP_SIMONI"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "IDOCInvoic_IA"
+      },
+      "Namespace": {
+        "_text": "http://realcore/de/RCA/RS?Course/FiletoFile"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b8877e70-9022-11ef-85c8-e734c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tbauch"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-03-04T09:11:47.673+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Customer"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IB_customer"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/sandbox/bauch"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OB_customer"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/sandbox/bauch"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-10-26T09:31:30.786+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_HOCEVAR_S2SFTP_SOURCE"
+      },
+      "ComponentID": {
+        "_text": "CC_SOAP_HOCEVAR_S2SFTP_SENDER"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-23T15:02:22.857+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/SFTP2MAIL_EMAIL_NOTIFICATION/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "BS_TP_GLOBAL"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_IN_ASYNC_TP_EMAIL_F2M_TARGET_LJUBIC"
+        },
+        "Namespace": {
+          "_text": "http://techiepress.com/F2M/EmailNotification"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IN_ASYNC_MAIL_J2M_TARGET_LJUBIC"
+        },
+        "Namespace": {
+          "_text": "http://techiepress.com/JDBC2MAIL"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-08T06:48:14.871+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_DE_03"
+      },
+      "ComponentID": {
+        "_text": "BC_GH_Software"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-10-26T09:35:35.006+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_HOCEVAR_S2SFTP_SOURCE"
+      },
+      "ComponentID": {
+        "_text": "BS_HOCEVAR_S2SFTP_SOURCE"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-23T13:17:42.726+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_HOCM_F2F_SOURCE"
+      },
+      "ComponentID": {
+        "_text": "BS_HOCM_F2F_SOURCE"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_PO_CREATE_DEMO"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/hocmpg1/file2fileinterface"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "3e672f20-0194-11ec-a4ce-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-14T19:37:29.390+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/TP_F2F_EMAIL_NOTIFICATION/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_SHOPFLOOR_TP_GLOBAL_SXH"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_EMAIL_F2M_TARGET_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2MAIL"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_F2M_SOURCE_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2MAIL"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-19T17:42:16.217+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/EBAY-SERVICE/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Postman"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_EbayRestAPI_Async_IN"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/ebay-service"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_EbayRestAPI_Sync_OUT"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/ebay-service"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:41:59.714+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/Directory_API/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_DE_06_044"
+      },
+      "ComponentID": {
+        "_text": "BC_Transport"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "smiezewski"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "smiezewski"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T14:11:05.611+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schulung_Empfaenger_Smiezewski"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Inbound_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung/Smiezewski"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-24T13:40:53.136+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY - SAP PO: Custom Adapter Module Training/E1_TESTMODULE_EAR/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_E1_AM_RECEIVER_LJUBIC"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "plewka"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-08-16T10:15:53.440+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BC_CHarp_Multitool_SP"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_CSharpMultitoolSender"
+      },
+      "Namespace": {
+        "_text": "https://realcore.de/pi/LernpaketPICS001/IF02/CSharpClient_SP"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "c1b8fe90-bff5-11e9-86ac-d2f0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:40:25.305+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_ERP"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SIOA_Ord"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/xi/Sid"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-12-17T09:14:06.795+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BC_CSharpMutltitool_SFTP_PS"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_II_GetDataForMail"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/Piechota"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "6cd26b70-0b75-11ea-cc33-fde6c0a8fa18"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OI_GetDataForMail"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/Piechota"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "bb4f2cf0-f957-11e9-c840-fde6c0a8fa18"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-11-02T10:49:54.053+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/REST2SFTP_LJUBIC/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_LJUBIC_REST2SFTP_SOURCE"
+      },
+      "ComponentID": {
+        "_text": "BS_LJUBIC_REST2SFTP_SOURCE"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-28T02:47:01.896+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_WS_S2S_Sender_SIMONI"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Country_WebService_S2S_In"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/RC/RS/Course/SOAP2SOAP"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b8877e70-9022-11ef-85c8-e734c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Country_WebService_S2S_Out"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/RC/RS/Course/SOAP2SOAP"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b8877e70-9022-11ef-85c8-e734c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-12T18:45:24.248+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/TechiePresss_F2F/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_BANK_CITYBANK_SXH"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITYBANK_SXH"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_F2F_TARGET_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2file"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_F2F_SOURCE_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/TechiePresss/file2file"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T11:32:12.890+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schulung_Empfaenger_Piechota"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IB_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung/Piechota"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "licib"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "licib"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-24T23:06:34.811+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/Brunilda_Lici/FILE2MAIL/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL_BR"
+      },
+      "ComponentID": {
+        "_text": "BS_TP_GLOBAL"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_TP_EMAIL_F2M_TARGET_BL"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/BL/course/file2mail"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "7be45610-83f6-11ef-98a9-c601c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "jaeger"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "jaeger"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-07-15T11:10:08.849+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_EAI_TRAINING_ERP_Jaeger_2"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-12-01T13:58:40.476+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY - SAP PO: Custom Adapter Module Training/FILE2FILE_LJUBIC/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_FILE2FILE_RECEIVER_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_F2F_POCAST_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://pocasts.com/interfacedemo/file2file"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "752e6e10-327d-11eb-a1f6-ed13c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-15T12:41:20.303+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/IFTT/S4 Integration/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_WS"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SIOA_Ord_SOAP"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/xi/Sid/IFTT"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-07T07:23:57.090+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_GH_01"
+      },
+      "ComponentID": {
+        "_text": "BC_GH_01_101"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T11:38:41.146+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schulung_Sender_Ripkens"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OB_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung/Ripkens"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-17T09:53:43.895+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/RESTAPI_HOCEVARM/REST2FTP_HOCEVARM/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_RESTAPI_SENDER_SYSTEM_HOCEVARM"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-28T02:45:58.629+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_WS_S2S_Receiver_SIMONI"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Country_WebService_S2S_In"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/RC/RS/Course/SOAP2SOAP"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b8877e70-9022-11ef-85c8-e734c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Country_WebService_S2S_Out"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/RC/RS/Course/SOAP2SOAP"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b8877e70-9022-11ef-85c8-e734c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wohlmacher"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wohlmacher"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-02-18T10:54:46.173+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BAHNTICKET_SHOP_WOHLMACHER"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "810cd090-3e18-11eb-9c48-ed13c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-23T21:56:15.845+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/JDBC2MAIL_NOTIFICATION/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_JDBC2MAIL_TP_GLOBAL_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_MAIL_J2M_TARGET_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/JDBC2MAIL"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_JDBC_J2M_SOURCE_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/JDBC2MAIL"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-26T04:21:10.794+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/BRM/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_IR_Discount_Receiver"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "tiryaki"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "tiryaki"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-26T16:09:13.557+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_AdapterModul_Tiryaki"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "Invoice_IA"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/Experimente/FileToFile_AdapterModul_Tiryaki"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "a29aaa40-01bb-11ec-c837-c2e0c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IA_Envelope"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/Experimente/FileToFile_AdapterModul_Tiryaki"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "a29aaa40-01bb-11ec-c837-c2e0c0a8fa26"
+        }
+      }
+    ],
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "Invoice_OA"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/Experimente/FileToFile_AdapterModul_Tiryaki"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "a29aaa40-01bb-11ec-c837-c2e0c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_Envelope"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/Experimente/FileToFile_AdapterModul_Tiryaki"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "a29aaa40-01bb-11ec-c837-c2e0c0a8fa26"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-17T09:54:11.751+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/RESTAPI_HOCEVARM/REST2FTP_HOCEVARM/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_RESTAPI_RECEIVER_SYSTEM_HOCEVARM"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-09T15:51:32.036+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/S2S_GET_SERIAL_NUMBER/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_CUST_APPLE_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "BS_CUST_APPLE_GOBAL"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_SYNC_SERIAL_S2S_TARGET"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/S2S/GetSerialNumber"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_SYNC_SERIAL_S2S_SOURCE"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/S2S/GetSerialNumber"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:38:13.977+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/IFTT/"
+      }
+    },
+    "Description": {
+      "_text": "Int4 IFTT Virtualization Component"
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_IFTT"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-01-06T10:27:24.435+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Rechner"
+      }
+    },
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_Calculator_Out"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Calculator"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "98950910-5b87-11ed-c0da-c1f7c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_Taschenrechner_Out"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Taschenrechner"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "98950910-5b87-11ed-c0da-c1f7c0a8fa26"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-10T09:41:29.674+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Muni_BPM_Sender"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-18T23:39:50.554+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/TP_R2F/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_REST_SENDER_SXH"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeDateTime": {
+        "_text": "2026-02-04T15:19:40.936+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "COUNTRY"
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_Khalil"
+      },
+      "ComponentID": {
+        "_text": "BC_SOAP_COUTRY"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_INBOUD_CURR"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RCMO_training2_Khalil"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "581f1290-fd14-11f0-8a55-fad6c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUTBOUD_CURR"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RCMO_training2_Khalil"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "581f1290-fd14-11f0-8a55-fad6c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "burchardt"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "burchardt"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-22T16:19:49.813+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Playroom_Burchardt"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_CustomerAddress"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/xi/sandbox"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_CustomerData"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/xi/sandbox"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-30T10:23:16.821+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/POTRAINING_LJUBIC/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_POTRAINING_F2F_CUST_GLOBAL_SOURCE_LJUBIC"
+      },
+      "ComponentID": {
+        "_text": "BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_PO_CREATE_DEMO"
+      },
+      "Namespace": {
+        "_text": "urn:potesting.com:retake:ljubic/soap2sftp"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f8028f10-01ad-11ec-c49b-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "sayadiy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "sayadiy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-09-17T15:58:45.593+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Split_conv"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-12-14T17:24:36.960+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Calculator"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Calculator_In"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Calculator"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "98950910-5b87-11ed-c0da-c1f7c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Calculator_Out"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Calculator"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "98950910-5b87-11ed-c0da-c1f7c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "herrmannsd"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-08-19T14:48:30.078+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_HetznerSftp"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "ZBAPI_COMPANY_GETDETAIL"
+      },
+      "Namespace": {
+        "_text": "urn:sap-com:document:sap:rfc:functions"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "099ebaf0-3d6b-11e4-a38c-eeedc0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:41:59.129+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/Directory_API/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_DE_05_044"
+      },
+      "ComponentID": {
+        "_text": "BC_Transport"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "azarouk"
+      },
+      "LastChangeDateTime": {
+        "_text": "2026-01-29T16:54:19.558+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "CURRENCY EXCHANGE"
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_Khalil"
+      },
+      "ComponentID": {
+        "_text": "BC_SOAP_SERVICE"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_INBOUND_CURRENCY"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RCMO_training_Khalil"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "581f1290-fd14-11f0-8a55-fad6c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUTBOUND_CURRENCY"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RCMO_training_Khalil"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "581f1290-fd14-11f0-8a55-fad6c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "breuer"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "breuer"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-05-31T11:58:56.975+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_DieBreuerKomponente"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-18T23:42:26.392+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/TP_R2F/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_REST_RECEIVER_SXH"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-12-05T14:22:28.237+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Bahnticketing_Shop_Altiner_2"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "98950910-5b87-11ed-c0da-c1f7c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-30T10:24:03.086+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/POTRAINING_LJUBIC/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_POTRAINING_F2F_POCASTS_GLOBAL_TARGET_LJUBIC"
+      },
+      "ComponentID": {
+        "_text": "BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_PO_CREATE_DEMO"
+      },
+      "Namespace": {
+        "_text": "urn:potesting.com:retake:ljubic/soap2sftp"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f8028f10-01ad-11ec-c49b-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-08-30T10:26:42.969+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2FTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC"
+      },
+      "ComponentID": {
+        "_text": "BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_PO_CREATE_DEMO"
+      },
+      "Namespace": {
+        "_text": "urn:potesting.com:retake:ljubic/soap2sftp"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f8028f10-01ad-11ec-c49b-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "herrmannsd"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "herrmannsd"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-01-08T13:17:17.299+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Herrmannsdoerfer"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_IA_Buchungsdaten"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/xi/herrmannsdoerfer"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+        }
+      },
+      {
+        "Name": {
+          "_text": "ValueMappingReplication"
+        },
+        "Namespace": {
+          "_text": "http://sap.com/xi/XI/System"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "0050568f-0aac-1ed4-a6e5-6926325e2eb3"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IA_BPM_Getriggert"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/xi/herrmannsdoerfer"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+        }
+      }
+    ],
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_OA_Buchungsdaten"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/xi/herrmannsdoerfer"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+        }
+      },
+      {
+        "Name": {
+          "_text": "ValueMappingReplicationOut"
+        },
+        "Namespace": {
+          "_text": "http://sap.com/xi/XI/System"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "0050568f-0aac-1ed4-a6e5-6926325e2eb3"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_BPM_Trigger"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/xi/herrmannsdoerfer"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-04-06T11:20:38.253+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_ENHANCEDMONITORING_GUERKAN"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Data_OUT"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/AP/ENHANCEDMONITORING"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "268dafc0-ae71-11ec-aaf7-de20c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-19T23:20:22.170+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/Country_S2S/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_S2S_Receiver_SXH"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Country_S2S_IN_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/Country/S2S"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Country_S2S_Out_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/Country/S2S"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "breuer"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "breuer"
+      },
+      "LastChangeDateTime": {
+        "_text": "2025-02-20T15:25:50.172+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_RDS"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-03-08T11:10:05.998+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BOOKING_SYSTEM_WICK"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "4d9c53c0-3e18-11eb-bd08-ed13c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-29T13:35:50.015+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SENDER_F2F_LJUBIC"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "spiechota"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-03-16T11:56:38.755+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BC_CSharpMutltitool_PS"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_II_GetDataForMail"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/Piechota"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "6cd26b70-0b75-11ea-cc33-fde6c0a8fa18"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OI_GetDataForMail"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/Piechota"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "bb4f2cf0-f957-11e9-c840-fde6c0a8fa18"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "labrache"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "sahin"
+      },
+      "LastChangeDateTime": {
+        "_text": "2018-06-28T12:13:02.101+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "Businesskomponente für das Buchbeispiel"
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BuchSzenario"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_PurchaseOrder"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+      }
+    },
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "ORDERS.ORDERS05"
+        },
+        "Namespace": {
+          "_text": "urn:sap-com:document:sap:idoc:messages"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_PurchaseOrder"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_SalesOrder_BRM"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_TweetMessage"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "ARTMAS.ARTMAS09"
+        },
+        "Namespace": {
+          "_text": "urn:sap-com:document:sap:idoc:messages"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-04-06T10:54:42.014+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_ENHANCEDMONITORING_MAILSERVER"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Data_IN"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/AP/ENHANCEDMONITORING"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "268dafc0-ae71-11ec-aaf7-de20c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-20T14:21:54.781+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - GET Currencys/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_REST_Receiver_Rates"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SIIS_Rates_REST"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RESTAPI:SOAP2REST_GET:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-13T21:38:41.426+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2FTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BOOKFOUNTAIN"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_PurchaseOrder"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-24T14:24:14.302+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/REST2SFTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_HOCEVARM_RESTAPI_SENDER_SYSTEM"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-04T10:40:07.846+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/F2F_SUPPLIERS_PAYMENTS_HOCEVARM/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_BANK_CITIBANK_GLOBAL_HOCEVARM"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITIBANK_GLOBAL_HOCEVARM"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_SP_F2F_TARGET"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/F2F/SupplierPayments/hocevarm"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "67355be0-1e71-11eb-b247-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_SP_F2F_SOURCE"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/F2F/SupplierPayments/hocevarm"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "67355be0-1e71-11eb-b247-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-11T12:46:49.459+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_AdapterModulTest"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Tegut_Satzarten"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/Satzarten/Tegut"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2bf3d1f0-e4df-11e9-a1f1-d2f0c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Tegut_Satzarten"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/Satzarten/Tegut"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2bf3d1f0-e4df-11e9-a1f1-d2f0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-29T21:39:32.562+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_SENDER_SOAP2JDBC"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_AO_SENDER_SOAP2JDBC_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP_TO_JDBC:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-06-05T16:51:50.314+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BeispielBC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_ProzessStart_OData"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Buch/sapui5"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-30T12:05:05.537+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - GET/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_RESTAPI_RECEIVER_SYSTEM"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_REST_TO_SOAP"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RESTAPI:SOAP2REST:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_SOAP_TO_REST"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RESTAPI:SOAP2REST:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-24T13:39:47.070+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY - SAP PO: Custom Adapter Module Training/E1_TESTMODULE_EAR/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_E1_AM_SENDER_LJUBIC"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-10-26T10:39:16.910+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_HOCEVAR_SOAP2SFTP_SOURCE"
+      },
+      "ComponentID": {
+        "_text": "BS_HOCEVAR_SOAP2SFTP_SOURCE"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_SalesOrder_Create"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/hocmpg1/SOAP2SFTP"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "3e672f20-0194-11ec-a4ce-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-06T11:21:08.270+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - POST/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_RECEIVER_SYSTEM_POST"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_PostProduct_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP2REST_POST:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-24T14:19:58.021+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/REST2SFTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_RESTAPI_SENDER_SYSTEM"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-08T13:14:56.331+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - DELETE/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_SENDER_SYSTEM_DELETE"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUTBOUND_deleteProduct_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP2REST_DELETE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-10-26T09:29:22.921+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_HOCEVAR_S2SFTP_SOURCE"
+      },
+      "ComponentID": {
+        "_text": "CC_SFTP_HOCEVAR_S2SFTP_SENDER"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-05-19T13:47:38.373+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BAHNTICKET_SHOP_GUERKAN"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "db04b800-b17d-11eb-a192-fa24c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-09-24T21:55:01.692+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/Rest2Rest_EBAY/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Receiver_R2R_Ebay_SXH"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_In_R2R_Ebay_SXH"
+      },
+      "Namespace": {
+        "_text": "ske.com"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Out_R2R_Ebay_SXH"
+      },
+      "Namespace": {
+        "_text": "ske.com"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-29T13:16:46.394+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_F2F_SENDER_LJUBIC"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_AO_F2F"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:FILE_TO_FILE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    },
+    "IsBusinessProcess": {
+      "_text": "true"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "horstmann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "horstmann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-01-04T15:38:37.897+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Test_LockBeforeReading"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-06T09:48:50.236+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - UPDATE/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_RECEIVER_SYSTEM_UPDATE"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_RESPONSE"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP2REST_UPDATE:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-02T10:11:05.366+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_DAISY_TRANS"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-01-28T09:42:48.593+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_MTE_Receiver"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_IA_MTE_Beispiel_Ausgang_Rechnung"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/BPM"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "6e625660-5b03-11eb-90c9-d85ac0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IA_MTE_Beispiel_Ausgang_Rechnung_BPM"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/BPM"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "6e625660-5b03-11eb-90c9-d85ac0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IA_Order_Receive_PI"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/FinalTest"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "6e625660-5b03-11eb-90c9-d85ac0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IA_Order_Receive_BPM"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/pi/MeetTheExpert/FinalTest"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "6e625660-5b03-11eb-90c9-d85ac0a8fa26"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-10-27T14:19:48.809+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2FTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_ORDER_CREATE_TARGET"
+      },
+      "ComponentID": {
+        "_text": "BS_ORDER_CREATE_TARGET"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ORDER_CREATE"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/soap2sftp"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f8028f10-01ad-11ec-c49b-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-20T21:24:21.306+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/COUNTRIES-INFO/"
+      }
+    },
+    "Description": {
+      "_text": "Use in Country-Info Soap to Soap Scenario"
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_WS_S2S_Sender"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-12T17:11:08.799+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/FRUITSHOP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_IR__Sender_Fruitshop"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-24T14:20:36.198+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/REST2SFTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_RESTAPI_RECEIVER_SYSTEM"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-12-09T10:39:13.495+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Calculator_Test_Altiner"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-09-24T21:54:50.716+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/Rest2Rest_EBAY/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Sender_R2R_Ebay_SXH"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_In_R2R_Ebay_SXH"
+      },
+      "Namespace": {
+        "_text": "ske.com"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Out_R2R_Ebay_SXH"
+      },
+      "Namespace": {
+        "_text": "ske.com"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-06T11:24:10.374+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - POST/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_SENDER_SYSTEM_POST"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_PostProduct_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:SOAP2REST_POST:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "niermann"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-06-03T09:39:47.582+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "IFTT_Test_Sender"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "ORDERS.ORDERS05"
+      },
+      "Namespace": {
+        "_text": "urn:sap-com:document:sap:idoc:messages"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "a15c8340-6648-11e3-9eb3-f1f4c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "riesener"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-08-16T07:32:59.936+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "Businesskomponente für das Buchbeispiel"
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_IC_PRD"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_IA_PurchaseOrder"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "MBGMCR.MBGMCR03"
+        },
+        "Namespace": {
+          "_text": "urn:sap-com:document:sap:idoc:messages"
+        },
+        "SoftwareComponentVersionID": {}
+      }
+    ],
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "ARTMAS.ARTMAS09"
+        },
+        "Namespace": {
+          "_text": "urn:sap-com:document:sap:idoc:messages"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "ORDERS.ORDERS05"
+        },
+        "Namespace": {
+          "_text": "urn:sap-com:document:sap:idoc:messages"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_PurchaseOrder"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_SalesOrder_BRM"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_TweetMessage"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-23T21:43:41.852+01:00"
+      },
+      "FolderPathID": {
+        "_text": "?/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_JDBC_SYSTEM_LJUBIC"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "alamim"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "alamim"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-04-13T12:22:53.344+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "CC_Manar_PI"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-23T21:49:08.571+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_JBDC_TP_GLOBAL_LJUBIC"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYNC_MAIL_J2M_TARGET_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/JDBC2MAIL"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_JDBC_J2M_SOURCE_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/JDBC2MAIL"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b2af21b0-1dda-11eb-aa10-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-29T12:36:32.830+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "Nur für den Sender"
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schulung_JavaMapping_Sender"
+      }
+    },
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_OA_dritteUebung_Musterloesung"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Schulung/JavaMapping/Musterloesungen/DritteUebung"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_ersteUebung_Musterloesung"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Schulung/JavaMapping/MusterloesungenErsteUebung"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_OA_zweiteUebung_Musterloesung"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Schulung/JavaMapping/Musterloesungen/ZweiteUebung"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:41:59.417+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/Directory_API/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_DE_05_045"
+      },
+      "ComponentID": {
+        "_text": "BC_Transport"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "altiner"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-11-18T10:05:33.646+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Bahnticketing_Shop_Altiner"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "98950910-5b87-11ed-c0da-c1f7c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-10T12:17:32.021+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_MANI_Receiver"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_in_BetrieblicheFunktion"
+      },
+      "Namespace": {
+        "_text": "urn:evnat:sapcore:personalstamm"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b11ce930-9a17-11ec-cc4b-c20fc0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_BetrieblicheFunktion"
+      },
+      "Namespace": {
+        "_text": "urn:evnat:sapcore:personalstammO"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b11ce930-9a17-11ec-cc4b-c20fc0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-04-20T12:10:19.193+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BC_CSharp_Multitool_SFTP"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_II_Mail"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/ripkens"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "6cd26b70-0b75-11ea-cc33-fde6c0a8fa18"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OI_SystemStatus"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/ripkens"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "bb4f2cf0-f957-11e9-c840-fde6c0a8fa18"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "xhaferis"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-19T23:19:24.254+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/SKERDILAJD_XHAFERI/Country_S2S/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_S2S_Sender_SXH"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_Country_S2S_IN_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/Country/S2S"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_Country_S2S_Out_SXH"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/SXH/Country/S2S"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "0eb26680-7a5b-11ef-809a-c601c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-09-27T13:06:11.108+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Muni_Sender"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:42:00.020+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/Directory_API/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_DE_06_045"
+      },
+      "ComponentID": {
+        "_text": "BC_Transport"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-13T21:36:13.843+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2FTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_READERSPARADISE"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_PurchaseOrder"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/BuchScenario/SupplierOrder"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f6718500-1b5e-11e7-c316-ed08c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-24T08:33:01.305+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY/JDBC2MAIL_NOTIFICATION/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_TP_GLOBAL"
+      },
+      "ComponentID": {
+        "_text": "CC_MAIL_RECEIVER_LJUBIC"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-06-08T09:19:11.649+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_UEBUNG_WICK"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Reiseanfrage"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/uebung_wick"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "7bd1d3d0-e625-11ec-aea0-c146c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Reiseanfrage"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/uebung_wick"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "7bd1d3d0-e625-11ec-aea0-c146c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-20T14:20:26.068+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - GET Currencys/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_SOAP_Sender_Currencys"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SIOS_Currencys_SOAP"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RESTAPI:SOAP2REST_GET:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-10-27T14:20:09.505+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2FTP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_ORDER_CREATE_SOURCE"
+      },
+      "ComponentID": {
+        "_text": "BS_ORDER_CREATE_SOURCE"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ORDER_CREATE"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/soap2sftp"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "f8028f10-01ad-11ec-c49b-c2e0c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-09-30T12:05:51.712+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/SOAP2REST - GET/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_LJUBIC_RESTAPI_SENDER_SYSTEM"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_REST_TO_SOAP"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RESTAPI:SOAP2REST:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_SOAP_TO_REST"
+      },
+      "Namespace": {
+        "_text": "urn:realcore.de:RESTAPI:SOAP2REST:ljubic"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-21T19:28:24.507+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/BAHNTICKETING/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Bahnticketing_Shop_IR"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Bahnticketing"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/bahnticketing"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "213b6d90-4d2b-11ef-881e-d227c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "jaeger"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "jaeger"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-11-24T15:48:06.770+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "TEST_MigrationHelper"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "TEST"
+      },
+      "Namespace": {
+        "_text": "TEST"
+      },
+      "SoftwareComponentVersionID": {}
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-10-12T17:11:37.848+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/FRUITSHOP/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_IR__Receiver_Fruitshop"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "marasamy"
+      },
+      "LastChangeDateTime": {
+        "_text": "2019-10-10T09:41:42.816+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Muni_BPM_Receiver"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "simonir"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-14T04:46:44.526+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Vendor_SIMONI"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "Invoice_OA"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/RCA/RS/Course/file2file"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "b8877e70-9022-11ef-85c8-e734c0a8fa57"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-12T12:56:09.035+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/TECHIEPRESS_HOCEVARM/S2S_GET_SERIAL_NUMBER/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_CUST_APPLE_GLOBAL_HOCEVARM"
+      },
+      "ComponentID": {
+        "_text": "BS_CUST_APPLE_GLOBAL_HOCEVARM"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_SYNC_SERIAL_S2S_TARGET"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/S2S/GetSerialNumber/hocevarm"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "67355be0-1e71-11eb-b247-e0a9c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_SYNC_SERIAL_S2S_SOURCE"
+      },
+      "Namespace": {
+        "_text": "http://techiepress.com/S2S/GetSerialNumber/hocevarm"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "67355be0-1e71-11eb-b247-e0a9c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-10-29T13:36:27.600+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_RECEIVER_F2F_LJUBIC"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "false"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-13T06:19:52.622+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/FILE2MAIL/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_F2M_Receiver"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_F2M_Target"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/file2mail"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "213b6d90-4d2b-11ef-881e-d227c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_F2M_Source"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/file2mail"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "213b6d90-4d2b-11ef-881e-d227c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "schultz"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "schultz"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-04-16T17:57:44.357+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schultz_Test_Tegut"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Articles"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/xi/sandbox/Tegut"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_Artikelliste"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/xi/sandbox/Tegut"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "9e36fe01-11f5-11e2-b077-edf1c0a86464"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-02-11T11:38:01.025+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schulung_Empfaenger_Ripkens"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IB_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung/Ripkens"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-29T12:37:12.761+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {
+      "_text": "Nur für Receiver"
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_Schulung_JavaMapping_Receiver"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_IA_zweiteUebung_Musterloesung"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Schulung/JavaMapping/Musterloesungen/ZweiteUebung"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IA_dritteUebung_Musterloesung"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Schulung/JavaMapping/Musterloesungen/DritteUebung"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_IA_ersteUebung_Musterloesung"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/Schulung/JavaMapping/MusterloesungenErsteUebung"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "cc976f71-4e0f-11e4-bf97-fa90c0a80281"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "aboukoura"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-28T15:36:04.825+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "P_Zaid_Aboukoura"
+      },
+      "ComponentID": {
+        "_text": "Sender_csv"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-26T19:48:05.205+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/BPM/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_IR_BPM_Receiver"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-12-01T13:59:03.472+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/LJUBIC/UDEMY - SAP PO: Custom Adapter Module Training/FILE2FILE_LJUBIC/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_FILE2FILE_SENDER_LJUBIC"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_F2F_POCAST_LJUBIC"
+      },
+      "Namespace": {
+        "_text": "http://pocasts.com/interfacedemo/file2file"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "752e6e10-327d-11eb-a1f6-ed13c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "siddhardha"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-05-05T23:41:37.280+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/Sid/Directory_API/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_PI"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "rexhoi"
+      },
+      "LastChangeDateTime": {
+        "_text": "2024-11-13T06:20:52.525+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/ILIRJAN_REXHO/FILE2MAIL/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_F2M_Sender"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_F2M_Target"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/file2mail"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "213b6d90-4d2b-11ef-881e-d227c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OA_F2M_Source"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/rca/ir/course/file2mail"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "213b6d90-4d2b-11ef-881e-d227c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ripkens"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-03-12T16:06:19.470+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "RLC_BC_CSharp_Multitool"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_II_Mail"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/ripkens"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "6cd26b70-0b75-11ea-cc33-fde6c0a8fa18"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OI_SystemStatus"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/pi/LernpaketPICS001/IF02/ripkens"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "bb4f2cf0-f957-11e9-c840-fde6c0a8fa18"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "labrache"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "labrache"
+      },
+      "LastChangeDateTime": {
+        "_text": "2017-05-25T18:47:08.652+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_RC_TEST_REST"
+      }
+    },
+    "InboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_Invoic_In_Sync"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter/Kassa24"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_ReceivedToken_Sync_In"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter/Kassa24"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_GetToken_Async_In"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/REST/LOOKUP"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      }
+    ],
+    "OutboundInterface": [
+      {
+        "Name": {
+          "_text": "SI_Invoic_out_Sync"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter/Kassa24"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_RequestedBaerer_Sync_Out"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/RestAdapter/Kassa24"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      },
+      {
+        "Name": {
+          "_text": "SI_GetToken_Async"
+        },
+        "Namespace": {
+          "_text": "http://realcore.de/REST/LOOKUP"
+        },
+        "SoftwareComponentVersionID": {
+          "_text": "b1e300d0-e48b-11e6-a686-dfcbc0a8fa53"
+        }
+      }
+    ],
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "guerkan"
+      },
+      "LastChangeDateTime": {
+        "_text": "2021-05-19T13:48:05.282+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_BOOKING_SYSTEM_GUERKAN"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IA_Booking"
+      },
+      "Namespace": {
+        "_text": "http://realcore.de/Schulung1"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "db04b800-b17d-11eb-a192-fa24c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "kinold"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-01-20T15:09:13.327+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_CPI_ErnstingsFamily"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "malensek"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "malensek"
+      },
+      "LastChangeDateTime": {
+        "_text": "2023-03-02T15:10:28.736+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/MALENSEKM/TECHIEMAJ/F2F_SUPPLIER_PAYMENTS_MALENSEK/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {
+        "_text": "PY_BANK_CITIBANK_GLOBAL_MALENSEKM"
+      },
+      "ComponentID": {
+        "_text": "CO_BANK_CITIBANK_GLOBAL_MALENSEKM"
+      }
+    },
+    "InboundInterface": {
+      "Name": {
+        "_text": "SI_IN_ASYINC_SP_F2F_TARGET"
+      },
+      "Namespace": {
+        "_text": "http://techiemaj.com/F2F/SupplierPayment"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "123e2a50-b8ec-11ed-c03d-f178c0a8fa26"
+      }
+    },
+    "OutboundInterface": {
+      "Name": {
+        "_text": "SI_OUT_ASYNC_SP_F2F_SOURCE"
+      },
+      "Namespace": {
+        "_text": "http://techiemaj.com/F2F/SupplierPayment"
+      },
+      "SoftwareComponentVersionID": {
+        "_text": "123e2a50-b8ec-11ed-c03d-f178c0a8fa26"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "hocevar"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-24T09:29:43.116+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/HOCEVARM/E1_TESTMODULE_EAR_HOCEVARM/"
+      }
+    },
+    "BusinessComponentID": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BS_E1_AM_RECEIVER"
+      }
+    },
+    "IsThirdParty": {
+      "_text": "true"
+    },
+    "IsBusinessProcess": {
+      "_text": "false"
+    }
+  }
+]

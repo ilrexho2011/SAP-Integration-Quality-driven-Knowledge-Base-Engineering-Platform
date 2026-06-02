@@ -1,0 +1,1733 @@
+<ReadResponses xmlns:ns0="http://sap.com/xi/BASIS">
+  <ns0:BusinessSystemReadResponse>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>xhaferis</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>xhaferis</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-09-24T15:59:37.861+02:00</LastChangeDateTime>
+        <FolderPathID>/SKERDILAJD_XHAFERI/F2F/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_POCUST_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_F2F_POCAST_SYSTEM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">tss_p_f2f</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>brenke</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>brenke</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-09-12T16:24:41.687+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_MAX_Sender</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SEND_1</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-05T13:21:21.664+01:00</LastChangeDateTime>
+        <FolderPathID>/HOCEVARM/TECHIEPRESS_HOCEVARM/J2J_WORKERS_UPDATE_HOCEVARM/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">bs_adp_hoc</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>plewka</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>plewka</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-02-04T14:13:02.322+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_SP</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>alvarez-acebal</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>alvarez-acebal</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-22T15:00:03.664+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>SHOP_ALVAREZ</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_ALV</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>niermann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>niermann</LastChangeUserAccountID>
+        <LastChangeDateTime>2017-06-05T12:46:32.196+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_Niermann</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">LS_Nierman</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>licib</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>licib</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-18T14:29:35.466+01:00</LastChangeDateTime>
+        <FolderPathID>/Brunilda_Lici/File2File/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_CLNT_GLOBAL_BL</PartyID>
+        <ComponentID>BS_CLNT_SYSTEM_BR</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_cln_f2f</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>habbablj</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>habbablj</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-02-24T23:17:26.387+01:00</LastChangeDateTime>
+        <FolderPathID>/IlyassHabbal/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>Party_BIT100</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>plewka</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>plewka</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-04-15T12:05:39.985+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_XX</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>aboukoura</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>aboukoura</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T11:27:41.015+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SHOP_EAI_ZaidAbou</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_Zaid</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>erguezel</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>erguezel</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-22T15:10:39.069+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Erguezel</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_ergue</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kubis</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kubis</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-22T15:06:30.516+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_KUBIS</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_KUBIS</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-02T10:04:12.210+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>Z_BS_CAPACITY_ENT</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>brenke</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>brenke</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-01-25T11:04:59.044+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO1</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>xhaferis</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>xhaferis</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-12T18:06:24.088+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ECC_800_TP_SXH</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_ecc_sxh</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>sarres</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>sarres</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-17T11:25:03.394+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_FF</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_FF</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-10-21T08:24:52.730+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_BOOKFOUNTAIN_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>glebsattel</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>glebsattel</LastChangeUserAccountID>
+        <LastChangeDateTime>2016-10-21T16:23:26.537+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_A</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>monserrat-flores</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>monserrat-flores</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-22T15:14:33.005+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_jose</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_jose</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-10-21T08:25:07.002+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_READERSPARADISE_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-05T10:50:58.412+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/UDEMY/JDBC_2_JDBC_WORKERS_UPDATE/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">bs_shpflor</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>grobin</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>grobin</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-03-01T12:53:24.034+01:00</LastChangeDateTime>
+        <FolderPathID>/GROBINL/TECHIEPRESS/(REST) F2F_SUPPLIERS_PAYMENTS_GROBINL/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_GROBINL</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">tsecc800GL</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-17T11:00:49.940+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_S4HANA_ERP1_DEV</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">S4HANA2</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-09-23T09:59:53.139+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>Test_Party_AB</PartyID>
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">HOCEVSHOP</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-08-23T11:10:15.036+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_HOCM_PG1_DEMO</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_hocm</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>xhaferis</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>xhaferis</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-09-24T15:58:28.468+02:00</LastChangeDateTime>
+        <FolderPathID>/SKERDILAJD_XHAFERI/F2F/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_CUST_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_F2F_CUST_SYSTEM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_c_f2f</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-11-28T09:26:30.519+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_RCV002</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">LSM002</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>madzima</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>madzima</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-30T10:18:05.616+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">Shop_Rati2</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>brenke</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>brenke</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-01-11T10:48:06.600+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MAXX</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_MAXX</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>licib</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>licib</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-11-18T14:30:52.470+01:00</LastChangeDateTime>
+        <FolderPathID>/Brunilda_Lici/File2File/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_COM_GLOBAL_BL</PartyID>
+        <ComponentID>BS_F2F_COM_SYSTEM_BR</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_com_f2f</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>alamim</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>alamim</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-05-23T22:44:18.930+02:00</LastChangeDateTime>
+        <FolderPathID>/Manar Alami/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>Party_Manar_A</PartyID>
+        <ComponentID>BS_RCM_PI_Manar</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>madzima</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>madzima</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T11:35:32.504+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Madzima</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_Rati</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>brenke</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>brenke</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-09-12T16:24:41.155+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_MAX_Receiver</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">REC_1</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>erguezel</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>erguezel</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-01-18T14:29:43.857+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAININGERGUZEL_SOAPUI_DOGI</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SOAPU_DOGI</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-05T13:21:20.626+01:00</LastChangeDateTime>
+        <FolderPathID>/HOCEVARM/TECHIEPRESS_HOCEVARM/J2J_WORKERS_UPDATE_HOCEVARM/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">bs_shop_ho</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-09-30T10:27:12.930+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_TOREST</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-01-31T15:39:01.855+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">RP1CLNT001</AdditionalIdentifier>
+      <AdditionalIdentifier schemeID="TechnicalSystem">RP1#001</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-10-14T15:39:26.373+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_BOOKFOUNTAIN</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">bookfount</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-21T14:42:32.035+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>jaeger</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>jaeger</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-17T11:24:49.202+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_Jager</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-02T21:04:43.713+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/F2F_SUPPLIERS_PAYMENTS/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_ecc_800</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>glebsattel</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>glebsattel</LastChangeUserAccountID>
+        <LastChangeDateTime>2017-04-25T16:14:42.269+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">TPSYSB</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+      <AssignedUser>GLEBSATTEL</AssignedUser>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>DE</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>niermann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>niermann</LastChangeUserAccountID>
+        <LastChangeDateTime>2017-01-16T15:24:16.279+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>Test_Party_AA</PartyID>
+        <ComponentID>BS_Niermann</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">LS_Nierman</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>margreff</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>margreff</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T11:31:46.481+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>TS_ERP_TRAINING_Margreff</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">TS_ERP_MAR</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>aboukoura</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>aboukoura</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T12:19:31.901+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_EAI_ZaidAbou</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ERPZAID</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>erguezel</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>erguezel</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-02-15T13:48:52.292+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_BS_GEOERGUEZEL_DOGI</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">GEO_DOGI</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-15T15:12:16.852+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_RA1_800</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">RA1CLNT800</AdditionalIdentifier>
+      <AdditionalIdentifier schemeID="TechnicalSystem">RA1#800</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-03-18T10:30:31.550+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_RH2_240</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>habbablj</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>habbablj</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-05-08T16:16:01.463+02:00</LastChangeDateTime>
+        <FolderPathID>/YassineSayadi/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>Party_Yassine</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>madzima</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>madzima</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T12:23:00.340+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_Training_Madzima</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">BS_Rati</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <LogMessageCollection />
+  </ns0:BusinessSystemReadResponse>
+  <ns0:BusinessSystemReadResponse>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wohlmacher</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wohlmacher</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-03-18T13:26:14.301+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_WOHLM</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>margreff</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>margreff</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T12:33:40.653+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MARGREFF</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_Margr</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>erguezel</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>erguezel</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-01-18T16:09:27.465+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAININGERGUZEL_SFTP_DOGI</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SFTP_DOGI</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>jaeger</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>jaeger</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-17T11:23:38.942+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ERP_Jaeger</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>malensek</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>malensek</LastChangeUserAccountID>
+        <LastChangeDateTime>2023-03-02T15:00:51.547+01:00</LastChangeDateTime>
+        <FolderPathID>/MALENSEKM/TECHIEMAJ/F2F_SUPPLIER_PAYMENTS_MALENSEK/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_MALENSEKM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_ecc_80m</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-09-16T21:30:56.643+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SHOP</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">LJUBICSHOP</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kinold</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kinold</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-22T15:03:56.241+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">shopkinold</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-09-17T12:23:10.592+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <Description languageCode="EN" />
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">HOCEVSHOP</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kuecuek</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kuecuek</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T11:30:05.434+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ERP_KUE</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>schultz</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>schultz</LastChangeUserAccountID>
+        <LastChangeDateTime>2017-03-23T14:48:26.222+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>SAP_CRM_PRD_CLNT001</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">CH1CLNT001</AdditionalIdentifier>
+      <AdditionalIdentifier schemeID="TechnicalSystem">CH1#001</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>smiezewski</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>smiezewski</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-05-11T11:29:37.271+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_SMIEZ</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-05T10:50:57.851+01:00</LastChangeDateTime>
+        <FolderPathID>/LJUBIC/UDEMY/JDBC_2_JDBC_WORKERS_UPDATE/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_LJUBIC</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">bs_adp</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ripkens</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ripkens</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-03-24T11:22:13.622+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_Ripke</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>brenke</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>brenke</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-22T15:11:42.321+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_MM</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-09-18T15:04:35.312+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SAP_ERP</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2018-11-22T15:05:54.546+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_Stork</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>herrmann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>herrmann</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-02-21T08:53:10.081+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>altiner</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>altiner</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-11-16T14:47:42.110+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_Mastertool</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">RLCMASTER</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>stork</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>stork</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-02-11T11:15:15.772+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_ABRECHNUNG</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ABRCLNT001</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>kuecuek</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>kuecuek</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-03T11:30:07.185+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_KUE</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>rexhoi</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>rexhoi</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-08-07T14:39:13.850+02:00</LastChangeDateTime>
+        <FolderPathID>/ILIRJAN_REXHO/FILE2FILE/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_RCA_GLOBAL_IR</PartyID>
+        <ComponentID>BS_F2F_RCA_SYSTEM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_rca_f2f</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wick</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wick</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-10-18T14:56:10.723+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>RLC_BS_PI_Azubi_Schulung</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>wick</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>wick</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-03-18T11:26:16.287+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_Wick</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>herrmann</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>siddhardha</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-05-26T15:12:51.041+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="TechnicalSystem">RH2#240</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>brenke</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>brenke</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-01-15T13:09:41.803+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_ERP_MAXX</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ERP_MAXX</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>guerkan</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>guerkan</LastChangeUserAccountID>
+        <LastChangeDateTime>2021-05-31T08:13:51.570+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">SHOP_GUERK</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>marasamy</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>marasamy</LastChangeUserAccountID>
+        <LastChangeDateTime>2019-11-28T09:26:31.184+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_RCV001</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">LSM001</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>rexhoi</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>rexhoi</LastChangeUserAccountID>
+        <LastChangeDateTime>2024-08-07T14:36:36.856+02:00</LastChangeDateTime>
+        <FolderPathID>/ILIRJAN_REXHO/FILE2FILE/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>PY_F2F_CUST_GLOBAL_IR</PartyID>
+        <ComponentID>BS_F2F_CUST_SYSTEM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ts_c_f2f</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>azarouk</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>azarouk</LastChangeUserAccountID>
+        <LastChangeDateTime>2026-01-16T16:45:16.211+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-12-01T10:33:34.360+01:00</LastChangeDateTime>
+        <FolderPathID>/HOCEVARM/JavaMapping/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_INTERFACEDEMO_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ifc_hoce</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-09-04T09:13:43.795+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_STEVO_SHOP</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>ljubic</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>ljubic</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-09-18T10:49:50.234+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SAP_ERP</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>sarres</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>sarres</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-17T11:35:32.117+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_FF</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ERP_FF</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>madzima</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>madzima</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-03-31T11:21:13.568+02:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_TRAINING_Rati2</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">ERP_Rati2</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>hocevar</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>hocevar</LastChangeUserAccountID>
+        <LastChangeDateTime>2020-11-04T10:15:33.531+01:00</LastChangeDateTime>
+        <FolderPathID>/HOCEVARM/TECHIEPRESS_HOCEVARM/F2F_SUPPLIERS_PAYMENTS_HOCEVARM/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_HOCEVARM</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem">tsecc800ho</AdditionalIdentifier>
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>true</IsThirdParty>
+    </BusinessSystem>
+    <BusinessSystem>
+      <MasterLanguage>EN</MasterLanguage>
+      <AdministrativeData>
+        <ResponsibleUserAccountID>rexhoi</ResponsibleUserAccountID>
+        <LastChangeUserAccountID>rexhoi</LastChangeUserAccountID>
+        <LastChangeDateTime>2022-11-17T01:02:49.597+01:00</LastChangeDateTime>
+        <FolderPathID>/</FolderPathID>
+      </AdministrativeData>
+      <BusinessSystemID>
+        <PartyID />
+        <ComponentID>BS_SENDER_POTESTING</ComponentID>
+      </BusinessSystemID>
+      <AdditionalIdentifier schemeID="LogicalSystem" />
+      <CacheNotification>
+        <DistributeCacheIndicator>false</DistributeCacheIndicator>
+        <CacheUser />
+        <CacheUserPassword />
+      </CacheNotification>
+      <IsThirdParty>false</IsThirdParty>
+    </BusinessSystem>
+    <LogMessageCollection />
+  </ns0:BusinessSystemReadResponse>
+</ReadResponses>

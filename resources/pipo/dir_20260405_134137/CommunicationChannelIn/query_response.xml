@@ -1,0 +1,3277 @@
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://sap.com/xi/BASIS">
+  <ns0:Body>
+    <ns1:CommunicationChannelQueryResponse>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_File_fruitshop_availabilityResponse</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_GetProductlist</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+        <ChannelID>CC_FILE_RCV_Tegut_Articles</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_RCV_S4HANA_Customer_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_snd_file_salesOrder_jaeger</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_EDISeperator_ANSI_850_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_E1_AM_RECEIVER_LJUBIC</ComponentID>
+        <ChannelID>CC_FILE_E1_AM_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_TestClient</ComponentID>
+        <ChannelID>CC_SOAP_RCV_LoopbackDummy</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Receiver_R2R_Ebay_SXH</ComponentID>
+        <ChannelID>CC_Receiver_R2R_Ebay_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+        <ChannelID>CC_Dummy</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>cc_SOAP_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_EAI_ZaidAbou</ComponentID>
+        <ChannelID>CC_RCV_File_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_SOAP_COUTRY</ComponentID>
+        <ChannelID>CC_SOAP_Country_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SOAP_SND_POST_Produkt</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_ALVAREZ</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>cc_jdbc_receiver_EZBexchange</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</ComponentID>
+        <ChannelID>CC_RCV_File_ContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+        <ChannelID>CC_DirectoryAPI_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+        <ChannelID>CC_RCV_REST_DemoChannel</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_FILE_CustomModulExcel</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_RCV_REST_Fruitshop</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_REST_Northwind_Orders_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR_BPM_Sender</ComponentID>
+        <ChannelID>CC_SOAP_BPM_Snd</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+        <ChannelID>CC_REST_SND_PICS001_IR02_PS</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_F2F_RCA_GLOBAL_IR</PartyID>
+        <ComponentID>BS_F2F_RCA_SYSTEM</ComponentID>
+        <ChannelID>CC_FTP_F2F_RCA_IR_CREATE_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_SND_FTP_file</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>snd_Rest_EZBexchanges</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_Postman</ComponentID>
+        <ChannelID>CC_Postman_REST_Send</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Loopback</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_REST_ProductPost</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>Z_BS_CAPACITY_ENT</ComponentID>
+        <ChannelID>CC_SND_SOAP_Capacity</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Sender_R2R_Ebay_SXH</ComponentID>
+        <ChannelID>CC_Sender_R2R_Ebay_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>cc_snd_jdbc_toMail</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RESTAPI_RECEIVER_SYSTEM</ComponentID>
+        <ChannelID>CC_LJUBIC_REST_RECEIVER1</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SND_SOAP_getProductId</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_SND_ADD</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_ALVAREZ</ComponentID>
+        <ChannelID>snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+        <ChannelID>CC_SND_REST_FormEnc</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_E1_AM_SENDER</ComponentID>
+        <ChannelID>CC_FILE_E1_AM_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_UEBUNG_WICK</ComponentID>
+        <ChannelID>CC_SOAP_SND_Reiseanfrage</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_File_Magento_Customer</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_PI_Azubi_Schulung</ComponentID>
+        <ChannelID>CC_RCV_FILE_Bestellung_RQ</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+        <ChannelID>CC_REST_RCV_Produkte</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_SND_SOAP_Post_Fruitshop3</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_RCV_File_PDFAttachment</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_SFTP_OKR_Test_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_RH2_240</ComponentID>
+        <ChannelID>CC_IDOC_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RESTAPI_SENDER_SYSTEM</ComponentID>
+        <ChannelID>CC_LJUBIC_SOAP_SENDER1</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_RCV_JDBC_jdbc</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBEXCHANGES_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_File_Magento_Customer</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_SOAP_SERIAL_TP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>CC_IDOC_SND_Standard</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SOAP_IcoReplication_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAININGERGUZEL_SOAPUI_DOGI</ComponentID>
+        <ChannelID>CC_recv_fileMAdaten</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_RCV_jdbc_EcbCountries</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_XX</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_SND_REST_Test</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_03</PartyID>
+        <ComponentID>BC_GH_Software</ComponentID>
+        <ChannelID>CC_HTTP_RCV_TEST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Bauch</ComponentID>
+        <ChannelID>CC_RCV_FTP_Satzart</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_WS_S2S_Receiver_SIMONI</ComponentID>
+        <ChannelID>CC_WS_S2S_Receiver_SIMONI</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RDS</ComponentID>
+        <ChannelID>KK_HTTP_RDS_Showcase_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_SND_JDBC_jdbc</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_SND_SOAP_xml_for_json_conversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR__Receiver_Fruitshop</ComponentID>
+        <ChannelID>CC_REST_Receiver_Produkt</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>rcv_Mail_EZBexchanges</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_HTMLPOLLING</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_UEBUNG_WICK</ComponentID>
+        <ChannelID>CC_FILE_RCV_Reiseanfrage</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_SOAP_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_RCV_File_ContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR_BPM_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_BPM_Rec</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+        <ChannelID>CC_MAIL_NOTIFICATION_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_SOAP_DeleteProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_TOREST</ComponentID>
+        <ChannelID>CC_SND_SOAP_TO_REST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+        <ChannelID>CC_TO_MAIL_NOTIFICATION_TARGET_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_TOREST</ComponentID>
+        <ChannelID>CC_SND_DELETE_SOAP_TO_REST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_RCV_MailedProducts_Fruitshop_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_MAX_Receiver</ComponentID>
+        <ChannelID>CC_MAX_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SHOP</ComponentID>
+        <ChannelID>CC_FILE_MAIL_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>HTTP_Receiver_POST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_SFTP_CSharpMultitool_SP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+        <ChannelID>CC_SND_REST_PublishingOrderStatus</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_POTRAINING_F2F_POCASTS_GLOBAL_TARGET_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC</ComponentID>
+        <ChannelID>CC_SFTP_POTRAIN_SOAP_2_SFTP_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>SOAP_sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SOAP_Calculator_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_SFTP_Receiver_Filemapping</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Receive_Rechnung</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+        <ChannelID>CC_SOAP_SND_Produkt</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_ENHANCEDMONITORING_GUERKAN</ComponentID>
+        <ChannelID>CC_REST_SND_DATA</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_Mastertool</ComponentID>
+        <ChannelID>CC_SOAP_SND_Invoice</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_RCV_File_ContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_PI</ComponentID>
+        <ChannelID>CC_SOAP_LOOKUP_Directory_API</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_WU_TP_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+        <ChannelID>CC_RCV_RFC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_RCV_REST_Fruitshop2</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_REST_fruitshop4_2_deleteProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_JDBC_TO_SFTP_SOURCE_TO_TARGET_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_SOURCE_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MeteoAL</ComponentID>
+        <ChannelID>CC_MeteoRestAPI_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_JDBC_TO_SFTP_SOURCE_TO_TARGET_LJUBIC</ComponentID>
+        <ChannelID>CC_SFTP_TARGET_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_READERSPARADISE_HOCEVARM</ComponentID>
+        <ChannelID>CC_SOAP_Sender_Order</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>FILE2FILE</ComponentID>
+        <ChannelID>CC_FILE_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_SOAP_VMR_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_F2F_SENDER_LJUBIC</ComponentID>
+        <ChannelID>CC_F2F_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_E1_AM_RECEIVER</ComponentID>
+        <ChannelID>CC_FILE_E1_AM_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_WU_TP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_SOAP_ProductPost</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_RCV_jdbc_JDBCLookup</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_06_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_SND_REST_Northwind</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+        <ChannelID>CC_RCV_FILE_Endsystem</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_GROBINL</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_GROBINL</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_RECEIVER_GROBINL</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_REST_OKR_Employee_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_REST_Northwind</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MTE_Receiver</ComponentID>
+        <ChannelID>CC_RCV_BetrieblicheFunktion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>CC_SOAP_Receiver_LiefernatWebService</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_ENHANCEDMONITORING_MAILSERVER</ComponentID>
+        <ChannelID>CC_MAIL_RCV_HtmlData</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_SND_REST_EcbExchange</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_XX</ComponentID>
+        <ChannelID>CC_RCV_FILE_CONTENTCONVERSION</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BC_CHarp_Multitool_SP</ComponentID>
+        <ChannelID>CC_MAIL_rcv_PICS001_IF02_SP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+        <ChannelID>CC_REST_RCV_Produkt</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_06_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_RCV_Customer_IN</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_RCV_File_FileContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>SOAP_sender_Sync</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Bahnticketing_Shop_Altiner_2</ComponentID>
+        <ChannelID>CC_REST_SND_JSON</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_SOAP_ProductDelete</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_RCV_Mail_JavaModuleTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SND_SOAP_deleteProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_GH_01</PartyID>
+        <ComponentID>BC_GH_01_101</ComponentID>
+        <ChannelID>CC_HTTP_RCV_TEST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_05_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_POTRAINING_F2F_CUST_GLOBAL_SOURCE_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</ComponentID>
+        <ChannelID>CC_SOAP_POTRAIN_SOAP_2_SFTP_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_BANK_CITYBANK_SXH</PartyID>
+        <ComponentID>CO_BANK_CITYBANK_SXH</ComponentID>
+        <ChannelID>CC_FILE_CITYBANK_RECEIVER_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>CC_HTTP_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>CC_SOAP_SND_SequenzTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RESTAPI_SENDER_TO_RECEIVER_LJUBIC</ComponentID>
+        <ChannelID>CC_REST_SENDER_RESTAPI_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SFTP_Passthrough_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Postman</ComponentID>
+        <ChannelID>CC_EbayRestAPI_Rest_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_SOAP_userFlight_sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_SOAP_fruitshop2_request</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_File_ContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_RA1_800</ComponentID>
+        <ChannelID>CC_IDOC_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Booking_System_IR</ComponentID>
+        <ChannelID>CC_FILE_RCV_Booking</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_SOAP_Fruitshop</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Ripkens</ComponentID>
+        <ChannelID>CC_RCV_SOAP_RIPKENS</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_A</ComponentID>
+        <ChannelID>CC_REST_SND_API_MNGT_FruitShop_getProducts</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_WOHLMACHER</ComponentID>
+        <ChannelID>CC_FILE_RCV_Booking</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_F2F_RECEIVER_LJUBIC</ComponentID>
+        <ChannelID>CC_F2F_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_S2S_Receiver_SXH</ComponentID>
+        <ChannelID>CC_S2S_Receiver_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKETING_SHOP_WICK</ComponentID>
+        <ChannelID>CC_SOAP_SND_Bahnticketing</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_XX</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+        <ChannelID>CC_RCV_REST_ConsumingOrderData</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_SOURCE</ComponentID>
+        <ChannelID>CC_SOAP_HOCEVAR_S2SFTP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>cc_snd_file_FileContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>rvc_file_material</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_GetProductByID_FLINK</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_File_Buchungsdatei_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_MAX_Sender</ComponentID>
+        <ChannelID>CC_MAX_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Smiezewski</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Smiezewski</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_Simple_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_SOAP_AddProduct_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_PS</ComponentID>
+        <ChannelID>CC_MAIL_RCV_PICS001_IF02_PS</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SalesStatistics</ComponentID>
+        <ChannelID>CC_SND_SOAP_SalesStatistics</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_Training_Madzima</ComponentID>
+        <ChannelID>CC_Receiver_file_iDoc</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR_Discount_Receiver</ComponentID>
+        <ChannelID>CC_BRM_OrderDiscount_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_RCV_REST_converted_JSON</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_RCV_REST_AddProduct_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_FTP_FilenameTest2_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SAP_ERP_TRAINING_KUECUEK_2</ComponentID>
+        <ChannelID>CC_RCV_Mail_Fruitshop_2</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_RCV_JDBC_Wechselkurs</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+        <ChannelID>CC_REST_RCV_API_MNGT_FruitShop_getProducts</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_RCV_Mail_Mail2Mail</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RECEIVER_SYSTEM_DELETE</ComponentID>
+        <ChannelID>CC_LJUBIC_REST_RECEIVER_DELETE</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step1_SND_FILE_SFTP_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_HetznerSftp</ComponentID>
+        <ChannelID>CC_SFTP_RCV_AdapterModuleSample</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_SENDER_SYSTEM_POST</ComponentID>
+        <ChannelID>CC_LJUBIC_SOAP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_SFTP_Sender_Filemapping</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBExchange</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SOAP_BRM_OrderDiscount_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>CC_SOAP_RCV_RequestCatcher</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_SND_RESTPoll_Mail_Fruitshop</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_LJUBIC_REST2SFTP_TARGET</PartyID>
+        <ComponentID>BS_LJUBIC_REST2SFTP_TARGET</ComponentID>
+        <ChannelID>CC_SFTP_LJUBIC_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+        <ChannelID>CC_SND_SFTP_Musterloesung_ersteUebung</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_RA1_800</ComponentID>
+        <ChannelID>KK_SOAP_RFC_RA1_2_RO2_Simulation_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_JBCD_2_JDBC_SOURCE_TO_TARGET_DELETE_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_TARGET_DELETE_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+        <ChannelID>CC_SOAP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_SOAP_ProductOne</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>CC_SOAP_SND_RequestCatcher</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IFTT</ComponentID>
+        <ChannelID>CC_SND_SOAP2</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_05_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_Attachment_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_ALVAREZ</ComponentID>
+        <ChannelID>snd_soap_availabilityRequest2</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_SOAP_Sender_2_SFTP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_SND_File_FileContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Calculator</ComponentID>
+        <ChannelID>CC_SOAP_SND_ADD</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Rechner_2</ComponentID>
+        <ChannelID>CC_SOAP_RCV_ADD</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_SOAP_deleteProduct_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_Booking_System_Altiner</ComponentID>
+        <ChannelID>CC_File_RCV_Booking</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+        <ChannelID>CC_SND_SFTP_Musterloesung_zweiteUebung</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_TARGET_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2_SFTP_TARGET_LJUBIC</ComponentID>
+        <ChannelID>CC_SFTP_POTRAIN_SOAP_2_SFTP_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_JDBC_WU_TP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Calculator_Test_Altiner</ComponentID>
+        <ChannelID>CC_SOAP_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step2_RCV_FILE_SFTP_v2_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>snd_ftp_salesorder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RCV001</ComponentID>
+        <ChannelID>CC_Proxy_IcoReplication_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SAP_CRM_PRD_CLNT001</ComponentID>
+        <ChannelID>CC_XI_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_RH2_240</ComponentID>
+        <ChannelID>CC_RCV_RFC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SND_File_PDFAttachment</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_ERP</ComponentID>
+        <ChannelID>CC_Order_SOAP_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_SENDER_HOCEVARM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Calculator</ComponentID>
+        <ChannelID>CC_SOAP_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_REST_SND_Products</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_SOURCE</ComponentID>
+        <ChannelID>CC_HTTP_HOCEVAR_S2SFTP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>cc_jdbc_receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_READERSPARADISE_HOCEVARM</ComponentID>
+        <ChannelID>CC_SOAP_Sender_CurrencyReq</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_RCV_jdbc_EcbCountries_STORK</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>Party_BIT100</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+        <ChannelID>File_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_WS_S2S_Receiver</ComponentID>
+        <ChannelID>CC_WS_S2S_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_CUST_APPLE_GLOBAL</PartyID>
+        <ComponentID>BS_CUST_APPLE_GOBAL</ComponentID>
+        <ChannelID>CC_HTTP_GET_SERIAL_APPLE_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_RA1_800</ComponentID>
+        <ChannelID>KK_File_RFC_RA1_2_RO2_Dummy_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SOAP_SND_Bahnticket</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>HTTP_OAuth2_Receiver_sync_google</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_SND_SOAP_Fruitshop</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_IC_PRD</ComponentID>
+        <ChannelID>CC_IDOC_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_REST_Northwind_Orders_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Empfaenger_Piechota</ComponentID>
+        <ChannelID>CC_RCV_SOAP_Schulung_Piechota</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_FILE_TEGUT_TEST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_RCV_REST_getProductId</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+        <ChannelID>CC_FILE_SND_Tegut_Artikelliste</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SFTP_Musterloesung_zweiteUebung</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>cc_file_sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>HTTP_OAuth2_Receiver_sync</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</ComponentID>
+        <ChannelID>CC_snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_SND_SOAP_Loopback</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Playroom_Burchardt</ComponentID>
+        <ChannelID>CC_SOAP_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_JDBC2MAIL_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Ripkens</ComponentID>
+        <ChannelID>CC_SND_SOAP_Ripkens</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_RCV_REST_deleteProduct_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_fruitshop_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_REST_RCV_Produkt</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_HTTP_OKR_Test_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_REST_Northwind_Employees_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_REST_SND_ProductPoll</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_05_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_SND_Mail_Mail2Mail</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_REST_pa</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_BS_GEOERGUEZEL_DOGI</ComponentID>
+        <ChannelID>CC_receiver_url_Nation</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BeispielBC</ComponentID>
+        <ChannelID>asdf</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_SOURCE_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+        <ChannelID>CC_SOAP_SND_Produkte</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_REST_ProductOne</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>CC_HTTP_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_SOAP_GetProductlist</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>rest_sender_hamburg_flughafen</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_FTP_FilenameTest_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_JDBC_flights_reciever</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_FTP_FilenameTest_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_REST_Northwind_Employee_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_F2F_CUST_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_F2F_CUST_SYSTEM</ComponentID>
+        <ChannelID>CC_FTP_CUST_CREATE_SENDER_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_SENDER_SYSTEM_UPDATE</ComponentID>
+        <ChannelID>CC_LJUBIC_SOAP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Vendor_SIMONI</ComponentID>
+        <ChannelID>CC_FileSendInvoice</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SOAP2FILE_SENDER_LJUBIC</ComponentID>
+        <ChannelID>CC_SOAP2FILE_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_WS_S2S_Sender</ComponentID>
+        <ChannelID>CC_WS_S2S_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EbayRestAPI</ComponentID>
+        <ChannelID>CC_EbayRestAPI_Rest_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_REST_Receiver_Rates</ComponentID>
+        <ChannelID>CC_REST_Receiver_Rates</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_SOAP_SERVICE</ComponentID>
+        <ChannelID>CC_SOAP_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_WeatherAPI</ComponentID>
+        <ChannelID>CC_WeatherAPI_REST_Receive</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SOAP_Sender_Currencys</ComponentID>
+        <ChannelID>CC_SOAP_Sender_Currencys</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_SOAP_2_PO_Material</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_FILE_RCV_SALESORDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>CC_Manar_PI</ComponentID>
+        <ChannelID>CC_Sender_Manar_PI</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_HTTP_GET_SERIAL_SF_TP_SENDER_HOCEVARM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_ExtPartner</ComponentID>
+        <ChannelID>CC_FTP_B2B_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MARGREFF</ComponentID>
+        <ChannelID>snd_soap_availabiltyRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IFTT</ComponentID>
+        <ChannelID>CC_SND_SOAP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_RecordType01_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_TOREST</ComponentID>
+        <ChannelID>CC_RCV_POST_FROM_SOAP_2_REST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MARGREFF</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SFTP_ANSI_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_RCV_REST_Delete_Fruitshop4</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_CUST_APPLE_GLOBAL</PartyID>
+        <ComponentID>BS_CUST_APPLE_GOBAL</ComponentID>
+        <ChannelID>CC_SOAP_SERIAL_APPLE_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_SND_CALC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_GUERKAN</ComponentID>
+        <ChannelID>CC_FILE_RCV_BOOKING</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_ANSI_850_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>SOAP_sender_sync</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BOOKFOUNTAIN</ComponentID>
+        <ChannelID>CC_FTP_Receiver_Order</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_test_apresit</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_File_Buchungsdatei_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_BS_GEOERGUEZEL_DOGI</ComponentID>
+        <ChannelID>CC_sender_url_IPAdresse</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOP_EAI_ZaidAbou</ComponentID>
+        <ChannelID>CC_SND_File_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_TRAINING_ERP_Jaeger_2</ComponentID>
+        <ChannelID>CC_RCV_Mail_fruitshop1</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SAP_ERP</ComponentID>
+        <ChannelID>CC_RCV_RFC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_HOCM_F2F_SOURCE</PartyID>
+        <ComponentID>BS_HOCM_F2F_SOURCE</ComponentID>
+        <ChannelID>CC_FTP_HOCM_F2F_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Bahnticketing_Shop_Altiner</ComponentID>
+        <ChannelID>CC_SOAP_SND_Bahnticket</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_File_ContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_SOAP_AdapterModulTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MAXX</ComponentID>
+        <ChannelID>recv_file_MAdaten</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+        <ChannelID>CC_FILE_RCV_Produkte</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SHOP</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_FILE_Exercise</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_TestClient</ComponentID>
+        <ChannelID>CC_SOAP_SND_Loopback</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_SERIAL_TP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+        <ChannelID>CC_Proxy_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_REST_fruitshop2_request</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+        <ChannelID>CC_REST_SND_IBM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_POTRAINING_SOAP_2_SFTP_SOURCE_DEMO_LJUBIC</PartyID>
+        <ComponentID>BS_POTRAINING_SOAP_2SFTP_SPURCE_LJUBIC</ComponentID>
+        <ChannelID>CC_SOAP_POTRAIN_SOAP_2_SFTP_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Mitarbeiterdialog_Sammlung</ComponentID>
+        <ChannelID>Mitarbeiterdialog_Sammlung_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_Generic_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>cc_SOAP_Sender_ProzessStart</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_SENDER_SYSTEM_HOCEVARM</ComponentID>
+        <ChannelID>CC_REST_SENDER_RESTAPI_EXAMPLE1_HOCEVARM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>Json_Baerer_Token_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_SOAP_fruitshop3_addProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Test_LockBeforeReading</ComponentID>
+        <ChannelID>CC_SFTP_SND_LockBeforeReading</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>rcv_SFTP_EZBexchange</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_TOREST</ComponentID>
+        <ChannelID>CC_RCV_REST_FROM_SOAP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>cc_rcv_file_FileContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_DieBreuerKomponente</ComponentID>
+        <ChannelID>RLC_CC_RCV_SOAP_Test</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_DeleteProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_01_GES</PartyID>
+        <ComponentID>BC_VST</ComponentID>
+        <ChannelID>CC_SND_SFTP_Satzart</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_CUST_APPLE_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>BS_CUST_APPLE_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_HTTP_GET_SERIAL_APPLE_RECEIVER_HOCEVARM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SFTP_TO_JDBC_SOURCE_TO_TARGET_LJUBIC</ComponentID>
+        <ChannelID>CC_SFTP_SOURCE_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</ComponentID>
+        <ChannelID>CC_SND_FILE_CONTENTCONVERSION</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Mail_Alert_Test_RCV_FILE</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+        <ChannelID>CC_Proxy_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_RESTAPI_SENDER_SYSTEM</ComponentID>
+        <ChannelID>CC_SND_RESTAPI</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_FILE_RCV_Products</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_FILE_SND_ExcelToXML</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_TP_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_TP_GLOBAL_SXH</ComponentID>
+        <ChannelID>CC_EMAIL_TP_RECEIVER_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR__Receiver_Fruitshop</ComponentID>
+        <ChannelID>CC_FILE_Receiver_Produkte</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_REST_Hamburg_Arrivals</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_SXH</ComponentID>
+        <ChannelID>CC_FILE_SHOPFLOOR_SENDER_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_GetProductByID</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>IF_Json_RestAdapter_Test_Labrach_SOAP_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_HetznerSftp</ComponentID>
+        <ChannelID>KK_File_RFC_RA1_2_RO2_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_S1vC_PS</ComponentID>
+        <ChannelID>BC_RCV_SFTP_PS</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>REST_RECEIVER_LOOKUP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_PI_Azubi_Schulung</ComponentID>
+        <ChannelID>CC_SND_FILE_Bestellung_RQ</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_REST_POLL_FRUITSHOP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_REST_RCV_POST_Produkt</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAININGERGUZEL_SFTP_DOGI</ComponentID>
+        <ChannelID>CC_receiver_file_MAdaten</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_REST_Hamburg_Arrivals2</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>IF_Json_RestAdapter_Test_Labrach_Rest_Receiver_Channel</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_MAIL_RCV_Produkt</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>HTTP_OAuth2_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SOAP_Calculator_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR__Sender_Fruitshop</ComponentID>
+        <ChannelID>CC_SOAP_Sender_Produkt_ID_Delete</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+        <ChannelID>CC_SND_REST_ConsumingOrderData</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_SENDER_SOAP2JDBC</ComponentID>
+        <ChannelID>CC_LJUBIC_SENDER_S2J</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_Passthrough_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_RCV_RFC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_DAISY_TRANS</ComponentID>
+        <ChannelID>CC_RCV_SOAP_DaisyTrans</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_FILE_SHOP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_File_ContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+        <ChannelID>CC_EMAIL_TP_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_SOAP_pa</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_SENDER_SYSTEM</ComponentID>
+        <ChannelID>CC_REST_SENDER_RESTAPI</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharp_Multitool_SFTP</ComponentID>
+        <ChannelID>CC_SFTP_RCV_PICS001_IF02_Ripkens</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>REST_RECEIVER_OAUTH_Concur</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_RCV_REST_Post_Fruitshop3</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_SOAP_fruitshop4_deleteProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RESTAPI_SENDER_TO_RECEIVER_LJUBIC</ComponentID>
+        <ChannelID>CC_REST_RECEIVER_RESTAPI_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_REST_SENDER_SXH</ComponentID>
+        <ChannelID>CC_REST_SENDER_EXAMPLE1_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_HetznerSftp</ComponentID>
+        <ChannelID>KK_SFTP_RCV_RFC_RA1_2_RO2</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_RecordType02_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_RCV_FILE_TestWithAttachments</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+        <ChannelID>CC_SOAP_SND_PICS001_IF02_kinold</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SND_File_ContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SHOP</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_Postman</ComponentID>
+        <ChannelID>CC_REST_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_PO_2_SOAP_ProductsDescription</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Sender</ComponentID>
+        <ChannelID>CC_SND_SFTP_Musterloesung_dritteUebung</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SFTP_KassenInput_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SFTP_Musterloesung_ersteUebung</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+        <ChannelID>CC_IDOC_Reciever</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+        <ChannelID>CC_SOAP_SND_Customer</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_RCV_SUBTRACT</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_F2F_CLNT_GLOBAL_BL</PartyID>
+        <ComponentID>BS_CLNT_SYSTEM_BR</ComponentID>
+        <ChannelID>CC_FTP_F2F_CLNT_PO_CREATE_SENDER_BR</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+        <ChannelID>CC_SOAP_SND_ProductRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_05_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_SND_Mail_toMail</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_File_Reciever</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_RCV_File_Fruitshop</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>Party_BIT100</PartyID>
+        <ComponentID>BS_RCM_PI_COURSE</ComponentID>
+        <ChannelID>HTTP_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step1_RCV_FILE_NFS_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_FILE_RCV_ExcelToXML</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+        <ChannelID>CC_REST_RCV_Tegut_Json</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Smiezewski</ComponentID>
+        <ChannelID>CC_SND_SOAP_Smiezewski</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>CC_IDOC_SENDER_RH2</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_STEVO_SHOP</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>cc_SOAP_BRM_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RCV001</ComponentID>
+        <ChannelID>CC_SFTP_IcoReplication_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR__Receiver_Fruitshop</ComponentID>
+        <ChannelID>CC_REST_Receiver_Produkt_ID_Delete</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_SENDER_SYSTEM_DELETE</ComponentID>
+        <ChannelID>CC_LJUBIC_SOAP_SENDER_DELETE</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>TEST_MigrationHelper</ComponentID>
+        <ChannelID>TEST_MigrationHelperSender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SalesStatistics</ComponentID>
+        <ChannelID>CC_RCV_FTP_SalesStatistics</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>SOAP_sender_async</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_RCV_Mail_toMail</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_06_045</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_RFC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+        <ChannelID>CC_MAIL_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_File_Magenta_Customer_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_RA1_800</ComponentID>
+        <ChannelID>KK_RFC_RA1_2_RO2_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Mail_Alert_Test</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>Party_Manar_A</PartyID>
+        <ComponentID>BS_RCM_PI_Manar</ComponentID>
+        <ChannelID>CC_Manar_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+        <ChannelID>CC_REST_SND_IMG_Test</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Bahnticketing_Shop_IR</ComponentID>
+        <ChannelID>CC_SOAP_SND_Bahnticket</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+        <ChannelID>CC_REST_RCV_IMG_Test</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_TRAINING_Rati2</ComponentID>
+        <ChannelID>CC_RCV_RFC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_LJUBIC_REST2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_LJUBIC_REST2SFTP_SOURCE</ComponentID>
+        <ChannelID>CC_REST_LJUBIC_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_CPI_ErnstingsFamily</ComponentID>
+        <ChannelID>CC_RCV_REST_PublishingOrderStatus</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_RECEIVER_SYSTEM_HOCEVARM</ComponentID>
+        <ChannelID>CC_REST_RECEIVER_RESTAPI_EXAMPLE2_HOCEVARM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_WS</ComponentID>
+        <ChannelID>CC_Order_SOAP_Sender_Sync</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR__Sender_Fruitshop</ComponentID>
+        <ChannelID>CC_REST_Sender_Produkte</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SHOP</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_RCV_ADD</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_F2F_CUST_GLOBAL_IR</PartyID>
+        <ComponentID>BS_F2F_CUST_SYSTEM</ComponentID>
+        <ChannelID>CC_FTP_F2F_CUST_IR_CREATE_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ADP_TP_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_JDBC_WU_TP_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SND_File_ContentConversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_MALENSEKM</ComponentID>
+        <ChannelID>CC_FILE_TECHIMAJ_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_RCV_File_pollProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_F2M_Sender</ComponentID>
+        <ChannelID>CC_F2M_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_READERSPARADISE</ComponentID>
+        <ChannelID>CC_SOAP_Sender_Order</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Calculator</ComponentID>
+        <ChannelID>CC_SOAP_SND_Calculator_ADD</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SND_File_JavaModuleTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_WICK</ComponentID>
+        <ChannelID>CC_FILE_RCV_Booking</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_MM</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RESTAPI_SENDER_TO_RECEIVER_LJUBIC</ComponentID>
+        <ChannelID>CC_HTTP_SENDER_RESTAPI_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MANI_Receiver</ComponentID>
+        <ChannelID>CC_RCV_BetrieblicheFunktion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_FILE_FILESYSTEM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_RCV_Mail_Fruitshop</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_S4HANA_ERP1_DEV</ComponentID>
+        <ChannelID>CC_FILE_RCV_Customer</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>REST_Receiver_Json</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_MAIL_CustomModulExcel</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_FILE_CONTENTCONVERSION</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_HOCEVAR_SOAP2SFTP_TARGET</PartyID>
+        <ComponentID>BS_HOCEVAR_SOAP2SFTP_TARGET</ComponentID>
+        <ChannelID>CC_SFTP_HOCEVAR_S2SFTP_RECIEVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_S1vC_PS</ComponentID>
+        <ChannelID>BC_SND_SFTP_PS</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_TP_GLOBAL</PartyID>
+        <ComponentID>BS_TP_GLOBAL</ComponentID>
+        <ChannelID>CC_EMAIL_TP_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>SOAP_RECEIVER_ICHANNEL</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_XX</ComponentID>
+        <ChannelID>CC_snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RECEIVER_SYSTEM_UPDATE</ComponentID>
+        <ChannelID>CC_LJUBIC_REST_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_REST_RCV_Produkt_Delete</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL_GROBINL</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_SENDER_GROBINL</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_fruitshop_availabilityResponse</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_ERP_SIMONI</ComponentID>
+        <ChannelID>CC_FileReceiverINVOICIDOC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_MAIL_ProductAll</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SOAP_SND_BahnTicket</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_SENDER_SYSTEM_HOCEVARM</ComponentID>
+        <ChannelID>CC_HTTP_SENDER_RESTAPI_EXAMPLE2_HOCEVARM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_A</ComponentID>
+        <ChannelID>CC_FILE_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_RCV_mail_EcbExchange</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_BPM_Receiver</ComponentID>
+        <ChannelID>CC_SOAP_BPM_Simple_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+        <ChannelID>CC_Order_SFTP_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SHOP</ComponentID>
+        <ChannelID>CC_snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_INTERFACEDEMO_HOCEVARM</ComponentID>
+        <ChannelID>CC_FTP_F2F_RECIEVER_hocevarm</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_Mail_fruitshop1</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharp_Multitool</ComponentID>
+        <ChannelID>CC_REST_SND_PICS001_IF02_Ripkens</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_RA1_800</ComponentID>
+        <ChannelID>KK_File_RFC_RA1_2_RO2_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Mitarbeiterdialog_Sammlung</ComponentID>
+        <ChannelID>BC_Mitarbeiterdialog_Sammlung_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_E1_AM_SENDER_LJUBIC</ComponentID>
+        <ChannelID>CC_FILE_E1_AM_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_FILE_CITIBANK_RECEIVER_HOCEVARM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>TEST_JMS_TestJMS</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_WS_S2S_Sender_SIMONI</ComponentID>
+        <ChannelID>CC_WS_S2S_Sender_SIMONI</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_BOOKFOUNTAIN</ComponentID>
+        <ChannelID>CC_FTP_Receiver_Order</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>TS_ERP_TRAINING_Margreff</ComponentID>
+        <ChannelID>cc_file_rcv_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BAHNTICKET_SHOP_RIPKENS</ComponentID>
+        <ChannelID>CC_SOAP_SND_BahnTicket</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL</ComponentID>
+        <ChannelID>CC_FILE_CITIBANK_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_RESTAPI_RECEIVER_SYSTEM</ComponentID>
+        <ChannelID>CC_RCV_SFTP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_SOAP_SERVICE</ComponentID>
+        <ChannelID>CC_SOAP_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SOAP_SND_Produkt_Delete</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Bahnticketing_Shop_Altiner</ComponentID>
+        <ChannelID>CC_REST_SND_Bahnticket</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Customer</ComponentID>
+        <ChannelID>CC_RCV_FTP_Customer</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SOAP_SND_Produkt</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_TRAINING_Rati2</ComponentID>
+        <ChannelID>CC_rcv_filesalesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_REST_SUNRISE</ComponentID>
+        <ChannelID>CC_SOAP_SUNRISE_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_RECEIVER_SYSTEM</ComponentID>
+        <ChannelID>CC_REST_RECEIVER_RESTAPI</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAININGERGUZEL_SOAPUI_DOGI</ComponentID>
+        <ChannelID>CC_sender_file_MAdaten</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_XX</ComponentID>
+        <ChannelID>CC_SND_FILE_CONTENTCONVERSION</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RESTAPI_SENDER_TO_RECEIVER_LJUBIC</ComponentID>
+        <ChannelID>CC_FTP_RECEIVER_RESTAPI_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>ERP_ECC_800_TP_GLOBAL</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_RA1_800</ComponentID>
+        <ChannelID>CC_IDOC_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RH2_240</ComponentID>
+        <ChannelID>CC_RH2_IDOC_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_jose</ComponentID>
+        <ChannelID>snd_ftp_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RECEIVER_SYSTEM_POST</ComponentID>
+        <ChannelID>CC_LJUBIC_REST_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_HetznerSftp</ComponentID>
+        <ChannelID>CC_SFTP_RCV_PICS001_IF02_kinoldv2</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>CC_FILE_RCV_Invoice</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+        <ChannelID>CC_HTTP_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+        <ChannelID>CC_SND_SOAP_RechnungsForward_BPM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_PI</ComponentID>
+        <ChannelID>CC_SOAP_LOOKUP_Dir_API_ChangeListInImplBean</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_SFTP_SHOPFLOOR_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_BPM_Sender</ComponentID>
+        <ChannelID>CC_SOAP_BPM_Simple_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Ripkens</ComponentID>
+        <ChannelID>CC_SND_REST_Wechselkurs</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_ORDER_CREATE_SOURCE</PartyID>
+        <ComponentID>BS_ORDER_CREATE_SOURCE</ComponentID>
+        <ChannelID>CC_SOAP_ORDER_CREATE_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BOOKING_SYSTEM_RIPKENS</ComponentID>
+        <ChannelID>CC_FILE_RCV_Booking</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Online_Rechner</ComponentID>
+        <ChannelID>CC_SOAP_RCV_CALC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_SND_SOAP_Delete_Fruitshop4</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_FILE_SHOP_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_FILE_CONTENTCONVERSION</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_ERP</ComponentID>
+        <ChannelID>CC_DirectoryAPI_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_REST_Test</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_TOREST</ComponentID>
+        <ChannelID>CC_RCV_DELETE_REST_FROM_SOAP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_REST_SUNRISE</ComponentID>
+        <ChannelID>CC_REST_SUNRISE_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>CC_ODATA_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_SFTP_Reciever_from_SOAP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_WS</ComponentID>
+        <ChannelID>CC_Order_SOAP_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Herrmannsdoerfer</ComponentID>
+        <ChannelID>KK_SOAP_VMR_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_FF</ComponentID>
+        <ChannelID>cc_file_rcv_salesorder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>REST_Receiver_Json_Lookup</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_ljubic_SHOP</ComponentID>
+        <ChannelID>CC_FILE_MAIL_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_ORDER_CREATE_TARGET</PartyID>
+        <ComponentID>BS_ORDER_CREATE_TARGET</ComponentID>
+        <ChannelID>CC_SFTP_ORDER_CREATE_RECIEVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_REST_Fruitshop</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_EXT</ComponentID>
+        <ChannelID>CC_SOAP_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Kinold</ComponentID>
+        <ChannelID>CC_snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SFTP_TO_JDBC_SOURCE_TO_TARGET_LJUBIC</ComponentID>
+        <ChannelID>CC_JBCD_TARGET_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_2_FILE_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_TOREST</ComponentID>
+        <ChannelID>CC_SND_POST_SOAP_TO_REST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_F2F_COM_GLOBAL_BL</PartyID>
+        <ComponentID>BS_F2F_COM_SYSTEM_BR</ComponentID>
+        <ChannelID>CC_FTP_F2F_COM_PO_CREATE_RECEIVER_BR</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>cc_SOAP_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>FILE2FILE</ComponentID>
+        <ChannelID>CC_FILE_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_HOCM_F2F_SOURCE</PartyID>
+        <ComponentID>BS_HOCM_F2F_SOURCE</ComponentID>
+        <ChannelID>CC_SOAP_HOCM_F2F_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>IFTT_Test_Sender</ComponentID>
+        <ChannelID>CC_SND_SOAP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Test_LockBeforeReading</ComponentID>
+        <ChannelID>CC_SFTP_RCV_LockBeforeReading</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_BOOKFOUNTAIN_HOCEVARM</ComponentID>
+        <ChannelID>CC_FTP_Receiver_Order</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_TestClient</ComponentID>
+        <ChannelID>CC_REST_SND_Loopback</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BeispielBC</ComponentID>
+        <ChannelID>fdsfsdf</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_snd_soap_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_JBCD_2_JDBC_SOURCE_TO_TARGET_DELETE_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_SOURCE_DELETE_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR__Sender_Fruitshop</ComponentID>
+        <ChannelID>CC_SOAP_Sender_Product</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_ERP_MAXX</ComponentID>
+        <ChannelID>snd_file_MAdaten</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>Concur</PartyID>
+        <ComponentID>BC_Concur</ComponentID>
+        <ChannelID>CC_RCV_SFTP_Concur_VendorData</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MTE_Sender</ComponentID>
+        <ChannelID>CC_SND_SOAP_RechnungsInput</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SND_REST_pollProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_HOCEVAR_S2SFTP_SOURCE</PartyID>
+        <ComponentID>BS_HOCEVAR_S2SFTP_SOURCE</ComponentID>
+        <ChannelID>CC_SOAP_HOCEVAR_S2SFTP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Playroom_Burchardt</ComponentID>
+        <ChannelID>CC_REST_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SOAP2FILE_RECEIVER_LJUBIC</ComponentID>
+        <ChannelID>CC_SOAP2FILE_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SAP_CRM_PRD_CLNT001</ComponentID>
+        <ChannelID>CC_XI_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_REST_RECEIVER_SXH</ComponentID>
+        <ChannelID>CC_FTP_RECEIVER_EXAMPLE1_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SMIEZEWSKI</ComponentID>
+        <ChannelID>CC_RCV_JDBC_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SOAP_Attachment_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_SND_Customer_OUT</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_SND_FILE_TestWithAttachments</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+        <ChannelID>CC_DirectoryAPI_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_SFTP_RecordType03_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES_rati</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_FILE2FILE_RECEIVER_LJUBIC</ComponentID>
+        <ChannelID>CC_FILE2FILE_RECEIVER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_HOCM_F2F_TARGET</PartyID>
+        <ComponentID>BS_HOCM_F2F_TARGET</ComponentID>
+        <ChannelID>CC_FTP_HOCM_F2F_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_RCV_REST_postProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Rechner_2</ComponentID>
+        <ChannelID>CC_SOAP_RCV_SUBTRACT</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>Party_Manar_A</PartyID>
+        <ComponentID>BS_RCM_PI_Manar</ComponentID>
+        <ChannelID>CC_Manar_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_FILE_Exercise</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+        <ChannelID>CC_REST_RCV_Produkt_ID_Delete</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+        <ChannelID>CC_SOAP_RCV_ChipherSuiteTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_Sender_Piechota</ComponentID>
+        <ChannelID>CC_SND_SOAP_Schulung_Piechota</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SCHULUNG_STORK_A</ComponentID>
+        <ChannelID>CC_SOAP_SND_ChipherSuiteTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_SFTP_SP</ComponentID>
+        <ChannelID>CC_SFTP_RCV_CSharpMultitool</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+        <ChannelID>CC_REST_SND_Produkte</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_KUBIS</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>TEST_MigrationHelper</ComponentID>
+        <ChannelID>TEST_MigrationHelperReceiverStub</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Sender</ComponentID>
+        <ChannelID>CC_SOAP_Simple_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BuchSzenario</ComponentID>
+        <ChannelID>cc_SOAP_Receiver_ProzessStart</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_SND_REST_ECBExchange</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_SOAP_GetProductByID</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RC_TEST_REST</ComponentID>
+        <ChannelID>Mail_Artmas_rcv</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_SND_SOAP_AdapterModulTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_BOOKFOUNTAIN_HOCEVARM</ComponentID>
+        <ChannelID>CC_REST_Reciever_CurrencyRes</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_SND_FILE_TEGUT_TEST</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Erguezel</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_REST_GetProductByID</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR__Sender_Fruitshop</ComponentID>
+        <ChannelID>CC_SOAP_Sender_Produkte</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_CUST_APPLE_GLOBAL_HOCEVARM</PartyID>
+        <ComponentID>BS_CUST_APPLE_GLOBAL_HOCEVARM</ComponentID>
+        <ChannelID>CC_SOAP_SERIAL_TP_RECIEVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_REST_Calculator_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_HTTP_GET_SERIAL_SF_TP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_MagentoWebShop_DEV</ComponentID>
+        <ChannelID>CC_FILE_SND_Customer</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schulung_JavaMapping_Receiver</ComponentID>
+        <ChannelID>CC_RCV_SFTP_Musterloesung_dritteUebung</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_AdapterModul_Tiryaki</ComponentID>
+        <ChannelID>CC_Step2_SND_FILE_NFS_Adaptermodul_Tiryaki</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_Khalil</PartyID>
+        <ComponentID>BC_SOAP_COUTRY</ComponentID>
+        <ChannelID>CC_SOAP_Country_SND</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_EAI_Fruitshop</ComponentID>
+        <ChannelID>CC_SOAP_SND_Produkt_ID_Delete</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BC_CSharpMutltitool_SFTP_PS</ComponentID>
+        <ChannelID>CC_SFTP_RCV_PICS001_IF02_PS</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>RLC_BS_ABRECHNUNG</ComponentID>
+        <ChannelID>CC_SOAP_SND_Invoice</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SAP_ERP_TRAINING_KUECUEK</ComponentID>
+        <ChannelID>CC_RCV_File_Fruitshop1</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MANI_sender</ComponentID>
+        <ChannelID>CC_Sender_BetrieblicheFunktion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_ENGINE_JAVA_RO2</ComponentID>
+        <ChannelID>CC_SND_REST_FormEnc</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_KUECUEK</ComponentID>
+        <ChannelID>CC_SND_REST_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SND_SOAP_postProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Jaeger</ComponentID>
+        <ChannelID>CC_SND_REST_fruitshop_availabilityRequest_Mail</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IFTT</ComponentID>
+        <ChannelID>CC_RCV_SOAP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_RCV_REST_PostProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_PI</ComponentID>
+        <ChannelID>CC_SOAP_LOOKUP_Dir_API_CommunicationChannelInImplBean</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SAP_ERP</ComponentID>
+        <ChannelID>CC_RCV_RFC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_BANK_CITYBANK_SXH</PartyID>
+        <ComponentID>CO_BANK_CITYBANK_SXH</ComponentID>
+        <ChannelID>CC_FILE_TECHIEPRESS_SENDER_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>SHOP_Stork</ComponentID>
+        <ChannelID>CC_FILE_Receiver_SequenzTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_SND_SOAP_availabilityRequest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_RDS</ComponentID>
+        <ChannelID>KK_SFTP_RDS_Showcase_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>P_DE_06_044</PartyID>
+        <ComponentID>BC_Transport</ComponentID>
+        <ChannelID>CC_VST_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Playroom_Burchardt</ComponentID>
+        <ChannelID>CC_REST_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_rcv_file_salesOrder_jaeger</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_F2F_POCUST_GLOBAL_SXH</PartyID>
+        <ComponentID>BS_F2F_POCAST_SYSTEM</ComponentID>
+        <ChannelID>CC_FTP_POCUST_CREATE_RECEIVER_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SHOPFLOOR_TP_GLOBAL_LJUBIC</ComponentID>
+        <ChannelID>CC_JDBC_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_SP</ComponentID>
+        <ChannelID>CC_REST_SND_PICS001_IF02_SP</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_RCV_SFTP_ECBEXCHANGES</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_RESTAPI_RECEIVER_SYSTEM_HOCEVARM</ComponentID>
+        <ChannelID>CC_FTP_RECEIVER_RESTAPI_EXAMPLE1_HOCEVARM</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_REST_fruitshop3_addProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_ERP_Jaeger</ComponentID>
+        <ChannelID>CC_RCV_Mail_pa</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Muni_Receiver</ComponentID>
+        <ChannelID>CC_EDISeperator_ANSI_RCV</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_FF</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_HOCEVARM_SHOP</ComponentID>
+        <ChannelID>CC_File_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_MeteoAL</ComponentID>
+        <ChannelID>CC_MeteoRestAPI_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_INTERFACEDEMO_HOCEVARM</ComponentID>
+        <ChannelID>CC_FTP_F2F_SENDER_hocevarm</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>PY_BANK_CITIBANK_GLOBAL_MALENSEKM</PartyID>
+        <ComponentID>CO_BANK_CITIBANK_GLOBAL_MALENSEKM</ComponentID>
+        <ChannelID>CC_FILE_CITIBANK_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_FILE2FILE_SENDER_LJUBIC</ComponentID>
+        <ChannelID>CC_FILE2FILE_SENDER_LJUBIC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_IR__Receiver_Fruitshop</ComponentID>
+        <ChannelID>CC_REST_Receiver_Produkte</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Wick</ComponentID>
+        <ChannelID>CC_RCV_REST_ProductDelete</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>*</PartyID>
+        <ComponentID>BC_AdapterModulTest</ComponentID>
+        <ChannelID>CC_RCV_SOAP_AdapterModulTest</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_ERP_TRAINING_Rati2</ComponentID>
+        <ChannelID>CC_rcv_file_ContentComversion</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_A</ComponentID>
+        <ChannelID>CC_SOAP_SENDER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+        <ChannelID>CC_MAIL_RCV_PICS001_IF02_Ripkens</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_Madzima</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_EAI_TRAINING_SHOP_Rati2</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>snd_file_salesOrder</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_SFTP</ComponentID>
+        <ChannelID>CC_Order_SFTP_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_RCV_REST_deleteProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_BeispielBC</ComponentID>
+        <ChannelID>fdsa</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_GUERKAN</ComponentID>
+        <ChannelID>CC_SND_SOAP_PostProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID>Concur</PartyID>
+        <ComponentID>BC_Concur</ComponentID>
+        <ChannelID>CC_SND_SOAP_VendorData</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>CC_Manar_PI</ComponentID>
+        <ChannelID>CC_receiver_Manar_PI</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Customer</ComponentID>
+        <ChannelID>CC_SND_SOAP_Customer</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>EAI_TRAINING_SHOP_WOHLMACHER</ComponentID>
+        <ChannelID>CC_RCV_Mail_pollProduct</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Calculator_Test_Altiner</ComponentID>
+        <ChannelID>CC_SOAP_SND_Subtract</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>INTEGRATION_SERVER_RP1</ComponentID>
+        <ChannelID>CC_REST_SND_PICS001_IF02_Ripkens</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_SYSTEM_B</ComponentID>
+        <ChannelID>CC_FILE_RECEIVER</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_LJUBIC_RECEIVER_SOAP2JDBC</ComponentID>
+        <ChannelID>CC_LJUBIC_RECEIVER_SOAP2JDBC</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_S2S_Sender_SXH</ComponentID>
+        <ChannelID>CC_S2S_Sender_SXH</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_F2M_Receiver</ComponentID>
+        <ChannelID>CC_F2M_Receiver</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BS_FIL_NRW_PRD</ComponentID>
+        <ChannelID>cc_SOAP_Sender</ChannelID>
+      </CommunicationChannelID>
+      <CommunicationChannelID>
+        <PartyID />
+        <ComponentID>BC_Schultz_Test_Tegut</ComponentID>
+        <ChannelID>CC_REST_RCV_IBM</ChannelID>
+      </CommunicationChannelID>
+      <LogMessageCollection />
+    </ns1:CommunicationChannelQueryResponse>
+  </ns0:Body>
+</ns0:Envelope>

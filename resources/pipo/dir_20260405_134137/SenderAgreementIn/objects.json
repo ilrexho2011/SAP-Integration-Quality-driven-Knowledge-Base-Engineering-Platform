@@ -1,0 +1,477 @@
+[
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "ljubic"
+      },
+      "LastChangeDateTime": {
+        "_text": "2020-11-02T13:39:39.022+01:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "Description": {},
+    "SenderAgreementID": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_F2F_SENDER_LJUBIC"
+      },
+      "InterfaceName": {
+        "_text": "SI_AO_F2F"
+      },
+      "InterfaceNamespace": {
+        "_text": "urn:realcore.de:FILE_TO_FILE:ljubic"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    },
+    "CommunicationChannel": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_F2F_SENDER_LJUBIC"
+      },
+      "ChannelID": {
+        "_text": "CC_F2F_SENDER_LJUBIC"
+      }
+    },
+    "SoftwareComponentVersion": {
+      "_text": "2ba7c3d0-fe5d-11ea-a518-e0a9c0a8fa26"
+    },
+    "ForIntegratedConfiguration": {
+      "_text": "true"
+    },
+    "SchemaValidation": {
+      "_text": "No Validation"
+    },
+    "VirusScan": {
+      "_text": "Use Global"
+    }
+  },
+  {
+    "MasterLanguage": {
+      "_text": "EN"
+    },
+    "AdministrativeData": {
+      "ResponsibleUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeUserAccountID": {
+        "_text": "wick"
+      },
+      "LastChangeDateTime": {
+        "_text": "2022-06-28T09:49:30.135+02:00"
+      },
+      "FolderPathID": {
+        "_text": "/"
+      }
+    },
+    "SenderAgreementID": {
+      "SenderPartyID": {},
+      "SenderComponentID": {
+        "_text": "BC_UEBUNG_WICK"
+      },
+      "InterfaceName": {
+        "_text": "SI_OA_Reiseanfrage"
+      },
+      "InterfaceNamespace": {
+        "_text": "http://realcore.de/uebung_wick"
+      },
+      "ReceiverPartyID": {},
+      "ReceiverComponentID": {}
+    },
+    "CommunicationChannel": {
+      "PartyID": {},
+      "ComponentID": {
+        "_text": "BC_UEBUNG_WICK"
+      },
+      "ChannelID": {
+        "_text": "CC_SOAP_SND_Reiseanfrage"
+      }
+    },
+    "SoftwareComponentVersion": {
+      "_text": "7bd1d3d0-e625-11ec-aea0-c146c0a8fa26"
+    },
+    "ForIntegratedConfiguration": {
+      "_text": "true"
+    },
+    "SchemaValidation": {
+      "_text": "No Validation"
+    },
+    "VirusScan": {
+      "_text": "Use Global"
+    },
+    "AdapterSpecificAttribute": [
+      {
+        "Name": {
+          "_text": "wsse.namespace"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+        }
+      },
+      {
+        "Name": {
+          "_text": "WSSEProfileVerify"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "SecurityProfileWSSEVerifySignatureBody"
+        }
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureIssuerDN"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureSubjectDN"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureKeyStore"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyWsuTimestamp"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "verifyWsuTimestampMessageAge"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionKeyStoreView_SecurityProfileWSSEVerifyEncryptionBody"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionKeyStoreAlias_SecurityProfileWSSEVerifyEncryptionBody"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionKeyStoreView_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionKeyStoreAlias_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureIssuerDN_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureSubjectDN_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureKeyStoreCAView_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyWsuTimestamp_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "verifyWsuTimestampMessageAge_SecurityProfileWSSEVerifyEncryptionBodyThenSignatureBody"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "WSSEProfileApplyResponse"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "SecurityProfileWSSEApplyNoneBodyResponse"
+        }
+      },
+      {
+        "Name": {
+          "_text": "applySignatureKeyStoreView_SecurityProfileWSSEApplySignatureBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applySignatureKeyStoreAlias_SecurityProfileWSSEApplySignatureBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applyWsuTimestamp_SecurityProfileWSSEApplySignatureBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "applyWsuTimestampExpires_SecurityProfileWSSEApplySignatureBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "applyWsuTimestampExpiresTime_SecurityProfileWSSEApplySignatureBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applyEncryptionKeyStoreView_SecurityProfileWSSEApplyEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applyEncryptionKeyStoreAlias_SecurityProfileWSSEApplyEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applySignatureKeyStoreView_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applySignatureKeyStoreAlias_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applyWsuTimestamp_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "applyWsuTimestampExpires_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "applyWsuTimestampExpiresTime_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applyEncryptionKeyStoreView_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "applyEncryptionKeyStoreAlias_SecurityProfileWSSEApplySignatureBodyThenEncryptionBodyResponse"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "SMIMEProfileVerify"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "verifySignedData"
+        }
+      },
+      {
+        "Name": {
+          "_text": "verifySMIMESignatureKeyStore"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureAlias"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionKeyStore"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionAlias"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureSignatureEncryptionKeyStore"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureSignatureEncryptionAlias"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionSignatureEncryptionKeyStore"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionSignatureEncryptionAlias"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionEncryptionSignatureKeyStore"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifyEncryptionEncryptionSignatureAlias"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureEncryptionSignatureKeyStore"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "verifySignatureEncryptionSignatureAlias"
+        },
+        "Namespace": {},
+        "Value": {}
+      },
+      {
+        "Name": {
+          "_text": "propagatePrincipal"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "serviceMetering"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "level"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      },
+      {
+        "Name": {
+          "_text": "headerType"
+        },
+        "Namespace": {},
+        "Value": {
+          "_text": "0"
+        }
+      }
+    ]
+  }
+]
