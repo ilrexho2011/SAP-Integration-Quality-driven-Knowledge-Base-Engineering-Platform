@@ -1,0 +1,26 @@
+{
+  "mpl_input": "C:\\exports\\mpl_raw",
+  "priorities_requested": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "copy_mode": "copy",
+  "file_count": 1,
+  "counts": {
+    "P1": 0,
+    "P2": 1,
+    "P3": 0
+  },
+  "copied_counts": {
+    "P1": 0,
+    "P2": 1,
+    "P3": 0
+  },
+  "classified_roots": {
+    "P1": "C:\\Users\\RexhoIlirjan\\my-sap-integration-catalog\\my-sap-integration-complete-catalog-toolkit\\exports\\run_20260405_133838\\pipo\\priority_classifier\\classified\\P1",
+    "P2": "C:\\Users\\RexhoIlirjan\\my-sap-integration-catalog\\my-sap-integration-complete-catalog-toolkit\\exports\\run_20260405_133838\\pipo\\priority_classifier\\classified\\P2",
+    "P3": "C:\\Users\\RexhoIlirjan\\my-sap-integration-catalog\\my-sap-integration-complete-catalog-toolkit\\exports\\run_20260405_133838\\pipo\\priority_classifier\\classified\\P3"
+  },
+  "records_file": "C:\\Users\\RexhoIlirjan\\my-sap-integration-catalog\\my-sap-integration-complete-catalog-toolkit\\exports\\run_20260405_133838\\pipo\\priority_classifier\\priority_classifier_records.json"
+}
