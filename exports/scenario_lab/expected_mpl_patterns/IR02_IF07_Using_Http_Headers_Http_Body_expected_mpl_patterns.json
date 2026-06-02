@@ -1,0 +1,21 @@
+{
+  "iflow_name": "IR02_IF07_Using_Http_Headers_Http_Body",
+  "expected_statuses": [
+    "FAILED",
+    "COMPLETED_WITH_WARNING"
+  ],
+  "expected_error_signatures": [
+    "missing|required|identifier|validation",
+    "date|format|mapping|validation",
+    "xml|parser|well-formed|SAX",
+    "empty|payload|body|required"
+  ],
+  "evidence_fields": [
+    "MessageGuid",
+    "IntegrationFlowName",
+    "Status",
+    "LogStart",
+    "LogEnd",
+    "ErrorText"
+  ]
+}

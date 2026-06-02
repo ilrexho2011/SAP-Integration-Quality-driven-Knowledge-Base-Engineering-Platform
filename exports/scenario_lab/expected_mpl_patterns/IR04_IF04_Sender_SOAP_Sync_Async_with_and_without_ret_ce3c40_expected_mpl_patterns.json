@@ -1,0 +1,21 @@
+{
+  "iflow_name": "IR04_IF04_Sender_SOAP_Sync_Async_with_and_without_return_errors",
+  "expected_statuses": [
+    "FAILED",
+    "COMPLETED_WITH_WARNING"
+  ],
+  "expected_error_signatures": [
+    "missing|required|identifier|validation",
+    "date|format|mapping|validation",
+    "xml|parser|well-formed|SAX",
+    "empty|payload|body|required"
+  ],
+  "evidence_fields": [
+    "MessageGuid",
+    "IntegrationFlowName",
+    "Status",
+    "LogStart",
+    "LogEnd",
+    "ErrorText"
+  ]
+}

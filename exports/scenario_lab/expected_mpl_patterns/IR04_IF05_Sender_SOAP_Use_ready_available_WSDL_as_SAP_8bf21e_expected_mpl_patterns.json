@@ -1,0 +1,21 @@
+{
+  "iflow_name": "IR04_IF05_Sender_SOAP_Use_ready_available_WSDL_as_SAP_CI_WSDL",
+  "expected_statuses": [
+    "FAILED",
+    "COMPLETED_WITH_WARNING"
+  ],
+  "expected_error_signatures": [
+    "missing|required|identifier|validation",
+    "date|format|mapping|validation",
+    "xml|parser|well-formed|SAX",
+    "empty|payload|body|required"
+  ],
+  "evidence_fields": [
+    "MessageGuid",
+    "IntegrationFlowName",
+    "Status",
+    "LogStart",
+    "LogEnd",
+    "ErrorText"
+  ]
+}

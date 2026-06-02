@@ -1,0 +1,21 @@
+{
+  "iflow_name": "IR09_IF04_Multicast_in_multiple_routing_and_combined_gatherof_all_messages",
+  "expected_statuses": [
+    "FAILED",
+    "COMPLETED_WITH_WARNING"
+  ],
+  "expected_error_signatures": [
+    "missing|required|identifier|validation",
+    "date|format|mapping|validation",
+    "xml|parser|well-formed|SAX",
+    "empty|payload|body|required"
+  ],
+  "evidence_fields": [
+    "MessageGuid",
+    "IntegrationFlowName",
+    "Status",
+    "LogStart",
+    "LogEnd",
+    "ErrorText"
+  ]
+}
