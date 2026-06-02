@@ -1,0 +1,1 @@
+HTTPConnectionPool(host='ro2.realcore.local', port=50000): Max retries exceeded with url: /AdapterMessageMonitoring/basic?wsdl (Caused by NameResolutionError("HTTPConnection(host='ro2.realcore.local', port=50000): Failed to resolve 'ro2.realcore.local' ([Errno 11001] getaddrinfo failed)"))

@@ -1,0 +1,7 @@
+{
+  "target_namespaces": [
+    "urn:AdapterMessageMonitoringWsd"
+  ],
+  "operations": [],
+  "soap_actions": {}
+}

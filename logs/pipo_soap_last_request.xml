@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:urn="http://sap.com/xi/XI/Message/30">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <urn:getMessageList>
+      <urn:Status>FAILED</urn:Status>
+      <urn:DateFrom>2026-05-30T11:54:21</urn:DateFrom>
+      <urn:DateTo>2026-05-31T11:54:21</urn:DateTo>
+      <urn:MaxMessages>100000</urn:MaxMessages>
+    </urn:getMessageList>
+  </soapenv:Body>
+</soapenv:Envelope>
