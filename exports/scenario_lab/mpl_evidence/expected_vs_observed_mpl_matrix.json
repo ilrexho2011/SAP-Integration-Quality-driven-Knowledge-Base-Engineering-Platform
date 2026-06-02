@@ -1,0 +1,1689 @@
+[
+  {
+    "iflow_name": "IR07_IF05_Calculator_Simulation_Mapping",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR07_IF01_Router_First_Example",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR07_IF02_Router_You_always_have_a_choice",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR07_IF03_Router_End_or_continue_if_no_data",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR07_IF06_Router_Configuration",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR07_IF04_Calculator_Simulation_Groovy",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR09_IF03_Multicast_manually_with_Local_Integration_Processes",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR09_IF02_Multicast_manually",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR09_IF05_Header_and Property_Access_BeforeDuringAndAfter_Multicast",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR09_IF01_Multicast_with_multiple_routings",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR09_IF04_Multicast_in_multiple_routing_and_combined_gatherof_all_messages",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR06_IF01_SFTP_Passthrough_People_Source_to_Target",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR06_IF02_SFTP_Passthrough_Source_to_Target",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR06_IF03_SFTP_Passthrough_Sub_Source_to_Target",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR06_IF04_SFTP_Poll_Enrich_Multiple_File_and_Delete",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR06_IF05_SFTP_Poll_Enrich_Single_File",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR06_IF06_Sending_File_Sftp2Ftp",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR08_IF06_Split_by_Token",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR08_IF07_Split_XML_with_namespaces",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR08_IF05_Split_by_Line_Break",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR08_IF02_Iterating_Splitter",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR08_IF03_Nested_General_Splitter",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR08_IF01_General_Splitter",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR08_IF04_Nested_Iterating_Splitter",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF11_Data_Conversion_Encoding_Decoding",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF03_Convert_XML_to_CSV_Occurrence",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF04_Convert_CSV_to_XML_Columns",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF01_Convert_XML_to_JSON_number_boolean_null_empty ",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF07_Base64_Encoding_Decoding",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF04_Convert_CSV_to_XML",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF02_Convert_JSON_with_array_to_XML",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF03_Convert_XML_to_CSV_Optional_Field",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF08_Base64_Embed_PDF_and_Image_in_Plain_XML",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF02_Convert_JSON_to_XML",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF03_Convert_XML_to_CSV",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF04_Convert_CSV_with header_to_XML",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF01_Convert_XML_to_JSON_Root_Suppress",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF01_Convert_XML_to_JSON",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF01_Convert_XML_to_JSON_Array",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF03_Convert_XML_to_CSV_with_parent",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF02_Convert_JSON_to_XML_without_root",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF04_Convert_CSV_to_XML_exclude_active",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF05_Base64_Encoder_Step",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF10_Base64_Groovy_Mapping_Decode_Bytes_to_Property_and_Body",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF03_Convert_XML_to_CSV_with_Attributes",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF01_Convert_XML_to_JSON_with_Namespace",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF09_Base64_use_Groovy_Embed_PDF_and_Image_in_XML_and_JSON",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF06_Base64_Decoder_Step",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF02_Convert_JSON_to_XML_with_Namespace",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF02_Convert_JSON_to_XML_no_root_namespace",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR10_IF01_Convert_XML_with_attributes_to_JSON",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF04_Do_GET_Call_with_Dynamic_Path",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF06_Do_GET_POST_PUT_PATCH_DELETE_Calls_and_Dynamic_Method",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF05_Get_Customers_from_NW_using_HTTP",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF07_Do_POST_Call_with_Dynamic_Query_String",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF09_Get_Sender_HTTP_Url_Path_and_Query_String",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF01_Do_GET_Call",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF02_Do_GET_Call_v2",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF03_Do_GET_Call_with_Basic_Authentication",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF08_Get_different_Methods_through_Dynamic_Selection",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF10_Retry_failed_http_requests",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR03_IF11_Retry_failed_http_requests_intermitent",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR04_IF01_Call_to_Calculator_Web_Service",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR04_IF05_Sender_SOAP_Use_ready_available_WSDL_as_SAP_CI_WSDL",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR04_IF03_Sender_SOAP_any_Dynamic_request_XML_and_response_XML",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR04_IF02_Have_a_look_on_Workday_web_service",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR04_IF04_Sender_SOAP_Sync_Async_with_and_without_return_errors",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF07_OData_V2_Do_PUT_To_Update_Only_One_Field_of_A_Product",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF08_OData_V2_batch_processing",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF04_OData_V2_Do_DELETE_to_Delete_A_Product",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF01_Northwind_V2_GET_passthrough",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF09_OData_V2_Do_POST_To_Create_A_Single_Product",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF02_OData_Get_All_Northwind_Customers",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF03_OData_Get_Northwind_Customers_with_query_options",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF05_OData_V2_Do_MERGE_try_update_A_Field_of_A_Product",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR05_IF06_OData_V2_Do_PUT_To_Update_All_Fields_of_A_Product",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF04_Dynamic_Ref_Mapping",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF08_Exercise03_Reusable_Message_Mapping_Artifacts_and_Error_Handling",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF02_FirstName_LastName_to_FullName_Mandatory",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF03_Static_Ref_Mapping",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF08_Exercise03_Reusable_Message_Mapping_Artifacts_and_Error_Handling_2",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF01_FirstName_LastName_to_FullName",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF06_Exercise01_Simple_Field_to_Field_Mapping_with_Standard_Functions",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF05_MM_CategoryFlat_to_CategoryFlat_Conditional_FilterByStatusCode",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF08_Exercise03_Reusable_Message_Mapping_Artifacts_and_Error_Handling_1",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF00_Message_Mapping_Sample",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR11_IF07_Exercise02_Advanced_Mapping_with_Conditional_Logic_and_UDF",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR02_IF03_Use_of_Constants_in_Body",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR02_IF02_First_Example_Of_Content_Modifier",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR02_IF04_Use_of_Contants_in_header_property_and_body",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR02_IF05_Use_http_header_http_body_through_Postman",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR02_IF07_Using_Http_Headers_Http_Body",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR02_IF01_Content_Modifier_Basics",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR02_IF06_Use_XPath_header_XPath_property",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF06_Test_SMS_Message",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF02_First_Run_with_Basic_Auth",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF07_Test_Email_with_API_Code",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR00_IF00_My_Template_Iflow_with_Exception_Handling",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF11_Send_Error_iflows_to_ANS",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF09_Access_Message_Processing_Logs_Mess_GuID",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF04_Test_Cloud_SftpServer_60min",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF12_MessageLogs_Alert_v2",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF08_Access_Message_Processing_Logs",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF12_MessageLogs_Alert",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF14_Email_Custom_Alert_Notification_for_failed_iFlows_in_SAP_CPI",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF15_MY_MPL_Alert_System",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF01_First_Run",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF03_Test_OnPremise_SqlServer",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF00_Global_Variables",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF10_Send_MessageProcessingLogs_to_ANS",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF05_Test_OnPremise_SFTP_Passthrough_Source_to_Target",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF13_Fetching_Failed_Iflow_Error_Message_Details",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF09_Access_Message_Processing_Logs_Mess",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF13_Fetching_Failed_Iflow_Error_Messages_Text_AI4BIZ_MVP",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR01_IF09_Access_Message_Processing_Logs_Mess_GuID_AI4BIZ_MVP",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR12_IF01_Dyn_Ref_ZMM_CategoryFlat_to_CategoryFlatEnriched",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR12_IF02_Get_Set_Header_and_Property_in_Message_Mapping_v2",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR12_IF02_Get_Set_Header_and_Property_in_Message_Mapping",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR12_IF04_MM_CategoryFlat_to_CategoryFlat_Nested_Conditional_FilterByStatusCode",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR12_IF03_MM_CategoryFlat_to_CategoryFlat_Conditional_IF_FilterByStatusCode",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF05_JDBC_SAP_HANA_CLOUD_DB_BatchMode",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF06_JDBC_MSSQL",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF03_Test_OnPremise_SqlServer_Connectivity",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF10_JDBC_MSSQL_DemoCustomers_INSERT_CamelSqlParameters_BatchMode",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF08_JDBC_MSSQL_BatchMode_NonAtomic",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF01_Open Connector - DB Get User List",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF02_Connection_Test_JDBC_MSSQL",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF09_JDBC_MSSQL_DemoCustomers_DELETE_CamelSqlParameters_BatchMode",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF07_JDBC_MSSQL_BatchMode_Atomic",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF11_JDBC_MSSQL_DemoCustomers_UPDATE_CamelSqlParameters_BatchMode",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR15_IF04_JDBC_SAP_HANA_CLOUD_DB",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR17_IF01_PGP_SAPCI_Encrypt_for_Partner_A",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR17_IF02_PGP_SAPCI_Encrypt_for_Partner_B_Dynamic",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR17_IF03_PGP_SAPCI_Encrypt_and_Sign_for_Partner_A",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR17_IF05_PGP_SAPCI_Decrypt_with_Signature_NoneExpected",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR17_IF07_PGP_SAPCI_Decrypt_with_Signature_Optional_A",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR17_IF04_PGP_SAPCI_Encrypt_and_Sign_for_Partner_B_Dynamic",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "PR202_IF12_Security Material Export with PGP Encryption",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR17_IF06_PGP_SAPCI_Decrypt_with_Signature_Required_A",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF09_Exercise03_Supplier_Invoice_Processing",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF01_Introducing_Groovy_Scripts",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF05_Using_Headers_and_Properties_in_XSLT",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF06_XML_Merging_Documents_in_XSLT",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF02_Introducing_Filters",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF03_Using_Filter_Odata_XSLT_Join_Gather",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF07_Exercise01_Employee_Data_Synchronization",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF08_Exercise02_Order_Processing_and_Validation_Flow",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF04_XML_Manipulation_with_Groovy_Part_1",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR13_IF10_Content_Enricher_and_Request_Reply",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF05_Zip_Multiple_Files_Dynamically_using_Groovy_v2",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF06_Exercise_01_Order_Processing_to_Multiple_Destinations",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF06_Exercise_03_Consolidating_Order_Status_Updates",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF01_ZIP_Compression_Step",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF01_ZIP_Compression2_CamelFileName_Step",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF03_Unzip_Multiple_Files",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF04_Zip_Multiple_Files_using_Gather_with_Zip_Aggregation_Named",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF04_Zip_Multiple_Files_using_Gather_with_Zip_Aggregation",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF02_ZIP_Decompression_Step",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF05_Zip_Multiple_Files_Dynamically_using_Groovy",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF06_Exercise_02_SFTP2JDBC_Employee_Data_Processing_Or_Alerting",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF01_ZIP_Compression2_Dynamic_CamelFileName_Step",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF03_Unzip_Multiple_Files_Groovy",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR14_IF03_Unzip_Multiple_Files_Groovy_NoFolder",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF06_Email_Alert_Notifications_For_SAP_CPI",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF00_Read_and_Write_Variable_IFlow_3",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF00_Read_and_Write_Variable_IFlow_2",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF00_Read_and_Write_Variable_IFlow_4",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF00_Global_Variables",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF08_Generic_Read_Global_Variable",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF00_Read_Variable_IFlow_5",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF07_Generic_Write_Global_Variable",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF04_Fetching_Failed_Iflow_Error_Message_Details",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_On_Premise_SQL_DB",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF01_Northwind_Orders_via_OrderID_in_Payload_using_Variable",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF03_Access_Message_Processing_Logs_Mess_GuID",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF09_Simulate_Error_Handle_Error",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF05_MY_MPL_Alert_System",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF02_Northwind_Orders_via_Timestamp_in_Payload_using_Variable",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF06_Store_SAP_CPI_Message_Processing_Logs_in_SAP_HANA_Cloud",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF00_Read_and_Write_Variable_IFlow_1",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF10_Generic_Error_Handler",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR16_IF00_My_Template_Iflow_with_Exception_Handling",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR18_IF02_SFTP2JDBC_Enhanced_Order_Processing",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR18_IF01_HTTPS2JDBC_Data_Insertion_in2_OnPremise_SQL_Server",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR18_IF00_Create_Table_Direct_SQL",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR19_IF03_Get_from_DS_Hello",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR19_IF02_Write_to_DS_Hello",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR19_IF01_Enrich_Orders_XML_Lookup_Shippers_OData",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR19_IF03_Get_from_DS_Hello_Content_Modifier_Set_EntryID",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR19_IF02_Write_to_DS_Hello_header_entry",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR19_IF03_Get_from_DS_Hello_header_entry",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR20_IF03_Fetch data from Google Sheets via Open Connectors",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR20_IF02_Email_Alert_Notifications_For_SAP_CPI_Tenant",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR20_IF01_Images_Transmission_through_CPI",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR20_IF04_My_ODataV4_Service_Op_GET",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR20_IF06_My_Odata_V4_Service_As_REST_API",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR20_IF04_Public_ODataV4_Service_GET",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR20_IF04_My_ODataV4_Service_Op_POST",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Load_Football_OData_1",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Load_Football_OData_2",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR21_IF04_Open Connector - DB Product List",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR21_IF03_Open Connector - DB User List",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR21_IF02_Open Connector - DB Product Query",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR21_IF01_Open Connector - DB Sales Order Creation",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR21_IF00_ProductListCheck_Process",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR23_IF05_Integrate_Postman_CPI_iFlow_ChatGPT",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR23_IF07_Exception_Handling_Using_Gen_AI",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR23_IF06_AI_Augmented_Error_Handling",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR23_IF02_Any",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR23_IF01_Explore",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR23_IF04_Integrate_ChatGPT_with_SAP_CI_Ver_02",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR23_IF03_Integrate_ChatGPT_with_SAP_CI_Ver_01",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR25_IF02_SimpleScenario_Router",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR25_IF06_SimpleScenario_RequestReply_ExceptionHandling",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR25_IF03_SimpleScenario_MultipleReceiver",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR25_IF04_SimpleScenario_MultipleReceiver_Router",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR25_IF05_SimpleScenario_Mapping",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR25_IF01_SimpleScenario_Timer",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IF_ProductMaster_Import_SQL_to_S4",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IF_CustomerMaster_Import_SQL_to_S4",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IF_InventorySnapshot_SFTP_to_S4",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "API",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR27_IF01_My_Football_OData_V4_Service",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR27_IF03_Dynamic_Process_Football_OData_Scores",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR27_IF00_TripPin_Odata_Service_REST_API",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR28_IF03_Mig_Run_Callback_Receiver",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR28_IF02_Mig_Run_Status_Poll",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR28_IF01_Mig_Run_Trigger",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR28_IF04_Mig_Run_Processor_PD",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR30_IF003_EventMesh_PublishToQueue",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR30_IF001_EventMesh_ConsumeQueue",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR30_IF004_EventMesh_PublishToTopic",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "IR30_IF002_EventMesh_ConsumeTopic",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Find All Workers Assigned To WBS Elements",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Replicate Projects from S4HANA Cloud Public Edition to Jira",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Replicate WBS Elements from S4HANA Cloud Public Edition to Jira",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Replicate Time Records from Jira to SAP S4HANA Cloud Public Edition",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Replicate Single Project Employees from S4HANA Cloud Public Edition to Jira",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Replicate Cost Centers from SAP S4HANA Cloud to ServiceNow",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "Replicate SAP S4HANA Cloud Users to ServiceNow Users",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  },
+  {
+    "iflow_name": "SNOW Ticket Handler",
+    "planned_test_cases": 4,
+    "observed_mpl_records": 0,
+    "status": "pending_execution",
+    "missing_input": "Run DEV/TEST scenarios and refresh Live MPL or provide Archived MPL export."
+  }
+]
