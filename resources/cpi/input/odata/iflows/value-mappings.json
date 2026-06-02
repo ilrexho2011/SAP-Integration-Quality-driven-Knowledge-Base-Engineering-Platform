@@ -1,0 +1,22 @@
+{
+    "d": {
+        "results": [
+            {
+                "Id": "Load_Football_OData_Scores",
+                "Version": "Draft",
+                "PackageId": "FootballOData",
+                "Name": "IR27_IF02_Load_Football_OData_Scores",
+                "Description": "Designed as Bi-directional Value Mapping. It will be used to normalize football team names between the incoming CSV file and the OData Scores service.",
+                "ArtifactContent": null
+            },
+            {
+                "Id": "Load_Football_Odata",
+                "Version": "1.0.4",
+                "PackageId": "20ComplexProjects",
+                "Name": "Load_Football_Odata",
+                "Description": "",
+                "ArtifactContent": null
+            }
+        ]
+    }
+}

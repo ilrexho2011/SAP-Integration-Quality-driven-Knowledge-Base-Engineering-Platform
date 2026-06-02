@@ -1,0 +1,19 @@
+{
+    "d": {
+        "results": [
+            {
+                "Id": "My_Global_Scripts_Collection",
+                "Version": "Active",
+                "PackageId": "FIRST",
+                "Name": "My_Global_Scripts_Collection",
+                "Description": "Scripts I will use in many Iflows",
+                "ArtifactContent": null,
+                "DesignGuidelineExecutionResults": {
+                    "__deferred": {
+                        "uri": "https://daba1d19trial.it-cpitrial06.cfapps.us10-001.hana.ondemand.com:443/api/v1/ScriptCollectionDesigntimeArtifacts(Id='My_Global_Scripts_Collection',Version='Active')/DesignGuidelineExecutionResults"
+                    }
+                }
+            }
+        ]
+    }
+}

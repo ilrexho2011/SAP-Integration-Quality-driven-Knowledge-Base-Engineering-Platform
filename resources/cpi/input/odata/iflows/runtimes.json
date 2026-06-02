@@ -1,0 +1,375 @@
+{
+    "d": {
+        "results": [
+            {
+                "Id": "IR_IF034_SFTP_Poll_Enrich_Single_File",
+                "Version": "1.0.3",
+                "Name": "IR06_IF05_SFTP_Poll_Enrich_Single_File",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-19T15:10:26.730",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR_IF034_SFTP_Passthrough_Sub_Source_to_Target",
+                "Version": "1.0.4",
+                "Name": "IR06_IF03_SFTP_Passthrough_Sub_Source_to_Target",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-19T15:08:26.402",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR_IF034_SFTP_Passthrough_Source_to_Target",
+                "Version": "1.0.5",
+                "Name": "IR06_IF02_SFTP_Passthrough_Source_to_Target",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-19T15:07:43.076",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR03_IF11_Retry_failed_http_requests_intermitent",
+                "Version": "1.0.2",
+                "Name": "IR03_IF11_Retry_failed_http_requests_intermitent",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-19T12:35:32.474",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR01_IF09_Access_Message_Processing_Logs_Mess_GuID_AI4BIZ_MVP",
+                "Version": "1.0.5",
+                "Name": "IR01_IF09_Access_Message_Processing_Logs_Mess_GuID_AI4BIZ_MVP",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-19T12:04:28.439",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Nested_Iterating_Splitter",
+                "Version": "1.0.4",
+                "Name": "IR08_IF04_Nested_Iterating_Splitter",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T21:14:36.959",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Nested_General_Splitter",
+                "Version": "1.0.4",
+                "Name": "IR08_IF03_Nested_General_Splitter",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T21:09:28.971",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Iterating_Splitter",
+                "Version": "1.0.3",
+                "Name": "IR08_IF02_Iterating_Splitter",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T21:05:01.911",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "General_Splitter",
+                "Version": "1.0.3",
+                "Name": "IR08_IF01_General_Splitter",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T20:53:06.911",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR_IF041_Router_Configuration",
+                "Version": "1.0.3",
+                "Name": "IR07_IF06_Router_Configuration",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T20:36:11.768",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR_IF039_Calculator_Simulation_Mapping",
+                "Version": "1.0.4",
+                "Name": "IR07_IF05_Calculator_Simulation_Mapping",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T20:20:38.340",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR_IF039_Calculator_Simulation",
+                "Version": "1.0.3",
+                "Name": "IR07_IF04_Calculator_Simulation_Groovy",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T20:11:46.028",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Router_-_End_or_continue_if_no_data",
+                "Version": "1.0.3",
+                "Name": "IR07_IF03_Router_End_or_continue_if_no_data",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T20:05:36.718",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Router_-_You_always_have_a_choice",
+                "Version": "1.0.3",
+                "Name": "IR07_IF02_Router_You_always_have_a_choice",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T20:03:37.990",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Routing_Options",
+                "Version": "1.0.4",
+                "Name": "IR07_IF01_Router_First_Example",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T19:53:13.665",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR10_IF04_Convert_CSV_with_header_to_XML",
+                "Version": "1.0.3",
+                "Name": "IR10_IF04_Convert_CSV_with header_to_XML",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T17:05:41.080",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR15_IF02_Connection_Test_JDBC_MSSQL",
+                "Version": "1.0.5",
+                "Name": "IR15_IF02_Connection_Test_JDBC_MSSQL",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T17:03:11.323",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR15_IF02_Test_OnPremise_SqlServer_Connectivity",
+                "Version": "1.0.5",
+                "Name": "IR15_IF03_Test_OnPremise_SqlServer_Connectivity",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T17:02:48.684",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR_IF034_SFTP_Passthrough_People_Source_to_Target",
+                "Version": "1.0.5",
+                "Name": "IR06_IF01_SFTP_Passthrough_People_Source_to_Target",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T17:00:26.332",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR28_IF03_Migration_Run_Callback_Receiver",
+                "Version": "1.0.2",
+                "Name": "IR28_IF03_Mig_Run_Callback_Receiver",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T16:54:23.123",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR28_IF02_Call_Migration_Backend_API_Create_New_Run",
+                "Version": "1.0.3",
+                "Name": "IR28_IF02_Mig_Run_Status_Poll",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T16:51:20.437",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR28_IF01_Migration_Run_Trigger",
+                "Version": "1.0.1",
+                "Name": "IR28_IF01_Mig_Run_Trigger",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-17T16:50:51.687",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR01_IF03_Test_SqlServer",
+                "Version": "1.0.4",
+                "Name": "IR01_IF03_Test_OnPremise_SqlServer",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-13T22:13:42.221",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR_IF034_SFTP_Passthrough_Sample_Source_to_Target",
+                "Version": "1.0.4",
+                "Name": "IR06_IF04_SFTP_Poll_Enrich_Multiple_File_and_Delete",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-13T20:53:56.057",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Load_Football_OData_Scores2",
+                "Version": "1.0.4",
+                "Name": "IR27_IF03_Dynamic_Process_Football_OData_Scores",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-13T19:27:18.582",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Football_Service",
+                "Version": "1.0.6",
+                "Name": "IR27_IF01_My_Football_OData_V4_Service",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-13T19:09:57.866",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR27_IF00_TripPin_Odata_Service_REST_API",
+                "Version": "1.0.2",
+                "Name": "IR27_IF00_TripPin_Odata_Service_REST_API",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-13T17:37:00.261",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Load_Football_OData_Scores",
+                "Version": "1.0.4",
+                "Name": "IR27_IF02_Load_Football_OData_Scores",
+                "Type": "VALUE_MAPPING",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-13T16:42:25.584",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR01_IF12_MessageLogs_Alert_v2",
+                "Version": "1.0.3",
+                "Name": "IR01_IF12_MessageLogs_Alert_v2",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-11T12:56:42.318",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR01_IF03_Send_MessageProcessingLogs_to_ANS",
+                "Version": "1.0.4",
+                "Name": "IR01_IF10_Send_MessageProcessingLogs_to_ANS",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-11T12:54:09.873",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR01_IF13_Fetching_Failed_Iflow_Error_Message_Details",
+                "Version": "1.0.5",
+                "Name": "IR01_IF13_Fetching_Failed_Iflow_Error_Message_Details",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-11T12:51:37.851",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR01_IF15_MY_MPL_Alert_System",
+                "Version": "1.0.7",
+                "Name": "IR01_IF15_MY_MPL_Alert_System",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-11T12:47:20.776",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Convert_XML_to_JSON",
+                "Version": "1.0.3",
+                "Name": "IR10_IF01_Convert_XML_to_JSON",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-10T13:53:50.330",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR23_IF01_Any",
+                "Version": "1.0.3",
+                "Name": "IR23_IF02_Any",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-09T21:04:58.379",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR23_IF01_Explore",
+                "Version": "1.0.1",
+                "Name": "IR23_IF01_Explore",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-09T21:04:19.063",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR01_IF13_Fetching_Failed_Iflow_Error_Messages_Text_AI4BIZ_MVP",
+                "Version": "1.0.5",
+                "Name": "IR01_IF13_Fetching_Failed_Iflow_Error_Messages_Text_AI4BIZ_MVP",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-09T18:22:40.193",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "My_Global_Scripts_Collection",
+                "Version": "1.0.1",
+                "Name": "My_Global_Scripts_Collection",
+                "Type": "SCRIPT_COLLECTION",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-08T13:16:55.154",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR01_IF05_Test_OnPremise_SFTP_Passthrough_Source_to_Target",
+                "Version": "1.0.4",
+                "Name": "IR01_IF05_Test_OnPremise_SFTP_Passthrough_Source_to_Target",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-08T12:46:51.396",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "com.microsoft.sqlserver.mssql-jdbc",
+                "Version": "8.4.1",
+                "Name": "Microsoft JDBC Driver for SQL Server",
+                "Type": "JDBC_DRIVER",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-08T09:18:44.061",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "Test_Email_with_OAuth2_Code",
+                "Version": "1.0.5",
+                "Name": "IR01_IF07_Test_Email_with_API_Code",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-07T19:54:23.519",
+                "Status": "STARTED"
+            },
+            {
+                "Id": "IR00_IF00_My_Template_Iflow_with_Exception_Handling",
+                "Version": "1.0.3",
+                "Name": "IR00_IF00_My_Template_Iflow_with_Exception_Handling",
+                "Type": "INTEGRATION_FLOW",
+                "DeployedBy": "ilirjan.rexho@realcore.de",
+                "DeployedOn": "2026-05-07T19:12:23.081",
+                "Status": "STARTED"
+            }
+        ]
+    }
+}
