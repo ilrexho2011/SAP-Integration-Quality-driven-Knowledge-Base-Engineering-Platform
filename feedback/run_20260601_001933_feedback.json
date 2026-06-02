@@ -1,0 +1,20 @@
+{
+  "package_id": "quality-driven-knowledge-engineering-platform",
+  "overall_score": 0.0,
+  "status": "static_package_readiness_evaluated_retrieval_and_answer_pending",
+  "documents_needing_remediation": 0,
+  "disqualified_documents": 0,
+  "retrieval_summary": {},
+  "document_feedback": [],
+  "governance": {
+    "direct_document_modification_allowed": false,
+    "requires_user_approval_for_regeneration": true,
+    "reason": "The evaluator produces corrective feedback only. The generator applies remediation under controlled workflow."
+  },
+  "created_at": "2026-06-01T00:19:33",
+  "source_benchmark_report": "C:\\Users\\RexhoIlirjan\\quality-driven-knowledge-engineering-platform-v2.0.9\\quality\\benchmark_readiness_report.json",
+  "generation_notes": [
+    "Corrective feedback is advisory and must be applied only through controlled regeneration after user approval.",
+    "If the source benchmark has no per-document checks, this artifact preserves package-level readiness context."
+  ]
+}
