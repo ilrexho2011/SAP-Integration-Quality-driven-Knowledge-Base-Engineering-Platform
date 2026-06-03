@@ -213,8 +213,7 @@ class GenerationService:
         self._environment = environment
         source_system = self._normalize_system(source_system)
         source_mode = self._normalize_source_mode(source_mode)
-        archived_mpl_source = normalize_archived_mpl_source(
-            source_system, archived_mpl_source)
+        archived_mpl_source = normalize_archived_mpl_source(source_system, archived_mpl_source)
         DocumentIdService().ensure_sample_dirs()
         generation_mode = normalize_generation_mode(generation_mode)
         if generation_mode == "generate":
@@ -230,8 +229,7 @@ class GenerationService:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         run_id = f"gen_{self.OUTPUT_LABEL[document_type]}_{source_system}_{source_mode}_{version}_{timestamp}"
         output_dir = (
-            settings.exports_dir / "generated_documents" /
-            f"{timestamp}_{source_mode}_{version}"
+            settings.exports_dir / "generated_documents" / f"{timestamp}_{source_mode}_{version}"
         )
         doc_dir = output_dir / self.OUTPUT_SUBDIR[document_type]
         doc_dir.mkdir(parents=True, exist_ok=True)
@@ -258,8 +256,7 @@ class GenerationService:
             archived_mpl_source=archived_mpl_source,
         )
         inventory = self._load_inventory(source_system)
-        existing_documents = self._load_existing_documents(
-            existing_documents_path)
+        existing_documents = self._load_existing_documents(existing_documents_path)
         ai_assistance = AIAssistanceService().describe()
         feedback_context = self._load_feedback_context(
             feedback_source, feedback_path, apply_remediation_hints
@@ -268,10 +265,8 @@ class GenerationService:
             scenario_lab_run_id, scenario_manifest_path, iflow_analysis_report_path
         )
 
-        effective_prevent_duplicate_id = bool(
-            prevent_duplicate_id or prevent_duplicate_doc_id)
-        self._duplicate_governance = {
-            "skipped_duplicate_count": 0, "skipped_duplicates": []}
+        effective_prevent_duplicate_id = bool(prevent_duplicate_id or prevent_duplicate_doc_id)
+        self._duplicate_governance = {"skipped_duplicate_count": 0, "skipped_duplicates": []}
         if document_type == "catalog_docs":
             generated = self._generate_interface_inventory(
                 doc_dir,
@@ -370,12 +365,10 @@ class GenerationService:
             "document_dir": str(doc_dir),
             "generated_count": len(generated),
             "skipped_duplicate_count": int(
-                getattr(self, "_duplicate_governance", {}).get(
-                    "skipped_duplicate_count", 0)
+                getattr(self, "_duplicate_governance", {}).get("skipped_duplicate_count", 0)
             ),
             "skipped_duplicates": list(
-                getattr(self, "_duplicate_governance", {}).get(
-                    "skipped_duplicates", [])
+                getattr(self, "_duplicate_governance", {}).get("skipped_duplicates", [])
             ),
             "prevent_duplicate_id": bool(effective_prevent_duplicate_id),
             "generated_files": [str(path) for path in generated_with_manifest],
@@ -399,8 +392,7 @@ class GenerationService:
         scenario_context = ctx["scenario_context"]
         existing_documents = ctx["existing_documents"]
         skipped_count = int(
-            getattr(self, "_duplicate_governance", {}).get(
-                "skipped_duplicate_count", 0)
+            getattr(self, "_duplicate_governance", {}).get("skipped_duplicate_count", 0)
         )
         return {
             "run_id": ctx["run_id"],
@@ -420,8 +412,7 @@ class GenerationService:
             "generated_count": len(generated),
             "skipped_duplicate_count": skipped_count,
             "skipped_duplicates": list(
-                getattr(self, "_duplicate_governance", {}).get(
-                    "skipped_duplicates", [])
+                getattr(self, "_duplicate_governance", {}).get("skipped_duplicates", [])
             ),
             "prevent_duplicate_id": bool(ctx["effective_prevent_duplicate_id"]),
             "runtime_event_count": len(events),
@@ -463,13 +454,10 @@ class GenerationService:
         iflow_analysis_report_path: str | None,
     ) -> dict[str, Any]:
         run_id = (scenario_lab_run_id or "").strip()
-        manifest = Path(
-            scenario_manifest_path) if scenario_manifest_path else None
-        report = Path(
-            iflow_analysis_report_path) if iflow_analysis_report_path else None
+        manifest = Path(scenario_manifest_path) if scenario_manifest_path else None
+        report = Path(iflow_analysis_report_path) if iflow_analysis_report_path else None
         if run_id and not manifest:
-            candidate = settings.exports_dir / "scenario_lab" / \
-                run_id / "scenario_manifest.json"
+            candidate = settings.exports_dir / "scenario_lab" / run_id / "scenario_manifest.json"
             if candidate.exists():
                 manifest = candidate
         if run_id and not report:
@@ -495,15 +483,13 @@ class GenerationService:
                     context["scenario_lab_run_id"] = context["scenario_lab_run_id"] or str(
                         payload.get("scenario_lab_run_id", "")
                     )
-                    context["design_evidence_sources"] = payload.get(
-                        "design_evidence_sources", [])
+                    context["design_evidence_sources"] = payload.get("design_evidence_sources", [])
                     context["runtime_evidence_sources"] = payload.get(
                         "runtime_evidence_sources", []
                     )
                     context["iflow_count"] = payload.get("iflow_count", 0)
             except Exception:
-                context["warnings"].append(
-                    "scenario_manifest could not be parsed")
+                context["warnings"].append("scenario_manifest could not be parsed")
         elif manifest:
             context["warnings"].append("scenario_manifest not found")
         if report and report.exists():
@@ -514,8 +500,7 @@ class GenerationService:
                         "records_count", context.get("iflow_count", 0)
                     )
             except Exception:
-                context["warnings"].append(
-                    "iflow_analysis_report could not be parsed")
+                context["warnings"].append("iflow_analysis_report could not be parsed")
         elif report:
             context["warnings"].append("iflow_analysis_report not found")
         return context
@@ -585,11 +570,9 @@ class GenerationService:
     ) -> list[Path]:
         by_iflow: dict[str, list[RuntimeEvent]] = defaultdict(list)
         for event in events:
-            by_iflow[event.integration_flow_name or "UNKNOWN_IFLOW"].append(
-                event)
+            by_iflow[event.integration_flow_name or "UNKNOWN_IFLOW"].append(event)
         for item in inventory:
-            iflow = str(item.get("iflow_name") or item.get(
-                "integration_flow_name") or "").strip()
+            iflow = str(item.get("iflow_name") or item.get("integration_flow_name") or "").strip()
             if iflow and iflow not in by_iflow:
                 by_iflow[iflow] = []
         files: list[Path] = []
@@ -609,11 +592,9 @@ class GenerationService:
             )
             status_counts = Counter(event.status for event in evidence_events)
             sample = self._latest_event(evidence_events)
-            object_name = self._object_name_from_text(
-                iflow_name, system=system)
+            object_name = self._object_name_from_text(iflow_name, system=system)
             package_name = self._value(
-                inv.get("package_name") or inv.get(
-                    "package_id"), "unassigned_package"
+                inv.get("package_name") or inv.get("package_id"), "unassigned_package"
             )
             package_id = self._value(inv.get("package_id"), package_name)
             sender = self._value(
@@ -637,8 +618,7 @@ class GenerationService:
                 "not_available_in_loaded_sources",
             )
             runtime_modes = (
-                ", ".join(
-                    sorted({event.evidence_mode for event in evidence_events}))
+                ", ".join(sorted({event.evidence_mode for event in evidence_events}))
                 if evidence_events
                 else "not_available_in_loaded_runtime_evidence"
             )
@@ -649,16 +629,14 @@ class GenerationService:
                 sample.log_start if sample else "", "not_available_in_loaded_runtime_evidence"
             )
             status_breakdown = (
-                dict(status_counts) if status_counts else {
-                    "NO_RUNTIME_EVENTS_LOADED": 0}
+                dict(status_counts) if status_counts else {"NO_RUNTIME_EVENTS_LOADED": 0}
             )
             if grouped_events:
                 mpl_total_line = str(len(grouped_events))
             else:
                 mpl_total_line = f"0 exact interface events; tenant-level fallback events available: {len(events)}"
             inventory_sources = self._join_values(
-                inv.get("sources") or inv.get(
-                    "source"), "not_available_in_design_export"
+                inv.get("sources") or inv.get("source"), "not_available_in_design_export"
             )
             description = self._value(
                 inv.get("description") or inv.get("short_text"),
@@ -668,11 +646,9 @@ class GenerationService:
                 system, object_name, prevent_duplicate=prevent_duplicate_doc_id
             )
             if doc_decision.action == "skip_duplicate" and doc_decision.duplicate_path:
-                self._record_duplicate_skip(
-                    "catalog_docs", iflow_name, doc_decision.duplicate_path)
+                self._record_duplicate_skip("catalog_docs", iflow_name, doc_decision.duplicate_path)
                 continue
-            file_path = out / \
-                self._safe_filename("DOC", system, object_name, "P3", version)
+            file_path = out / self._safe_filename("DOC", system, object_name, "P3", version)
             lines = [
                 f"# {self._readable_title(iflow_name)}",
                 "",
@@ -771,13 +747,11 @@ class GenerationService:
             else DocumentIdService().last_document_sequence(system, "kedb", "KEDB")
         )
         existing_signature_index = (
-            self._existing_signature_index(
-                system, "kedb") if prevent_duplicate_id else {}
+            self._existing_signature_index(system, "kedb") if prevent_duplicate_id else {}
         )
         for index, (signature, grouped) in enumerate(groups.items(), start=1):
             sample = grouped[0]
-            inventory_item = self._find_inventory(
-                inventory or [], sample.integration_flow_name)
+            inventory_item = self._find_inventory(inventory or [], sample.integration_flow_name)
             priority = self._classify_priority(
                 signature, sample.error_text, inventory_item=inventory_item
             )
@@ -785,14 +759,12 @@ class GenerationService:
                 signature, system=system, error_text=sample.error_text
             )
             existing_signature_path = (
-                self._find_existing_signature_path(
-                    object_name, existing_signature_index)
+                self._find_existing_signature_path(object_name, existing_signature_index)
                 if prevent_duplicate_id
                 else None
             )
             if existing_signature_path:
-                self._record_duplicate_skip(
-                    "kedb", signature, str(existing_signature_path))
+                self._record_duplicate_skip("kedb", signature, str(existing_signature_path))
                 continue
             id_sequence += 1
             base_decision = DocumentIdService().decide_numbered_id(
@@ -804,16 +776,13 @@ class GenerationService:
                 action="restart_counting" if restart_id_counting else "continue_after_last",
             )
             file_path = self._unique_output_path(
-                out /
-                self._safe_filename("KB", system, object_name,
-                                    priority, version), id_sequence
+                out / self._safe_filename("KB", system, object_name, priority, version), id_sequence
             )
             evidence = self._build_enrichment_evidence(
                 signature, object_name, priority, system, grouped
             )
             enriched = self._enrichment_service.enrich_kedb(evidence)
-            self._record_enrichment_trace(
-                id_decision.document_id, object_name, enriched)
+            self._record_enrichment_trace(id_decision.document_id, object_name, enriched)
             runtime_modes = sorted({event.evidence_mode for event in grouped})
             context = {
                 "title": self._readable_title(signature, sample.error_text),
@@ -848,8 +817,7 @@ class GenerationService:
                 "existing_documents_count": len(existing_documents or []),
                 "id_governance_action": id_decision.action,
             }
-            file_path.write_text(self._template_service.render(
-                "kedb", context), encoding="utf-8")
+            file_path.write_text(self._template_service.render("kedb", context), encoding="utf-8")
             files.append(file_path)
         return files
 
@@ -875,13 +843,11 @@ class GenerationService:
             else DocumentIdService().last_document_sequence(system, "runbooks", "RB")
         )
         existing_signature_index = (
-            self._existing_signature_index(
-                system, "runbooks") if prevent_duplicate_id else {}
+            self._existing_signature_index(system, "runbooks") if prevent_duplicate_id else {}
         )
         for index, (signature, grouped) in enumerate(groups.items(), start=1):
             sample = grouped[0]
-            inventory_item = self._find_inventory(
-                inventory or [], sample.integration_flow_name)
+            inventory_item = self._find_inventory(inventory or [], sample.integration_flow_name)
             priority = self._classify_priority(
                 signature, sample.error_text, inventory_item=inventory_item
             )
@@ -889,14 +855,12 @@ class GenerationService:
                 signature, system=system, error_text=sample.error_text
             )
             existing_signature_path = (
-                self._find_existing_signature_path(
-                    object_name, existing_signature_index)
+                self._find_existing_signature_path(object_name, existing_signature_index)
                 if prevent_duplicate_id
                 else None
             )
             if existing_signature_path:
-                self._record_duplicate_skip(
-                    "runbooks", signature, str(existing_signature_path))
+                self._record_duplicate_skip("runbooks", signature, str(existing_signature_path))
                 continue
             id_sequence += 1
             base_decision = DocumentIdService().decide_numbered_id(
@@ -908,16 +872,13 @@ class GenerationService:
                 action="restart_counting" if restart_id_counting else "continue_after_last",
             )
             file_path = self._unique_output_path(
-                out /
-                self._safe_filename("RB", system, object_name,
-                                    priority, version), id_sequence
+                out / self._safe_filename("RB", system, object_name, priority, version), id_sequence
             )
             evidence = self._build_enrichment_evidence(
                 signature, object_name, priority, system, grouped
             )
             enriched = self._enrichment_service.enrich_runbook(evidence)
-            self._record_enrichment_trace(
-                id_decision.document_id, object_name, enriched)
+            self._record_enrichment_trace(id_decision.document_id, object_name, enriched)
             runtime_modes = sorted({event.evidence_mode for event in grouped})
             context = {
                 "title": self._readable_title(signature, sample.error_text),
@@ -1040,8 +1001,7 @@ class GenerationService:
     ) -> None:
         governance = getattr(self, "_duplicate_governance", None)
         if not isinstance(governance, dict):
-            governance = {"skipped_duplicate_count": 0,
-                          "skipped_duplicates": []}
+            governance = {"skipped_duplicate_count": 0, "skipped_duplicates": []}
             self._duplicate_governance = governance
         governance["skipped_duplicate_count"] = (
             int(governance.get("skipped_duplicate_count", 0)) + 1
@@ -1113,8 +1073,7 @@ class GenerationService:
 
     def _extract_existing_document_id(self, path: Path, marker: str) -> str:
         try:
-            lines = path.read_text(
-                encoding="utf-8", errors="ignore").splitlines()
+            lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
         except Exception:
             return ""
         for index, line in enumerate(lines):
@@ -1162,14 +1121,12 @@ class GenerationService:
                 item["source"] = source
 
         if source_system == "sap_ci":
-            packages_path = settings.resources_dir / \
-                "cpi" / "available_packages_and_iflows.json"
+            packages_path = settings.resources_dir / "cpi" / "available_packages_and_iflows.json"
             if packages_path.exists():
                 data = self._read_json(packages_path)
                 for package in data.get("packages", []) if isinstance(data, dict) else []:
                     package_id = str(package.get("package_id") or "").strip()
-                    package_name = str(package.get(
-                        "name") or package_id).strip()
+                    package_name = str(package.get("name") or package_id).strip()
                     if package_id:
                         package_names[package_id] = package_name
 
@@ -1180,10 +1137,8 @@ class GenerationService:
                         iflow_name = self._value(row.get("ifw_name"), "")
                         if not iflow_name:
                             continue
-                        package_id = self._value(
-                            row.get("ifw_package_id"), "unassigned_package")
-                        item = items_by_name.setdefault(
-                            iflow_name, {"iflow_name": iflow_name})
+                        package_id = self._value(row.get("ifw_package_id"), "unassigned_package")
+                        item = items_by_name.setdefault(iflow_name, {"iflow_name": iflow_name})
                         item.update(
                             {
                                 "iflow_id": self._value(row.get("ifw_id"), iflow_name),
@@ -1191,12 +1146,10 @@ class GenerationService:
                                 "package_name": package_names.get(package_id, package_id),
                                 "description": self._value(row.get("ifw_description"), ""),
                                 "sender": self._value(
-                                    row.get("ifw_sender"), item.get(
-                                        "sender", "")
+                                    row.get("ifw_sender"), item.get("sender", "")
                                 ),
                                 "receiver": self._value(
-                                    row.get("ifw_receiver"), item.get(
-                                        "receiver", "")
+                                    row.get("ifw_receiver"), item.get("receiver", "")
                                 ),
                                 "iflow_version": self._value(row.get("ifw_version"), ""),
                                 "created_at": self._value(row.get("ifw_created_at"), ""),
@@ -1216,51 +1169,40 @@ class GenerationService:
                             item["priority"] = inventory_priority
                         if inventory_criticality:
                             item["criticality"] = inventory_criticality
-                        add_source(
-                            item, str(path.relative_to(settings.project_root)))
+                        add_source(item, str(path.relative_to(settings.project_root)))
 
                 for path in sorted(output_dir.glob("*_iflow_participant.xlsx")):
                     for row in self._read_xlsx_rows(path):
                         iflow_name = self._value(row.get("par_iflow_name"), "")
                         if not iflow_name:
                             continue
-                        item = items_by_name.setdefault(
-                            iflow_name, {"iflow_name": iflow_name})
+                        item = items_by_name.setdefault(iflow_name, {"iflow_name": iflow_name})
                         package_id = self._value(
-                            row.get("par_package_id"), item.get(
-                                "package_id", "unassigned_package")
+                            row.get("par_package_id"), item.get("package_id", "unassigned_package")
                         )
                         item.setdefault("package_id", package_id)
-                        item.setdefault("package_name", package_names.get(
-                            package_id, package_id))
+                        item.setdefault("package_name", package_names.get(package_id, package_id))
                         participant_name = self._value(row.get("par_name"), "")
-                        participant_type = self._value(
-                            row.get("par_type"), "").lower()
+                        participant_type = self._value(row.get("par_type"), "").lower()
                         if "sender" in participant_type and participant_name:
                             item["sender"] = participant_name
                         if "receiver" in participant_type and participant_name:
                             item["receiver"] = participant_name
-                        add_source(
-                            item, str(path.relative_to(settings.project_root)))
+                        add_source(item, str(path.relative_to(settings.project_root)))
 
                 for path in sorted(output_dir.glob("*_iflow_channel.xlsx")):
                     for row in self._read_xlsx_rows(path):
                         iflow_name = self._value(row.get("chn_iflow_name"), "")
                         if not iflow_name:
                             continue
-                        item = items_by_name.setdefault(
-                            iflow_name, {"iflow_name": iflow_name})
+                        item = items_by_name.setdefault(iflow_name, {"iflow_name": iflow_name})
                         package_id = self._value(
-                            row.get("chn_package_id"), item.get(
-                                "package_id", "unassigned_package")
+                            row.get("chn_package_id"), item.get("package_id", "unassigned_package")
                         )
                         item.setdefault("package_id", package_id)
-                        item.setdefault("package_name", package_names.get(
-                            package_id, package_id))
-                        participant_type = self._value(
-                            row.get("chn_type"), "").lower()
-                        participant_name = self._value(
-                            row.get("chn_participant_name"), "").lower()
+                        item.setdefault("package_name", package_names.get(package_id, package_id))
+                        participant_type = self._value(row.get("chn_type"), "").lower()
+                        participant_name = self._value(row.get("chn_participant_name"), "").lower()
                         adapter = self._value(
                             row.get("chn_component_type")
                             or row.get("chn_transport_protocol")
@@ -1268,33 +1210,24 @@ class GenerationService:
                             "",
                         )
                         protocol = self._value(
-                            row.get("chn_transport_protocol") or row.get(
-                                "chn_message_protocol"), ""
+                            row.get("chn_transport_protocol") or row.get("chn_message_protocol"), ""
                         )
                         address = self._value(row.get("chn_address"), "")
                         if "sender" in participant_type or "sender" in participant_name:
-                            item["sender_adapter"] = adapter or item.get(
-                                "sender_adapter", "")
-                            item["sender_protocol"] = protocol or item.get(
-                                "sender_protocol", "")
-                            item["sender_endpoint"] = address or item.get(
-                                "sender_endpoint", "")
-                            item.setdefault("sender", self._value(
-                                row.get("chn_system"), "Sender"))
+                            item["sender_adapter"] = adapter or item.get("sender_adapter", "")
+                            item["sender_protocol"] = protocol or item.get("sender_protocol", "")
+                            item["sender_endpoint"] = address or item.get("sender_endpoint", "")
+                            item.setdefault("sender", self._value(row.get("chn_system"), "Sender"))
                         elif adapter or protocol or address:
-                            item["receiver_adapter"] = adapter or item.get(
-                                "receiver_adapter", "")
+                            item["receiver_adapter"] = adapter or item.get("receiver_adapter", "")
                             item["receiver_protocol"] = protocol or item.get(
                                 "receiver_protocol", ""
                             )
-                            item["receiver_endpoint"] = address or item.get(
-                                "receiver_endpoint", "")
+                            item["receiver_endpoint"] = address or item.get("receiver_endpoint", "")
                             item.setdefault(
-                                "receiver", self._value(
-                                    row.get("chn_system"), "Receiver")
+                                "receiver", self._value(row.get("chn_system"), "Receiver")
                             )
-                        add_source(
-                            item, str(path.relative_to(settings.project_root)))
+                        add_source(item, str(path.relative_to(settings.project_root)))
 
             bpmn_dir = settings.resources_dir / "cpi" / "input"
             if bpmn_dir.exists():
@@ -1308,15 +1241,13 @@ class GenerationService:
                     item = items_by_name.setdefault(name, {"iflow_name": name})
                     item.setdefault("package_name", package)
                     item.setdefault("package_id", package)
-                    add_source(
-                        item, str(path.relative_to(settings.project_root)))
+                    add_source(item, str(path.relative_to(settings.project_root)))
 
             # Fallback only when no concrete iFlow inventory exists.
             if not items_by_name and packages_path.exists():
                 data = self._read_json(packages_path)
                 for package in data.get("packages", []) if isinstance(data, dict) else []:
-                    package_name = package.get(
-                        "name") or package.get("package_id")
+                    package_name = package.get("name") or package.get("package_id")
                     if package_name:
                         items_by_name[str(package_name)] = {
                             "iflow_name": str(package_name),
@@ -1330,8 +1261,7 @@ class GenerationService:
             config_path = settings.resources_dir / "pipo" / "config_used.redacted.json"
             if config_path.exists():
                 data = self._read_json(config_path)
-                services = str(data.get("PIPO_DIR_SERVICES", "")
-                               if isinstance(data, dict) else "")
+                services = str(data.get("PIPO_DIR_SERVICES", "") if isinstance(data, dict) else "")
                 for service in [s.strip() for s in services.split(",") if s.strip()]:
                     items_by_name[service] = {
                         "iflow_name": service,
@@ -1344,8 +1274,7 @@ class GenerationService:
 
     def _read_xlsx_rows(self, path: Path) -> list[dict[str, Any]]:
         try:
-            openpyxl = __import__("openpyxl")
-            load_workbook = getattr(openpyxl, "load_workbook")
+            from openpyxl import load_workbook
         except Exception:
             return []
         try:
@@ -1517,15 +1446,13 @@ class GenerationService:
                         ],
                         "logs_pipo": [],
                     }
-                    folders.extend(source_map.get(
-                        archived_mpl_source, source_map["all_sources"]))
+                    folders.extend(source_map.get(archived_mpl_source, source_map["all_sources"]))
                     if archived_mpl_source in {"all_sources", "logs_pipo"}:
                         glob_patterns.append("logs/pipo*.json")
             else:
                 if archived_mpl_source.startswith("resources_mpl_file:"):
                     folders.append(
-                        settings.resources_dir / "mpl" /
-                        archived_mpl_source.split(":", 1)[1]
+                        settings.resources_dir / "mpl" / archived_mpl_source.split(":", 1)[1]
                     )
                 else:
                     source_map = {
@@ -1538,8 +1465,7 @@ class GenerationService:
                         "resources_cpi": [settings.resources_dir / "cpi"],
                         "logs_mpl": [settings.project_root / "logs" / "mpl"],
                     }
-                    folders.extend(source_map.get(
-                        archived_mpl_source, source_map["all_sources"]))
+                    folders.extend(source_map.get(archived_mpl_source, source_map["all_sources"]))
         events: list[RuntimeEvent] = []
         for folder in folders:
             if not folder.exists():
@@ -1552,14 +1478,12 @@ class GenerationService:
             for path in paths:
                 payload = self._read_json(path)
                 for record in self._extract_records(payload):
-                    events.append(self._event_from_record(
-                        record, path, source_mode))
+                    events.append(self._event_from_record(record, path, source_mode))
         for pattern in glob_patterns:
             for path in sorted(settings.project_root.glob(pattern)):
                 payload = self._read_json(path)
                 for record in self._extract_records(payload):
-                    events.append(self._event_from_record(
-                        record, path, source_mode))
+                    events.append(self._event_from_record(record, path, source_mode))
         seen = set()
         deduped = []
         for event in events:
@@ -1592,8 +1516,7 @@ class GenerationService:
     ) -> RuntimeEvent:
         def first(*names: str) -> str:
             inner_raw = record.get("raw_object")
-            raw_object: dict[str, Any] = inner_raw if isinstance(
-                inner_raw, dict) else {}
+            raw_object: dict[str, Any] = inner_raw if isinstance(inner_raw, dict) else {}
             for name in names:
                 value = record.get(name)
                 if value in (None, "") and raw_object:
@@ -1603,8 +1526,7 @@ class GenerationService:
             return ""
 
         raw_object_value = record.get("raw_object")
-        raw_object: dict[str, Any] = raw_object_value if isinstance(
-            raw_object_value, dict) else {}
+        raw_object: dict[str, Any] = raw_object_value if isinstance(raw_object_value, dict) else {}
 
         def _int_or_none(value: Any) -> int | None:
             try:
@@ -1634,12 +1556,9 @@ class GenerationService:
                 "LogStart", "StartTime", "startTime", "timestamp", "start_time", "timeStamp"
             )
             or "missing",
-            log_end=first("LogEnd", "EndTime", "endTime",
-                          "end_time") or "missing",
-            sender=first("Sender", "sender", "sender_component",
-                         "sender_partner") or "n/a",
-            receiver=first("Receiver", "receiver",
-                           "receiver_component", "receiver_partner")
+            log_end=first("LogEnd", "EndTime", "endTime", "end_time") or "missing",
+            sender=first("Sender", "sender", "sender_component", "sender_partner") or "n/a",
+            receiver=first("Receiver", "receiver", "receiver_component", "receiver_partner")
             or "n/a",
             error_text=first(
                 "ErrorMessage",
@@ -1668,13 +1587,11 @@ class GenerationService:
             )
             .strip()
             .lower(),
-            error_category=str(record.get("errorCategory")
-                               or raw_object.get("errorCategory") or "")
+            error_category=str(record.get("errorCategory") or raw_object.get("errorCategory") or "")
             .strip()
             .upper(),
             failed_count=_int_or_none(
-                raw_object.get("failed_count") if raw_object else record.get(
-                    "failed_count")
+                raw_object.get("failed_count") if raw_object else record.get("failed_count")
             ),
         )
 
@@ -1799,8 +1716,7 @@ class GenerationService:
         try:
             return json.loads(path.read_text(encoding="utf-8"))
         except FileNotFoundError:
-            self._record_evidence_warning(
-                f"Evidence file not found: {self._relpath(path)}")
+            self._record_evidence_warning(f"Evidence file not found: {self._relpath(path)}")
             return {}
         except json.JSONDecodeError as exc:
             self._record_evidence_warning(
@@ -1824,11 +1740,9 @@ class GenerationService:
     def _compose_warnings(self, generated: list[Path]) -> list[str]:
         """Combine the no-evidence notice with any evidence-loading warnings."""
         warnings: list[str] = []
-        skipped = int(getattr(self, "_duplicate_governance",
-                      {}).get("skipped_duplicate_count", 0))
+        skipped = int(getattr(self, "_duplicate_governance", {}).get("skipped_duplicate_count", 0))
         if not (generated or skipped):
-            warnings.append(
-                "No runtime or inventory evidence found for selected source.")
+            warnings.append("No runtime or inventory evidence found for selected source.")
         warnings.extend(getattr(self, "_evidence_warnings", []))
         return warnings
 
@@ -1845,8 +1759,7 @@ class GenerationService:
         return version
 
     def _normalize_system(self, source_system: str) -> str:
-        raw = (source_system or "sap_ci").strip(
-        ).lower().replace("-", "_").replace("/", "_")
+        raw = (source_system or "sap_ci").strip().lower().replace("-", "_").replace("/", "_")
         if raw in {"sap_pipo", "pipo", "sap_pi_po", "sap_pi__po"}:
             return "sap_pipo"
         if raw in {"sap_s4h", "sap_s4", "s4h", "s4", "s_4hana", "s4hana"}:
@@ -1854,8 +1767,7 @@ class GenerationService:
         return "sap_ci"
 
     def _normalize_source_mode(self, source_mode: str) -> SourceMode:
-        raw = (source_mode or "archived_mpl").strip(
-        ).lower().replace("-", "_").replace(" ", "_")
+        raw = (source_mode or "archived_mpl").strip().lower().replace("-", "_").replace(" ", "_")
         if raw in {"live", "live_mpl"}:
             return "live_mpl"
         if raw in {"archive", "archived", "archived_mpl", "local_mpl"}:
@@ -1898,8 +1810,7 @@ class GenerationService:
         if not inventory_item:
             return ""
         for key in ("priority", "criticality"):
-            mapped = self._normalize_priority_value(
-                inventory_item.get(key, ""))
+            mapped = self._normalize_priority_value(inventory_item.get(key, ""))
             if mapped:
                 return mapped
         return ""
@@ -2036,16 +1947,35 @@ class GenerationService:
         The object_name is optimized for retrieval and filename readability. Exact
         technical terms are preserved, while noisy Java/SAP exception namespaces
         and long prose are reduced to canonical incident phrases.
+
+        The value is always prefixed with the system code, so the final form is
+        ``<SYSTEM>_<ERROR_CODE>`` (e.g. ``CPI_API_THROTTLING_RATE_LIMIT_EXCEEDED``)
+        in every case, both for canonical error patterns and for the free-text
+        fallback. The system prefix is never duplicated if it is already present.
         """
         text = " ".join(str(x or "") for x in [value, error_text]).strip()
         canonical = self._canonical_error_object(text)
         if canonical:
-            token = f"{self._system_code(system)}_{canonical}"
+            error_code = canonical
         else:
-            token = self._token(
-                self._strip_exception_prefix(str(value or error_text)))
-            token = self._remove_low_value_tokens(token)
-        return self._short_token(token or "INTERFACE_CATALOG", self.MAX_OBJECT_NAME_LENGTH)
+            error_code = self._token(self._strip_exception_prefix(str(value or error_text)))
+            error_code = self._remove_low_value_tokens(error_code)
+        error_code = error_code or "INTERFACE_CATALOG"
+        token = self._with_system_prefix(error_code, system)
+        return self._short_token(token, self.MAX_OBJECT_NAME_LENGTH)
+
+    def _with_system_prefix(self, error_code: str, system: str) -> str:
+        """Return ``<SYSTEM>_<ERROR_CODE>``, avoiding a duplicated system prefix.
+
+        Truncation later may cut the error code, but the system prefix is always
+        preserved so the object_name stays system-qualified.
+        """
+        system_code = self._system_code(system)
+        if not system_code:
+            return error_code
+        if error_code == system_code or error_code.startswith(f"{system_code}_"):
+            return error_code
+        return f"{system_code}_{error_code}"
 
     def _canonical_error_object(self, text: str) -> str:
         lowered = (text or "").lower()
@@ -2093,8 +2023,7 @@ class GenerationService:
         return ""
 
     def _readable_title(self, value: Any, error_text: str = "") -> str:
-        text = self._strip_exception_prefix(
-            str(error_text or value or "")).strip()
+        text = self._strip_exception_prefix(str(error_text or value or "")).strip()
         lowered = text.lower()
         if any(
             term in lowered
@@ -2173,8 +2102,7 @@ class GenerationService:
             "FROM",
             "AND",
         }
-        parts = [part for part in token.split(
-            "_") if part and part not in low_value]
+        parts = [part for part in token.split("_") if part and part not in low_value]
         return "_".join(parts) or token
 
     def _short_token(self, token: str, limit: int) -> str:
@@ -2212,8 +2140,7 @@ class GenerationService:
     def _normalize_customer_id(self, value: str) -> str:
         """Customer IDs follow the same token rules as elsewhere (uppercase,
         alphanumeric/underscore). Empty input falls back to the RCMO default."""
-        token = re.sub(r"[^A-Za-z0-9]+", "_",
-                       str(value or "")).strip("_").upper()
+        token = re.sub(r"[^A-Za-z0-9]+", "_", str(value or "")).strip("_").upper()
         return token or "RCMO"
 
     def _normalize_environment(self, value: str) -> str:
