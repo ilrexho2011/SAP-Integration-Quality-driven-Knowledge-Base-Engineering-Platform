@@ -188,7 +188,7 @@ class EnterpriseConsoleService:
         needles = {
             "contract_validation": ["contract", "metadata"],
             "quality_gates": ["gate", "promotion", "customer", "interface"],
-            "ai4biz_export": ["ai4biz", "metadata"],
+            "qdkep_export": ["qdkep", "metadata"],
             "evidence_traceability": ["trace", "evidence", "mpl"],
             "benchmark": ["retrieval", "answer", "benchmark"],
             "send_feedback": ["feedback", "remediation", "benchmark"],
@@ -205,7 +205,7 @@ class EnterpriseConsoleService:
             "contract_validation": {"contract_validation_report"},
             "package_builder": {"zip", "manifest", "package_metadata"},
             "quality_gates": {"package_quality_gate_report"},
-            "ai4biz_export": {"ai4biz_ingestion_readiness_report"},
+            "qdkep_export": {"qdkep_ingestion_readiness_report"},
             "evidence_traceability": {"traceability_report"},
             "benchmark": {"benchmark_readiness_report", "golden_questions"},
             "send_feedback": {"feedback"},
