@@ -1,8 +1,8 @@
-# AI4BIZ Event Schema Standard
+# AI4CPI Event Schema Standard
 
 ## 1. Purpose
 
-This document defines the standard event structure used by the AI4BIZ platform.
+This document defines the standard event structure used by the AI4CPI platform.
 
 Events represent operational incidents detected in monitored systems.
 
@@ -13,8 +13,8 @@ Example event:
 event_id: EVT-123456
 timestamp: 2026-03-09T15:30:00Z
 event_type: message_failure
-customer_id: RCMO
-system_id: CPI-RCMO
+customer_id: RCA
+system_id: CPI-RCA
 sap_sid: RO2
 interface_id: IF_SALESORDER_INBOUND
 priority: P1
