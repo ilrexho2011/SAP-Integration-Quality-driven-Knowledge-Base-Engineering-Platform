@@ -1,8 +1,8 @@
-# AI4BIZ Customer Architecture Schema
+# AI4CPI Customer Architecture Schema
 
 ## 1. Purpose
 
-This document defines the standard customer architecture schema used by the AI4BIZ platform.
+This document defines the standard customer architecture schema used by the AI4CPI platform.
 
 The schema ensures that each customer landscape is described in a consistent and structured way.
 
@@ -20,7 +20,7 @@ Each customer architecture must be defined before productive knowledge ingestion
 
 Each customer architecture must define a minimal set of core fields.
 
-These fields ensure that the AI4BIZ platform can identify the customer, its systems and the operational context.
+These fields ensure that the AI4CPI platform can identify the customer, its systems and the operational context.
 
 Mandatory fields:
 
@@ -42,7 +42,7 @@ Unique identifier of the customer.
 
 Example:
 
-RCMO
+RCA
 
 display_name
 
@@ -50,7 +50,7 @@ Human-readable customer name.
 
 Example:
 
-RealCore Morocco
+RealCore Albania
 
 environment
 
@@ -112,7 +112,7 @@ Examples:
 
 Each customer system must be defined using a structured system model.
 
-This allows the AI4BIZ platform to identify systems, correlate monitoring events and retrieve the correct knowledge.
+This allows the AI4CPI platform to identify systems, correlate monitoring events and retrieve the correct knowledge.
 
 Each system entry must contain the following fields.
 
@@ -133,9 +133,9 @@ Unique internal identifier of the system within the customer landscape.
 
 Example:
 
-PIPO-RCMO  
-CPI-RCMO  
-S4-RCMO
+PIPO-RCA  
+CPI-RCA  
+S4-RCA
 
 sap_sid
 
@@ -256,7 +256,7 @@ System where the message originates.
 
 Example:
 
-S4-RCMO
+S4-RCA
 
 target_system
 
@@ -264,7 +264,7 @@ System receiving the message.
 
 Example:
 
-CPI-RCMO
+CPI-RCA
 
 technology
 
@@ -320,7 +320,7 @@ Examples:
 
 ## 5. Monitoring Integration Model
 
-The AI4BIZ platform relies on operational monitoring events to detect and analyze incidents.
+The AI4CPI platform relies on operational monitoring events to detect and analyze incidents.
 
 Each customer architecture must define how monitoring data is collected.
 
@@ -346,7 +346,7 @@ Allowed values:
 
 polling
 
-The AI4BIZ platform periodically polls monitoring endpoints.
+The AI4CPI platform periodically polls monitoring endpoints.
 
 Example:
 
@@ -393,8 +393,8 @@ This example represents a simplified architecture of the RCMO demo environment.
 
 Example:
 
-customer_id: RCMO
-display_name: RealCore Morocco
+customer_id: RCA
+display_name: RealCore Albania
 environment: demo
 status: active
 
@@ -411,19 +411,19 @@ monitoring_model: polling
 
 systems:
 
-  system_id: PIPO-RCMO
+  system_id: PIPO-RCA
     sap_sid: RO2
     system_type: SAP_PI
     landscape_role: production
     integration_stack: PI/PO
 
-  system_id: CPI-RCMO
+  system_id: CPI-RCA
     sap_sid: CPI
     system_type: SAP_CPI
     landscape_role: production
     integration_stack: CPI
 
-  system_id: S4-RCMO
+  system_id: S4-RCA
     sap_sid: RO2
     system_type: SAP_S4
     landscape_role: production
@@ -433,8 +433,8 @@ interfaces:
 
   interface_id: IF_SALESORDER_INBOUND
     interface_name: SalesOrder_Inbound
-    source_system: S4-RCMO
-    target_system: CPI-RCMO
+    source_system: S4-RCA
+    target_system: CPI-RCA
     technology: SAP CPI
     interface_type: inbound
     business_domain: sales
@@ -451,7 +451,7 @@ Each customer must have a globally unique customer_id.
 
 Example:
 
-RCMO  
+RCA  
 RDCUST01
 
 ### Rule 2 – Stable System Identifiers
