@@ -1,4 +1,4 @@
-# AI4BIZ Automation Action Library
+# AI4CPI Automation Action Library
 
 ## 1. Purpose
 
@@ -84,7 +84,7 @@ These actions must never be executed automatically without manual approval.
 
 ## 4. Execution Modes
 
-The AI4BIZ platform supports different execution modes.
+The AI4CPI platform supports different execution modes.
 
 Allowed execution modes:
 
