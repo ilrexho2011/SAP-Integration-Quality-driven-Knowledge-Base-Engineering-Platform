@@ -6,11 +6,11 @@ This document describes operational procedures.
 
 Agent
 
-systemctl restart ai4biz-agent
+systemctl restart ai4cpi-agent
 
 Embedding Service
 
-systemctl restart ai4biz-embedding
+systemctl restart ai4cpi-embedding
 
 ## Qdrant
 
