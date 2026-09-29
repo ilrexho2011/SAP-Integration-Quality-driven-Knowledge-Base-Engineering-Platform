@@ -4,13 +4,13 @@
 
 ### Node-A
 
-- AI Agent
+- AI Agent 
 - Embedding Service
 - Qdrant
 
 ### Node-B
 
-- LLM Inference (vLLM)
+- LLM Inference ( vLLM )
 
 ## Ports
 
