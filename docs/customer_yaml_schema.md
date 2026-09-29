@@ -1,4 +1,4 @@
-# AI4BIZ Customer YAML Configuration Schema
+# AI4CPI Customer YAML Configuration Schema
 
 ## 1. Purpose
 
@@ -25,8 +25,8 @@ Example structure:
 
 customer:
 
-  customer_id: RCMO
-  customer_name: RealCore Morocco
+  customer_id: RCA
+  customer_name: RealCore Albania
   environment: production
   region: EU
 
@@ -68,12 +68,12 @@ Example structure:
 
 systems:
 
-- system_id: CPI-RCMO
+- system_id: CPI-RCA
     system_type: SAP_CPI
     sap_sid: RO2
     environment: production
 
-- system_id: S4-RCMO
+- system_id: S4-RCA
     system_type: SAP_S4
     sap_sid: RO2
     environment: production
