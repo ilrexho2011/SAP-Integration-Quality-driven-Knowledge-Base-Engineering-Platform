@@ -1,8 +1,8 @@
-# AI4BIZ Interface Inventory Schema
+# AI4CPI Interface Inventory Schema
 
 ## 1. Purpose
 
-This document defines the standard interface inventory schema used by the AI4BIZ platform.
+This document defines the standard interface inventory schema used by the AI4CPI platform.
 
 The schema ensures that all integration interfaces are documented in a consistent and structured way.
 
@@ -21,7 +21,7 @@ Each productive interface should be described before operational knowledge is in
 
 Each interface entry must define a minimal set of core fields.
 
-These fields allow the AI4BIZ platform to identify the interface, determine its technical context and correlate incidents correctly.
+These fields allow the AI4CPI platform to identify the interface, determine its technical context and correlate incidents correctly.
 
 Mandatory fields:
 
@@ -44,7 +44,7 @@ Unique identifier of the customer.
 
 Example:
 
-RCMO
+RCA
 
 system_id
 
@@ -52,8 +52,8 @@ Internal system identifier of the owning integration system.
 
 Examples:
 
-PIPO-RCMO  
-CPI-RCMO  
+PIPO-RCA  
+CPI-RCA  
 
 interface_id
 
@@ -77,7 +77,7 @@ System where the message originates.
 
 Example:
 
-S4-RCMO
+S4-RCA
 
 target_system
 
@@ -85,7 +85,7 @@ System receiving the message.
 
 Example:
 
-CPI-RCMO
+CPI-RCA
 
 technology
 
@@ -325,13 +325,13 @@ Examples:
 
 Example interface entry:
 
-customer_id: RCMO
-system_id: CPI-RCMO
+customer_id: RCA
+system_id: CPI-RCA
 interface_id: IF_SALESORDER_INBOUND
 interface_name: SalesOrder_Inbound
 
-source_system: S4-RCMO
-target_system: CPI-RCMO
+source_system: S4-RCA
+target_system: CPI-RCA
 
 technology: SAP CPI
 interface_type: inbound
