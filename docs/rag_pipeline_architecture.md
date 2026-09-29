@@ -1,8 +1,8 @@
-# AI4BIZ RAG Pipeline Architecture
+# AI4CPI RAG Pipeline Architecture
 
 ## 1. Purpose
 
-This document defines the architecture of the AI4BIZ Retrieval-Augmented Generation (RAG) pipeline.
+This document defines the architecture of the AI4CPI Retrieval-Augmented Generation (RAG) pipeline.
 
 The RAG pipeline allows the AI agent to retrieve operational knowledge during incident analysis.
 
