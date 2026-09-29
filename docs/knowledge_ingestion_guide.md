@@ -1,7 +1,7 @@
-# AI4BIZ Knowledge Ingestion Guide
+# AI4CPI Knowledge Ingestion Guide
 
 > For internal use — Knowledge Engineers and AMS Team
-> Version: 1.0 | Date: 2026-04-09
+> Version: 1.0 | Date: 2026-06-09
 
 ---
 
@@ -159,10 +159,10 @@ It is optional but strongly recommended.
 
 ```md
 RUNBOOK ID
-RB_RCMO_CPI_MPL_AUTH_ERROR_P2
+RB_RCA_CPI_MPL_AUTH_ERROR_P2
 
 CUSTOMER
-RCMO
+RCA
 
 SYSTEM
 CPI
@@ -223,4 +223,4 @@ This classification drives the 8-signal reranking engine.
 
 ## Questions
 
-Contact the AI4BIZ platform team for questions about ingestion, document structure, or chunk quality validation.
+Contact the AI4CPI platform team for questions about ingestion, document structure, or chunk quality validation.
