@@ -1,8 +1,8 @@
-# AI4BIZ Knowledge Schema Standard
+# AI4CPI Knowledge Schema Standard
 
 ## 1. Purpose
 
-This document defines the standard knowledge schema used by the AI4BIZ platform.
+This document defines the standard knowledge schema used by the AI4CPI platform.
 
 The schema ensures that all knowledge ingested into the platform is:
 
@@ -74,7 +74,7 @@ Entries that do not match one of these artifact types must not be indexed into t
 
 ## 4. Metadata Schema
 
-All knowledge documents indexed into the AI4BIZ platform must include metadata.
+All knowledge documents indexed into the AI4CPI platform must include metadata.
 
 Metadata is stored together with the embedding in the vector database (Qdrant).
 
@@ -96,8 +96,8 @@ Example metadata payload:
 
 {
   "environment": "demo",
-  "customer_id": "RCMO",
-  "system_id": "PIPO-RCMO",
+  "customer_id": "RCA",
+  "system_id": "PIPO-RCA",
   "sap_sid": "RO2",
   "artifact_type": "kedb",
   "object_name": "PI_OAUTH_CHANNEL_ERROR",
@@ -190,7 +190,7 @@ At least one approved knowledge source should exist for each customer environmen
 
 Priority defines the operational criticality of a knowledge object.
 
-The default priority model used by the AI4BIZ platform is:
+The default priority model used by the AI4CPI platform is:
 
 P1 = Critical business impact
 P2 = High priority
@@ -252,7 +252,7 @@ Large documents are split into smaller logical knowledge blocks.
 
 Metadata Assignment
 
-Each chunk receives metadata according to the AI4BIZ knowledge schema.
+Each chunk receives metadata according to the AI4CPI knowledge schema.
 
 Embedding Generation
 
@@ -264,14 +264,13 @@ The vector and metadata are stored in Qdrant for retrieval by the AI agent.
 
 ## 8. Roles and Responsibilities
 
-Clear responsibilities are required to maintain high quality knowledge within the AI4BIZ platform.
+Clear responsibilities are required to maintain high quality knowledge within the AI4CPI platform.
 
 ### SAP Knowledge Preparation
 
 Responsible:
 
-- Klevis
-- Ilirjan
+- User03
 
 Responsibilities:
 
@@ -285,7 +284,7 @@ Responsibilities:
 
 Responsible:
 
-- Hafsa
+- User02
 
 Responsibilities:
 
@@ -298,7 +297,7 @@ Responsibilities:
 
 Responsible:
 
-- Abdel
+- User01 (Super Admin)
 
 Responsibilities:
 
