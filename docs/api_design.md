@@ -1,4 +1,4 @@
-# AI4BIZ API Design
+# AI4CPI API Design
 
 The platform exposes several APIs.
 
