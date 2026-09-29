@@ -1,8 +1,8 @@
-# AI4BIZ RAG Console API Specification
+# AI4CPI RAG Console API Specification
 
 ## 1. Purpose
 
-This document defines the backend API specification for the AI4BIZ RAG Console.
+This document defines the backend API specification for the AI4CPI RAG Console.
 
 The API supports the knowledge operations workflow used to prepare, validate, approve and index knowledge into the AI4BIZ platform.
 
