@@ -1,4 +1,4 @@
-# AI4BIZ Runbook
+# AI4CPI Runbook
 
 This document describes operational procedures.
 
@@ -22,8 +22,8 @@ curl `http://localhost:6333/healthz`
 
 Agent logs:
 
-/var/log/ai4biz/agent.log
+/var/log/ai4cpi/agent.log
 
 Embedding logs:
 
-/var/log/ai4biz/embedding.log
+/var/log/ai4cpi/embedding.log
