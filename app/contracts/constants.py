@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-CONTRACT_VERSION = "QDKEP_AI4BIZ_OUTPUT_CONTRACT_v1.1"
-CONTRACT_SOURCE_EN = "docs/contracts/QDKEP_AI4BIZ_Output_Ingestion_Contract_v1_EN.md"
-CONTRACT_SOURCE_SQ = "docs/contracts/QDKEP_AI4BIZ_Output_Ingestion_Contract_v1_SQ.md"
+CONTRACT_VERSION = "QDKEP_OUTPUT_CONTRACT_v1.1"
+CONTRACT_SOURCE_EN = "docs/contracts/QDKEP_Output_Ingestion_Contract_v1_EN.md"
+CONTRACT_SOURCE_SQ = "docs/contracts/QDKEP_Output_Ingestion_Contract_v1_SQ.md"
 
 ARTIFACT_TYPES = {"RB": "runbook", "KB": "kedb", "DOC": "documentation"}
 ALLOWED_PRIORITIES = {"P1", "P2", "P3", "P4"}
