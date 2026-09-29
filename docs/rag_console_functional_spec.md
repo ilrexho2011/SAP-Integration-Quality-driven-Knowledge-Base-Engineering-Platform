@@ -1,8 +1,8 @@
-# AI4BIZ RAG Console Functional Specification
+# AI4CPI RAG Console Functional Specification
 
 ## 1. Purpose
 
-This document defines the functional specification of the AI4BIZ RAG Console.
+This document defines the functional specification of the AI4CPI RAG Console.
 
 The RAG Console is the operational user interface used to manage knowledge ingestion for the AI4BIZ platform.
 
@@ -10,7 +10,6 @@ The console is intended primarily for AI knowledge operations.
 
 Its main users are:
 
-- Hafsa
 - AI platform operators
 - approved reviewers
 - platform owner
@@ -53,7 +52,7 @@ The console must support different user roles.
 
 Primary user:
 
-- Hafsa
+- User01
 
 Responsibilities:
 
@@ -67,8 +66,7 @@ Responsibilities:
 
 Users:
 
-- Klevis
-- Ilirjan
+- User02
 
 Responsibilities:
 
@@ -81,7 +79,7 @@ Responsibilities:
 
 Primary user:
 
-- Abdel
+- Super Admin
 
 Responsibilities:
 
