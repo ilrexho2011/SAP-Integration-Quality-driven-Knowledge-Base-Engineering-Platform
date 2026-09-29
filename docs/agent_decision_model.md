@@ -1,8 +1,8 @@
-# AI4BIZ Agent Decision Model
+# AI4CPI Agent Decision Model
 
 ## 1. Purpose
 
-This document defines how the AI4BIZ agent evaluates operational events and decides what action to take.
+This document defines how the AI4CPI agent evaluates operational events and decides what action to take.
 
 The decision model ensures that the agent behaves consistently across all customers and environments.
 
@@ -55,7 +55,7 @@ Each detected event must include at least the following information:
 
 After detecting an operational event, the AI agent must search for relevant knowledge.
 
-The search is performed using the AI4BIZ RAG system.
+The search is performed using the AI4CPI RAG system.
 
 The retrieval process follows a strict order.
 
@@ -141,7 +141,7 @@ The AI agent must always evaluate incidents using the SLA configuration of the s
 
 Example:
 
-customer_id: RCMO
+customer_id: RCA
 priority: P2
 
 SLA response time: 1 hour
@@ -159,8 +159,8 @@ Example ticket metadata:
 
 priority: P2
 sla_response_time: 1h
-detected_at: 2026-03-08T15:20:00
-sla_deadline: 2026-03-08T16:20:00
+detected_at: 2026-06-08T15:20:00
+sla_deadline: 2026-06-08T16:20:00
 
 ## 6. Incident Creation
 
@@ -181,7 +181,7 @@ Examples:
 - SAP Solution Manager
 - internal ticketing systems
 
-For the AI4BIZ demo environment the default target system is:
+For the AI4CPI demo environment the default target system is:
 
 Jira Cloud
 
@@ -210,7 +210,7 @@ knowledge_reference
 
 ### Example Ticket Payload
 
-customer_id: RCMO
+customer_id: RCA
 system_id: RO2
 interface_name: SalesOrder_Inbound
 event_type: message_failure
@@ -280,7 +280,7 @@ The log must contain:
 
 ## 8. Learning and Knowledge Update
 
-The AI4BIZ platform must continuously improve its knowledge base.
+The AI4CPI platform must continuously improve its knowledge base.
 
 Operational incidents generate valuable knowledge that should be captured and reused.
 
