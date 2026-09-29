@@ -15,7 +15,7 @@ The configuration file defines:
 - automation policies
 - monitoring configuration
 
-This configuration is used by the AI4BIZ platform to ensure that AI agents operate in a controlled and customer-aware manner.
+This configuration is used by the AI4CPI platform to ensure that AI agents operate in a controlled and customer-aware manner.
 
 ## 2. Customer Identity
 
