@@ -1,6 +1,6 @@
 # Customer Architecture Model
 
-AI4BIZ is designed as a multi-customer platform.
+AI4CPI is designed as a multi-customer platform.
 
 Each customer has a configuration stored in:
 
