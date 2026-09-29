@@ -40,7 +40,7 @@ class ContractValidationReport:
         )
     )
     status: str = "approved"
-    promotion_decision: str = "approved_for_ai4biz_ingestion"
+    promotion_decision: str = "approved_for_qdkep_ingestion"
     artifact_count: int = 0
     checked_files: list[str] = field(default_factory=list)
     issues: list[ContractIssue] = field(default_factory=list)
