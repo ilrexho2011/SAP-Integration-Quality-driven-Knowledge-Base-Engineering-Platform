@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-This document defines the standard YAML configuration schema used to describe customer environments in the AI4BIZ platform.
+This document defines the standard YAML configuration schema used to describe customer environments in the AI4CPI platform. 
 
 Each customer environment must be represented by a structured YAML configuration file.
 
@@ -19,7 +19,7 @@ This configuration is used by the AI4CPI platform to ensure that AI agents opera
 
 ## 2. Customer Identity
 
-Each configuration must define the customer identity.
+Each configuration must define the customer identity. 
 
 Example structure:
 
@@ -62,7 +62,7 @@ MEA
 
 ## 3. System Landscape
 
-Each customer configuration must define the system landscape.
+Each customer configuration must define the system landscape. 
 
 Example structure:
 
@@ -116,7 +116,7 @@ development
 
 ## 4. Interface Monitoring Configuration
 
-The configuration must describe how interfaces are monitored.
+The configuration must describe how interfaces are monitored. 
 
 Example:
 
@@ -149,7 +149,7 @@ List of operational event types.
 
 ## 5. SLA Definitions
 
-Each customer may define service level expectations.
+Each customer may define service level expectations. 
 
 Example:
 
@@ -187,7 +187,7 @@ Target time for issue resolution.
 
 ## 6. Automation Policy
 
-Each customer may define automation permissions.
+Each customer may define automation permissions. 
 
 Example:
 
@@ -218,7 +218,7 @@ Allows CPI iFlow restart.
 
 ## 7. Governance Rules
 
-Customer YAML configurations must follow governance rules.
+Customer YAML configurations must follow governance rules. 
 
 Rule 1
 
