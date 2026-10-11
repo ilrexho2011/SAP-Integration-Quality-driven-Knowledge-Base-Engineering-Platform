@@ -1,8 +1,8 @@
 # Quality-driven Knowledge Engineering Platform
 
-This project is the implementation scaffold for the AI4BIZ closed-loop knowledge engineering ecosystem.
+This project is the implementation scaffold for the AI4CPI closed-loop knowledge engineering ecosystem.
 
-<img width="1179" height="661" alt="image" src="https://github.com/user-attachments/assets/c29f9fe4-5c50-479d-80e6-d45746739d75" />
+<img width="1184" height="665" alt="image" src="https://github.com/user-attachments/assets/bb726279-4acb-476b-bcc3-03fa58ae79a1" />
 
 It contains:
 
