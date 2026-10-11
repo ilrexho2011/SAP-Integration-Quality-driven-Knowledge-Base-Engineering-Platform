@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-This document defines the backend API specification for the AI4CPI RAG Console.
+This document defines the backend API specification for the AI4CPI RAG Console. 
 
 The API supports the knowledge operations workflow used to prepare, validate, approve and index knowledge into the AI4BIZ platform.
 
@@ -19,7 +19,7 @@ The API is intended for:
 
 ## 2. API Principles
 
-The RAG Console API must follow these principles:
+The RAG Console API must follow these principles: 
 
 - REST-based design
 - clear separation of workflow stages
@@ -93,7 +93,7 @@ Output:
 
 Purpose:
 
-Split extracted text into logical chunks for indexing.
+Split extracted text into logical chunks for indexing. 
 
 Input:
 
@@ -122,7 +122,7 @@ Each chunk should contain:
 
 Purpose:
 
-Validate metadata and chunk quality before approval or indexing.
+Validate metadata and chunk quality before approval or indexing. 
 
 Input:
 
@@ -150,7 +150,7 @@ Output:
 
 Purpose:
 
-Update review information and set review status.
+Update review information and set review status. 
 
 Input:
 
@@ -195,7 +195,7 @@ Output:
 
 Purpose:
 
-Generate embeddings and store approved chunks in Qdrant.
+Generate embeddings and store approved chunks in Qdrant. 
 
 Precondition:
 
@@ -219,7 +219,7 @@ Output:
 
 Purpose:
 
-Test retrieval quality against indexed knowledge.
+Test retrieval quality against indexed knowledge. 
 
 Input:
 
@@ -250,8 +250,8 @@ Each result should contain:
 
 Purpose:
 
-List uploaded knowledge documents.
-
+List uploaded knowledge documents. 
+ 
 Output:
 
 - document_id
