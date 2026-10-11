@@ -8,7 +8,7 @@ control-plane/customers/<CUSTOMER_ID>.yaml
 
 Example:
 
-RCMO.yaml
+RCA.yaml
 
 ## Customer Attributes
 
