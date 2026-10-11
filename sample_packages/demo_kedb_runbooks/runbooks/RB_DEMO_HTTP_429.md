@@ -13,7 +13,7 @@ integration_flow_name: "Demo HTTP API Rate Limit"
 
 ## Trigger
 
-Use this runbook when SAP CPI MPL shows HTTP 429 Too Many Requests, receiver throttled requests, API rate limit, or repeated retry failures for the HTTP receiver adapter.
+Use this runbook when SAP CPI MPL shows HTTP 429 Too Many Requests, receiver throttled requests, API rate limit, or repeated retry failures for the HTTP receiver adapter. 
 
 ## Diagnosis
 
@@ -33,11 +33,11 @@ Use this runbook when SAP CPI MPL shows HTTP 429 Too Many Requests, receiver thr
 
 ## Validation
 
-Reprocess one failed MessageGuid and verify MPL status Completed. Monitor the next 30 minutes for new HTTP 429 errors.
+Reprocess one failed MessageGuid and verify MPL status Completed. Monitor the next 30 minutes for new HTTP 429 errors. 
 
 ## Rollback
 
-Restore the previous retry and parallel processing settings if the receiver accepts the original pattern again.
+Restore the previous retry and parallel processing settings if the receiver accepts the original pattern again. 
 
 ## Evidence
 
