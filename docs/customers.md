@@ -1,8 +1,8 @@
 # Customer Architecture Model
 
-AI4CPI is designed as a multi-customer platform.
+AI4CPI is designed as a multi-customer platform. 
 
-Each customer has a configuration stored in:
+Each customer has a configuration stored in: 
 
 control-plane/customers/<CUSTOMER_ID>.yaml
 
@@ -29,7 +29,7 @@ kedb_location
 
 ## Knowledge Sources
 
-Each customer has dedicated knowledge sources:
+Each customer has dedicated knowledge sources: 
 
 - KEDB
 - Integration documentation
