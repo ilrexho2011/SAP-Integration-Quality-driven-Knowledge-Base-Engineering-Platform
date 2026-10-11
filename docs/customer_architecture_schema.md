@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-This document defines the standard customer architecture schema used by the AI4CPI platform.
+This document defines the standard customer architecture schema used by the AI4CPI platform. 
 
 The schema ensures that each customer landscape is described in a consistent and structured way.
 
@@ -18,7 +18,7 @@ Each customer architecture must be defined before productive knowledge ingestion
 
 ## 2. Core Customer Fields
 
-Each customer architecture must define a minimal set of core fields.
+Each customer architecture must define a minimal set of core fields. 
 
 These fields ensure that the AI4CPI platform can identify the customer, its systems and the operational context.
 
@@ -110,7 +110,7 @@ Examples:
 
 ## 3. System Definition Model
 
-Each customer system must be defined using a structured system model.
+Each customer system must be defined using a structured system model. 
 
 This allows the AI4CPI platform to identify systems, correlate monitoring events and retrieve the correct knowledge.
 
@@ -206,9 +206,9 @@ S4:
 
 ## 4. Interface Landscape Model
 
-Each customer architecture should include a structured description of its integration interfaces.
+Each customer architecture should include a structured description of its integration interfaces. 
 
-This allows the AI4BIZ platform to correlate incidents with specific integrations.
+This allows the AI4CPI platform to correlate incidents with specific integrations.
 
 Interfaces may represent:
 
@@ -320,7 +320,7 @@ Examples:
 
 ## 5. Monitoring Integration Model
 
-The AI4CPI platform relies on operational monitoring events to detect and analyze incidents.
+The AI4CPI platform relies on operational monitoring events to detect and analyze incidents. 
 
 Each customer architecture must define how monitoring data is collected.
 
@@ -387,9 +387,9 @@ These events are processed by the AI agent to trigger analysis and resolution wo
 
 ## 6. Customer Architecture Example
 
-The following example illustrates how a customer architecture may be defined.
+The following example illustrates how a customer architecture may be defined. 
 
-This example represents a simplified architecture of the RCMO demo environment.
+This example represents a simplified architecture of the RCA demo environment. 
 
 Example:
 
@@ -443,7 +443,7 @@ interfaces:
 
 ## 7. Architecture Governance Rules
 
-Customer architectures must follow a strict governance model to ensure consistency across the AI4BIZ platform.
+Customer architectures must follow a strict governance model to ensure consistency across the AI4CPI platform. 
 
 ### Rule 1 – Unique Customer Identifier
 
@@ -480,7 +480,7 @@ Allowed system types:
 
 ### Rule 5 – Monitoring Endpoints Must Exist
 
-Every productive system must define monitoring endpoints.
+Every productive system must define monitoring endpoints. 
 
 Without monitoring endpoints the AI agent cannot detect operational incidents.
 
@@ -492,7 +492,7 @@ Knowledge without architecture context leads to incorrect retrieval.
 
 ### Rule 7 – Architecture Changes Must Be Reviewed
 
-All architecture modifications must follow the standard review process.
+All architecture modifications must follow the standard review process. 
 
 Required approval roles:
 
