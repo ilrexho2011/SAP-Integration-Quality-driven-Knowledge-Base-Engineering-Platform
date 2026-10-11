@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-This document defines the architecture of the AI4CPI Retrieval-Augmented Generation (RAG) pipeline.
+This document defines the architecture of the AI4CPI Retrieval-Augmented Generation (RAG) pipeline. 
 
 The RAG pipeline allows the AI agent to retrieve operational knowledge during incident analysis.
 
@@ -20,7 +20,7 @@ Document Upload
 
 ## 3. Document Parsing
 
-Uploaded documents are parsed into raw text.
+Uploaded documents are parsed into raw text. 
 
 Supported formats:
 
@@ -34,7 +34,7 @@ Supported formats:
 
 ## 4. Chunk Generation
 
-Parsed text is split into smaller chunks.
+Parsed text is split into smaller chunks. 
 
 Chunk size should allow efficient retrieval.
 
@@ -45,7 +45,7 @@ overlap: 100 tokens
 
 ## 5. Metadata Assignment
 
-Each chunk receives metadata fields.
+Each chunk receives metadata fields. 
 
 Examples:
 
@@ -58,13 +58,13 @@ Examples:
 
 ## 6. Embedding Generation
 
-Chunks are converted into vector embeddings.
+Chunks are converted into vector embeddings. 
 
 Embeddings are stored in the vector database.
 
 ## 7. Vector Storage
 
-Embeddings are stored in Qdrant.
+Embeddings are stored in Qdrant. 
 
 Each stored vector contains:
 
@@ -74,7 +74,7 @@ Each stored vector contains:
 
 ## 8. Retrieval
 
-During incident analysis:
+During incident analysis: 
 
 event context  
 → embedding generation  
