@@ -1,4 +1,5 @@
 AI4CPI Platform Architecture
+
 1. Purpose
 This document describes the overall system architecture of the AI4CPI platform.
 
@@ -21,6 +22,7 @@ Embedding Service
 Inference Engine
 Knowledge Management Console
 Automation Execution Layer
+
 3. System Layers
 Monitoring Layer
 Generates operational events.
