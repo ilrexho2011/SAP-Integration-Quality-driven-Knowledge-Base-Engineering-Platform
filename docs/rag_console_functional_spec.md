@@ -2,9 +2,9 @@
 
 ## 1. Purpose
 
-This document defines the functional specification of the AI4CPI RAG Console. 
+This document defines the functional specification of the AI4CPI RAG Console.  
 
-The RAG Console is the operational user interface used to manage knowledge ingestion for the AI4CPI platform.
+The RAG Console is the operational user interface used to manage knowledge ingestion for the AI4CPI platform. 
 
 The console is intended primarily for AI knowledge operations.
 
@@ -30,7 +30,7 @@ It is a knowledge operations interface.
 
 ## 2. Functional Scope
 
-The RAG Console must support the following functional areas: 
+The RAG Console must support the following functional areas:  
 
 - document upload
 - metadata management
@@ -46,7 +46,7 @@ The console must support controlled knowledge preparation before information bec
 
 ## 3. User Roles
 
-The console must support different user roles. 
+The console must support different user roles.  
 
 ### Knowledge Operator
 
@@ -90,7 +90,7 @@ Responsibilities:
 
 ## 4. Main Screens
 
-The MVP RAG Console should include the following screens. 
+The MVP RAG Console should include the following screens.  
 
 ### 4.1 Dashboard
 
@@ -139,7 +139,7 @@ Functions:
 
 Purpose:
 
-Review metadata and chunk quality. 
+Review metadata and chunk quality.  
 
 Functions:
 
@@ -198,7 +198,7 @@ review_status = draft
 
 ## 6. Validation and Approval
 
-Before indexing, the console must validate the uploaded knowledge. 
+Before indexing, the console must validate the uploaded knowledge.  
 
 Validation rules:
 
@@ -220,7 +220,7 @@ Only knowledge with status approved may be indexed into Qdrant.
 
 ## 7. Indexing and Retrieval
 
-The console must support controlled indexing into the AI4CPI vector database. 
+The console must support controlled indexing into the AI4CPI vector database.  
 
 Indexing steps:
 
@@ -244,7 +244,7 @@ This allows the operator to validate the quality of the indexed knowledge.
 
 ## 7. Indexing_and_Retrieval
 
-The console must support controlled indexing into the AI4CPI vector database. 
+The console must support controlled indexing into the AI4CPI vector database.  
 
 Indexing steps:
 
