@@ -42,9 +42,7 @@ customer_id
 
 Unique identifier of the customer.
 
-Example:
-
-RCA
+Example: RCA
 
 system_id
 
@@ -241,7 +239,7 @@ v1.0
 
 Interfaces may have different operational priorities depending on their business impact.
 
-The AI4BIZ platform uses interface priority to determine incident severity and response urgency.
+The AI4CPI platform uses interface priority to determine incident severity and response urgency.
 
 Allowed priority levels:
 
@@ -347,27 +345,27 @@ version: v1.0
 
 ## 7. Interface Governance Rules
 
-All interface definitions must follow governance rules.
+All interface definitions must follow governance rules. 
 
 Rule 1 — Unique Interface Identifier
 
-Each interface must have a unique interface_id within a customer landscape.
+Each interface must have a unique interface_id within a customer landscape. 
 
 Rule 2 — Stable Interface Names
 
-Interface identifiers should not change after operational deployment.
+Interface identifiers should not change after operational deployment. 
 
 Rule 3 — Technology Classification
 
-Interfaces must use one of the predefined technology categories.
+Interfaces must use one of the predefined technology categories. 
 
 Rule 4 — Priority Definition
 
-Each productive interface must define a priority.
+Each productive interface must define a priority. 
 
 Rule 5 — Review Process
 
-New or modified interface entries must follow the review lifecycle.
+New or modified interface entries must follow the review lifecycle. 
 
 Lifecycle states:
 
@@ -378,8 +376,8 @@ indexed
 
 Rule 6 — Version Tracking
 
-Interface definitions should be versioned and managed through Git.
+Interface definitions should be versioned and managed through Git. 
 
 Rule 7 — Architecture Alignment
 
-Interface definitions must align with the customer architecture schema.
+Interface definitions must align with the customer architecture schema. 
