@@ -256,7 +256,7 @@ Examples of automated actions include:
 
 Automation actions must be classified by safety level.
 
-Level 1 �--> Safe automation
+Level 1 --> Safe automation
 Examples: message retry, queue unlock
 
 Level 2 --> Controlled automation
