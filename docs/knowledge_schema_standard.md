@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-This document defines the standard knowledge schema used by the AI4CPI platform.
+This document defines the standard knowledge schema used by the AI4CPI platform. 
 
 The schema ensures that all knowledge ingested into the platform is:
 
@@ -25,7 +25,7 @@ The platform distinguishes between two types of knowledge.
 
 ### 2.1 Customer Knowledge
 
-Customer-specific operational knowledge.
+Customer-specific operational knowledge. 
 
 Examples:
 
@@ -42,7 +42,7 @@ Customer knowledge always includes:
 
 ### 2.2 Global Knowledge
 
-Platform-wide technical knowledge not tied to a specific customer.
+Platform-wide technical knowledge not tied to a specific customer. 
 
 Examples:
 
@@ -57,7 +57,7 @@ Global knowledge does not include:
 
 ## 3. Artifact Types
 
-All knowledge entries must belong to one of the following artifact types.
+All knowledge entries must belong to one of the following artifact types. 
 
 Allowed artifact types:
 
@@ -74,7 +74,7 @@ Entries that do not match one of these artifact types must not be indexed into t
 
 ## 4. Metadata Schema
 
-All knowledge documents indexed into the AI4CPI platform must include metadata.
+All knowledge documents indexed into the AI4CPI platform must include metadata. 
 
 Metadata is stored together with the embedding in the vector database (Qdrant).
 
@@ -188,7 +188,7 @@ At least one approved knowledge source should exist for each customer environmen
 
 ## 6. Priority Standard
 
-Priority defines the operational criticality of a knowledge object.
+Priority defines the operational criticality of a knowledge object. 
 
 The default priority model used by the AI4CPI platform is:
 
@@ -213,7 +213,7 @@ default_priority = P3
 
 ## 7. Knowledge Ingestion Pipeline
 
-Knowledge must follow a standardized ingestion pipeline before it becomes available to the AI agent.
+Knowledge must follow a standardized ingestion pipeline before it becomes available to the AI agent. 
 
 The ingestion pipeline ensures that documents are structured, validated and indexed correctly.
 
@@ -264,7 +264,7 @@ The vector and metadata are stored in Qdrant for retrieval by the AI agent.
 
 ## 8. Roles and Responsibilities
 
-Clear responsibilities are required to maintain high quality knowledge within the AI4CPI platform.
+Clear responsibilities are required to maintain high quality knowledge within the AI4CPI platform. 
 
 ### SAP Knowledge Preparation
 
