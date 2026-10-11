@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-This document defines the automation action library of the AI4CPI platform.
+This document defines the automation action library of the AI4CPI platform. 
 
 The action library specifies which operational actions the AI agent may recommend or execute.
 
@@ -18,7 +18,7 @@ No automated action may be executed without being defined in this library.
 
 ## 2. Action Model
 
-Each automation action must be defined as a structured action object.
+Each automation action must be defined as a structured action object. 
 
 Each action object describes:
 
@@ -59,7 +59,7 @@ These actions may be executed automatically if customer policy allows it.
 
 ### Level 2 – Controlled Automation
 
-Actions with medium operational impact.
+Actions with medium operational impact. 
 
 Examples:
 
@@ -71,7 +71,7 @@ These actions may require additional checks or policy approval.
 
 ### Level 3 – Manual Approval Required
 
-Actions with high operational or business impact.
+Actions with high operational or business impact. 
 
 Examples:
 
@@ -84,7 +84,7 @@ These actions must never be executed automatically without manual approval.
 
 ## 4. Execution Modes
 
-The AI4CPI platform supports different execution modes.
+The AI4CPI platform supports different execution modes. 
 
 Allowed execution modes:
 
@@ -106,7 +106,7 @@ The AI agent executes the action automatically according to policy rules.
 
 ## 5. Example Actions
 
-Examples of supported automation actions.
+Examples of supported automation actions. 
 
 ### PI Channel Restart
 
@@ -162,7 +162,7 @@ logging_required: true
 
 ## 6. Automation Governance Rules
 
-All automation actions must follow strict governance rules.
+All automation actions must follow strict governance rules. 
 
 ### Rule 1 – Explicit Definition Required
 
@@ -185,7 +185,7 @@ Production execution must always check:
 
 ### Rule 4 – Logging Is Mandatory
 
-Every executed action must be logged.
+Every executed action must be logged. 
 
 The log must include:
 
@@ -198,7 +198,7 @@ The log must include:
 
 ### Rule 5 – Approval Workflow
 
-Actions requiring approval must not bypass the approval process.
+Actions requiring approval must not bypass the approval process. 
 
 ### Rule 6 – Rollback Awareness
 
