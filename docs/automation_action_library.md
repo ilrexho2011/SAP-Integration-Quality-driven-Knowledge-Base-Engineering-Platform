@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-This document defines the automation action library of the AI4BIZ platform.
+This document defines the automation action library of the AI4CPI platform.
 
 The action library specifies which operational actions the AI agent may recommend or execute.
 
