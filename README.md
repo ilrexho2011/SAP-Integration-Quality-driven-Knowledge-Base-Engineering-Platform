@@ -2,7 +2,7 @@
 
 This project is the implementation scaffold for the AI4BIZ closed-loop knowledge engineering ecosystem.
 
-<img width="1154" height="648" alt="image" src="https://github.com/user-attachments/assets/b61a595c-1fd5-45e2-8934-f07fcdefd8ec" />
+<img width="1179" height="661" alt="image" src="https://github.com/user-attachments/assets/c29f9fe4-5c50-479d-80e6-d45746739d75" />
 
 It contains:
 
@@ -16,7 +16,7 @@ It contains:
 - Enterprise report generation hooks
 - Approved RAG package publication flow
 
-<img width="1661" height="933" alt="image" src="https://github.com/user-attachments/assets/27de7a34-215e-4717-9df5-6672ebe5b55c" />
+<img width="1178" height="658" alt="image" src="https://github.com/user-attachments/assets/c14ca16d-899f-4eb9-bd8f-0f3f11ec309e" />
 
 ## Architecture
 
