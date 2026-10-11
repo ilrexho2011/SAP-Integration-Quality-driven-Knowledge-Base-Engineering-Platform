@@ -1,7 +1,7 @@
 # Resolve HTTP 429 receiver throttling in SAP CPI
 
-customer_id: "RCMO"
-system_id: "CPI-RCMO"
+customer_id: "RCA"
+system_id: "CPI-RCA"
 sap_sid: "CPI"
 artifact_type: "runbook"
 object_name: "HTTP_API_RATE_LIMIT"
