@@ -24,7 +24,7 @@ An event represents a potential operational problem that requires analysis.
 
 Events may originate from multiple sources.
 
-Typical sources include:
+Typical sources include: 
 
 - SAP PI/PO message monitoring
 - SAP CPI message processing logs
@@ -33,7 +33,7 @@ Typical sources include:
 - interface error logs
 - external monitoring systems
 
-Examples of detected events:
+Examples of detected events: 
 
 - message failure
 - interface processing error
@@ -43,7 +43,7 @@ Examples of detected events:
 - system connectivity loss
 - mass processing errors
 
-Each detected event must include at least the following information:
+Each detected event must include at least the following information: 
 
 - customer_id
 - system_id
@@ -104,7 +104,7 @@ Priority may come from different sources.
 
 ### Priority Sources
 
-Priority may be defined in:
+Priority may be defined in: 
 
 - customer interface inventory
 - KEDB entries
