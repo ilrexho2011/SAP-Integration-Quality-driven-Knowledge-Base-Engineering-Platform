@@ -1,7 +1,7 @@
 # HTTP 429 receiver throttled requests due to API rate limit
 
-customer_id: "RCMO"
-system_id: "CPI-RCMO"
+customer_id: "RCA"
+system_id: "CPI-RCA"
 sap_sid: "CPI"
 artifact_type: "kedb"
 object_name: "HTTP_API_RATE_LIMIT"
