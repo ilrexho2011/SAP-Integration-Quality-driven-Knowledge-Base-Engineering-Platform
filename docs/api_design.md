@@ -1,6 +1,6 @@
 # AI4CPI API Design
 
-The platform exposes several APIs.
+The platform exposes several APIs:
 
 ## Monitoring APIs
 
