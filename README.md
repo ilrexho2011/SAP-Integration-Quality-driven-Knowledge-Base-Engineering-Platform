@@ -1,6 +1,6 @@
 # Quality-driven Knowledge Engineering Platform
 
-This project is the implementation scaffold for the AI4CPI closed-loop knowledge engineering ecosystem.
+This project is the implementation scaffold for the AI4CPI closed-loop knowledge engineering ecosystem. 
 
 <img width="1184" height="665" alt="image" src="https://github.com/user-attachments/assets/bb726279-4acb-476b-bcc3-03fa58ae79a1" />
 
@@ -64,7 +64,7 @@ See:
 resources/RESOURCE_REQUESTS.md
 ```
 
-Upload the ingestion policies, templates, golden questions and representative knowledge packages before v0.2 integration.
+Upload the ingestion policies, templates, golden questions and representative knowledge packages before v0.2 integration. 
 
 ## Governance Rule
 
