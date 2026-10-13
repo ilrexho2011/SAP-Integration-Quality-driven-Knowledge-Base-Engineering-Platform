@@ -1,0 +1,69 @@
+# {{ title }}
+
+environment: "{{ environment }}"
+customer_id: "{{ customer_id }}"
+system_id: "{{ system_id }}"
+sap_sid: "{{ sap_sid }}"
+artifact_type: "kedb"
+object_name: "{{ object_name }}"
+priority: "{{ priority }}"
+
+version: "{{ version }}"
+interface_id: "{{ interface_id }}"
+integration_flow_id: "{{ integration_flow_id }}"
+integration_flow_name: "{{ integration_flow_name }}"
+package_name: "{{ package_name }}"
+review_cycle: "{{ review_cycle }}"
+
+DOC ID
+{{ document_id }}
+
+KEDB TITLE
+{{ title }}
+
+## 1. PURPOSE
+
+- Atomic integration catalog reference for interface {{ interface_id }}.
+- Artifact kind: integration_flow.
+
+## 2. SCOPE
+
+- Package: {{ package_name }}
+- Package ID: {{ package_id }}
+- Design-time present: True
+- Runtime present: True
+- Evidence coverage level: medium
+- Operational class: integration
+
+## 3. KEY TERMS
+
+- {{ interface_id }}
+- {{ interface_id_upper }}
+- {{ package_name }}
+- {{ package_id }}
+- Not available from tenant metadata
+- Package: {{ package_id }}
+- Version: Active
+- Authentication: Unknown
+
+## 4. CORE EXPLANATION
+
+- Runtime binding: {{ interface_id }}
+- Participants: Not available from tenant metadata
+- Activities: The iFlow '{{ interface_id }}' (ID: {{ interface_id }}) was analyzed in metadata_only mode. Resolved version: Active. Package: {{ package_id }}. No sender details were ex...
+- Resources: Package: {{ package_id }}, Version: Active, Authentication: Unknown
+- Deployed versions: Active
+
+## 5. OPERATIONAL RELEVANCE
+
+- Runtime observation level: observed_started
+- Failed messages observed: unknown
+- Deployment state: STARTED
+- Credential aliases: Unknown
+- Quality score: 98/100
+
+## 6. RELATED ARTIFACTS
+
+- Catalog object ID: CAT-{{ system_id }}-{{ integration_flow_name }}
+- Sibling interfaces: IR01_IF06_Test_SMS_Message, First_Run_with_Basic_Auth, Test_Email_with_OAuth2_Code, IR00_IF00_My_Template_Iflow_with_Exception_Handling, IR01_IF11_Send_Error_iflows_to_ANS
+- Recommended KEDB family seeds: MPL_OBSERVABILITY_ERROR_DETAILS_MISSING
